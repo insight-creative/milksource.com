@@ -1,0 +1,24 @@
+<section aria-labelledby="{{ .heading | urlize }}" class="about-page-block block bg-{{ .background_color }}{{ if .footprints }} footprints footprints--{{ .footprints }}{{ end }}{{ if .css_class }} {{ .css_class }}{{ end }}">
+    <div class="wrapper-lg flex flex-column-reverse {{ if .text_column_right }}flex-row-reverse-m{{ end }}{{ if .text_column_left }}flex-row-m{{ end }} flex-center-m">
+      <div class="text-block w-100 w-40-m flow mt-3 mt-0-m">
+          {{ if .heading }}
+            {{ partial "heading" . }}
+          {{ end }}
+          {{ if .body }}
+            {{ .body | safeHTML }}
+          {{ end }}
+          {{ if .button.enabled }}
+            {{ with .button }}
+                <a href="{{ .button_url }}" class="btn btn--primary" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower"{{ end }}>{{ .button_text }}</a>
+            {{ end }}
+          {{ end }}
+      </div>
+      <div class="image-block w-100 w-60-m {{ if .text_column_right }}mr-3-m{{ else }}ml-3-m{{ end }} background-image">
+        {{ if .image.enabled }}  
+            {{ with .image }}  
+              {{ partial "responsive-image" . }}
+            {{ end }}
+        {{ end }}
+      </div>
+    </div>
+</section>

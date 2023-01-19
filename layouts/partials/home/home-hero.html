@@ -1,0 +1,21 @@
+{{ $heroClass := lower .Page.Title }}
+{{ if .Params.hero.enabled }}
+  {{ with .Params.hero }}
+  <section aria-labelledby="hero-heading" class="{{ anchorize $heroClass }}-hero">
+    <video height="1080" width="1920" loop="loop" muted playsinline="" style="opacity: 1;" autoplay poster="" class="hero__video aspect-video">
+      <source src="https://ik.imagekit.io/whistlersrun{{ .video }}?tr=f-auto,q-80" type="video/mp4">
+    </video>
+    <div class="hero__content shadow-md">
+      <div class="hero__content-inner bg-white">
+        <h1 id="hero-heading" class="no-margin text-center">{{ .heading }}</h1>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="hero__controls video-playing" aria-label="play the video" title="play the video">
+			<div class="hero__controls-inner bg-primary icon-sm fill-white">
+        {{ partialCached "svg-icons/play.svg" . }}
+        {{ partialCached "svg-icons/pause.svg" . }}
+      </div>
+		</a>
+  </section>
+  {{ end }}
+{{ end }}

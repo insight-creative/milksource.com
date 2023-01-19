@@ -1,0 +1,25 @@
+.list {
+  list-style-type: none;
+}
+
+ul li + li,
+ol li + li {
+  margin-top: 0.5rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.two-column-list {
+  @include breakpoint(sm) {
+    columns: 2;
+  }
+}

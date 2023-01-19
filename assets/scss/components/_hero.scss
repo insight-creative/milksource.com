@@ -1,0 +1,147 @@
+.home-hero {
+  position: relative;
+  height: 75vh;
+}
+
+.hero {
+  position: relative;
+  height: 300px;
+
+  @include breakpoint(md) {
+    height: 450px; 
+  }
+
+  &__video {
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &__image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(1);
+    }
+  }
+
+  &__outer-wrap {
+    position: relative;
+    z-index: 2;
+    border: 3px solid $black;
+    margin: 0 1rem;
+  }
+
+  &__inner-wrap {
+    background: rgba(255, 255, 255, 0.7);
+    margin: 3px;
+    padding: 10px 40px;
+    overflow: hidden;
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 3;
+  }
+
+  &__content, &__content-inner {
+    padding: $ic-100;
+
+    @include breakpoint(sm) {
+      padding: $ic-200;
+    }
+  } 
+
+  &__content {
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 101%;
+    max-width: 63rem;
+    margin-inline: auto;
+    background-color: rgba($white, .7);
+
+    h2 {
+      max-width: 650px;
+    }
+
+    @include breakpoint(md) {
+      bottom: -100px;
+    }
+  }
+
+  &__content-inner {
+    border: 1px solid $light-gray;
+  }
+
+  &__controls,
+  &__controls-inner {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__controls {
+    position: absolute;
+    top: $ic-200;
+    right: $ic-200;
+    height: $ic-600;
+    width: $ic-600;
+    border: none;
+    background-color: rgba($primary-color, .5);
+
+    @include breakpoint(md) {
+      top: unset;
+      bottom: $ic-200;
+    }
+  }
+
+  &__controls-inner {
+    height: $ic-500;
+    width: $ic-500;
+  }
+}
+
+.video-playing {
+  .play-icon {
+    display: none;
+  }
+
+  .pause-icon {
+    display: block;
+  }
+}
+
+.video-paused {
+  .play-icon {
+    display: block;
+  }
+
+  .pause-icon {
+    display: none;
+  }
+}
+
+.parent-page-about .hero--small {
+  background-position: bottom;
+  height: 400px; 
+
+  &__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+  }
+}

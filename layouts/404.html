@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ partial "hero-small" . }}
+<section class="block">
+    <div class="wrapper">
+        <article>
+            <h2>The page you requested could not be found.</h2>
+            <p>The page you've requested does not exist, or is unavailable at this time. Use the navigation menu to locate the information you are looking for or <a href="{{ "/" | relURL }}">go back to the homepage</a>.</p>
+            <ul>
+                {{ range .Site.Menus.main }}
+                          {{ if .HasChildren }}
+                              <li>
+                                <a href="{{ .URL }}" aria-label="{{ .Name }}">
+                                  {{ .Name }}
+                                </a>
+                                <div>
+                                  <ul>
+                                    {{ range .Children }}
+                                      <li>
+                                          <a href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
+                                      </li>
+                                    {{ end }}
+                                  </ul>
+                                </div>
+                              </li>
+                          {{ else }}
+                          <li>
+                            <a href="{{ .URL }}" aria-label="{{ .Name }}">
+                                {{ .Name }}
+                            </a>
+                          </li>
+                          {{ end }}    
+                        {{ end }}
+            </ul>
+        </article>
+    </div>
+</section>
+{{ end }}

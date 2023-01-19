@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ if .Params.page_blocks }}
+  {{ range .Params.page_blocks }}
+    {{ partial "page-block" . }}
+  {{ end }}
+{{ end }}
+{{ if .Params.schedule_your_tour_block.enabled }}
+  {{ with .Params.schedule_your_tour_block }}
+    <div class="contact-content block bg-gray">
+      <div class="wrapper flow">
+        {{ if .heading }}
+          {{ partial "heading-centered" . }}
+        {{ end }}
+        {{ if .body }}
+          {{ .body | safeHTML }}
+        {{ end }}
+        {{ partialCached "forms/schedule-tour" . }}
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
+{{ end }}

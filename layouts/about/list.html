@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ partial "about/intro" . }}
+{{ if .Params.page_blocks }}
+    {{ range .Params.page_blocks }}
+        {{ partial "page-block" . }}
+    {{ end }}
+{{ end }}
+{{ if .Params.about_our_animals_block.enabled }}
+    {{ with .Params.about_our_animals_block }}
+        <section aria-labelledby="{{ .heading | urlize }}" class="block bg-{{ .background_color }}">
+            <div class="wrapper-lg">
+                <div class="text-center flow">
+                {{ if .heading }}
+                    {{ partial "heading-centered" . }}
+                {{ end }}
+                {{ if .body }}
+                    {{ .body | safeHTML }}
+                {{ end }}
+                {{ if .image.enabled }}
+                    {{ with .image }}
+                        <div class="image-background p-relative">
+                            <picture>
+                                <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-70,w-325 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-70,w-500 600w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-85,w-700 800w" type="image/avif">
+                            
+                                <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-70,w-325 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-70,w-500 600w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-85,w-700 800w" type="image/webp">
+                            
+                                <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-70,w-325 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-70,w-500 600w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-85,w-700 800w" type="image/jpg">
+                            
+                                <img src="{{ .image_url }}" alt="{{ .image_alt }}" width="900" height="625" style="max-width: 700px; margin: 1.25rem auto;" class="shadow-xl">   
+                            </picture>
+                        </div>
+                    {{ end }}
+                {{ end }}
+                </div>
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
+{{ if .Params.columns_block.enabled }}
+    {{ with .Params.columns_block }}
+        {{ if eq .column_variation "standard" }}
+            {{ partial "columns-block" . }}
+        {{ else }}
+            {{ partial "columns-block-centered" . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}

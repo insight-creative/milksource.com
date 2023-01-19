@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ block "head" . }}{{ partial "head" . }}{{ end }}
+{{ $namespace := lower .Page.Title }}
+{{ $mainClass := lower .Page.Title }}
+{{ $pageParent := lower .CurrentSection.Title }}
+
+<body class="page-{{ anchorize $mainClass }}{{ if .Params.page_class }} {{ .Params.page_class }}{{ end }}{{ if $pageParent }} parent-page-{{ $pageParent | urlize }}{{ end }}" data-instant-intensity="viewport">
+  <div class="site-wrap">
+    {{ block "header" . }}{{ partialCached "header" . }}{{end}}
+    <main id="main-content" class="site-main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ if eq .Title "Life on the Farm" }}
+    <!-- Curator.io script -->
+    <script type="text/javascript">
+      /* curator-feed-default-feed-layout */
+      (function(){
+      var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+      i.src="https://cdn.curator.io/published/2ff3f4fc-90d3-45f3-8c98-ed78a4bdee72.js";
+      e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+      })();
+    </script>
+    {{ end }}
+    {{ block "footer" . }}{{ partialCached "footer" . }}{{end}}
+  </div>
+</body>
+
+</html>

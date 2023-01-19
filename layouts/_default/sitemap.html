@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="sitemap-content block">
+    <div class="wrapper">
+        <h2>Pages</h2>
+        <ul class="sitemap-nav-list no-padding">
+            {{ $pages := where .Site.Pages "Type" "not in" (slice "resources" "tags" "categories" "thank-you" "Thank You" "sitemap") }}
+            {{ range $pages }}
+                <li class="sitemap-nav-list-item">
+                    <a class="sitemap-nav-item" class="sitemap-nav-item" href="{{ .RelPermalink }}"
+                        title="{{ .Name }}">{{ .Name | markdownify }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}

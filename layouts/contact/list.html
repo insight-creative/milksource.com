@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ partial "contact/intro" . }}
+<div class="contact-content block bg-gray">
+  <div class="wrapper">
+    {{ partialCached "forms/contact-form" . }}
+  </div>
+</div>
+{{ end }}

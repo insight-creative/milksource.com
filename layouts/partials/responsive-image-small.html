@@ -1,0 +1,9 @@
+<picture>
+    <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-80" type="image/avif">
+
+    <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-80" type="image/webp">
+
+    <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-80,pr-true" type="image/jpg">
+
+    <img src="{{ .image_url }}" alt="{{ .image_alt }}" width="600" height="450">   
+</picture>

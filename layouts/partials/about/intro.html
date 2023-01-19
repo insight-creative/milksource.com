@@ -1,0 +1,40 @@
+{{ if .Params.our_owners.enabled }}
+  {{ with .Params.our_owners }} 
+  <section aria-labelledby="{{ .heading | urlize }}" class="intro block">
+    <div class="wrapper text-center flow">
+      {{ if .heading }}
+        {{ partial "heading-centered" . }}
+      {{ end }} 
+      {{ if .body }}
+          {{ .body | safeHTML }}
+      {{ end }} 
+    </div>
+    <div class="wrapper">
+      <div class="grid-2 mt-6">
+        {{ range .owner }}
+        <div class="owner text-center flow">
+          <picture>
+            <source srcset="https://ik.imagekit.io/whistlersrun{{ .image.image_url }}?tr=f-avif,q-80,w-500,h-500" type="image/avif">
+        
+            <source srcset="https://ik.imagekit.io/whistlersrun{{ .image.image_url }}?tr=f-webp,q-80,w-500,h-500" type="image/webp">
+        
+            <source srcset="https://ik.imagekit.io/whistlersrun{{ .image.image_url }}?tr=f-jpg,q-80,w-500,h-500" type="image/jpg">
+        
+            <img src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="500" height="500">   
+          </picture>
+          <div class="owner__body">
+            <h3 class="no-margin">{{ .heading }}</h3>
+            <p>{{ .title }}</p>
+          </div>
+          {{ if .button }}
+            {{ with .button }}
+              <a href="{{ .button_url }}" class="btn btn--primary" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower"{{ end }}>{{ .button_text }}</a>
+            {{ end }} 
+          {{ end }} 
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

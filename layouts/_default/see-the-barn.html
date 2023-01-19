@@ -1,0 +1,69 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+{{ partial "intro" . }}
+{{ if .Params.features_and_amenities_block.enabled }}
+    {{ with .Params.features_and_amenities_block }}
+    <div class="block bg-gray">
+        <div class="wrapper-lg">
+            {{ if .heading }}
+                {{ partial "heading-centered" . }}
+            {{ end }}
+            {{ if .body }}
+                <p class="text-center" style="max-width: 800px; margin: 1.25rem auto;">{{ .body | markdownify }}</p>
+            {{ end }}
+            {{ if .features }}
+                <div class="grid-3 mt-6">
+                    {{ range .features }}
+                        <div class="card flex flex-column p-relative">
+                            {{ if .image }}
+                                {{ with .image }}
+                                <div class="card__image cover-image">
+                                    {{ partial "responsive-image" . }}
+                                </div>
+                                {{ end }}
+                            {{ end }}
+                            {{ if (or ( .heading ) ( .body )) }}
+                                <div class="card__body flex shadow-xl">
+                                    <div class="card__body-inner bg-white flow">
+                                        {{ if .heading }}
+                                            <h3 class="h5">{{ .heading }}</h3>
+                                        {{ end }}
+                                        {{ if .body }}
+                                            <div class="fs-100">{{ .body | safeHTML }}</div>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+{{ end }}
+{{ if .Params.visit_us_block.enabled }}
+    {{ with .Params.visit_us_block }}
+        <div class="block">
+            <div class="wrapper text-center flow">
+                {{ if .heading }}
+                    <h2>{{ .heading }}</h2>
+                {{ end }}
+                {{ if .body }}
+                    <p style="max-width: 800px; margin: 1.25rem auto 0 auto;">{{ .body | safeHTML }}</p>
+                {{ end }}
+                {{ if .button }}
+                    {{ with .button }}
+                    <a href="{{ .button_url }}" class="btn btn--primary" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower"{{ end }}>{{ .button_text }}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
+{{ if .Params.cta_block.enabled }}
+    {{ with .Params.cta_block }}
+        {{ partial "site-cta" . }}
+    {{ end }}
+{{ end }}
+{{ end }}
