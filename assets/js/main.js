@@ -62,25 +62,26 @@ window.addEventListener("scroll", function() {
   scrollDetect(collapseNav, expandNav)
 })
 
-const heroVideo = document.querySelector('.hero__video')
-const videoControls = document.querySelector('.hero__controls')
-const playVideo = document.querySelector('.play-icon')
-const pauseVideo = document.querySelector('.pause-icon')
+// const heroVideo = document.querySelector('.hero__video')
+// const videoControls = document.querySelector('.hero__controls')
+// const playVideo = document.querySelector('.play-icon')
+// const pauseVideo = document.querySelector('.pause-icon')
 
-if(document.body.contains(heroVideo)) {
-  videoControls.addEventListener('click', () => {
-    if(videoControls.classList.contains('video-playing')) {
-      videoControls.classList.remove('video-playing')
-      videoControls.classList.add('video-paused')
-      videoControls.setAttribute('aria-label', 'play the video')
-      videoControls.setAttribute('title', 'play the video')
-      heroVideo.pause()
-    } else {
-      videoControls.classList.remove('video-paused')
-      videoControls.classList.add('video-playing')
-      videoControls.setAttribute('aria-label', 'pause the video')
-      videoControls.setAttribute('title', 'pause the video')
-      heroVideo.play()
-    }
-  })
-}
+// if(document.body.contains(heroVideo)) {
+//   videoControls.addEventListener('click', () => {
+//     if(videoControls.classList.contains('video-playing')) {
+//       videoControls.classList.remove('video-playing')
+//       videoControls.classList.add('video-paused')
+//       videoControls.setAttribute('aria-label', 'play the video')
+//       videoControls.setAttribute('title', 'play the video')
+//       heroVideo.pause()
+//     } else {
+//       videoControls.classList.remove('video-paused')
+//       videoControls.classList.add('video-playing')
+//       videoControls.setAttribute('aria-label', 'pause the video')
+//       videoControls.setAttribute('title', 'pause the video')
+//       heroVideo.play()
+//     }
+//   })
+// }
+

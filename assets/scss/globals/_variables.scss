@@ -1,86 +1,93 @@
 // Colors
-$primary-color: #003B71;
-$secondary-color: #007934;
-$accent-color: #FFD600;
+$primary-color:  #0083A8;
+$secondary-color: #5F604A;
+$accent-color:  #0083A8;
 $light-gray: #F3F9FF;
-$gray: #585858;
-$black: #231F20;
+$gray: #485659;
+$black:  #293133;
+$footer-black: #1F2526;
 $white: #ffffff;
 
 $transition: .3s ease-out;
 
 $radius: 5px;
 
-/* libre-baskerville-regular - latin */
+/* merriweather-sans-regular - latin */
+/* merriweather-sans-regular - latin */
 @font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/libre-baskerville-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  font-display: swap;
   src: local(''),
-       url('../fonts/libre-baskerville-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/libre-baskerville-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/libre-baskerville-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/libre-baskerville-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/libre-baskerville-v14-latin-regular.svg#LibreBaskerville') format('svg'); /* Legacy iOS */
+       url('../fonts/merriweather-sans-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-sans-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* libre-baskerville-700 - latin */
+/* merriweather-sans-700 - latin */
 @font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/libre-baskerville-v14-latin-700.eot'); /* IE9 Compat Modes */
+  font-display: swap;
   src: local(''),
-       url('../fonts/libre-baskerville-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/libre-baskerville-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/libre-baskerville-v14-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/libre-baskerville-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/libre-baskerville-v14-latin-700.svg#LibreBaskerville') format('svg'); /* Legacy iOS */
+       url('../fonts/merriweather-sans-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-sans-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-sans-800 - latin */
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/merriweather-sans-v22-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-sans-v22-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* figtree-500 - latin */
+/* merriweather-regular - latin */
 @font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/figtree-v1-latin-500.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/figtree-v1-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/figtree-v1-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/figtree-v1-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/figtree-v1-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/figtree-v1-latin-500.svg#Figtree') format('svg'); /* Legacy iOS */
-}
-/* figtree-regular - latin */
-@font-face {
-  font-family: 'Figtree';
+  font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/figtree-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  font-display: swap;
   src: local(''),
-       url('../fonts/figtree-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/figtree-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/figtree-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/figtree-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/figtree-v1-latin-regular.svg#Figtree') format('svg'); /* Legacy iOS */
+       url('../fonts/merriweather-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* figtree-700 - latin */
+/* merriweather-italic - latin */
 @font-face {
-  font-family: 'Figtree';
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/merriweather-v30-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v30-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-700 - latin */
+@font-face {
+  font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/figtree-v1-latin-700.eot'); /* IE9 Compat Modes */
+  font-display: swap;
   src: local(''),
-       url('../fonts/figtree-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/figtree-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/figtree-v1-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/figtree-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/figtree-v1-latin-700.svg#Figtree') format('svg'); /* Legacy iOS */
+       url('../fonts/merriweather-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* merriweather-700italic - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/merriweather-v30-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v30-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 // Fonts
-$primary-font: 'Figtree', sans-serif;
-$secondary-font: 'Libre Baskerville', serif;
+$primary-font: 'Merriweather', sans-serif;
+$secondary-font: 'Merriweather Sans', sans-serif;
 
 $mobile-header: 130px;
 $desktop-header: 147px;

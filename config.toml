@@ -1,6 +1,6 @@
-baseURL = "https://www.whistlersrun.com"
+baseURL = "/"
 languageCode = "en-us"
-title = "Whistler's Run & Rescue"
+title = "Milk Source"
 enableRobotsTXT = true
 disableAliases = true
 # post pagination

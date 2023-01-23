@@ -1,35 +1,29 @@
 ---
 title: Home
 seo:
-  page_title: Horse boarding and animal rescue in De Pere, WI
+  page_title: Milk Source
   meta_description: >-
-    Whistler’s Run is an equestrian barn, horse boarding facility and animal
-    rescue located on 42 gorgeous acres just 15 minutes from downtown De Pere!
+
   featured_image: /uploads/whistlers-generic-preview-image.jpg
 hero:
   enabled: true
-  heading: Where all animals are welcome and loved.
+  heading: Leading the way in modern sustainable agriculture
   # video: /uploads/whistlers-drone-intro.mp4
 intro:
   enabled: true
-  heading: Full-service horse boarding and animal rescue in De Pere, WI
+  heading: About Milk Source
   body: >-
-    <p>Located on 42 gorgeous acres just 15 minutes from downtown De Pere,
-    Whistler&rsquo;s Run and Rescue is a barn where all animals (and their
-    humans) can feel welcome, loved and cared for. We offer full-service horse
-    boarding, as well as private tours to view the barn and meet each of the
-    horses and other full-time residents of Whistler's Run.</p><p>Looking to
-    visit or join the Whistler&rsquo;s Run family?</p>
+    <p>Milk Source’s goal every day is to be an outstanding dairy producer through exceptional care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as a rewarding place to work.</p>
   button:
     enabled: true
     button_url: /schedule-a-tour/
-    button_text: Schedule a tour
+    button_text: Learn More About Milk Source
     open_in_new_tab: false
-  button_2:
-    enabled: true
-    button_url: /boarding/
-    button_text: Boarding services
-    open_in_new_tab: false
+  # button_2:
+  #   enabled: true
+  #   button_url: /boarding/
+  #   button_text: Boarding services
+  #   open_in_new_tab: false
   image:
     enabled: true
     image_url: /uploads/animal-group-image.jpg
@@ -54,11 +48,11 @@ our_facility_block:
       icon: /uploads/horse-white.svg
     - feature: Indoor bathroom
       icon: /uploads/horse-white.svg
-  button:
-    enabled: true
-    button_url: /about/see-the-barn/
-    button_text: View our barn
-    open_in_new_tab: false
+  # button:
+  #   enabled: true
+  #   button_url: /about/see-the-barn/
+  #   button_text: View our barn
+  #   open_in_new_tab: false
   image:
     enabled: true
     image_url: /uploads/horse-boarding-and-animal-rescue-depere-wi.jpg
@@ -72,11 +66,11 @@ page_blocks:
       everything we do, our top priority is to ensure the creatures who enter
       our barn feel safe, comfortable and loved&mdash;whether they walk in on
       two feet or four hooves.</p>
-    button:
-      enabled: true
-      button_url: /about/our-philosophy/
-      button_text: Our philosophy
-      open_in_new_tab: false
+    # button:
+    #   enabled: true
+    #   button_url: /about/our-philosophy/
+    #   button_text: Our philosophy
+    #   open_in_new_tab: false
     text_column_left: true
     text_column_right: false
     image:
@@ -135,9 +129,9 @@ cta_block:
     Calling all animal lovers! We offer private, educational tours for small
     groups of all ages. Schedule your tour to meet the animals at Whistler’s Run
     and see our gorgeous facility for yourself.
-  button:
-    enabled: true
-    button_url: /schedule-a-tour/
-    button_text: Schedule your visit
-    open_in_new_tab: false
+  # button:
+  #   enabled: true
+  #   button_url: /schedule-a-tour/
+  #   button_text: Schedule your visit
+  #   open_in_new_tab: false
 ---

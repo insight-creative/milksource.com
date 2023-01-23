@@ -1,3 +1,30 @@
+<div class="sb-locations-slider">
+  <!-- <div class="sb-locations-slider__buttons flex">
+      {{ range .Site.Data.modern_agriculture }}
+          <button class="sb-locations-slider__button btn">{{ .name }}</button>
+      {{ end }}
+  </div> -->
+  <div class="sb-locations-slider__wrapper mt-6">
+      <div class="sb-locations-slider__contents">
+          {{ range .Site.Data.modern_agriculture }}
+          <div class="sb-locations-slider__slide flex flex-column flex-row-m">
+              <div class="w-100 w-50-m text-white location-info flow--locations">
+                  <h3>{{ .name }}</h3>
+                  <div>
+                      <a href="/locations/{{ .name | urlize }}/" class="btn btn--primary">{{ .name }}</a>
+                  </div>
+              </div>
+              <div class="w-100 w-50-m mt-3 mt-0-m">
+                  <div class="decorative-background-image">
+                      <img src="{{ .image_url }}" alt="">
+                  </div>
+              </div>
+          </div>
+          {{ end }}   
+      </div>
+  </div>
+</div>
+
 {{ if .Params.intro.enabled }}
   {{ with .Params.intro }} 
   <section aria-labelledby="{{ .heading | urlize }}" class="intro block bg-white">

@@ -8,7 +8,7 @@ textarea {
   font-size: $ic-100;
   font-weight: 400;
   line-height: 1.5;
-  color: $black;
+  color: $gray;
 
   @include breakpoint(sm) {
     font-size: $ic-200;
@@ -25,6 +25,7 @@ h6 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.65em;
+  color: $black;
 }
 
 .max-80 {
@@ -33,18 +34,18 @@ h6 {
 
 h1,
 .h1 {
-  font-size: clamp($ic-300, 4vw, $ic-700);
+  font-size: clamp($ic-400, 4vw, $ic-700);
   max-width: 30ch;
 }
 
 h2,
 .h2 {
-  font-size: clamp($ic-200, 4vw, $ic-500);
+  font-size: clamp($ic-300, 4vw, $ic-600);
 }
 
 h3,
 .h3 {
-  font-size: clamp($ic-200, 4vw, $ic-400);
+  font-size: clamp($ic-200, 4vw, $ic-500);
 }
 
 h4,

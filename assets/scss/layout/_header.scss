@@ -40,6 +40,45 @@
     }
   }
 
+  &__top {
+    display: none;
+
+    a {
+      font-family: $secondary-font;
+    }
+
+    @include breakpoint(md) {
+      display: flex;
+    }
+  }
+
+  &__secondary-menu {
+    margin: 0;
+
+    li {
+      list-style-type: none;
+      margin-top: 0;
+      padding: 0 $ic-100;
+
+      a {
+        color: $black;
+        text-decoration: none;
+        font-size: $ic-100;
+        font-weight: 500;
+        transition: color $transition;
+
+        &:hover, 
+        &:focus {
+          color: $primary-color;
+        }
+      }
+    }
+
+    li:last-of-type {
+      padding: 0 0 0 $ic-100;
+    }
+  }
+
   &__mobile-nav {
     position: absolute;
     z-index: -1;
