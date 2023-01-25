@@ -85,3 +85,24 @@ window.addEventListener("scroll", function() {
 //   })
 // }
 
+const sliderButtons = document.querySelector('.modern-agriculture-slider__buttons');
+const homeHeroSliderButtons = Array.from(sliderButtons.querySelectorAll('.slider-button'));
+const content = document.querySelector('.modern-agriculture-slider__content');
+const slides = Array.from(content.querySelectorAll('.modern-agriculture-slider__slide'));
+
+homeHeroSliderButtons.forEach(homeHeroSliderButton => {
+  homeHeroSliderButton.addEventListener('click', e => {
+    let clickedDotIndex
+
+    for (let i = 0; i < homeHeroSliderButtons.length; i++) {
+      if (homeHeroSliderButtons[i] === homeHeroSliderButton) {
+        clickedDotIndex = i;
+      };
+    };
+
+    const slideToShow = slides[clickedDotIndex];
+    const destination = getComputedStyle(slideToShow).left;
+
+    content.style.left = '-' + destination;
+  });
+});

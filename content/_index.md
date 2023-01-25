@@ -4,7 +4,7 @@ seo:
   page_title: Milk Source
   meta_description: >-
 
-  featured_image: /uploads/whistlers-generic-preview-image.jpg
+  featured_image: /uploads/
 hero:
   enabled: true
   heading: Leading the way in modern sustainable agriculture
@@ -25,7 +25,7 @@ intro:
   #   button_text: Boarding services
   #   open_in_new_tab: false
   image:
-    enabled: true
+    enabled: false
     image_url: /uploads/animal-group-image.jpg
     image_alt: Horses and dogs together in pasture at Whistler's Run
 our_facility_block:
@@ -54,7 +54,7 @@ our_facility_block:
   #   button_text: View our barn
   #   open_in_new_tab: false
   image:
-    enabled: true
+    enabled: false
     image_url: /uploads/horse-boarding-and-animal-rescue-depere-wi.jpg
     image_alt: >-
       Exterior view of the Whistler's Run 19-stall state-of-the-art equestrian
@@ -74,11 +74,9 @@ page_blocks:
     text_column_left: true
     text_column_right: false
     image:
-      enabled: true
-      image_url: /uploads/horses-and-dog-out-in-field.jpg
-      image_alt: >-
-        Black and white horse and black Newfoundland dog together out in a green
-        grassy pasture
+      enabled: false
+      image_url: /uploads/
+      image_alt:
     footprints: left
     background_color: white
   - heading: Our herd
@@ -86,14 +84,14 @@ page_blocks:
       <p>Get to know the owners behind Whistler&rsquo;s Run and meet each of the
       animals who make our barn so special.</p>
     button:
-      enabled: true
+      enabled: false
       button_url: /about/
       button_text: Meet our herd
       open_in_new_tab: false
     text_column_left: false
     text_column_right: true
     image:
-      enabled: true
+      enabled: false
       image_url: /uploads/staff-with-dog.jpg
       image_alt: Woman in Whistler's Run sweatshirt petting a black Newfoundland dog
     footprints: right
