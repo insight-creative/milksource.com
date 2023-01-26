@@ -1,38 +1,25 @@
-{{ $heroClass := lower .Page.Title }}
+<section class="hero-slider">
+  <div class="hero-slider__wrapper">
+    {{ range .Site.Data.modern_agriculture }}
+    <div class="hero-slider__slide">
+      <img src="{{ .image_url }}" alt="">
+    </div>
+    {{ end }}
+    <!-- <div class="wrapper-md"> -->
+      <div class="hero-slider__button-wrapper flex flex-justify-center wrapper-md">
+        {{ range .Site.Data.modern_agriculture }}
+        <button class="slider-button btn btn--primary">{{ .name }}</button>
+        {{ end }}
+      <!-- </div> -->
 
+    </div>
 
-  <section aria-labelledby="hero-heading" class="{{ anchorize $heroClass }}-hero">
+  </div>
 
-      <div class="wrapper-lg">
-        <div class="modern-agriculture-slider__wrapper">
-          <div class="w-100">
-            <div >
-              <div class="modern-agriculture-slider__container">
-                <div class="modern-agriculture-slider__content">
-                  {{ range .Site.Data.modern_agriculture }}
-                  <div class="modern-agriculture-slider__slide">
-                    <a href="/{{ .name | urlize }}/">
-                      <img src="{{ .image_url }}" alt="">
-                    </a>
-                  </div>
-                  {{ end }}
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-        <div class="modern-agriculture-slider__buttons flex flex-justify-center">
-          {{ range .Site.Data.modern_agriculture }}
-          <button class="slider-button btn btn--primary">{{ .name }}</button>
-          {{ end }}
-        </div>
-      </div>
-      
-    <!-- <div class="hero__content shadow-md">
-      <div class="hero__content-inner bg-white">
-        <h1 id="hero-heading" class="no-margin text-center">{{ .Params.hero.heading }}</h1>
-      </div>
-    </div> -->
-  </section>
+    
+  <!-- <div class="hero__content shadow-md">
+    <div class="hero__content-inner bg-white">
+      <h1 id="hero-heading" class="no-margin text-center">{{ .Params.hero.heading }}</h1>
+    </div>
+  </div> -->
+</section>

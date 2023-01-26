@@ -85,24 +85,23 @@ window.addEventListener("scroll", function() {
 //   })
 // }
 
-const sliderButtons = document.querySelector('.modern-agriculture-slider__buttons');
-const homeHeroSliderButtons = Array.from(sliderButtons.querySelectorAll('.slider-button'));
-const content = document.querySelector('.modern-agriculture-slider__content');
-const slides = Array.from(content.querySelectorAll('.modern-agriculture-slider__slide'));
+const content = document.querySelector('.hero-slider__wrapper');
+const slides = document.querySelectorAll('.hero-slider__slide');
+const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
+const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
 
-homeHeroSliderButtons.forEach(homeHeroSliderButton => {
-  homeHeroSliderButton.addEventListener('click', e => {
-    let clickedDotIndex
+sliderButton.forEach(button => {
+  button.addEventListener('click', e => {
+    let clickedButtonIndex;
 
-    for (let i = 0; i < homeHeroSliderButtons.length; i++) {
-      if (homeHeroSliderButtons[i] === homeHeroSliderButton) {
-        clickedDotIndex = i;
-      };
-    };
-
-    const slideToShow = slides[clickedDotIndex];
-    const destination = getComputedStyle(slideToShow).left;
-
-    content.style.left = '-' + destination;
-  });
-});
+     for (let i = 0; i  < sliderButton.length; i++) {
+      if (sliderButton[i] === button) {
+        clickedButtonIndex = i;
+      }
+     }
+     const slideToShow = slides[clickedButtonIndex];
+     const destination = getComputedStyle(slideToShow).left;
+     console.log(destination);
+     content.style.left = '-' + destination;
+  })
+})
