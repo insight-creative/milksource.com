@@ -1,12 +1,24 @@
 .hero-slider {
   overflow: hidden;
   height: 90vh;
+  position: relative;
 }
 
 .hero-slider__wrapper {
   position: relative;
   width: 100%;
   height: 100%;
+}
+
+.outter-div {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  opacity: .6;
+  background: linear-gradient(90deg, #0083a8, #008195, #1b7d82, #337870, #447360, #506d55, #59664d, #5f604a);
+  z-index: 2;
+  position: absolute;
 }
 
 .hero-slider__slide {
@@ -35,23 +47,58 @@
 .hero-slider__button-wrapper {
   position: absolute;
   bottom: 0;
+  z-index: 2;
 }
 
 .slider-button {
-    background-color: transparent;
-    color: white;
-    border: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: relative;
 
-    // &::after {
-    //   background: white;
-    //   height: 3px;
-    //   width: 100%;
-    //   transform: scaleX(0);
-    //   transform-origin: top right;
-    //   position: absolute;
-    //   bottom: 0;
-    //   left: 0;
-    //   content: "";
-    //   transition: transform 0.4s ease-out;
-    // }
+  &::after {
+    background: black;
+    height: 3px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: top right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transition: transform 0.4s ease-out;
   }
+}
+
+.hero-button {
+  background-color: $white;
+
+  &:hover,
+  &:focus {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
+
+.__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.hero-slider__outter-content-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-slider__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero-slider-heading {
+  width: 75%;
+}

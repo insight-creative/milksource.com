@@ -5,10 +5,75 @@ seo:
   meta_description: >-
 
   featured_image: /uploads/
-hero:
+hero_slider:
   enabled: true
-  heading: Leading the way in modern sustainable agriculture
+  # heading: Leading the way in modern sustainable agriculture
   # video: /uploads/whistlers-drone-intro.mp4
+  slides: 
+    - heading: Leading the way in modern sustainable agriculture
+      body:
+        button:
+          enabled: true
+          button_url: /sustainability/
+          button_text: Our sustainability
+          open_in_new_tab: false
+      button:
+        enabled: true
+        button_url: 
+        button_text: Sustainability
+        open_in_new_tab: false
+      image:
+        enabled: false
+        image_url: /uploads/new-chester-diary-digesters.jpg
+        image_alt: Horses and dogs together in pasture at Whistler's Run
+    - heading: Exceptional care means happier cows
+      body:
+        button:
+          enabled: true
+          button_url: /animal-care/
+          button_text: Animal Care
+          open_in_new_tab: false
+      button:
+        enabled: true
+        button_url:
+        button_text: Animal Care
+        open_in_new_tab: false
+      image:
+        enabled: false
+        image_url: /uploads/breakfast-on-the-farm.jpg
+        image_alt: Horses and dogs together in pasture at Whistler's Run
+    - heading: Involved in our communities where we live and work
+      body:
+        button:
+          enabled: true
+          button_url: /community/
+          button_text: Our Community
+          open_in_new_tab: false
+      button:
+        enabled: true
+        button_url: /community/
+        button_text: Community
+        open_in_new_tab: false
+      image:
+        enabled: false
+        image_url: /uploads/breakfast-on-the-farm.jpg
+        image_alt: Horses and dogs together in pasture at Whistler's Run
+    - heading: Now Hiring!
+      body:
+        button:
+          enabled: true
+          button_url: /careers/
+          button_text: Careers
+          open_in_new_tab: false
+      button:
+        enabled: true
+        button_url: 
+        button_text: Careers
+        open_in_new_tab: false
+      image:
+        enabled: false
+        image_url: /uploads/leadership-class.jpg
+        image_alt: Horses and dogs together in pasture at Whistler's Run
 intro:
   enabled: true
   heading: About Milk Source

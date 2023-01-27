@@ -30,7 +30,7 @@
   &:hover,
   &:focus {
     transition: all 0.4s ease-in-out;
-    color: $white;
+    // color: $white;
 
     &::after {
       width: calc(100% + 22px);
@@ -80,7 +80,7 @@
 }
 
 .btn--white {
-  color: $black;
+  color: $primary-color;
   background-color: $white;
   border: 1px solid $white;
   transition: .3s ease-out;
@@ -91,7 +91,6 @@
 
   &:hover,
   &:focus {
-    color: $black;
     
     &::after {
       border: 4px solid $white;
