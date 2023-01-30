@@ -100,16 +100,18 @@ sliderButton.forEach(button => {
       }
      }
 
-     slides.forEach(slide => {
-      slide.classList.remove('is-selected');
-     })
+     removeIsSelectedClass();
 
      const slideToShow = slides[clickedButtonIndex];
      const destination = getComputedStyle(slideToShow).left;
 
-    //  slideToShow.classList.remove('is-selected');
      slideToShow.classList.add('is-selected');
-
      content.style.left = '-' + destination;
   })
 })
+
+function removeIsSelectedClass() {
+  slides.forEach(slide => {
+    slide.classList.remove(['is-selected']);
+  })
+}
