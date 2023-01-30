@@ -99,9 +99,17 @@ sliderButton.forEach(button => {
         clickedButtonIndex = i;
       }
      }
+
+     slides.forEach(slide => {
+      slide.classList.remove('is-selected');
+     })
+
      const slideToShow = slides[clickedButtonIndex];
      const destination = getComputedStyle(slideToShow).left;
-     console.log(destination);
+
+    //  slideToShow.classList.remove('is-selected');
+     slideToShow.classList.add('is-selected');
+
      content.style.left = '-' + destination;
   })
 })
