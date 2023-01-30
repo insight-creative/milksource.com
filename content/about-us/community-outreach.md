@@ -1,10 +1,7 @@
 ---
 title: Community
-menu:
-  main:
-    weight: 3
-  footer:
-    weight: 3
+layout: community-outreach
+url: /about/community-outreach/
 seo:
   page_title:
   meta_description: >-

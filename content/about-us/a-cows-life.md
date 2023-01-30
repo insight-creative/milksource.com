@@ -1,10 +1,7 @@
 ---
-title: Animal Care
-menu:
-  main:
-    weight: 3
-  footer:
-    weight: 3
+title: A Cow's Life
+layout: a-cows-life
+url: /about/a-cows-life/
 seo:
   page_title:
   meta_description: >-
