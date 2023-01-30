@@ -4,8 +4,12 @@ const mobileMenu = document.querySelector('.site-header__mobile-nav')
 const hamburger = document.querySelector('.hamburger')
 const siteHeader = document.querySelector('.site-header')
 const siteHeaderHeight = siteHeader.getBoundingClientRect().height
-
 const mobileMenuHeight = mobileMenu.getBoundingClientRect().height
+const content = document.querySelector('.hero-slider__wrapper');
+const slides = document.querySelectorAll('.hero-slider__slide');
+const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
+const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
+const slideWidth = slides[0].getBoundingClientRect().width;
 
 mobileMenu.style.height = 0
 
@@ -85,11 +89,6 @@ window.addEventListener("scroll", function() {
 //   })
 // }
 
-const content = document.querySelector('.hero-slider__wrapper');
-const slides = document.querySelectorAll('.hero-slider__slide');
-const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
-const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
-
 sliderButton.forEach(button => {
   button.addEventListener('click', e => {
     let clickedButtonIndex;
@@ -108,6 +107,10 @@ sliderButton.forEach(button => {
      slideToShow.classList.add('is-selected');
      content.style.left = '-' + destination;
   })
+})
+
+slides.forEach((slide, index) => {
+  slide.style.left = slideWidth * index + 'px';
 })
 
 function removeIsSelectedClass() {
