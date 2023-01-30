@@ -44,10 +44,15 @@
   left: 7000px;
 }
 
-.hero-slider__button-wrapper {
-  position: absolute;
-  bottom: 0;
-  z-index: 2;
+.hero-slider__button-wrapper{
+
+  button {
+    width: 200px;
+  }
+
+  & .slider-button:first-child {
+    padding-left: 0;
+  }
 }
 
 .slider-button {
@@ -57,16 +62,27 @@
   position: relative;
 
   &::after {
-    background: black;
+    background: $white;
     height: 3px;
     width: 100%;
     transform: scaleX(0);
     transform-origin: top right;
     position: absolute;
-    bottom: 0;
+    top: 3px;
     left: 0;
     content: "";
     transition: transform 0.4s ease-out;
+  }
+
+  &:hover,
+  &:focus {
+    color: $white;
+
+    &::after {
+      transform: scaleX(1);
+      transform-origin: top left;
+      border: $accent-color;
+    }
   }
 }
 
@@ -76,7 +92,7 @@
   &:hover,
   &:focus {
     color: $primary-color;
-    text-decoration: underline;
+    background-color: #EBF1F2;
   }
 }
 
@@ -90,6 +106,10 @@
 .hero-slider__outter-content-wrapper {
   height: 100%;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+
 }
 
 .hero-slider__content {
@@ -101,4 +121,11 @@
 
 .hero-slider-heading {
   width: 75%;
+}
+
+.hero-slider__outer-div {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
 }

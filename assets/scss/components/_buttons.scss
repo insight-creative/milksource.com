@@ -16,26 +16,9 @@
     font-size: $ic--100;
   }
 
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  //   transition: border ease 0.4s, width ease 0.4s, height ease 0.4s;
-  //   width: calc(100% + 12px);
-  //   height: calc(100% + 12px);
-  // }
-
   &:hover,
   &:focus {
     transition: all 0.4s ease-in-out;
-    // color: $white;
-
-    &::after {
-      width: calc(100% + 22px);
-      height: calc(100% + 22px);
-    }
   }
 }
 
@@ -44,10 +27,6 @@
   background-color: $accent-color;
   border: 1px solid $accent-color;
   transition: .3s ease-out;
-
-  // &::after {
-  //   border: 2px solid $accent-color;
-  // }
 
   &:hover,
   &:focus {

@@ -5,23 +5,25 @@
     {{ range .Params.hero_slider.slides }}
     <div class="hero-slider__slide">
       <img src="{{ .image.image_url }}" alt="">
-      <div class="outter-div  background gradient">
-        <div class="hero-slider__outter-content-wrapper">
-          <div class="hero-slider__content wrapper-md">
-            <div class="hero-slider-heading">
-              <h2 class="text-white">{{ .heading }}</h2>
-            </div>  
-            <div>
-              <a href="{{ .body.button.button_url }}" class="btn btn--white hero-button">{{ .body.button.button_text }}</a>
+      <div>
+        <div class="outter-div background gradient">
+        </div>
+          <div class="hero-slider__outter-content-wrapper">
+            <div class="hero-slider__content wrapper-md">
+              <div class="hero-slider-heading">
+                <h2 class="text-white">{{ .heading }}</h2>
+              </div>  
+              <div>
+                <a href="{{ .body.button.button_url }}" class="btn btn--white hero-button">{{ .body.button.button_text }}</a>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
     {{ end }}
   </div>
-  <div>
-    <div class="hero-slider__button-wrapper flex flex-justify-center wrapper-md">
+  <div class="hero-slider__outer-div">
+    <div class="hero-slider__button-wrapper flex flex-justify-between wrapper-md">
       {{ range .Params.hero_slider.slides }}
       <button class="slider-button btn btn--primary">{{ .button.button_text }}</button>
       {{ end }}
