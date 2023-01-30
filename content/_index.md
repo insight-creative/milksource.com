@@ -40,7 +40,7 @@ hero_slider:
         open_in_new_tab: false
       image:
         enabled: false
-        image_url: /uploads/breakfast-on-the-farm.jpg
+        image_url: /uploads/animal-care-cow.jpg
         image_alt: Horses and dogs together in pasture at Whistler's Run
     - heading: Involved in our communities where we live and work
       body:
