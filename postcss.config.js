@@ -46,7 +46,8 @@ module.exports = {
         'crt-logo',
         'crt-widget-branded',
         'crt-image',
-        'crt-image-c'
+        'crt-image-c',
+        'active-button'
       ],
     }),
   ],
