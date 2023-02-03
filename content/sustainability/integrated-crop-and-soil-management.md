@@ -1,22 +1,15 @@
 ---
 title: Integrated Crop and Soil Management
-menu:
-  main:
-    weight: 2
-  footer:
-    weight: 2
 seo:
   page_title:
-  meta_description: >-
-    Whistler’s Run offers full-service boarding for horses of all breeds, sizes
-    and disciplines on 42 gorgeous acres in De Pere, Wisconsin.
-  featured_image: /uploads/two-horses-with-sunset-behind.jpg
+  meta_description:
+  featured_image: /uploads/
 hero:
   heading: Sustainability
   body:
   image:
-    image_url: /uploads/animal-care-cow.jpg
-    image_alt: Two horses together with clear sky sunset in the background
+    image_url: /uploads/clean-milk-tanker.jpg
+    image_alt:
 intro:
   enabled: true
   heading: Full-Service Equestrian Boarding in De Pere, WI
