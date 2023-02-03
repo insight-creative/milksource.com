@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: Water Conservation
   body:
   image:
     image_url: /uploads/environmental-management-systems.jpg

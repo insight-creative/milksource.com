@@ -4,7 +4,8 @@ seo:
   page_title:
   meta_description:
   featured_image: /uploads/
-  heading: Sustainability
+hero:
+  heading:  Occupational Health and Safety
   body:
   image:
     image_url: /uploads/leadership-class.jpg

@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /uploads/clean-milk-tanker.jpg
 hero:
-  heading: Sustainability
+  heading: Fair Treatment and Good Working Conditions
   body:
   image:
     image_url: /uploads/animal-care-cow.jpg

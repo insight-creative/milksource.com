@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /uploads/clean-milk-tanker.jpg
 hero:
-  heading: Sustainability
+  heading: SustainabilFood Safetyity
   body:
   image:
     image_url: /uploads/clean-milk-tanker.jpg

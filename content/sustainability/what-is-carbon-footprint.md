@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: What is Carbon Footprint
   body:
   image:
     image_url: /uploads/breakfast-on-the-farm.jpg

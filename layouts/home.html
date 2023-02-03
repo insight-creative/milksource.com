@@ -50,11 +50,26 @@
     </div>
     <div class="reel">
         <div class="reel__wrapper">
-            <div class="reel__image-wrapper">
+            <div class="reel__image-wrapper p-relative">
                 {{ range $pages }}
-                <img src="{{ .Params.hero.image.image_url }}" alt="" class="reel__image">
+                <img src="{{ .Params.hero.image.image_url }}" alt="" class="reel__image p-relative">
+                <div class="reel__image-text-wrapper p-absolute">
+                    <h3 class="reel__image-text text-white h4">{{ .Params.hero.heading }}</h3>
+                </div>
                 {{ end }}
             </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="test-div p-relative">
+        <!-- <div> -->
+            <img src="/uploads/environmental-management-systems.jpg">
+        <!-- </div> -->
+        <div class="text-div p-absolute">
+            <h3 class="test-text h4 text-white">Superior Animal Treatment and Care</h3>
         </div>
     </div>
 </section>

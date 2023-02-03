@@ -47,3 +47,43 @@
 .reel__wrapper > * + * {
   margin-inline-start: 2rem;
 }
+
+.test-div {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.test-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: auto;
+  position: relative;
+}
+
+.text-div {
+bottom: 26.5%;
+left: 3.5%;
+width: 65%;
+}
+
+.test-text {
+  margin-bottom: 0;
+}
+
+.reel__image-text-wrapper {
+  width: 65%;
+  bottom: 4%;
+  left: 3%;
+}
+
+// .reel__image-text {
+//   bottom: 5%;
+//   left: 2%;
+// }
+
+// .reel__image-text:nth-child(2) {
+//   left: 36%;
+//   bottom: 30%
+// }

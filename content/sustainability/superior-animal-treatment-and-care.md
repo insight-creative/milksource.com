@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: Superior Animal Treatment and Care
   body:
   image:
     image_url: /uploads/animal-care-cow.jpg

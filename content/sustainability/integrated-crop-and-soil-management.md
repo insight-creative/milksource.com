@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: Integrated Crop and Soil Management
   body:
   image:
     image_url: /uploads/clean-milk-tanker.jpg

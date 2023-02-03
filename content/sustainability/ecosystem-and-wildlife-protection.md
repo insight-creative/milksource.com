@@ -5,10 +5,10 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: Ecosystem and Wildlife Protection
   body:
   image:
-    image_url: /uploads/portrait-of-a-cow.jpg
+    image_url: /uploads/corn-harvester.jpg
     image_alt: 
 intro:
   enabled: true

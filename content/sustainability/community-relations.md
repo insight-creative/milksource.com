@@ -5,10 +5,10 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: Community Relations
   body:
   image:
-    image_url: /uploads/corn-harvester.jpg
+    image_url: /uploads/environmental-management-systems.jpg
     image_alt:
 intro:
   enabled: true

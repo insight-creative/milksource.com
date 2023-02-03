@@ -5,7 +5,7 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: Integrated Waste Management
   body:
   image:
     image_url: /uploads/corn-harvester.jpg

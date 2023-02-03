@@ -5,11 +5,10 @@ seo:
   meta_description:
   featured_image: /uploads/
 hero:
-  heading: Sustainability
+  heading: Environmental Management System
   body:
   image:
-    image_url: /uploads/portrait-of-a-cow.jpg
-    image_alt:
+    image_url: /uploads/environmental-management-systems.jpg
 intro:
   enabled: true
   heading: Full-Service Equestrian Boarding in De Pere, WI
