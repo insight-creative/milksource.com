@@ -41,3 +41,25 @@
 .about {
     margin-top: 30rem;
 }
+
+.intro-section {
+    margin-top: 9.5rem;
+}
+
+.intro-wrapper__body {
+    margin-bottom: $ic-600;
+}
+
+.intro-wrapper {
+    padding: $ic-900;
+}
+
+.intro-wrapper__image-2 {
+    left: 54%;
+}
+
+.intro-wrapper__image-1 {
+    height: 471px;
+    width: 353px;
+    z-index: 1;
+}

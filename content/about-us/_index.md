@@ -1,12 +1,12 @@
 ---
-title: About
+title: About Us
 menu:
   main:
     weight: 1
   footer:
     weight: 1
 seo:
-  page_title: About Whistler's Run & Rescue
+  page_title: About Milk Source
   meta_description: >-
     Learn all about Whistler’s Run and Rescue from barn founders and owners,
     Lauren Underhill and Alissa Van Wassenhoven.
@@ -17,32 +17,6 @@ hero:
   image:
     image_url: /uploads/black-and-white-horse-in-pasture.jpg
     image_alt: Black and white horse grazing during daily turnout in spacious pastures
-our_owners:
-  enabled: true
-  heading: Howdy!
-  body: >-
-    <p style="max-width: 600px; margin: 1.25rem auto;text-align:
-    center;">We&rsquo;re Lauren and Alissa&mdash;the sisters, animal advocates
-    and joint barn owners behind Whistler&rsquo;s Run and Rescue.</p>
-  owner:
-    - heading: Lauren Underhill
-      title: Barn Owner
-      image:
-        image_url: /uploads/lauren-underhill-with-white-horse.jpg
-        image_alt: Lauren Underhill with white horse
-      button:
-        button_url: /about/lauren/
-        button_text: About Lauren
-        open_in_new_tab: false
-    - heading: Alissa Van Wassenhoven
-      title: Barn Owner
-      image:
-        image_url: /uploads/alissa-van-wassenhoven.jpg
-        image_alt: Alissa Van Wassenhoven with horse
-      button:
-        button_url: /about/alissa/
-        button_text: About Alissa
-        open_in_new_tab: false
 page_blocks:
   - heading: About Whistler’s Run
     body: >-

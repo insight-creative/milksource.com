@@ -7,8 +7,6 @@ seo:
   featured_image: /uploads/
 hero_slider:
   enabled: true
-  # heading: Leading the way in modern sustainable agriculture
-  # video: /uploads/whistlers-drone-intro.mp4
   slides: 
     - heading: Leading the way in modern sustainable agriculture
       body:
@@ -78,23 +76,22 @@ intro:
   enabled: true
   heading: About Milk Source
   body: >-
-    <p>Milk Source’s goal every day is to be an outstanding dairy producer through exceptional care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as a rewarding place to work.</p>
+    Milk Source’s goal every day is to be an outstanding dairy producer through exceptional care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as a rewarding place to work.
   button:
     enabled: true
-    button_url: /schedule-a-tour/
+    button_url: /about-us/
     button_text: Learn More About Milk Source
     open_in_new_tab: false
-  # button_2:
-  #   enabled: true
-  #   button_url: /boarding/
-  #   button_text: Boarding services
-  #   open_in_new_tab: false
-  image:
-    enabled: false
-    image_url: /uploads/animal-group-image.jpg
-    image_alt: Horses and dogs together in pasture at Whistler's Run
+  image1:
+    enabled: true
+    image_url: /uploads/corn-harvester.jpg
+    image_alt: Corn harvester
+  image2:
+    enabled: true
+    image_url: /uploads/portrait-of-a-cow.jpg
+    image_alt: Portrait of a cow
 our_facility_block:
-  enabled: true
+  enabled: false
   heading: Our facility
   body: >-
     <p>With a state-of-the-art equestrian barn and on-site safety features and
@@ -124,69 +121,67 @@ our_facility_block:
     image_alt: >-
       Exterior view of the Whistler's Run 19-stall state-of-the-art equestrian
       barn in DePere, WI
-page_blocks:
-  - heading: A gentle animal husbandry approach
-    body: >-
-      <p>Our philosophy is simple: every living creature deserves respect. In
-      everything we do, our top priority is to ensure the creatures who enter
-      our barn feel safe, comfortable and loved&mdash;whether they walk in on
-      two feet or four hooves.</p>
-    # button:
-    #   enabled: true
-    #   button_url: /about/our-philosophy/
-    #   button_text: Our philosophy
-    #   open_in_new_tab: false
-    text_column_left: true
-    text_column_right: false
-    image:
-      enabled: false
-      image_url: /uploads/
-      image_alt:
-    footprints: left
-    background_color: white
-  - heading: Our herd
-    body: >-
-      <p>Get to know the owners behind Whistler&rsquo;s Run and meet each of the
-      animals who make our barn so special.</p>
-    button:
-      enabled: false
-      button_url: /about/
-      button_text: Meet our herd
-      open_in_new_tab: false
-    text_column_left: false
-    text_column_right: true
-    image:
-      enabled: false
-      image_url: /uploads/staff-with-dog.jpg
-      image_alt: Woman in Whistler's Run sweatshirt petting a black Newfoundland dog
-    footprints: right
-    background_color: gray
-gallery:
+# page_blocks:
+#   - heading: A gentle animal husbandry approach
+#     body: >-
+#       <p>Our philosophy is simple: every living creature deserves respect. In
+#       everything we do, our top priority is to ensure the creatures who enter
+#       our barn feel safe, comfortable and loved&mdash;whether they walk in on
+#       two feet or four hooves.</p>
+#     # button:
+#     #   enabled: true
+#     #   button_url: /about/our-philosophy/
+#     #   button_text: Our philosophy
+#     #   open_in_new_tab: false
+#     text_column_left: false
+#     text_column_right: false
+#     image:
+#       enabled: false
+#       image_url: /uploads/
+#       image_alt:
+#     footprints: left
+#     background_color: white
+#   - heading: Our herd
+#     body: >-
+#       <p>Get to know the owners behind Whistler&rsquo;s Run and meet each of the
+#       animals who make our barn so special.</p>
+#     button:
+#       enabled: false
+#       button_url: /about/
+#       button_text: Meet our herd
+#       open_in_new_tab: false
+#     text_column_left: false
+#     text_column_right: false
+#     image:
+#       enabled: false
+#       image_url: /uploads/staff-with-dog.jpg
+#       image_alt: Woman in Whistler's Run sweatshirt petting a black Newfoundland dog
+#     footprints: right
+#     background_color: gray
+slider:
   enabled: true
-  heading: Life on the Farm
+  heading: Protecting and replenishing our planet
+  body: Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. Sustainability creates and maintains the conditions under which humans and nature can exist in productive harmony, that permit fulfilling the social, economic and other requirements of present and future generations.
   images:
-    - image_url: /uploads/horse-boarding-in-depere-wi-2.jpg
-      image_alt: Brown and white horse at Whistler's Run in DePere, WI
-    - image_url: /uploads/two-dogs-at-whistlers-run-and-rescue.jpg
-      image_alt: >-
-        Small white bulldog and black newfoundland dog sitting together in green
-        pasture
-    - image_url: /uploads/horse-boarding-in-depere-wi.jpg
-      image_alt: >-
-        White horse with brown and white horse in green pasture with 19 stall
-        horse barn in the background
-    - image_url: /uploads/horse-boarding-in-depere-wi-3.jpg
-      image_alt: Light brown horse in outdoor pasture
-    - image_url: /uploads/horses-at-whistlers-run.jpg
-      image_alt: Black and white horse grazing at outdoor pasture
-    - image_url: /uploads/brown-horse-with-coat-on.jpg
-      image_alt: Brown and white horse with coat on
-    - image_url: /uploads/horses-at-whistlers-run-2.jpg
-      image_alt: >-
-        Two brown horses together in one of twelve fenced in pastures at
-        Whistler's Run in DePere, WI
+    - image_url: /uploads/animal-care-cow.jpg
+      image_alt:
+      image_text: Superior Animal Treatment and Care 
+    - image_url: /uploads/breakfast-on-the-farm.jpg
+      image_alt:
+      # image_text: Food Safety
+    - image_url: /uploads/leadership-class.jpg
+      image_alt: 
+      # image_text: Environmental Management Systems
+    # - image_url: /uploads/
+    #   image_alt: 
+    # - image_url: /uploads/
+    #   image_alt: 
+    # - image_url: /uploads/
+    #   image_alt: 
+    # - image_url: /uploads/
+    #   image_alt: 
 cta_block:
-  enabled: true
+  enabled: false
   heading: Visit Whistler’s Run
   body: >-
     Calling all animal lovers! We offer private, educational tours for small
