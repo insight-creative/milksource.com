@@ -2,8 +2,7 @@
 title: Home
 seo:
   page_title: Milk Source
-  meta_description: >-
-
+  meta_description:
   featured_image: /uploads/
 hero_slider:
   enabled: true
@@ -55,7 +54,7 @@ hero_slider:
       image:
         enabled: false
         image_url: /uploads/breakfast-on-the-farm.jpg
-        image_alt: Horses and dogs together in pasture at Whistler's Run
+        image_alt:
     - heading: Now Hiring!
       body:
         button:
@@ -90,96 +89,32 @@ intro:
     enabled: true
     image_url: /uploads/portrait-of-a-cow.jpg
     image_alt: Portrait of a cow
-our_facility_block:
-  enabled: false
-  heading: Our facility
-  body: >-
-    <p>With a state-of-the-art equestrian barn and on-site safety features and
-    amenities, you can feel good about the quality of life of each animal in our
-    care. Whistler&rsquo;s Run visitors and boarders love our:</p>
-  features:
-    - feature: Heated barn
-      icon: /uploads/horse-white.svg
-    - feature: Large indoor and outdoor arena
-      icon: /uploads/horse-white.svg
-    - feature: Spacious stalls and pastures
-      icon: /uploads/horse-white.svg
-    - feature: FREE on-site laundry room
-      icon: /uploads/horse-white.svg
-    - feature: Indoor and outdoor wash stations
-      icon: /uploads/horse-white.svg
-    - feature: Indoor bathroom
-      icon: /uploads/horse-white.svg
-  # button:
-  #   enabled: true
-  #   button_url: /about/see-the-barn/
-  #   button_text: View our barn
-  #   open_in_new_tab: false
-  image:
-    enabled: false
-    image_url: /uploads/horse-boarding-and-animal-rescue-depere-wi.jpg
-    image_alt: >-
-      Exterior view of the Whistler's Run 19-stall state-of-the-art equestrian
-      barn in DePere, WI
-# page_blocks:
-#   - heading: A gentle animal husbandry approach
-#     body: >-
-#       <p>Our philosophy is simple: every living creature deserves respect. In
-#       everything we do, our top priority is to ensure the creatures who enter
-#       our barn feel safe, comfortable and loved&mdash;whether they walk in on
-#       two feet or four hooves.</p>
-#     # button:
-#     #   enabled: true
-#     #   button_url: /about/our-philosophy/
-#     #   button_text: Our philosophy
-#     #   open_in_new_tab: false
-#     text_column_left: false
-#     text_column_right: false
-#     image:
-#       enabled: false
-#       image_url: /uploads/
-#       image_alt:
-#     footprints: left
-#     background_color: white
-#   - heading: Our herd
-#     body: >-
-#       <p>Get to know the owners behind Whistler&rsquo;s Run and meet each of the
-#       animals who make our barn so special.</p>
-#     button:
-#       enabled: false
-#       button_url: /about/
-#       button_text: Meet our herd
-#       open_in_new_tab: false
-#     text_column_left: false
-#     text_column_right: false
-#     image:
-#       enabled: false
-#       image_url: /uploads/staff-with-dog.jpg
-#       image_alt: Woman in Whistler's Run sweatshirt petting a black Newfoundland dog
-#     footprints: right
-#     background_color: gray
 slider:
   enabled: true
   heading: Protecting and replenishing our planet
   body: Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. Sustainability creates and maintains the conditions under which humans and nature can exist in productive harmony, that permit fulfilling the social, economic and other requirements of present and future generations.
   images:
-    - image_url: /uploads/animal-care-cow.jpg
+    - image_url: /uploads/
       image_alt:
-      image_text: Superior Animal Treatment and Care 
-    - image_url: /uploads/breakfast-on-the-farm.jpg
+      image_text:
+    - image_url: /uploads/
       image_alt:
-      # image_text: Food Safety
-    - image_url: /uploads/leadership-class.jpg
+    - image_url: /uploads/
       image_alt: 
-      # image_text: Environmental Management Systems
-    # - image_url: /uploads/
-    #   image_alt: 
-    # - image_url: /uploads/
-    #   image_alt: 
-    # - image_url: /uploads/
-    #   image_alt: 
-    # - image_url: /uploads/
-    #   image_alt: 
+community:
+  enabled: true
+  heading: Involved in our communities where we live and work
+  body: Milk Source farms strive to be good neighbors in our hometowns. We work alongside local food pantries, service groups, emergency service providers and other organizations to ensure the continued vitality of our communities. We foster agricultural transparency by offering free tours to our neighbors, local residents and their guests as well as sponsoring larger-scale public events, such as our annual “Salute to Cows Nights” with Minor League Baseball’s Wisconsin Timber Rattlers.
+  image:
+    image_url: /uploads/compost-day.jpg
+    image_alt: >-
+      Exterior view of the Whistler's Run 19-stall state-of-the-art equestrian
+      barn in DePere, WI
+  button:
+    enabled: true
+    button_url: /community/
+    button_text: Our community efforts
+    open_in_new_tab: false
 cta_block:
   enabled: false
   heading: Visit Whistler’s Run

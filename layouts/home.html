@@ -56,19 +56,31 @@
     </div>
 </section>
 
-
-<section>
-    <div class="test-div p-relative">
-        <!-- <div> -->
-            <img src="/uploads/environmental-management-systems.jpg">
-        <!-- </div> -->
-        <div class="text-div p-absolute">
-            <h3 class="test-text h4 text-white">Superior Animal Treatment and Care</h3>
+<section class="community-section">
+    {{ if .Params.community.enabled }}
+    <div class="wrapper-lg">
+        <div class="outer-community flex flex-row">
+            <div class="community-content w-50 m-auto">
+                <div>
+                    <h2 class="h3">{{ .Params.community.heading }}</h2>
+                </div>
+                <div>
+                    <p>{{ .Params.community.body }}</p>
+                </div>
+                 {{ if .Params.community.button.enabled}}
+                <div class="community-btn">
+                    <a href="{{ .Params.community.button.button_url }}" class="btn btn--primary">{{ .Params.community.button.button_text }}</a>
+                </div>
+                {{ end }}
+            </div>
+            <div class="community-image w-50">
+                <img src="{{ .Params.community.image.image_url }}" alt="">
+            </div>
         </div>
     </div>
+    {{ end }}
 </section>
 
-    
 <!-- {{ if .Params.our_facility_block.enabled }} -->
     <!-- {{ with .Params.our_facility_block }} -->
     <!-- <section aria-labelledby="{{ .heading | urlize }}" class="facility page-block bg-primary text-white">
