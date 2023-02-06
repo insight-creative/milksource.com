@@ -72,7 +72,18 @@ width: 65%;
   margin-bottom: 0;
 }
 
+.reel-gradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #d9d9d9, #c3c3c3, #aeaeae, #999999, #848484, #707070, #5d5d5d, #4a4a4a, #383838, #272727, #171717, #000000);
+  opacity: 0.05;
+}
+
 .reel__image-text-wrapper {
+  z-index: 2;
   width: 65%;
   bottom: 4%;
   left: 3%;
@@ -83,7 +94,7 @@ width: 65%;
 //   left: 2%;
 // }
 
-// .reel__image-text:nth-child(2) {
-//   left: 36%;
-//   bottom: 30%
-// }
+.reel__image-text-wrapper:nth-child(-n+1) {
+  color: red;
+  left: 5rem;
+}

@@ -4,7 +4,7 @@
 
 {{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
-<section class="intro-section">
+<section class="intro-section wrapper-lg">
     <div class="intro-outter mt-6 flex flex-row">
         <div class="intro-wrapper w-40-m">
             <div class="intro-wrapper__heading">
@@ -13,12 +13,13 @@
             <div class="intro-wrapper__body">{{ .body }}</div>
             <div><a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a></div>
         </div>
-        <div class="intro-wrapper__images flex flex-row w-60-m">
+        <div class="intro-wrapper__images flex flex-row w-60-m p-relative">
+
+            <div class="intro-wrapper__image-2">
+                <img src="{{ .image1.image_url }}" alt="">
+            </div>
             <div class="intro-wrapper__image-1 p-absolute">
                 <img src="{{ .image2.image_url }}" alt="">
-            </div>
-            <div class="intro-wrapper__image-2 p-absolute">
-                <img src="{{ .image1.image_url }}" alt="">
             </div>
         </div>
     </div>
@@ -26,17 +27,9 @@
 {{ end }}
 {{ end }}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 {{ $pages := where .Site.RegularPages "Section" "sustainability" }}
-<section class="block bg-primary">
-    <div class="wrapper-lg">
+<section class="block bg-primary mt-10">
+    <div class="reel__ wrapper-lg">
         {{ if .Params.slider.enabled}}
         <div class="reel-content mb-4">
             <div class="reel-heading">
@@ -53,6 +46,7 @@
             <div class="reel__image-wrapper p-relative">
                 {{ range $pages }}
                 <img src="{{ .Params.hero.image.image_url }}" alt="" class="reel__image p-relative">
+                <div class="reel-gradient"></div>
                 <div class="reel__image-text-wrapper p-absolute">
                     <h3 class="reel__image-text text-white h4">{{ .Params.hero.heading }}</h3>
                 </div>
