@@ -14,7 +14,6 @@
             <div><a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a></div>
         </div>
         <div class="intro-wrapper__images flex flex-row w-60-m p-relative">
-
             <div class="intro-wrapper__image-2">
                 <img src="{{ .image1.image_url }}" alt="">
             </div>
@@ -68,7 +67,7 @@
                     <p>{{ .Params.community.body }}</p>
                 </div>
                  {{ if .Params.community.button.enabled}}
-                <div class="community-btn">
+                <div class="community-button">
                     <a href="{{ .Params.community.button.button_url }}" class="btn btn--primary">{{ .Params.community.button.button_text }}</a>
                 </div>
                 {{ end }}
@@ -80,6 +79,27 @@
     </div>
     {{ end }}
 </section>
+
+{{ if .Params.careers.enabled }}
+<section class="careers-section mt-9">
+    <div class="careers-gradient"></div>
+    <div class="careers-wrapper wrapper-lg">
+        <div class="careers-content flex-justify-center">
+            <div class="careers-heading">
+                <h2 class="h3 text-white">{{ .Params.careers.heading }}</h2>
+            </div>
+            <div class="careers-body">
+                <p class="text-white">{{ .Params.careers.body }}</p>
+            </div>
+            {{ if .Params.careers.button.enabled }}
+            <div class="careers-btn mt-6">
+                <a href="{{ .Params.careers.button.button_url }}" class="btn btn--white hero-button">{{ .Params.careers.button.button_text }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
 
 <!-- {{ if .Params.our_facility_block.enabled }} -->
     <!-- {{ with .Params.our_facility_block }} -->

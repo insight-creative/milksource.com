@@ -91,6 +91,33 @@
     }
 }
 
-.community-btn {
+.community-button {
     margin-top: $ic-600;
+}
+
+.careers-section {
+    height: 494px;
+    background-image: url("/uploads/leadership-class.jpg");
+    position: relative;
+}
+
+.careers-wrapper {
+    height: 100%;
+}
+
+.careers-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.careers-gradient {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    background: linear-gradient(90deg, #0083a8, #00829c, #008090, #187e84, #297b78, #36786d, #417463, #4a705a, #516c54, #57684f, #5c644c, #5f604a);
 }
