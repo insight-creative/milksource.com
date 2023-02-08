@@ -95,19 +95,10 @@
     margin-top: $ic-600;
 }
 
-.career-parent {
+.careers-section {
     height: 494px;
-}
-
-.career-image {
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-
-    img {
-        object-fit: cover;
-        height: 494px;
-    }
+    background-image: url("/uploads/leadership-class.jpg");
+    position: relative;
 }
 
 .careers-wrapper {
@@ -128,5 +119,5 @@
     width: 100%;
     z-index: 1;
     opacity: 0.5;
-    background: linear-gradient(90deg, #0083a8, #008195, #1b7d82, #337870, #447360, #506d55, #59664d, #5f604a);
+    background: linear-gradient(90deg, #0083a8, #00829c, #008090, #187e84, #297b78, #36786d, #417463, #4a705a, #516c54, #57684f, #5c644c, #5f604a);
 }

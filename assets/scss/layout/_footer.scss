@@ -1,20 +1,17 @@
 .footer {
-  background-color: #1F2526;
-  color: $white;
-
   &__col {
     margin: $ic-300 0;
     flex: 1;
 
     @include breakpoint(md) {
       margin: 0;
-      // border-right: 1px solid rgba($primary-color, .25);
+      border-right: 1px solid rgba($primary-color, .25);
     }
   }
 
-  // &__col:last-of-type {
-  //   border-right: none;
-  // }
+  &__col:last-of-type {
+    border-right: none;
+  }
 
   &__logo,
   .footer__logo img {
@@ -22,18 +19,12 @@
   }
 
   &__bottom-wrapper {
-    border-top: 1px solid rgba($white, .25);
+    border-top: 1px solid rgba($primary-color, .25);
   }
 
   .footer-nav {
     list-style: none;
     padding: 0;
-
-    &__item {
-      a {
-        color: $white;
-      }
-    }
   }
 
   .copyright {
@@ -70,10 +61,6 @@
       list-style-type: none;
       margin: $ic-100;
 
-      a {
-        color: $white;
-      }
-
       @include breakpoint(md)  {
         margin: 0;
         margin-left: $ic--100;
@@ -82,10 +69,6 @@
 
     p, .credits {
       text-align: center;
-
-      a {
-        color: $white;
-      }
 
       @include breakpoint(md)  {
         text-align: left;
@@ -98,10 +81,4 @@
       }
     }
   }
-}
-
-.footer-farm-logo {
-  height: 100px;
-  width: 100px;
-  margin-top: 1.5rem;
 }
