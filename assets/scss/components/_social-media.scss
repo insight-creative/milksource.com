@@ -1,5 +1,5 @@
 .social {
-  margin: 0;
+  margin: 1.5rem 0 0;
   padding: 0;
 
   li {
@@ -21,9 +21,9 @@
   &__icon {
     position: relative;
     margin: 0 5px;
-    background-color: rgba($accent-color, .5);
-    width: $ic-600;
-    height: $ic-600;
+    // background-color: rgba($accent-color, .5);
+    // width: $ic-600;
+    // height: $ic-600;
 
     svg {
       width: $ic-300;
@@ -40,7 +40,7 @@
   }
 
   &__icon-inner {
-    background-color: $accent-color;
+    background-color: $white;
     width: $ic-500;
     height: $ic-500;
   }

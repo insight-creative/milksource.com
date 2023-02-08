@@ -5,15 +5,32 @@
         <div class="footer__contact footer__col flex flex-justify-center">
           <a class="footer__logo" href="{{ site.BaseURL }}">
             {{ if .Site.Data.site_settings.logo }}
-              <img src="/uploads/{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
+              <img src="/uploads/{{ .Site.Data.site_settings.footer_logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
             {{ else }}
-              <h2>{{ site.Title }}</h2>
+              <h2 class="text-white">{{ site.Title }}</h2>
             {{ end }}
           </a>
         </div>
         <div class="footer__col flex flex-justify-center fade-staggered">
           <div>
-            <h2 class="h4">Navigate</h2>
+            <h2 class="h5 text-white">Contact Us</h2>
+            <p>{{ .Site.Data.site_settings.address.street }}</p>
+            <p>{{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }} {{ .Site.Data.site_settings.address.zip }}</p>
+            <p>Office: {{ .Site.Data.site_settings.phone }}</p>
+            <p>Fax: {{ .Site.Data.site_settings.fax }}</p>
+            {{ partialCached "social-media" . }}
+          </div>
+        </div>
+        <div class="footer__col flex flex-justify-center fade-staggered">
+          <div>
+            <h2 class="h5 text-white">National Dairy FARM Program</h2>
+            <p>This farm participates in the National Dairy FARM Program and is committed to providing the highest level of animal care and quality assurance.</p>
+            <img src="/uploads/farm-logo.svg" alt="" class="footer-farm-logo">
+          </div>
+        </div>
+        <div class="footer__col flex flex-justify-center fade-staggered">
+          <div>
+            <h2 class="h5 text-white">Quick Links</h2>
             <ul class="footer-nav">
               {{ range .Site.Menus.main }}
                 <li class="footer-nav__item">
@@ -22,18 +39,25 @@
                   </a>
                 </li>
               {{ end }}
-              <li class="footer-nav__item">
+              {{ range .Site.Menus.secondary }}
+                <li class="footer-nav__item">
+                  <a class="footer-nav__link shift-up fw-700" href="{{ .URL }}" aria-label="{{ .Name }}">
+                    {{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
+              <!-- <li class="footer-nav__item">
                 <a class="footer-nav__link shift-up fw-700" href="/schedule-a-tour/" aria-label="Schedule a Tour">Schedule a Tour</a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
-        <div class="footer__col flex flex-justify-center fade-staggered">
+        <!-- <div class="footer__col flex flex-justify-center fade-staggered">
           <div>
             <h2 class="h4">Connect With Us</h2>
             {{ partialCached "social-media" . }}
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

@@ -82,97 +82,25 @@
 
 {{ if .Params.careers.enabled }}
 <section class="careers-section mt-9">
-    <div class="careers-gradient"></div>
-    <div class="careers-wrapper wrapper-lg">
-        <div class="careers-content flex-justify-center w-50">
-            <div class="careers-heading">
-                <h2 class="h3 text-white">{{ .Params.careers.heading }}</h2>
+    <div class="career-parent p-relative">
+        <div class="career-image p-absolute"><img src="/uploads/leadership-class.jpg" alt=""></div>
+        <div class="careers-gradient"></div>
+        <div class="careers-wrapper wrapper-lg">
+            <div class="careers-content flex-justify-center w-50">
+                <div class="careers-heading">
+                    <h2 class="h3 text-white">{{ .Params.careers.heading }}</h2>
+                </div>
+                <div class="careers-body">
+                    <p class="text-white">{{ .Params.careers.body }}</p>
+                </div>
+                {{ if .Params.careers.button.enabled }}
+                <div class="careers-btn mt-6">
+                    <a href="{{ .Params.careers.button.button_url }}" class="btn btn--white hero-button">{{ .Params.careers.button.button_text }}</a>
+                </div>
+                {{ end }}
             </div>
-            <div class="careers-body">
-                <p class="text-white">{{ .Params.careers.body }}</p>
-            </div>
-            {{ if .Params.careers.button.enabled }}
-            <div class="careers-btn mt-6">
-                <a href="{{ .Params.careers.button.button_url }}" class="btn btn--white hero-button">{{ .Params.careers.button.button_text }}</a>
-            </div>
-            {{ end }}
         </div>
     </div>
 </section>
 {{ end }}
-
-<!-- {{ if .Params.our_facility_block.enabled }} -->
-    <!-- {{ with .Params.our_facility_block }} -->
-    <!-- <section aria-labelledby="{{ .heading | urlize }}" class="facility page-block bg-primary text-white">
-        <div class="flex flex-column-reverse flex-row-m">
-            <div class="facility__content w-100 w-50-m block flow text-block">
-                <h2 id="{{ .heading | urlize }}">{{ .heading }}</h2>
-                {{ .body | safeHTML }}
-                <ul class="features no-padding">
-                    {{ range .features }}
-                    <li class="features__item mb-1 list-style-none flex flex-row flex-center">
-                        <span class="features__icon">
-                            <span class="features__icon-inner">
-                                <img src="{{ .icon }}" alt="">
-                            </span>
-                        </span>
-                        <p class="fs-100 ml-1">{{ .feature }}</p>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{ if .button.enabled }}
-                  <a href="{{ .button.button_url }}" class="btn btn--white" {{ if .button.open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower"{{ end }}>{{ .button.button_text }}</a>
-                {{ end }} 
-            </div>
-            <div class="facility__image w-100 w-50-m background-image">
-                {{ if .image.enabled }}
-                    {{ with .image }}
-                    <picture>
-                        <source sizes="100vw" srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-70,w-500,h-350 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-70,w-750,h-500 800w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-85,w-950,h-700 1200w" type="image/avif">
-                    
-                        <source sizes="100vw" srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-70,w-500,h-350 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-70,w-750,h-500 800w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-85,w-950,h-700 1200w" type="image/webp">
-                    
-                        <source sizes="100vw" srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-70,w-500,h-350 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-70,w-750,h-500 800w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-85,w-950,h-700 1200w" type="image/jpg">
-                    
-                        <img src="{{ .image_url }}" alt="{{ .image_alt }}" width="900" height="625">   
-                    </picture>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </div>
-    </section> -->
-    <!-- {{ end }} -->
-<!-- {{ end }} -->
-<!-- {{ if .Params.page_blocks }}
-    {{ range .Params.page_blocks }}
-        {{ partial "page-block" . }}
-    {{ end }}
-{{ end }} -->
-<!-- {{ if .Params.gallery.enabled }}
-    {{ with .Params.gallery }}
-    <div class="block bg-white">
-        <div class="wrapper-lg">
-            {{ partial "heading-centered" . }}
-            <div class="gallery mt-4">
-                {{ range .images }}
-                    <picture class="gallery__image">
-                        <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-70,w-450,h-300 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-70,w-500,h-300 800w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-85,w-800,h-550 1200w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-avif,q-85,w-1200,h-800 1600w" type="image/avif">
-                    
-                        <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-70,w-450,h-300 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-70,w-500,h-300 800w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-85,w-800,h-550 1200w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-webp,q-85,w-1200,h-800 1600w" type="image/webp">
-                    
-                        <source srcset="https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-70,w-500,h-350 400w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-70,w-750,h-500 800w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-85,w-800,h-550 1200w, https://ik.imagekit.io/whistlersrun{{ .image_url }}?tr=f-jpg,q-85,w-1200,h-800 1600w" type="image/jpg">
-                    
-                        <img src="{{ .image_url }}" alt="{{ .image_alt }}" width="900" height="625">   
-                    </picture>
-                {{ end }}
-            </div>
-        </div>
-    </div>
-    {{ end }}
-{{ end }} -->
-<!-- {{ if .Params.cta_block.enabled }}
-    {{ with .Params.cta_block }}
-        {{ partial "site-cta" . }}
-    {{ end }}
-{{ end }} -->
 {{ end }}
