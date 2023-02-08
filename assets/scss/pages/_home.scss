@@ -116,7 +116,7 @@
 
 .careers-content {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,6 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: 1;
-    opacity: 0.5;
+    opacity: 0.8;
     background: linear-gradient(90deg, #0083a8, #008195, #1b7d82, #337870, #447360, #506d55, #59664d, #5f604a);
 }

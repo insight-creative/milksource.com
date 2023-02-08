@@ -82,19 +82,9 @@ width: 65%;
   opacity: 0.05;
 }
 
-.reel__image-text-wrapper {
+.reel__image-text-wrapper:nth-child(1) {
   z-index: 2;
   width: 65%;
   bottom: 4%;
   left: 3%;
-}
-
-// .reel__image-text {
-//   bottom: 5%;
-//   left: 2%;
-// }
-
-.reel__image-text-wrapper:nth-child(-n+1) {
-  color: red;
-  left: 5rem;
 }
