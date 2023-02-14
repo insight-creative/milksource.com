@@ -1,30 +1,7 @@
 {{ define "main" }} 
 {{ partialCached "home/home-hero" . }}
 {{ partial "home/home-intro" . }}
-
-{{ if .Params.intro.enabled }}
-{{ with .Params.intro }}
-<section class="intro-section wrapper-lg">
-    <div class="intro-outter mt-6 flex flex-row">
-        <div class="intro-wrapper w-40-m">
-            <div class="intro-wrapper__heading">
-                <h2>{{ .heading }}</h2>
-            </div>
-            <div class="intro-wrapper__body">{{ .body }}</div>
-            <div><a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a></div>
-        </div>
-        <div class="intro-wrapper__images flex flex-row w-60-m p-relative">
-            <div class="intro-wrapper__image-2">
-                <img src="{{ .image1.image_url }}" alt="">
-            </div>
-            <div class="intro-wrapper__image-1 p-absolute">
-                <img src="{{ .image2.image_url }}" alt="">
-            </div>
-        </div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
+{{ partial "intro" . }}
 
 {{ partial "image-reel" . }}
 
