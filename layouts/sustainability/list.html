@@ -2,16 +2,18 @@
 
 <section>
   <div class="sustainability-wrapper">
-    <div class="sustainability__hero-wrapper">
+    <div class="sustainability__hero-wrapper p-relative">
       <div class="hero-wrapper__image">
         <img src="{{ .Params.hero.image.image_url}}" alt="">
       </div>
       <div class="hero-block">
-        <h1 class="text-white">{{ .Params.hero.heading }}</h1>
-        <p class="text-white">{{ .Params.hero.body }}</p>
+        <div class="hero-content">
+          <h1 class="text-white">{{ .Params.hero.heading }}</h1>
+          <p class="text-white">{{ .Params.hero.body }}</p>
+        </div>
       </div>
-      <div class="btn-learn-more">
-        <a href="" class="shift-up">Learn More</a>
+      <div class="learn-more">
+        <a href="" class="shift-up text-white btn-learn-more">Learn More</a>
       </div>
     </div>
     {{ partialCached "intro" . }}
