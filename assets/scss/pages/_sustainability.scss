@@ -1,4 +1,18 @@
-.sustainability__hero-wrapper {
-  width: 100%;
-  height: 500px;
+// .sustainability__hero-wrapper {
+//   width: 100%;
+//   height: 500px;
+// }
+
+.hero-wrapper__image {
+
+  img {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+.hero-block {
+  background-color: $primary-color;
+  width: 1241px;
+  height: 340px;
 }

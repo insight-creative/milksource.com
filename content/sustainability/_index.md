@@ -11,7 +11,7 @@ seo:
   featured_image: /uploads/
 hero:
   heading: Sustainability
-  body:
+  body: Protecting and replenishing our planet
   image:
     image_url: /uploads/new-chester-diary-digesters.jpg
     image_alt: 
