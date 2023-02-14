@@ -163,7 +163,6 @@
   text-decoration: none;
   font-family: $secondary-font;
   font-size: 1.1rem;
-  // letter-spacing: 0px;
   padding: $ic-100 0;
   transition: .3s ease-out;
   color: $black;
@@ -192,6 +191,10 @@
       }
     }
   }
+}
+
+.footer-nav__link {
+  padding: 5px 0;
 }
 
 .collapse {
