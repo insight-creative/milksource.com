@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<section>
+  <div class="sustainability-wrapper">
+    <div class="sustainability__hero-wrapper">
+      <div class="hero-wrapper__image">
+        <img src="{{ .Params.hero.image.image_url}}" alt="">
+      </div>
+    </div>
+    {{ partialCached "intro" . }}
+  </div>
+</section>
+{{ end }}

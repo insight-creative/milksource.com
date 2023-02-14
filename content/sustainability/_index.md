@@ -7,31 +7,38 @@ menu:
     weight: 2
 seo:
   page_title:
-  meta_description: >-
-    Whistler’s Run offers full-service boarding for horses of all breeds, sizes
-    and disciplines on 42 gorgeous acres in De Pere, Wisconsin.
-  featured_image: /uploads/two-horses-with-sunset-behind.jpg
+  meta_description:
+  featured_image: /uploads/
 hero:
   heading: Sustainability
   body:
   image:
-    image_url: /uploads/two-horses-with-sunset-behind.jpg
-    image_alt: Two horses together with clear sky sunset in the background
+    image_url: /uploads/new-chester-diary-digesters.jpg
+    image_alt: 
 intro:
   enabled: true
-  heading: Full-Service Equestrian Boarding in De Pere, WI
+  heading: Sustainability is based on a simple principle
   body: >-
-    <p>Let us make your boarding dreams come true! No matter the breed, size or discipline of your horse, they'll be readily welcome and expertly cared for at Whistler's Run.</p>
-    <p>We offer one, all-inclusive indoor boarding service for a monthly fee of $650 or an outdoor board option for $300.</p>
+    Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. Sustainability creates and maintains the conditions under which humans and nature can exist in productive harmony, that permit fulfilling the social, economic and other requirements of present and future generations.
+
+    Explore more details about our efforts to assist the Fox-Wolf Watershed Alliance rain barrel project.
   button:
+    enabled: false
+    button_url: 
+    button_text: 
+    open_in_new_tab: false
+  image1:
     enabled: true
+    image_url: /uploads/hoseline-spreading.jpg
+    image_alt: Corn harvester
+  image2:
+    enabled: true
+    image_url: /uploads/overflow-pond-at-RD.jpg
+    image_alt: Portrait of a cow
+  button:
+    enabled: false
     button_url: /uploads/whistlers-run-boarding-agreement.pdf
     button_text: Boarding Contract
-    open_in_new_tab: true
-  button_2:
-    enabled: true
-    button_url: /uploads/Whistlers-Liability-Form.pdf
-    button_text: Liability Contract
     open_in_new_tab: true
 page_blocks:
   - heading: Boarding inclusions

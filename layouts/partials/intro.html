@@ -7,7 +7,9 @@
                 <h2>{{ .heading }}</h2>
             </div>
             <div class="intro-wrapper__body">{{ .body }}</div>
+            {{ if .Params.button.enabled }}
             <div><a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a></div>
+            {{ end }}
         </div>
         <div class="intro-wrapper__images flex flex-row w-60-m p-relative">
             <div class="intro-wrapper__image-2">
