@@ -6,13 +6,15 @@
       <div class="hero-wrapper__image">
         <img src="{{ .Params.hero.image.image_url}}" alt="">
       </div>
-      <div class="hero-block">
-        <div class="hero-content">
-          <h1 class="text-white">{{ .Params.hero.heading }}</h1>
-          <p class="text-white">{{ .Params.hero.body }}</p>
-        </div>
+      <div class="hero-block p-absolute">
+
+          <div class="hero-content">
+            <h1 class="text-white">{{ .Params.hero.heading }}</h1>
+            <p class="text-white">{{ .Params.hero.body }}</p>
+          </div>
+
       </div>
-      <div class="learn-more">
+      <div class="learn-more p-absolute">
         <a href="" class="shift-up text-white btn-learn-more">Learn More</a>
       </div>
     </div>
