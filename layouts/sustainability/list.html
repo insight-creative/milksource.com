@@ -12,10 +12,10 @@
             <h1 class="text-white">{{ .Params.hero.heading }}</h1>
             <p class="text-white">{{ .Params.hero.body }}</p>
           </div>
+          <div class="learn-more p-absolute">
+            <a href="" class="shift-up text-white btn-learn-more">Learn More{{ partialCached "svg-icons/double-chevron-right.svg" . }} </a>
+          </div>
 
-      </div>
-      <div class="learn-more p-absolute">
-        <a href="" class="shift-up text-white btn-learn-more">Learn More</a>
       </div>
     </div>
     {{ partialCached "intro" . }}
