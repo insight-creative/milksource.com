@@ -8,13 +8,8 @@
 
     @include breakpoint(md) {
       margin: 0;
-      // border-right: 1px solid rgba($primary-color, .25);
     }
   }
-
-  // &__col:last-of-type {
-  //   border-right: none;
-  // }
 
   &__logo,
   .footer__logo img {
