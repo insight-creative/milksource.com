@@ -87,35 +87,14 @@
     margin-top: $ic-600;
 }
 
-.career-parent {
-    height: 494px;
-}
-
-.career-image {
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-
-    img {
-        object-fit: cover;
-        height: 494px;
-    }
-}
-
-.careers-wrapper {
-    height: 100%;
-}
-
-.careers-content {
-    position: relative;
+.cta__content {
     z-index: 1;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.careers-gradient {
-    position: absolute;
+.cta__gradient {
     height: 100%;
     width: 100%;
     background: linear-gradient(90deg, #0083A8 0%, rgba(95, 96, 74, 0.3) 100%);
