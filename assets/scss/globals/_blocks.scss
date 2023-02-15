@@ -11,4 +11,8 @@
     padding: 3% 0;
     padding: clamp($ic-300, 5%, $ic-600) 0;
 }
-  
+
+.block-lg {
+    padding: 8% 0;
+    padding: clamp(4.5rem, 10%, 9.5rem) 0;
+}

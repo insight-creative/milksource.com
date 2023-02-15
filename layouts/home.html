@@ -5,7 +5,7 @@
 
 {{ partial "image-reel" . }}
 
-<section class="community-section">
+<section class="community-section block">
     {{ if .Params.community.enabled }}
     <div class="wrapper-lg">
         <div class="outer-community flex flex-row">
@@ -31,20 +31,19 @@
 </section>
 
 {{ if .Params.careers.enabled }}
-<section class="careers-section mt-9">
-    <div class="career-parent p-relative">
-        <div class="career-image p-absolute"><img src="/uploads/leadership-class.jpg" alt=""></div>
-        <div class="careers-gradient"></div>
-        <div class="careers-wrapper wrapper-lg">
-            <div class="careers-content flex-justify-center w-50">
-                <div class="careers-heading">
+<section class="cta">
+    <div class="block">
+        <div class="cta__image cover-image"><img src="/uploads/leadership-class.jpg" alt=""></div>
+        <div class="cta__gradient"></div>
+            <div class="cta__content flex-justify-center w-50">
+                <div class="cta__heading">
                     <h2 class="h3 text-white">{{ .Params.careers.heading }}</h2>
                 </div>
-                <div class="careers-body">
+                <div class="cta__body">
                     <p class="text-white">{{ .Params.careers.body }}</p>
                 </div>
                 {{ if .Params.careers.button.enabled }}
-                <div class="careers-btn mt-6">
+                <div class="cta__btn mt-6">
                     <a href="{{ .Params.careers.button.button_url }}" class="btn btn--white hero-button">{{ .Params.careers.button.button_text }}</a>
                 </div>
                 {{ end }}
