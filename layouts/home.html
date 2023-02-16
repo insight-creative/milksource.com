@@ -36,15 +36,17 @@
     <div class="cta__gradient p-absolute"></div>
     <div class="cta__content p-absolute block">
         <div class="wrapper-lg">
-            <div class="cta__heading">
-                <h2 class="h3 text-white">{{ .Params.careers.heading }}</h2>
-            </div>
-            <div class="cta__body">
-                <p class="text-white">{{ .Params.careers.body }}</p>
-            </div>
-            {{ if .Params.careers.button.enabled }}
-            <div class="cta__btn mt-6">
-                <a href="{{ .Params.careers.button.button_url }}" class="btn btn--white hero-button">{{ .Params.careers.button.button_text }}</a>
+            <div>
+                <div class="cta__heading">
+                    <h2 class="h3 text-white">{{ .Params.careers.heading }}</h2>
+                </div>
+                <div class="cta__body">
+                    <p class="text-white">{{ .Params.careers.body }}</p>
+                </div>
+                {{ if .Params.careers.button.enabled }}
+                <div class="cta__btn mt-6">
+                    <a href="{{ .Params.careers.button.button_url }}" class="btn btn--white hero-button">{{ .Params.careers.button.button_text }}</a>
+                </div>
             </div>
         </div>
         {{ end }}
