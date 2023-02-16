@@ -14,10 +14,10 @@
             </div>
             <div class="intro-wrapper__images flex flex-row w-60-m p-relative">
                 <div class="intro-wrapper__image-2">
-                    <img src="{{ .image1.image_url }}" alt="">
+                    {{ partial "responsive-image" . }}
                 </div>
                 <div class="intro-wrapper__image-1 p-absolute">
-                    <img src="{{ .image2.image_url }}" alt="">
+                    {{ partial "responsive-image-small" . }}
                 </div>
             </div>
         </div>
