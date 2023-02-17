@@ -2,23 +2,23 @@
 {{ partialCached "home/home-hero" . }}
 {{ partial "home/home-intro" . }}
 {{ partial "intro" . }}
-
 {{ partial "image-reel" . }}
 
 <section class="community-section block">
     {{ if .Params.community.enabled }}
+    {{ with .Params.community }}
     <div class="wrapper-lg">
         <div class="outer-community flex flex-row">
             <div class="community-content w-50 m-auto">
                 <div>
-                    <h2 class="h3">{{ .Params.community.heading }}</h2>
+                    <h2 class="h3">{{ .heading }}</h2>
                 </div>
                 <div>
-                    <p>{{ .Params.community.body }}</p>
+                    <p>{{ .body }}</p>
                 </div>
-                 {{ if .Params.community.button.enabled}}
+                 {{ if .button.enabled}}
                 <div class="community-button">
-                    <a href="{{ .Params.community.button.button_url }}" class="btn btn--primary">{{ .Params.community.button.button_text }}</a>
+                    <a href="{{ .Params.community.button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
                 </div>
                 {{ end }}
             </div>
@@ -27,6 +27,7 @@
             </div>
         </div>
     </div>
+    {{ end }}
     {{ end }}
 </section>
 
