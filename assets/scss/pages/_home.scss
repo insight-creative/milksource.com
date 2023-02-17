@@ -52,19 +52,13 @@
 }
 
 .intro-wrapper__images {
-    left: 14.5%;
+    left: 20.5%;
 }
 
-// .intro-wrapper__image-2 {
-//     left: 23%;
-// }
-
 .intro-wrapper__image-1 {
-    // height: 471px;
-    // width: 353px;
-    z-index: 1;
-    bottom: -9%;
-    left: -25%;
+    position: relative;
+    top: 44%;
+    right: 94%;
 }
 
 .community-content {
@@ -73,8 +67,6 @@
 } 
 
 .community-image{
-    // height: 705px;
-    // width: 705px;
 
     img {
         width: 100%;
