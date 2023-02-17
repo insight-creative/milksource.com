@@ -23,7 +23,7 @@
                 {{ end }}
             </div>
             <div class="community-image w-50">
-                <img src="{{ .Params.community.image.image_url }}" alt="">
+                {{ partial "responsive-image" . }}
             </div>
         </div>
     </div>

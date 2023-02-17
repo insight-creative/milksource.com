@@ -81,11 +81,11 @@ intro:
     button_url: /about-us/
     button_text: Learn More About Milk Source
     open_in_new_tab: false
-  image1:
+  image:
     enabled: true
     image_url: /uploads/corn-harvester.jpg
     image_alt: Corn harvester
-  image2:
+  image1:
     enabled: true
     image_url: /uploads/portrait-of-a-cow.jpg
     image_alt: Portrait of a cow
@@ -106,7 +106,7 @@ community:
   heading: Involved in our communities where we live and work
   body: Milk Source farms strive to be good neighbors in our hometowns. We work alongside local food pantries, service groups, emergency service providers and other organizations to ensure the continued vitality of our communities. We foster agricultural transparency by offering free tours to our neighbors, local residents and their guests as well as sponsoring larger-scale public events, such as our annual “Salute to Cows Nights” with Minor League Baseball’s Wisconsin Timber Rattlers.
   image:
-    image_url: /uploads/compost-day.jpg
+    image_url: /uploads/community-compost-day.jpg
     image_alt: >-
       Exterior view of the Whistler's Run 19-stall state-of-the-art equestrian
       barn in DePere, WI
