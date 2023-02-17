@@ -27,13 +27,13 @@ intro:
     button_url: 
     button_text: 
     open_in_new_tab: false
-  image1:
+  image:
     enabled: true
     image_url: /uploads/hoseline-spreading.jpg
     image_alt: Corn harvester
-  image2:
+  image1:
     enabled: true
-    image_url: /uploads/overflow-pond-at-RD.jpg
+    image_url: /uploads/overflow-pond.jpg
     image_alt: Portrait of a cow
   button:
     enabled: false
