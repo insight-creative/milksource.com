@@ -1,6 +1,6 @@
 {{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
-<section class="block-lg">
+<section class="intro-test block-lg">
     <div class="wrapper-lg">
         <div class="intro-outter flex flex-row">
             <div class="intro-wrapper w-40-m">
@@ -11,7 +11,8 @@
                 {{ if .Params.button.enabled }}
                 <div><a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a></div>
                 {{ end }}
-            </div>
+            </div> 
+
             <div class="intro-wrapper__images flex flex-row w-60-m p-relative">
                 <div class="intro-wrapper__image-2">
                     {{ partial "responsive-image" . }}
@@ -20,6 +21,7 @@
                     {{ partial "responsive-image-small" . }}
                 </div>
             </div>
+
         </div>
     </div>
 </section>
