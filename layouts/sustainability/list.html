@@ -18,7 +18,13 @@
     </div>
     {{ partialCached "intro" . }}
     {{ partialCached "image-reel" . }}
-    {{ partialCached "what-is-a-carbon-footprint" . }}
+
+    {{ if .Params.cta.enabled }}
+    {{ with .Params.cta }}
+    {{ partialCached "cta" . }}
+    {{ end }}
+    {{ end }}
+
   </div>
 </section>
 {{ end }}
