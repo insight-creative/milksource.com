@@ -1,7 +1,7 @@
 ---
 title: Home
 seo:
-  page_title: Milk Source
+  page_title:
   meta_description:
   featured_image: /uploads/
 hero_slider:
