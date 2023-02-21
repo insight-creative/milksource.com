@@ -54,20 +54,13 @@
     margin-bottom: $ic-600;
 }
 
-// .intro-wrapper__images {
-//     left: 20.5%;
-// }
+.intro-wrapper__image-small {
+    position: absolute;
+    max-width: 350px;
+    bottom: -70px;
+    left: -200px;
+}
 
-// .intro-wrapper__image-small {
-//     position: relative;
-//     top: 44%;
-//     right: 94%;
-// }
-
-.community-content {
-    padding-right: $ic-900;
-    margin-left: 0;
-} 
 
 .community-image{
 
@@ -76,10 +69,6 @@
         height: 100%;
         object-fit: cover;
     }
-}
-
-.community-button {
-    margin-top: $ic-600;
 }
 
 .cta__content {

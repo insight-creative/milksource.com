@@ -9,20 +9,14 @@
     {{ with .Params.community }}
     <div class="wrapper-lg">
         <div class="outer-community flex flex-row">
-            <div class="community-content w-50 m-auto">
-                <div>
-                    <h2 class="h3">{{ .heading }}</h2>
-                </div>
-                <div>
+            <div class="community-content w-100 w-50-m m-auto flow">
+                    <h2 class="h1">{{ .heading }}</h2>
                     <p>{{ .body }}</p>
-                </div>
                  {{ if .button.enabled}}
-                <div class="community-button">
                     <a href="{{ .Params.community.button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
-                </div>
                 {{ end }}
             </div>
-            <div class="community-image w-50">
+            <div class="community-image w-100 w-50-m">
                 {{ partial "responsive-image" . }}
             </div>
         </div>
