@@ -11,19 +11,9 @@
     top: -3px;
   }
 
-  &__icon, 
-  &__icon-inner {
-    border-radius: 50%;
-    display: grid; 
-    place-items: center;
-  }
-
   &__icon {
     position: relative;
     margin: 0 5px;
-    // background-color: rgba($accent-color, .5);
-    // width: $ic-600;
-    // height: $ic-600;
 
     svg {
       width: $ic-300;
@@ -37,12 +27,6 @@
         opacity: 1;
       }
     }
-  }
-
-  &__icon-inner {
-    background-color: $white;
-    width: $ic-500;
-    height: $ic-500;
   }
 
   &__list-item:first-of-type a {

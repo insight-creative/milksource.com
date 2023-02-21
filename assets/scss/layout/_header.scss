@@ -4,13 +4,14 @@
   z-index: 9;
   transition: .3s ease-out;
   background-color: $white;
+  box-shadow: 0 4px 6px -6px;
 
   &__wrapper {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: $ic-100 0;
+    padding: 0.5rem 1.5625rem;
     margin-inline: auto;
     padding-inline: $ic-300;
 
