@@ -72,16 +72,6 @@
   }
 }
 
-.hero-button {
-  background-color: $white;
-
-  &:hover,
-  &:focus {
-    color: $primary-color;
-    background-color: #EBF1F2;
-  }
-}
-
 .__content {
   display: flex;
   flex-direction: column;

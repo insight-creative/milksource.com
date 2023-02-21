@@ -72,8 +72,11 @@
 
   &:hover,
   &:focus {
+    background-color: $white-btn-hover;
+    color: $primary-color;
     
     &::after {
+      color: $primary-color;
       border: 4px solid $white;
     }
   }
