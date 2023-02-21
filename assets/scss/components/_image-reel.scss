@@ -1,6 +1,6 @@
 .reel {
   height: 100%;
-  margin-left: 9%;
+  // margin-right: -170px;
 }
 
 .reel__wrapper {
@@ -9,6 +9,7 @@
   overflow-y: hidden;
   scrollbar-color: #1F2526 #EBF1F2;
   background-color: $primary-color;
+  margin-right: -180px;
 
   img {
     height: 100%;

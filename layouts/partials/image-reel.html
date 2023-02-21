@@ -12,16 +12,20 @@
         </div>
         {{ end }}
     </div>
-    <div class="reel">
+    <div class="reel wrapper-lg">
         <div class="reel__wrapper p-relative">
             {{ range $pages }}
+            {{ if ne .Title "What is Carbon Footprint" }}
             <div class="reel__image-card p-relative">
-                <img src="{{ .Params.hero.image.image_url }}" alt="" class="reel__image p-relative">
-                <div class="reel-gradient"></div>
-                <div class="reel__image-text-wrapper p-absolute">
-                    <h3 class="reel__image-text text-white h4">{{ .Params.hero.heading }}</h3>
-                </div>
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.hero.image.image_url }}" alt="" class="reel__image p-relative">
+                    <div class="reel-gradient"></div>
+                    <div class="reel__image-text-wrapper p-absolute">
+                        <h3 class="reel__image-text text-white h4">{{ .Params.hero.heading }}</h3>
+                    </div>
+                </a>
             </div>
+            {{ end }}
             {{ end }}
         </div>
     </div>
