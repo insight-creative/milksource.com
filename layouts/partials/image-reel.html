@@ -1,27 +1,23 @@
 {{ $pages := where .Site.RegularPages "Section" "sustainability" }}
 <section class="block bg-primary">
-    <div class="reel__ wrapper-lg">
+    <div class="reel wrapper-lg">
         {{ if .Params.slider.enabled}}
-        <div class="reel-content mb-4">
-            <div class="reel-heading">
-                <h2 class="text-white">{{ .Params.slider.heading }}</h2>
-            </div>
-            <div class="reel-body">
-                <p class="text-white">{{ .Params.slider.body }}</p>
-            </div>
+        <div class="mb-4 flow">
+            <h2 class="text-white">{{ .Params.slider.heading }}</h2>
+            <p class="text-white">{{ .Params.slider.body }}</p>
         </div>
         {{ end }}
     </div>
-    <div class="reel wrapper-lg">
-        <div class="reel__wrapper p-relative">
+    <div class="card wrapper-lg">
+        <div class="card__wrapper p-relative">
             {{ range $pages }}
             {{ if ne .Title "What is Carbon Footprint" }}
-            <div class="reel__image-card p-relative">
+            <div class="card__image-card p-relative">
                 <a href="{{ .Permalink }}">
-                    <img src="{{ .Params.hero.image.image_url }}" alt="" class="reel__image p-relative">
-                    <div class="reel-gradient"></div>
-                    <div class="reel__image-text-wrapper p-absolute">
-                        <h3 class="reel__image-text text-white h4">{{ .Params.hero.heading }}</h3>
+                    <img src="{{ .Params.hero.image.image_url }}" alt="" class="card__image p-relative">
+                    <div class="card-gradient"></div>
+                    <div class="card__image-text-wrapper p-absolute">
+                        <h3 class="card__image-text text-white h4">{{ .Params.hero.heading }}</h3>
                     </div>
                 </a>
             </div>
