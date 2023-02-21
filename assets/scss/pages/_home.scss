@@ -85,15 +85,8 @@
 
 .cta__content {
     bottom: 0;
-    z-index: 1;
+    z-index: 3;
     height: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.cta__gradient {
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(90deg, #0083A8 0%, rgba(95, 96, 74, 0.3) 100%);
 }
