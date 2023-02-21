@@ -56,6 +56,9 @@
 .w-26ch {
   width: 26ch;
 }
+.w-45ch {
+  width: 45ch;
+}
 
 @include breakpoint(sm) {
   .w-10-s {
