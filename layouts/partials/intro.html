@@ -3,25 +3,21 @@
 <section class="intro-test block-lg">
     <div class="wrapper-lg">
         <div class="intro-outter flex flex-row">
-            <div class="intro-wrapper w-40-m">
-                <div class="intro-wrapper__heading">
-                    <h2>{{ .heading }}</h2>
-                </div>
-                <div class="intro-wrapper__body">{{ .body }}</div>
-                {{ if .Params.button.enabled }}
-                <div><a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a></div>
+            <div class="intro-wrapper w-100 w-50-m flow">
+                <h2>{{ .heading }}</h2>
+                <p>{{ .body }}</p>
+                {{ if .button.enabled }}
+                <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
                 {{ end }}
             </div> 
-
-            <div class="intro-wrapper__images flex flex-row w-60-m p-relative">
+            <div class="intro-wrapper__images flex flex-row w-100 w-50-m p-relative ml-2">
                 <div class="intro-wrapper__image-large">
                     {{ partial "responsive-image" . }}
                 </div>
-                <div class="intro-wrapper__image-small">
+                <div class="intro-wrapper__image-small p-absolute">
                     {{ partial "responsive-image-small" . }}
                 </div>
             </div>
-
         </div>
     </div>
 </section>
