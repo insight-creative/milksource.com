@@ -34,7 +34,9 @@
 
   &:hover,
   &:focus {
-    filter: brightness(75%);
+    img {
+      filter: brightness(75%);
+    }
 
     .card__image-text-wrapper {
       h3 {
