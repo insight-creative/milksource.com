@@ -4,12 +4,12 @@
       <div class="flex flex-column flex-row-m">
           <div class="w-100 w-50-m m-auto flow">
               <h2>{{ .heading }}</h2>
-              <p class="w-45ch">{{ .body }}</p>
+              <p>{{ .body }}</p>
               {{ if .button.enabled}}
               <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
               {{ end }}
           </div>
-          <div class="w-100 w-50-m">
+          <div class="w-100 w-50-m ml-9">
               {{ partial "responsive-image" . }}
           </div>
       </div>

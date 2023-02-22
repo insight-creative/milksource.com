@@ -56,11 +56,10 @@
 
 .intro-wrapper__image-small {
     position: absolute;
-    max-width: 350px;
+    max-width: 250px;
     bottom: -70px;
-    left: -200px;
+    left: -100px;
 }
-
 
 .community-image{
 
@@ -77,4 +76,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.parent-page-sustainability .cta{
+    
 }
