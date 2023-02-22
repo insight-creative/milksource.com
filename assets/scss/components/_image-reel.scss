@@ -34,10 +34,13 @@
 
   &:hover,
   &:focus {
+    
     img {
       filter: brightness(75%);
-    }
+      transition: 0.3s ease-out;
 
+    }
+    
     .card__image-text-wrapper {
       h3 {
         transform: translateY(-17px);
