@@ -1,0 +1,18 @@
+<section class="two-column-section block">
+
+  <div class="wrapper-lg">
+      <div class="flex flex-column flex-row-m">
+          <div class="w-100 w-50-m m-auto flow">
+              <h2>{{ .heading }}</h2>
+              <p class="w-45ch">{{ .body }}</p>
+              {{ if .button.enabled}}
+              <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
+              {{ end }}
+          </div>
+          <div class="w-100 w-50-m">
+              {{ partial "responsive-image" . }}
+          </div>
+      </div>
+  </div>
+
+</section>
