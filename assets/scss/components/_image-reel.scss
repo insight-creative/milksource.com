@@ -34,9 +34,18 @@
 
   &:hover,
   &:focus {
-    transform: translateY(-8px);
+    filter: brightness(75%);
+
+    .card__image-text-wrapper {
+      h3 {
+        transform: translateY(-17px);
+        transition: 0.3s ease-out;
+      }
+    }
+
+    // transform: translateY(-8px);
     transition: 0.3s ease-out;
-    box-shadow: 3px 3px 12px 2px rgba(0, 0, 0, 0.4);
+    // box-shadow: 3px 3px 12px 2px rgba(0, 0, 0, 0.4);
   }
 }
 
