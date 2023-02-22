@@ -1,7 +1,3 @@
-.sustainability__hero-wrapper {
-  margin-bottom: 19rem;
-}
-
 .hero-wrapper__image {
 
   img {
@@ -11,10 +7,11 @@
 }
 
 .hero-block {
-  bottom: -12.5rem;
+  bottom: 0;
+  transform: translateY(-50%);
   background-color: $primary-color;
-  width: 1241px;
-  height: 340px;
+  width: 60%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,10 +19,8 @@
 
 .learn-more {
   bottom: 0;
-  left: 1016px;
+  right: 0;
   background-color: #006F8F;
-  height: 92px;
-  width: 223px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,11 +39,5 @@
   svg {
     transform: rotate(90deg);
     color: $white;
-    // width: 17px;
-    // height: 17px;
   }
-}
-
-.hero-content {
-  margin-left: 100px;
 }
