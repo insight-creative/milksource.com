@@ -54,6 +54,16 @@
     margin-bottom: $ic-600;
 }
 
+.intro-block {
+    padding-top: clamp(15rem, 10vh, 10rem);
+}
+
+.page-home {
+    .intro-block {
+        padding-top: clamp(3rem, 9vh, 10rem);
+    }
+}
+
 .intro-wrapper__image-small {
     position: absolute;
     max-width: 250px;
