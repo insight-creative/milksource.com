@@ -1,31 +1,13 @@
 {{ define "main" }}
-{{ if .Params.intro.enabled}}
-<section>
-  <div class="sustainability-wrapper">
-    <div class="sustainability__hero-wrapper p-relative">
-      <div class="hero-wrapper__image">
-        <img src="{{ .Params.hero.image.image_url}}" alt="">
-      </div>
-      <div class="hero-block p-absolute">
-          <div class="hero-content wrapper-lg flow">
-            <h1 class="text-white">{{ .Params.hero.heading }}</h1>
-            <p class="text-white">{{ .Params.hero.body }}</p>
-          </div>
-          <div class="learn-more p-absolute"> test
-            <a href="" class="btn text-white btn-learn-more">Learn More{{ partialCached "svg-icons/double-chevron-right.svg" . }} </a>
-          </div>
-      </div>
-    </div>
-    {{ partialCached "intro" . }}
-    {{ partialCached "image-reel" . }}
-
-    {{ if .Params.cta.enabled }}
-    {{ with .Params.cta }}
-    {{ partialCached "cta" . }}
-    {{ end }}
-    {{ end }}
-
+{{ partial "hero" . }}
+<div class="intro">
+  <div class="wrapper flow">
+    {{ .Content }}
   </div>
-</section>
+</div>
+{{ if .Params.cta.enabled }}
+  {{ with .Params.cta }}
+    {{ partial "cta" . }}
+  {{ end }}
 {{ end }}
 {{ end }}

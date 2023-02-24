@@ -100,6 +100,29 @@
   }
 }
 
+.btn--learn-more {
+  color: $white;
+  background-color: #006F8F;
+  transition: .3s ease-out;
+  display: flex;
+  align-items: center;
+  padding: $ic-400;
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+
+  svg {
+    fill: $white;
+    margin-left: .5rem;
+  }
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $btn-hover;
+  }
+}
+
 button {
   cursor: pointer;
 }

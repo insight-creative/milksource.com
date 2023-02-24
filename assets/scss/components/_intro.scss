@@ -1,3 +1,11 @@
 .intro {
-    padding: clamp($ic-500, 14%, 200px) 0 clamp($ic-500, 10%, $ic-1000) 0;
+    padding: clamp($ic-500, 20%, 250px) 0 clamp($ic-500, 10%, $ic-1000) 0;
+    background-image: url("/uploads/background-texture-small.png");
+
+    &__image-small {
+        position: absolute;
+        max-width: 250px;
+        bottom: -70px;
+        left: -100px;
+    }
 }

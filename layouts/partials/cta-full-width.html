@@ -1,0 +1,14 @@
+<section class="cta p-relative">
+  {{ partial "cta-image" . }}
+  <div class="wrapper-lg">
+    <div class="cta__content p-relative block flow">
+        <h2 class="text-white">{{ .heading }}</h2>
+        <p class="text-white">{{ .body }}</p>
+        {{ if .button.enabled }}
+          {{ with .button }}
+            <a href="{{ .button_text }}" class="btn btn--white">{{ .button_text }}</a>
+          {{ end }}
+        {{ end }}
+    </div>
+  </div>
+</section>

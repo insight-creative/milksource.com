@@ -115,16 +115,16 @@ community:
     button_url: /community/
     button_text: Our community efforts
     open_in_new_tab: false
-careers:
+cta:
   enabled: true
   heading: Now Hiring!
   body: Milk Source is a growing dairy enterprise with farms and affiliated operations in Wisconsin and the Midwest. We strive to provide a safe and respectful work environment for our team members. We believe that “sustainability” means taking good care of our people, our animals and our home communities.
-  image:
-    image_url: /uploads/leadership-class.jpg
-    image_alt:
   button:
     enabled: true
     button_url: /careers/
     button_text: View open positions
     open_in_new_tab: false
+  image:
+    image_url: /uploads/leadership-class.jpg
+    image_alt: Corn harvester
 ---

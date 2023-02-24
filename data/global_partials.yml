@@ -6,3 +6,15 @@ site_cta:
     button_url: /schedule-a-tour/
     button_text: Schedule your visit
     open_in_new_tab: false
+
+sustainability_cta:
+  enabled: true
+  heading: What is a Carbon Footprint?
+  body: Learn how Milk Source is a leader in the global effort to reduce emissions.
+  button:
+    enabled: true
+    button_url: 
+    button_text: Carbon Footprint
+  image:
+    image_url: /uploads/hoseline-spreading.jpg
+    image_alt: Corn harvester

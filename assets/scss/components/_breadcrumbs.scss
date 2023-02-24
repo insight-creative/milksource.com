@@ -1,11 +1,7 @@
 .breadcrumbs {
-  position: relative;
-  z-index: 3;
-  padding: $ic-200 0;
-
   &__inner {
     flex-wrap: nowrap;
-    height: 30px;
+    height: 20px;
     overflow: hidden;
   }
 
@@ -40,13 +36,24 @@
     &::after {
       position: absolute;
       content: "/";
+      color: $white;
     }
 
     a {
       text-decoration: none;
+
+      font-family: $secondary-font;
       font-size: $ic--100;
-      padding: 0 $ic--100;
+      color: $white;
+      padding-right: $ic--100;
+
       white-space: nowrap;
+    }
+  }
+
+  &__list-item + &__list-item {
+    a {
+      padding-left: $ic--100;
     }
   }
 
@@ -57,7 +64,7 @@
     }
 
     a {
-      color: rgba($primary-color, 0.9);
+      color: rgba($white, 0.7);
       pointer-events: none;
     }
   }

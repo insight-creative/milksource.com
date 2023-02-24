@@ -1,23 +1,20 @@
 {{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
-<section class="intro-block block-lg">
-    <div class="wrapper-lg pt-5">
-        <div class="intro-outter flex flex-column flex-row-m">
-            <div class="intro-wrapper w-100 w-50-m flow">
-                <h2>{{ .heading }}</h2>
-                <p class="w-45ch">{{ .body }}</p>
-                {{ if .button.enabled }}
-                <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
-                {{ end }}
-            </div> 
-            <div class="intro-wrapper__images flex flex-row w-100 w-50-m p-relative ml-9">
-                <div class="intro-wrapper__image-large">
-                    
-                    {{ partial "responsive-image" . }}
-                </div>
-                <div class="intro-wrapper__image-small p-absolute">
-                    {{ partial "responsive-image-small" . }}
-                </div>
+<section id="intro" class="intro">
+    <div class="wrapper-lg flex flex-center flex-column flex-row-m">
+        <div class="intro__body w-100 w-50-m flow">
+            <h2>{{ .heading }}</h2>
+            <div class="w-45ch flow">{{ .body | markdownify }}</div>
+            {{ if .button.enabled }}
+            <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
+            {{ end }}
+        </div> 
+        <div class="intro__images w-100 w-50-m p-relative ml-9">
+            <div class="intro__image-large">
+                {{ partial "responsive-image" . }}
+            </div>
+            <div class="intro__image-small p-absolute">
+                {{ partial "responsive-image-small" . }}
             </div>
         </div>
     </div>

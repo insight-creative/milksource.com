@@ -1,13 +1,18 @@
-<section class="cta p-relative">
-  <div class="cta__image cover-image p-absolute"><img src="{{ .image.image_url }}" alt=""></div>
-  <div class="bg-gradient"></div>
-  <div class="cta__content p-relative block">
-      <div class="wrapper-lg flow">
-        <h2 class="text-white">{{ .heading }}</h2>
-        <p class="text-white">{{ .body }}</p>
-        {{ if .button.enabled }}
-        <a href="{{ .Params.careers.button.button_url }}" class="btn btn--white">{{ .button.button_text }}</a>
+<section class="cta">
+  <div class="wrapper-lg">
+    <div class="cta__wrapper p-relative">
+      {{ partial "cta-image" . }}
+      <div class="cta__content p-relative block">
+          <div class="cta__content-inner flow">
+            <h2 class="text-white">{{ .heading }}</h2>
+            <p class="text-white">{{ .body }}</p>
+            {{ if .button.enabled }}
+              {{ with .button }}
+                <a href="{{ .button_text }}" class="btn btn--white">{{ .button_text }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
       </div>
-      {{ end }}
+    </div>
   </div>
 </section>
