@@ -22,7 +22,7 @@ intro:
     Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. Sustainability creates and maintains the conditions under which humans and nature can exist in productive harmony, that permit fulfilling the social, economic and other requirements of present and future generations.
 
 
-    Explore more details about our efforts to assist the Fox-Wolf Watershed Alliance rain barrel project.
+    Explore more details about <a href="https://www.postcrescent.com/story/money/2015/02/09/milk-source-teams-nonprofit-sustainability/23139737/" target="_blank">our efforts to assist the Fox-Wolf Watershed Alliance rain barrel project</a>.
   button:
     enabled: false
     button_url: 

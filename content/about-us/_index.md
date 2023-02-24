@@ -7,67 +7,14 @@ menu:
     weight: 1
 seo:
   page_title: About Milk Source
-  meta_description: >-
-    Learn all about Whistler’s Run and Rescue from barn founders and owners,
-    Lauren Underhill and Alissa Van Wassenhoven.
-  featured_image: /uploads/black-and-white-horse-in-pasture.jpg
+  meta_description: 
+  featured_image:
 hero:
   heading: Meet the owners
-  body:
+  body: 
   image:
-    image_url: /uploads/black-and-white-horse-in-pasture.jpg
-    image_alt: Black and white horse grazing during daily turnout in spacious pastures
-page_blocks:
-  - heading: About Whistler’s Run
-    body: >-
-      <p>What began as an equestrian boarding facility quickly evolved into our
-      current barn&mdash;a place where all animals can feel welcomed, safe and
-      loved.</p><p>It&rsquo;s our mission to provide the best life and utmost
-      respect for each animal that calls Whistler&rsquo;s Run home, from our
-      boarded horses to our many other full-time residents.</p>
-    button:
-      enabled: true
-      button_url: /about/our-philosophy/
-      button_text: Our philosophy
-      open_in_new_tab: false
-    text_column_left: true
-    text_column_right: false
-    image:
-      enabled: true
-      image_url: /uploads/two-brown-and-white-horses-with-coats.jpg
-      image_alt: Two brown horses wearing coats
-    footprints: left
-    background_color: gray
-  - heading: A haven for all creatures
-    body: >-
-      <p>As passionate animal advocates, we&rsquo;re always on the lookout for
-      animals in need. Along with supporting various animal rescue efforts and
-      organizations, we also provide a forever home for many rescue animals at
-      Whistler&rsquo;s Run.</p>
-    button:
-      enabled: false
-      button_url: /about/animals/
-      button_text: Meet the animals
-      open_in_new_tab: false
-    text_column_left: false
-    text_column_right: true
-    image:
-      enabled: true
-      image_url: /uploads/three-dogs-running-along-fence.jpg
-      image_alt: Four dogs running along fence at Whistler's Run & Rescue
-    footprints: right
-    background_color: white
-about_our_animals_block:
-  enabled: true
-  heading: About our animals
-  body: >-
-    <p style="max-width: 750px; margin: 1.25rem auto 0 auto;">The animals at
-    Whistler&rsquo;s come to us in a variety of ways. Some are boarded, some are
-    purchased and some are rescued. Learn more with the graphic below.</p>
-  image:
-    enabled: true
-    image_url: /uploads/whistlers-rescue-graphic.jpg
-    image_alt: Whistler's Run rescue graphic
+    image_url: /uploads/milk-source-owners-with-cows.jpg
+    image_alt: 
 cta_block:
   enabled: true
   heading: Visit the barn
