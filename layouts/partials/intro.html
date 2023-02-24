@@ -1,7 +1,7 @@
 {{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
-<section class="intro block-lg">
-    <div id="intro" class="wrapper-lg pt-5 flex flex-center flex-column flex-row-m">
+<section id="intro" class="intro">
+    <div class="wrapper-lg flex flex-center flex-column flex-row-m">
         <div class="intro__body w-100 w-50-m flow">
             <h2>{{ .heading }}</h2>
             <div class="w-45ch flow">{{ .body | markdownify }}</div>

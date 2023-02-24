@@ -1,6 +1,10 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ partial "intro" . }}
+<div class="intro">
+  <div class="wrapper flow">
+    {{ .Content }}
+  </div>
+</div>
 {{ if .Params.cta.enabled }}
   {{ with .Params.cta }}
     {{ partial "cta" . }}

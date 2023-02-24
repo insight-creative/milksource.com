@@ -14,17 +14,8 @@
     img {
       height: 100%;
       object-fit: cover;
-      filter: brightness(1);
     }
   }
-
-  &__content-inner {
-    padding: $ic-100;
-
-    @include breakpoint(sm) {
-      padding: $ic-200;
-    }
-  } 
 
   &__content {
     position: absolute; 
@@ -39,9 +30,17 @@
       top: 0;
       left: 0;
       height: 100%;
-      width: 60%;
+      width: 70%;
       background-color: $primary-color;
       z-index: -1;
     }
   }
+
+  &__content-inner {
+    padding: $ic-100;
+
+    @include breakpoint(sm) {
+      padding: $ic-200;
+    }
+  } 
 }

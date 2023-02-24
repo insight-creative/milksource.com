@@ -1,7 +1,6 @@
 .cta {
     &__wrapper {
-        margin-top: clamp($ic-500, 10%, $ic-1000);
-        margin-right: -250px;
+        margin-right: clamp(-250px, 5vw, -500px);
     }
 
     &__content {
@@ -15,4 +14,11 @@
     &__content-inner {
         padding-inline: $ic-900;
     }
+}
+
+.page-sustainability,
+.page-careers {
+  .cta__wrapper {
+    margin-top: clamp($ic-500, 10%, $ic-1000);
+  }
 }
