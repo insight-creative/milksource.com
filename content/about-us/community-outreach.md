@@ -1,25 +1,19 @@
 ---
-title: Community
-layout: community-outreach
-url: /about/community-outreach/
+title: Community Outreach
 seo:
   page_title:
-  meta_description: >-
-    See what life at Whistler’s Run is all about! Here, you’ll find photos from
-    our staff and boarders.
-  featured_image: /uploads/three-horses-running-in-outdoor-pasture-at-whistlers-run.jpg
+  meta_description:
+  featured_image:
 hero:
-  heading: Careers
+  heading: Community Outreach 
+  body: Involved in our communities where we live and work
   image:
-    image_url: /uploads/three-horses-running-in-outdoor-pasture-at-whistlers-run.jpg
-    image_alt: Three horses running through open pasture together
+    image_url: /uploads/
+    image_alt: 
 intro:
   enabled: true
   heading:
-  body: >-
-    <p style="text-align: center;max-width: 825px;margin: 0 auto;">It’s a good life here at Whistler’s Run! Don’t take our word for it—see
-    for yourself. Boarders, add your photos to the page using #WhistlersRun on
-    Instagram and Facebook.</p>
+  body:
 cta_block:
   enabled: true
   heading: Want to join the family?
@@ -30,3 +24,17 @@ cta_block:
     button_text: Our boarding services
     open_in_new_tab: false
 ---
+## Some of the ways we stay involved …
+
+In addition to offering tours to schools, senior groups and the general public, Milk Source is also interested in various partnerships within the local community whether it be through food pantries, service groups,  or organizations such as the Rural Health Initiative or great dairy promotions such as the yearly Salute to the Cow night held at Time Warner Cable Field at Fox Cities Stadium by the Wisconsin TimberRattlers.
+
+We are always interested in hearing from those in the community about special events and fundraisers coming up, or from large groups hoping to get an inside look at part of the Midwest’s incredible dairy industry.
+
+Please  share ideas on potential Milk Source partnerships by sending an e-mail to <a href="mailto:astern@milksource.net">astern@milksource.net<a/> or by mail to:
+
+N3569 Vanden Bosch Road
+Kaukauana, WI 54130.
+
+Milk Source team leaders collect more than 6,000 items for local food pantries
+
+New Chester Dairy sponsors a shopping spree by Grand Marsh Girl Scouts to help build activity kits for children who are hospitalized.
