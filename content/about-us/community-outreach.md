@@ -8,7 +8,7 @@ hero:
   heading: Community Outreach 
   body: Involved in our communities where we live and work
   image:
-    image_url: /uploads/timber-ratterlers-udder-tuggers.jpg
+    image_url: /uploads/timber-rattlers-udder-tuggers.jpg
     image_alt: 
 intro:
   enabled: true
