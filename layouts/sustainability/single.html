@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ if .Params.intro.enabled}}
 <section>
   <div class="sustainability-wrapper">
     <div class="sustainability__hero-wrapper p-relative">
@@ -10,7 +11,7 @@
             <h1 class="text-white">{{ .Params.hero.heading }}</h1>
             <p class="text-white">{{ .Params.hero.body }}</p>
           </div>
-          <div class="learn-more p-absolute">
+          <div class="learn-more p-absolute"> test
             <a href="" class="btn text-white btn-learn-more">Learn More{{ partialCached "svg-icons/double-chevron-right.svg" . }} </a>
           </div>
       </div>
@@ -26,4 +27,5 @@
 
   </div>
 </section>
+{{ end }}
 {{ end }}

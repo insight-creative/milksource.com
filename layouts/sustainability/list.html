@@ -16,7 +16,9 @@
           </div>
       </div>
     </div>
+    {{ if .Params.intro.enabled }}
     {{ partialCached "intro" . }}
+    {{ end }}
     {{ partialCached "image-reel" . }}
 
     {{ if .Params.cta.enabled }}

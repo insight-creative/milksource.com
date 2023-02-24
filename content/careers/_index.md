@@ -10,19 +10,25 @@ seo:
   meta_description: >-
     See what life at Whistler’s Run is all about! Here, you’ll find photos from
     our staff and boarders.
-  featured_image: /uploads/three-horses-running-in-outdoor-pasture-at-whistlers-run.jpg
+  featured_image: /uploads/
 hero:
   heading: Careers
   image:
-    image_url: /uploads/three-horses-running-in-outdoor-pasture-at-whistlers-run.jpg
-    image_alt: Three horses running through open pasture together
+    image_url: /uploads/leadership-class.jpg
+    image_alt: 
 intro:
   enabled: true
-  heading:
+  heading: How hiring!
   body: >-
-    <p style="text-align: center;max-width: 825px;margin: 0 auto;">It’s a good life here at Whistler’s Run! Don’t take our word for it—see
-    for yourself. Boarders, add your photos to the page using #WhistlersRun on
-    Instagram and Facebook.</p>
+    Milk Source is a growing multi-site farming enterprise with seven dairy farms, a calf farm, a heifer-raising facility and 22,000 acres. We strive to provide a safe work environment for our employees and optimal stewardship to the land.
+  image:
+    enabled: true
+    image_url: /uploads/heifer-source-pile.jpg
+    image_alt:
+  image1:
+    enabled: true
+    image_url: /uploads/heifer-source.jpg
+    image_alt:
 cta_block:
   enabled: true
   heading: Want to join the family?
