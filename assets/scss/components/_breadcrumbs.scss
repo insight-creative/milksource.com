@@ -1,5 +1,4 @@
 .breadcrumbs {
-
   &__inner {
     flex-wrap: nowrap;
     height: 20px;
@@ -42,10 +41,12 @@
 
     a {
       text-decoration: none;
+
       font-family: $secondary-font;
       font-size: $ic--100;
       color: $white;
       padding-right: $ic--100;
+
       white-space: nowrap;
     }
   }

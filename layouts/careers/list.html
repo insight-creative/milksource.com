@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section>
+  <div class="sustainability-wrapper">
+    <div class="sustainability__hero-wrapper p-relative">
+      <div class="hero-wrapper__image">
+        <img src="{{ .Params.hero.image.image_url}}" alt="">
+      </div>
+      <div class="hero-block p-absolute">
+          <div class="hero-content wrapper-lg flow">
+            <h1 class="text-white">{{ .Params.hero.heading }}</h1>
+            <p class="text-white">{{ .Params.hero.body }}</p>
+          </div>
+          <div class="learn-more p-absolute">
+            <a href="" class="btn text-white btn-learn-more">Learn More{{ partialCached "svg-icons/double-chevron-right.svg" . }} </a>
+          </div>
+      </div>
+    </div>
+    {{ if .Params.intro.enabled }}
+    {{ partialCached "intro" . }}
+    {{ end }}
+
+    <div class="block bg-gray">
+      <div class="wrapper flow">
+          <h2 class="text-center">Open Positions</h2>
+          <div class="coj-divider"></div>
+          <ul class="positions-list no-padding max-width-none">
+              {{ range .Pages }}
+                  <li class="position card no-list-style max-width-none flow">
+                      <div class="position__header">
+                          <h3>
+                              <button class="w-100 max-width-none no-padding flex flex-center flex-justify-between">
+                                  <span class="h3 font-primary">{{ .Title }}</span>
+                                  <span class="position__indicator">{{ partialCached "svg-icons/chevron-right.svg" . }}</span>
+                              </button>
+                          </h3>
+                          <div class="divider"></div>
+                      </div>
+                      <div class="position__content">
+                          <div class="position__content-inner flow">
+                              <p class="fs-100 max-width-none">{{ .Params.SEO.meta_description }}</p>
+                              <a href="{{ .Permalink }}" class="card__link card__read-more flex flex-center">View Job Listing {{ partialCached "svg-icons/double-chevron-right.svg" . }}</a>
+                          </div>
+                      </div>
+                  </li>
+              {{ end }}
+          </ul>
+      </div>
+  </div>
+
+    {{ if .Params.cta.enabled }}
+    {{ with .Params.cta }}
+    {{ partialCached "cta" . }}
+    {{ end }}
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}

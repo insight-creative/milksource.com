@@ -17,14 +17,9 @@ intro:
     <p>Let us make your boarding dreams come true! No matter the breed, size or discipline of your horse, they'll be readily welcome and expertly cared for at Whistler's Run.</p>
     <p>We offer one, all-inclusive indoor boarding service for a monthly fee of $650 or an outdoor board option for $300.</p>
   button:
-    enabled: true
+    enabled: false
     button_url: /uploads/whistlers-run-boarding-agreement.pdf
     button_text: Boarding Contract
-    open_in_new_tab: true
-  button_2:
-    enabled: true
-    button_url: /uploads/Whistlers-Liability-Form.pdf
-    button_text: Liability Contract
     open_in_new_tab: true
 page_blocks:
   - heading: Boarding inclusions
