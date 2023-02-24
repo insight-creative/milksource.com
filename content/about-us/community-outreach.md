@@ -8,7 +8,7 @@ hero:
   heading: Community Outreach 
   body: Involved in our communities where we live and work
   image:
-    image_url: /uploads/
+    image_url: /uploads/timber-ratterlers-udder-tuggers.jpg
     image_alt: 
 intro:
   enabled: true
@@ -30,11 +30,11 @@ In addition to offering tours to schools, senior groups and the general public, 
 
 We are always interested in hearing from those in the community about special events and fundraisers coming up, or from large groups hoping to get an inside look at part of the Midwest’s incredible dairy industry.
 
-Please  share ideas on potential Milk Source partnerships by sending an e-mail to <a href="mailto:astern@milksource.net">astern@milksource.net<a/> or by mail to:
+Please  share ideas on potential Milk Source partnerships by sending an e-mail to <a href="mailto:astern@milksource.net">astern@milksource.net</a> or by mail to:
 
 N3569 Vanden Bosch Road
 Kaukauana, WI 54130.
 
-Milk Source team leaders collect more than 6,000 items for local food pantries
+Milk Source team leaders collect more than 6,000 items for local food pantries.
 
 New Chester Dairy sponsors a shopping spree by Grand Marsh Girl Scouts to help build activity kits for children who are hospitalized.
