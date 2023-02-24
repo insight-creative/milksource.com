@@ -1,22 +1,120 @@
 .card {
-    &__image {
-        height: 275px;
+    background-color: $white;
+    padding: $ic-300;
+    transition: 0.3s ease-out;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%;
+  
+    &__link {
+      text-decoration: none;
     }
-
-    &__body {
-        background-color: rgba(255,255,255,.7);
-        padding: $ic-200;
-        width: 90%;
-        margin: 0 auto;
+  
+    &__link,
+    &__content {
+      height: 100%;
+    }
+  
+    &__author-image {
+      max-width: $ic-800;
+      max-height: $ic-800;
+      margin-right: $ic-200;
+      border: 2px solid $secondary-color;
+      border-radius: 50%;
+      background-color: $white;
+    }
+  
+    &__name {
+      margin-left: $ic--200;
+    }
+  
+    &__title {
+      color: $black;
+    }
+  
+    &__read-more {
+      font-size: $ic-100;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: $secondary-font;
+  
+      svg {
+        width: $ic-200;
+        height: $ic-200;
+        fill: $primary-color;
+        transition: 0.3s ease-out;
         position: relative;
-        top: -40px;
-        flex: 1;
-        display: flex;
+        top: -1px;
+      }
     }
-
-    &__body-inner {
-        border: 1px solid #f3f9ff;
-        padding: $ic-200;
-        flex: 1;
+  
+    &:hover,
+    &:focus {
+      background-image: url("/uploads/coj-logomark-watermark.svg");
+      box-shadow: 0 5px 8px rgba($primary-color, 0.1);
+  
+      .card__title {
+        color: $black;
+      }
+  
+      .reading-time svg,
+      .card__read-more svg {
+        fill: $secondary-color;
+      }
+  
+      .card__read-more svg {
+        transform: translateX(5px);
+      }
     }
-}
+  
+    .reading-time {
+      svg {
+        fill: $primary-color;
+        height: $ic--100;
+        width: $ic--100;
+        transition: 0.3s ease-out;
+      }
+    }
+  }
+  
+  .card--event,
+  .card--press-release {
+    background-color: $light-gray;
+  }
+  
+  .card--event {
+    margin-top: $ic-400;
+    height: auto;
+  
+    .card__read-more {
+      margin-top: $ic-300;
+    }
+  
+    &__month,
+    &__year {
+      text-transform: uppercase;
+      font-size: $ic--100;
+      letter-spacing: 2px;
+    }
+  
+    &__day {
+      font-size: $ic-500;
+      line-height: 1;
+    }
+  
+    &__year {
+      margin-bottom: $ic-100;
+    }
+  }
+  
+  .card--press-release {
+    &__content {
+      margin-bottom: $ic-400;
+    }
+  }
+  
+  .card--testimonial {
+    background-image: url(/uploads/coj-logomark-watermark.svg);
+    box-shadow: 0 5px 8px rgba($primary-color, 0.1);
+  }
