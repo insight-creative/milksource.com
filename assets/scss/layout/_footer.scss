@@ -103,8 +103,9 @@
   margin-top: 1.5rem;
 }
 
-.page-sustainability {
+.parent-page-sustainability {
   #footer {
-    padding-top: 7rem;
+    margin-top: -$ic-1000;
+    padding-top: $ic-1000;
   }
 }

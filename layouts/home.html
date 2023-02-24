@@ -10,9 +10,9 @@
 {{ end }}
 {{ end }}
 
-{{ if .Params.careers.enabled }}
-{{ with .Params.careers }}
-{{ partial "cta" . }}
-{{ end }}
+{{ if .Params.cta.enabled }}
+    {{ with .Params.cta }}
+        {{ partial "cta-full-width" . }}
+    {{ end }}
 {{ end }}
 {{ end }}

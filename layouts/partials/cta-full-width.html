@@ -1,0 +1,25 @@
+<section class="cta p-relative">
+  <div class="cta__image cover-image p-absolute">
+    <picture>
+      <source sizes="100vw" srcset="https://milksource.imgix.net{{ .image.image_url }}?fm=avif&q=80&height=600&width=400&fit=crop 600w, https://milksource.imgix.net{{ .image.image_url }}?fm=avif&q=80&height=400&width=800&fit=crop 800w, https://milksource.imgix.net{{ .image.image_url }}?fm=avif&q=80&height=500&width=1000&fit=crop 1000w, https://milksource.imgix.net{{ .image.image_url }}?fm=avif&q=80&height=700&width=1400&fit=crop 1400w, https://milksource.imgix.net{{ .image.image_url }}?fm=avif&q=80&height=900&width=1800&fit=crop 1800w, https://milksource.imgix.net{{ .image.image_url }}?fm=avif&q=80&height=1000&width=2500&fit=crop 2500w" type="image/avif">
+  
+      <source sizes="100vw" srcset="https://milksource.imgix.net{{ .image.image_url }}?fm=webp&q=80&height=600&width=400&fit=crop 600w, https://milksource.imgix.net{{ .image.image_url }}?fm=webp&q=80&height=400&width=800&fit=crop 800w, https://milksource.imgix.net{{ .image.image_url }}?fm=webp&q=80&height=500&width=1000&fit=crop 1000w, https://milksource.imgix.net{{ .image.image_url }}?fm=webp&q=80&height=700&width=1400&fit=crop 1400w, https://milksource.imgix.net{{ .image.image_url }}?fm=webp&q=80&height=900&width=1800&fit=crop 1800w, https://milksource.imgix.net{{ .image.image_url }}?fm=webp&q=80&height=1000&width=2500&fit=crop 2500w" type="image/webp">
+  
+      <source sizes="100vw" srcset="https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=80&height=600&width=400&fit=crop 600w, https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=80&height=400&width=800&fit=crop 800w, https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=80&height=500&width=1000&fit=crop 1000w, https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=80&height=700&width=1400&fit=crop 1400w, https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=80&height=900&width=1800&fit=crop 1800w, https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=80&height=1000&width=2500&fit=crop 2500w" type="image/jpg">
+      
+      <img src="{{ .image.image_url }}" width="1500" height="600" alt="{{ .image.image_alt }}">
+    </picture>
+  </div>
+  <div class="bg-gradient"></div>
+  <div class="wrapper-lg">
+    <div class="cta__content p-relative block flow">
+        <h2 class="text-white">{{ .heading }}</h2>
+        <p class="text-white">{{ .body }}</p>
+        {{ if .button.enabled }}
+          {{ with .button }}
+            <a href="{{ .button_text }}" class="btn btn--white">{{ .button_text }}</a>
+          {{ end }}
+        {{ end }}
+    </div>
+  </div>
+</section>
