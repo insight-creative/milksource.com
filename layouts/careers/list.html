@@ -1,5 +1,4 @@
 {{ define "main" }}
-<section>
   {{ partial "hero" . }}
 {{ partial "intro" . }}
   </div>
@@ -8,6 +7,7 @@
       {{ partial "cta" . }}
     {{ end }}
   {{ end }}
+<section>
   <div class="block bg-gray">
     <div class="wrapper flow">
         <h2 class="text-center">Open Positions</h2>
@@ -35,10 +35,10 @@
         </ul>
     </div>
   </div>
+</section>
   {{ if .Params.cta_block.enabled }}
   {{ with .Params.cta_block }}
   {{ partialCached "cta" . }}
   {{ end }}
   {{ end }}
-</section>
 {{ end }}
