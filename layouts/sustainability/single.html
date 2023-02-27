@@ -5,6 +5,7 @@
     {{ .Content }}
   </div>
 </div>
+{{ partial "image-reel" . }}
 {{ if .Params.cta.enabled }}
   {{ with .Params.cta }}
     {{ partial "cta" . }}
