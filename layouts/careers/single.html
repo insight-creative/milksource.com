@@ -4,9 +4,12 @@
         <div class="post-content__inner flow">
             {{ .Content  }}
             <a href="/apply-now/" class="btn btn-primary">Apply Now</a>
-
         </div>
     </div>
 </section>
-
+{{ if .Params.cta_block.enabled }}
+{{ with .Params.cta_block }}
+{{ partial "cta" . }}
+{{ end }}
+{{ end }}
 {{ end }}

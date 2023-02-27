@@ -1,12 +1,6 @@
 {{ define "main" }}
   {{ partial "hero" . }}
 {{ partial "intro" . }}
-  </div>
-  {{ if .Params.cta.enabled }}
-    {{ with .Params.cta }}
-      {{ partial "cta" . }}
-    {{ end }}
-  {{ end }}
 <section>
   <div class="block bg-gray">
     <div class="wrapper flow">
@@ -26,7 +20,7 @@
                     <div class="position__content">
                         <div class="position__content-inner flow">
                             <p class="fs-100 max-width-none">{{ .Params.SEO.meta_description }}</p>
-                            <a href="{{ .Permalink }}" class="btn btn--primary card__link card__read-more flex flex-center">View Job Listing</a>
+                            <a href="{{ .Permalink }}" class="btn btn--primary card__link card__read-more flex flex-center">View Job Listing {{ partialCached "svg-icons/double-chevron-right.svg" . }}</a>
                             <p>{{upper .Params.location.city }}, {{upper .Params.location.state }} | {{upper .Params.status }}<span>POSTED ON: {{ .Params.date.Format "January 2, 2006" }}</span></p>
                         </div>
                     </div>
@@ -38,7 +32,7 @@
 </section>
   {{ if .Params.cta_block.enabled }}
   {{ with .Params.cta_block }}
-  {{ partialCached "cta" . }}
+  {{ partial "cta" . }}
   {{ end }}
   {{ end }}
 {{ end }}
