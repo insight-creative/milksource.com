@@ -12,9 +12,11 @@ seo:
   featured_image_alt: 
 hero:
   enabled: true
-  heading:
-  image_url: /uploads/
-  image_alt:
+  heading: Milk Source News
+  body: Stay up to date with what’s happening.
+  image:
+    image_url: /uploads/milk-source-sinage.jpg
+    image_alt: Milk Source sign
 intro:
   enabled: true
   heading: Wheels for Every Vehicle

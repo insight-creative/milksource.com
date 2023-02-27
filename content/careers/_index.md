@@ -12,6 +12,7 @@ seo:
     our staff and boarders.
   featured_image: /uploads/
 hero:
+  enabled: true
   heading: Careers
   image:
     image_url: /uploads/leadership-class.jpg
