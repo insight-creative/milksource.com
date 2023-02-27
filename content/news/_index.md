@@ -15,7 +15,7 @@ hero:
   heading: Milk Source News
   body: Stay up to date with what’s happening.
   image:
-    image_url: /uploads/milk-source-sinage.jpg
+    image_url: /uploads/milk-source-signage.jpg
     image_alt: Milk Source sign
 intro:
   enabled: true

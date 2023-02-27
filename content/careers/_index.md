@@ -14,6 +14,7 @@ seo:
 hero:
   enabled: true
   heading: Careers
+  body: 
   image:
     image_url: /uploads/leadership-class.jpg
     image_alt: 
