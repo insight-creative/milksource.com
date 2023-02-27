@@ -6,9 +6,9 @@ seo:
   featured_image: 
   featured_image_alt:
 location:
-  city: kaukauna
-  state: wi
-status: full time
+  city: Kaukauna
+  state: WI
+status: Full Time
 date: 2023-01-18
 ---
 
