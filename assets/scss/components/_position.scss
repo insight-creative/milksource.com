@@ -1,0 +1,45 @@
+.position {
+    &__content {
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        transition: .3s ease-out;
+    }
+
+    button {
+        border: none;
+        background-color: rgba($white, 0);
+        
+        span {
+            font-family: $secondary-font;
+        }
+    }
+
+    .h3 {
+        font-size: clamp($ic-200, 4vw, $ic-500);
+    }
+
+    &__indicator {
+        background-color: $primary-color;
+        height: $ic-400;
+        width: $ic-400;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+
+        svg {
+            stroke: $white;
+            width: $ic--100;
+            height: $ic--100;
+            transform: rotate(90deg);
+            transition: .3s ease-out;
+        }
+    }
+}
+
+.position.position-open .position__indicator {
+    svg {
+        transform: rotate(-90deg);
+    }
+}
+

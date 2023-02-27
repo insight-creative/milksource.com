@@ -54,7 +54,8 @@ module.exports = {
         'crt-widget-branded',
         'crt-image',
         'crt-image-c',
-        'active-button'
+        'active-button',
+        'position-open'
       ],
     }),
   ],

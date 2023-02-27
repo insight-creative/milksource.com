@@ -31,11 +31,14 @@ intro:
     image_alt:
 cta_block:
   enabled: true
-  heading: Want to join the family?
-  body: Visit our boarding page to learn more!
+  heading: About Milk Source
+  body: Milk Source’s goal every day is to be an outstanding dairy producer through quality care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as an outstanding place to work.
   button:
     enabled: true
-    button_url: /boarding/
-    button_text: Our boarding services
+    button_url: /about-us/
+    button_text: Learn More About Milk Source
     open_in_new_tab: false
+  image:
+    image_url: /uploads/milk-source-owners-with-cows.jpg
+    image_alt: Milk Source owners
 ---

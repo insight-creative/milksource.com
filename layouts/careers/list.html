@@ -35,8 +35,8 @@
         </ul>
     </div>
   </div>
-  {{ if .Params.cta.enabled }}
-  {{ with .Params.cta }}
+  {{ if .Params.cta_block.enabled }}
+  {{ with .Params.cta_block }}
   {{ partialCached "cta" . }}
   {{ end }}
   {{ end }}

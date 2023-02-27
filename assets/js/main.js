@@ -10,6 +10,7 @@ const slides = document.querySelectorAll('.hero-slider__slide');
 const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
 const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
 const slideWidth = slides[0].getBoundingClientRect().width;
+const positionsContainer = document.querySelector('.positions-list');
 
 mobileMenu.style.height = 0
 
@@ -105,4 +106,47 @@ function removeActiveButtonClass() {
   sliderButton.forEach(button => {
     button.classList.remove(['active-button']);
   })
+}
+
+if (document.body.contains(positionsContainer)) {
+  positionsContainer.addEventListener('click', event => {
+    const positionHeader = event.target.closest('.position__header');
+
+    if (!positionHeader) return;
+
+    const position = positionHeader.parentElement;
+    const height = getContentHeight(position);
+
+    updateOpenPositions(position, height);
+  })
+}
+
+function updateOpenPositions (position, height) {
+  const positionContent = position.querySelector('.position__content');
+
+  position.classList.toggle('position-open');
+  positionContent.style.height = height + 'px';
+}
+
+function openFirstPosition() {
+  const openPosition = document.querySelector('.position');
+  
+  if (!openPosition) return;
+
+  const positionContent = openPosition.querySelector('.position__content');
+  const positionInner = openPosition.querySelector('.position__content-inner');
+  const height = positionInner.getBoundingClientRect().height;
+
+  openPosition.classList.add('position-open');
+
+  positionContent.style.height = height + 'px';
+}
+
+openFirstPosition();
+
+function getContentHeight (position) {
+  const positionInner = position.querySelector('.position__content-inner');
+
+  if (position.classList.contains('position-open')) return 0;
+  return positionInner.getBoundingClientRect().height;
 }
