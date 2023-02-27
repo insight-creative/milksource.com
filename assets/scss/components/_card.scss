@@ -51,7 +51,6 @@
   
     &:hover,
     &:focus {
-      background-image: url("/uploads/coj-logomark-watermark.svg");
       box-shadow: 0 5px 8px rgba($primary-color, 0.1);
   
       .card__title {
@@ -115,6 +114,5 @@
   }
   
   .card--testimonial {
-    background-image: url(/uploads/coj-logomark-watermark.svg);
     box-shadow: 0 5px 8px rgba($primary-color, 0.1);
   }

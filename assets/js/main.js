@@ -8,8 +8,6 @@ const mobileMenuHeight = mobileMenu.getBoundingClientRect().height
 const content = document.querySelector('.hero-slider__wrapper');
 const slides = document.querySelectorAll('.hero-slider__slide');
 const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
-const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
-const slideWidth = slides[0].getBoundingClientRect().width;
 const positionsContainer = document.querySelector('.positions-list');
 
 mobileMenu.style.height = 0
@@ -67,45 +65,53 @@ window.addEventListener("scroll", function() {
   scrollDetect(collapseNav, expandNav)
 })
 
-sliderButton[0].classList.add('active-button');
+let heroSliderCheck = document.querySelector('section');
+let sliderIsTrue = heroSliderCheck.classList.contains('hero-slider');
 
-sliderButton.forEach(button => {
-  button.addEventListener('click', e => {
-    let clickedButtonIndex;
+if (sliderIsTrue) {
+  const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
+  const slideWidth = slides[0].getBoundingClientRect().width;
 
-      for (let i = 0; i  < sliderButton.length; i++) {
-        if (sliderButton[i] === button) {
-          clickedButtonIndex = i;
-        }
-      }
-
-     removeIsSelectedClass();
-     removeActiveButtonClass();
-
-     button.classList.add('active-button');
-
-     const slideToShow = slides[clickedButtonIndex];
-     const destination = getComputedStyle(slideToShow).left;
-
-     slideToShow.classList.add('is-selected');
-     content.style.transform = `translateX(-${destination})`;
-  })
-})
-
-slides.forEach((slide, index) => {
-  slide.style.left = slideWidth * index + 'px';
-})
-
-function removeIsSelectedClass() {
-  slides.forEach(slide => {
-    slide.classList.remove(['is-selected']);
-  })
-}
-
-function removeActiveButtonClass() {
+  sliderButton[0].classList.add('active-button');
+  
   sliderButton.forEach(button => {
-    button.classList.remove(['active-button']);
+    button.addEventListener('click', e => {
+      let clickedButtonIndex;
+  
+        for (let i = 0; i  < sliderButton.length; i++) {
+          if (sliderButton[i] === button) {
+            clickedButtonIndex = i;
+          }
+        }
+  
+      removeIsSelectedClass();
+      removeActiveButtonClass();
+  
+      button.classList.add('active-button');
+  
+      const slideToShow = slides[clickedButtonIndex];
+      const destination = getComputedStyle(slideToShow).left;
+  
+      slideToShow.classList.add('is-selected');
+      content.style.transform = `translateX(-${destination})`;
+    })
   })
+  
+  slides.forEach((slide, index) => {
+    slide.style.left = slideWidth * index + 'px';
+  })
+
+  function removeIsSelectedClass() {
+    slides.forEach(slide => {
+      slide.classList.remove(['is-selected']);
+    })
+  }
+
+  function removeActiveButtonClass() {
+    sliderButton.forEach(button => {
+      button.classList.remove(['active-button']);
+    })
+  }
 }
 
 if (document.body.contains(positionsContainer)) {
