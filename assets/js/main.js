@@ -156,3 +156,16 @@ function getContentHeight (position) {
   if (position.classList.contains('position-open')) return 0;
   return positionInner.getBoundingClientRect().height;
 }
+
+function filterPosts () {
+  const filterBtn = document.querySelector('.btn-filter');
+  const categoryList = document.querySelector('.category-list');
+
+  if (!document.body.contains(categoryList)) return
+  filterBtn.addEventListener('click', event => {
+    categoryList.classList.toggle('list-open')
+  })
+}
+
+filterPosts();
+
