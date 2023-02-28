@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ partial "breadcrumbs" . }}
+<section aria-label="Resources Content Body" class="block">
+    <div class="post-content wrapper-lg flex flex-column-reverse flex-row-m">
+        <div class="w-100 w-20-m">
+
+        </div>
+        <div class="w-100 w-80-m">
+            <div class="post-content__inner flow">
+                {{ .Content  }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

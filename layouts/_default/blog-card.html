@@ -1,0 +1,55 @@
+{{ $image := (.Resources.GetMatch (index .Params.seo.featured_image)) }}
+{{ $smallwebp := $image.Resize "600x q85 webp" }}
+{{ $smalljpg := $image.Resize "600x q85" }}
+<article class="card card--blog shadow-1 fs-100">
+	<a href="{{ .Permalink }}" class="flow no-decoration">
+		<div class="cover-image">
+			<picture>
+				<source srcset="{{ $smallwebp.RelPermalink }}" type="image/webp" >
+				<source srcset="{{ $smalljpg.RelPermalink }}" type="image/jpg" >
+				<img loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ .Params.seo.featured_image_alt }}" width="500" height="300">
+      </picture>
+			<div class="card__mt-swoosh w-100">
+
+			</div>
+			{{ if .Params.Categories }}
+				{{ range $index, $elements := .Params.Categories }}
+				<div class="card__meta bg-primary text-white fs-100 fw-700">
+					<span class="card__categories">{{ if ne $index 0 }}{{ end }}{{ . | title }}</span>
+				</div>
+				{{ end}}
+			{{ end }}			
+		</div>
+		<div class="card__icon-container p-relative">
+			{{ if .Params.Categories }}
+				{{ range .Params.Categories }}
+				<div class="card__icon icon icon-lg icon-white bg-primary">
+					{{ if eq . "Oil Change for the Better" }}
+						{{ partialCached "svg-icons/oil-changes.svg" . }}
+					{{ else if eq . "Seasonal" }}
+						{{ partialCached "svg-icons/air-conditioning-and-heating.svg" . }}
+					{{ else if (or (eq . "On the Road") (eq . "Tires")) }}
+						{{ partialCached "svg-icons/wheel-repair.svg" . }}
+					{{ else if eq . "Maintenance" }}
+						{{ partialCached "svg-icons/maintenance.svg" . }}
+					{{ else if eq . "Services" }}
+						{{ partialCached "svg-icons/engine.svg" . }}
+					{{ else if eq . "Safety" }}
+						{{ partialCached "svg-icons/warning.svg" . }}
+					{{ else if eq . "News/Events" }}
+						{{ partialCached "svg-icons/article.svg" . }}
+					{{ end }}
+				</div>
+				{{ end }}
+			{{ end }}
+		</div>
+		<div class="card__body flow">
+			<h3 class="h6 text-primary">{{ .Title | markdownify }}</h3>
+			<p class="text-black">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</p>
+		</div>
+		<span class="card__reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>
+		<div class="card__arrow bg-primary">
+			{{ partialCached "svg-icons/double-chevron-right.svg" . }}
+		</div>
+	</a>
+</article>

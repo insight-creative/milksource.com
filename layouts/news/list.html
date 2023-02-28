@@ -6,7 +6,7 @@
       <div class="wrapper-lg mt-6">
         {{ $pages := .Site.RegularPages }}
         <div class="grid-3">
-            {{ $paginator := .Paginate ( where .Data.Pages "Type" "resources" ) }}
+            {{ $paginator := .Paginate ( where .Data.Pages "Type" "news" ) }}
             {{ range $paginator.Pages }}
                 {{ .Render "blog-card" }}
             {{ end }}
