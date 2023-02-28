@@ -9,6 +9,7 @@ seo:
 date: "2015-12-12"
 categories: 
   - "news"
+  - "milksource genetics"
 ---
 
 [Click here to view the complete Tag Event Champions catalog](http://online.anyflip.com/qrsx/wnhi).

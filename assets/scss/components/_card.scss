@@ -48,25 +48,14 @@
         top: -1px;
       }
     }
-  
+
     &:hover,
     &:focus {
-      box-shadow: 0 5px 8px rgba($primary-color, 0.1);
-  
-      .card__title {
-        color: $black;
-      }
-  
-      .reading-time svg,
-      .card__read-more svg {
-        fill: $secondary-color;
-      }
-  
-      .card__read-more svg {
-        transform: translateX(5px);
-      }
+      transform: translateY(-5px);
+      transition: 0.3s ease-out;
+      box-shadow: 5px 5px 18px -2px rgba(0, 0, 0, 0.4);
     }
-  
+
     &__reading-time {
       svg {
         fill: $primary-color;
@@ -86,49 +75,9 @@
       place-items: center;
 
       svg {
-        fill: $accent-color;
+        fill: $white;
         height: $ic-400;
         width: $ic-400;
       }
     }
-  }
-  
-  .card--event,
-  .card--press-release {
-    background-color: $light-gray;
-  }
-  
-  .card--event {
-    margin-top: $ic-400;
-    height: auto;
-  
-    .card__read-more {
-      margin-top: $ic-300;
-    }
-  
-    &__month,
-    &__year {
-      text-transform: uppercase;
-      font-size: $ic--100;
-      letter-spacing: 2px;
-    }
-  
-    &__day {
-      font-size: $ic-500;
-      line-height: 1;
-    }
-  
-    &__year {
-      margin-bottom: $ic-100;
-    }
-  }
-  
-  .card--press-release {
-    &__content {
-      margin-bottom: $ic-400;
-    }
-  }
-  
-  .card--testimonial {
-    box-shadow: 0 5px 8px rgba($primary-color, 0.1);
   }
