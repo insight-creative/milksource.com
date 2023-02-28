@@ -75,6 +75,22 @@
         transition: 0.3s ease-out;
       }
     }
+
+    &__arrow {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: $ic-600;
+      width: $ic-600;
+      display: grid;
+      place-items: center;
+
+      svg {
+        fill: $accent-color;
+        height: $ic-400;
+        width: $ic-400;
+      }
+    }
   }
   
   .card--event,
