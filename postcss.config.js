@@ -55,7 +55,8 @@ module.exports = {
         'crt-image',
         'crt-image-c',
         'active-button',
-        'position-open'
+        'position-open',
+        'list-open'
       ],
     }),
   ],
