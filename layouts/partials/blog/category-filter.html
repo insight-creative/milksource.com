@@ -1,7 +1,7 @@
 <div class="padding-top-6">
   <div class="wrapper-lg">
     <div class="category-wrapper border-bottom-gray">
-      <button class="btn-filter text-primary">{{ partialCached "svg-icons/filter.svg" . }} Filter by Category</button>
+      <button class="btn-filter text-secondary">{{ partialCached "svg-icons/filter.svg" . }} Filter by Category</button>
         {{- if isset site.Taxonomies "categories" }}
         {{- if not (eq (len site.Taxonomies.categories) 0) }}
         <ul class="category-list bg-primary">

@@ -1,17 +1,7 @@
-{{ $image := (.Resources.GetMatch (index .Params.seo.featured_image)) }}
-{{ $smallwebp := $image.Resize "600x q85 webp" }}
-{{ $smalljpg := $image.Resize "600x q85" }}
+
 <article class="card card--blog shadow-1 fs-100">
 	<a href="{{ .Permalink }}" class="flow no-decoration">
-		<div class="cover-image">
-			<picture>
-				<source srcset="{{ $smallwebp.RelPermalink }}" type="image/webp" >
-				<source srcset="{{ $smalljpg.RelPermalink }}" type="image/jpg" >
-				<img loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ .Params.seo.featured_image_alt }}" width="500" height="300">
-      </picture>
-			<div class="card__mt-swoosh w-100">
 
-			</div>
 			{{ if .Params.Categories }}
 				{{ range $index, $elements := .Params.Categories }}
 				<div class="card__meta bg-primary text-white fs-100 fw-700">
