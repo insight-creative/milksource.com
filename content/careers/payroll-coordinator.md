@@ -2,7 +2,7 @@
 title: Payroll Coordinator
 seo:
   page_title: Payroll Coordinator
-  meta_description:
+  meta_description: This position is a vital role on our team as they are responsible for bi-weekly payroll administration for 600+ employees as well as maintaining employee records and preparing various reports for our management team. This role is 100% in office in Kaukauna, WI and includes competitive compensation & full benefits!
   featured_image: 
   featured_image_alt:
 location:
