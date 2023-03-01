@@ -1,0 +1,14 @@
+---
+title: "Over $100,000 raised for Children's Hospital"
+date: "2013-07-23"
+categories: 
+  - "news"
+---
+
+![Dairy-Cares-Color-logo](http://ecbiz137.inmotionhosting.com/~insigh40/milksource.com/wp-content/uploads/2013/07/Dairy-Cares-Color-logo.jpg)KAUKAUNA, Wis. (July 23, 2013) – More than $100,000 was raised by Dairy Cares of Wisconsin at its third annual garden party on Saturday, July 20, for Children’s Hospital of Wisconsin.
+
+The 2013 garden party was a huge success as 300 attendees and other members of the industry raised a grand total of $104,000 this year. Deric DuQuaine of Milk Source, Dairy Cares Board Member and Treasurer, said, “We have many great partners and sponsors in the organization. It was simply amazing to be able to raise over six digits for Children’s Hospital this year.” Children’s Hospital of Wisconsin is located in Milwaukee and also on the Theda Clark Medical Center campus in the Fox Valley.
+
+The Dairy Cares of Wisconsin organization was created in 2011 as an opportunity for members of the dairy industry to come together and offer support to a good cause. Children’s Hospital of Wisconsin has been the event’s chosen beneficiary each year. In 2011, Dairy Cares raised $27,000 for the hospital and then raised $60,000 last year, for a three year grand total of more than $190,000.
+
+Dairy Cares thanks the following sponsors: BMO Harris Bank, Milk Source, Brian Retzlaff Trucking, Cargill Animal Nutrition, Conestoga Rovers and Associates, Drake Dairy, Family Insurance Center, Grassland Dairy Products, Hank Olson Construction, LDS, Semex, Shiloh Dairy, Vanderloop Equipment, Overhead Solutions, Van de Loo Farms, Airing Equipment Comapany, American Foods Group, Animal Health International, Animart, Bayland Buildings, BelGioioso Cheese, Cornette Farm Supply, DVO, First Capitol Ag/Knight Capitol, Fox Structures, Freudenthal MFG, G&K Services, GreenStone Farm Credit Services, Komro Sales & Service, Mueller Excavating, Nick Galante & Laurie Fischer Galante, Novak’s Cheese, Pagel’s Ponderosa, Pat’s Tire Sales and Service, Phil’s Pumping & Fab, Pine River Pre-Pack, Reinhart Boerner Van Deuren S.C., Schenck S.C., Sixel & Schwinn, Troy’s Transport, Baylake Bank, Ethan Hendricks, Gary Van de Loo Livestock, John & Keri Vosters, Larry & Kay Ferguson, Remer Farms, Thomas Seifert and Nancy Thompson, JLS Electric, Mark’s Electric, Bill Lorrigan Construction, Dan & Barb Natzke, Glacier Transit and Storage, J. Jadin Inc., Jamie & Shannon Endvick, Larson Acres, Modern Dairy Systems, Roll-O-Matic Curtains, RP Feed Components, Vanderkinter Farms, Ebert Dairy Enterprises, Udder Tech, Blazei Hooftrimming, Darlington Dairy Supply Co., Leo Van De Yacht Drilling, Scott & Renee Schrift, Tri-County Overhead Door Services, Wallendal Supply, Direct Enterprises, Waste Control Services, Dairy Business Resources, Eric & Angie Olstad, Mike’s Welding and Repair, and Hydroclean Equipment.

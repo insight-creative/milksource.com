@@ -9,7 +9,7 @@ a, .simple-link {
   }
 }
 
-.site-main a:not(.btn, .breadcrumbs a, .social__icon, .crt-widget a, .category-list a) {
+.site-main a:not(.btn, .breadcrumbs a, .social__icon, .crt-widget a, .category-list a, .card__categories) {
   color: $primary-color;
   text-decoration: none;
   background-image: linear-gradient($accent-color, $accent-color),linear-gradient(270deg,$primary-color 0%,$primary-color 100%);

@@ -49,13 +49,6 @@
     }
   }
 
-  &:hover,
-  &:focus {
-    transform: translateY(-4px);
-    transition: 0.3s ease-out;
-    box-shadow: 5px 5px 18px -2px rgba(0, 0, 0, 0.4);
-  }
-
   &__reading-time {
     svg {
       fill: $primary-color;
@@ -79,5 +72,25 @@
       height: $ic-400;
       width: $ic-400;
     }
+  }
+}
+
+.card--blog {
+  padding: 0;
+
+  .card__body {
+    padding: $ic-300;
+  }
+
+  .card__categories {
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
+    transition: 0.3s ease-out;
+    box-shadow: 5px 5px 18px -2px rgba(0, 0, 0, 0.4);
   }
 }
