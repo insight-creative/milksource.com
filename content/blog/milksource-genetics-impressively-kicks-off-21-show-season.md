@@ -1,10 +1,15 @@
 ---
+layout: post
 title: "MilkSource Genetics Impressively Kicks Off '21 Show Season"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/faithful.jpg
+  featured_image_alt: Faithful
 date: "2021-05-03"
 categories: 
   - "milksource-genetics"
   - "news"
-coverImage: "Faithful-BEST-SHOT-TO-USE.jpg"
 ---
 
 The 2021 Show Season began with impressive results at the Midwest National Spring Open Shows for Jerseys, Holsteins and Red & White cows that were either MilkSource Genetics bred or exhibited.

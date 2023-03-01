@@ -1,5 +1,11 @@
 ---
+layout: post
 title: "World Dairy Expo '21: Joline Takes the R&W Crown"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/joline-grand-champion.jpg
+  featured_image_alt: Joline Grand Champion
 date: "2021-10-04"
 categories: 
   - "milksource-genetics"

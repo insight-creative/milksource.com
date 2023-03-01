@@ -1,9 +1,14 @@
 ---
+layout: post
 title: "Compost Day 2021 Shatters Records"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/compost-day-2021.jpg
+  featured_image_alt: Compost Day 2021
 date: "2021-05-03"
 categories: 
   - "news"
-coverImage: "IMG_6145-scaled.jpg"
 ---
 
 An hour BEFORE Milk Source's annual Compost Day was officially supposed to start, 100 trailers had already been loaded with fertilizer at Tidy View Dairy.

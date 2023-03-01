@@ -1,17 +1,22 @@
 ---
+layout: post
 title: "MilkSource Genetics Boasts Strong Lineups at the '21 WI State Shows"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/joline-1.jpg
+  featured_image_alt: 
 date: "2021-08-30"
 categories: 
   - "milksource-genetics"
   - "news"
-coverImage: "Joline-1-GOOD.jpg"
 ---
 
 MilkSource Genetics cows staked a strong claim during this year's Wisconsin State Shows.
 
 Among our highlights in the Jersey show:
 
-![](http://milk-source.local/wp-content/uploads/2021/08/Honor-Faithful-GOOD-300x192.jpg)
+<img src="/uploads/honor-faithful.jpg" class="mb-3">
 
 **Milksource Highways Honor** wins Grand Champion, Intermediate Champion, Intermediate Champion of the Junior Show and 1st Jr. 3 Yr. Old.
 
@@ -25,9 +30,7 @@ Among our highlights in the Jersey show:
 
 **Goff Andreas Mae-ET** is 3rd Senior 3 Yr. Old.
 
- 
-
-![](http://milk-source.local/wp-content/uploads/2021/08/Joline-2-GOOD-300x197.jpg)
+ <img src="/uploads/joline-2.jpg" class="mb-3">
 
 Meanwhile, at the Red & White Show, Milksource Genetics continued the successful streak:
 
@@ -37,9 +40,7 @@ Meanwhile, at the Red & White Show, Milksource Genetics continued the successful
 
 **Milksource Attica-RED** is 3rd Place Junior 3 Yr. Old.
 
- 
-
-![](http://milk-source.local/wp-content/uploads/2021/08/Milksource-Warior-Klash-Red-GOOD-300x200.jpg)
+  <img src="/uploads/warior-klash-red.jpg" class="mb-3">
 
 And, finally, at the Holstein Show:
 

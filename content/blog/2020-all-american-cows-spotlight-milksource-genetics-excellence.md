@@ -1,13 +1,17 @@
 ---
+layout: post
 title: "2020 All-American Cows Spotlight MilkSource Genetics' Excellence"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/2020-all-american-cows-spotlight.jpg
+  featured_image_alt: 2020 All-American Cows Spotlight MilkSource Genetics' Excellence
 date: "2021-02-10"
 categories: 
   - "milksource-genetics"
   - "news"
 coverImage: "Chrome.jpg"
 ---
-
- 
 
 MilkSource Genetics shined brightly with a strong class of 2020 All-American cows, including:
 
@@ -27,7 +31,7 @@ Co-Vale Dempsey **Dina** 4270: Lifetime Production (w/ Ransom Rail)
 
 ### **RED & WHITES** 
 
-![](http://milk-source.local/wp-content/uploads/2021/02/All-American-2020-Tantrum-300x300.jpg)
+<img src="/uploads/all-american-2020-tantrum.jpg" class="mb-3">
 
 Milksource **Tantrum**\-RED-ET: Unanimous
 
