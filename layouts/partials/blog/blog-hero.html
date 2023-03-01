@@ -1,0 +1,27 @@
+{{ $heroClass := lower .Page.Title }}
+<div class="hero--blog hero--{{ anchorize $heroClass }} block bg-gray">
+  <div class="wrapper-lg flex flex-column flex-row-m">
+      <div class="w-100 w-50-m flex flex-column flex-justify-between">
+        <div class="flow">
+          <a href="/blog/" class="back no-decoration">{{ partialCached "svg-icons/chevron-left.svg" . }} Back to all posts</a>
+          <h1>{{ .Title | markdownify }}</h1>
+          <div class="flex flex-justify-between">
+            <div class="categories-list">
+              {{ if .Params.Categories }}
+              {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="categories">{{ if ne $index 0 }}{{ end }}
+                  {{ . | title }}</a>{{ end}}
+              {{ end }}
+            </div>
+            <span class="reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="post-featured-image w-100 w-50-m mt-3 mt-0-m ml-3-m">
+        <div class="cover-image border-radius-50">
+          {{ partial "responsive-image-hero" . }}
+        </div>
+      </div>
+  </div>
+</div>
