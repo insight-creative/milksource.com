@@ -79,7 +79,9 @@
   padding: 0;
 
   .card__meta {
-    margin-left: $ic-100 ;
+    a {
+      margin-left: $ic-100 ;
+    }
   }
 
   .card__body {

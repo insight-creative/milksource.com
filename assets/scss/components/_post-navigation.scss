@@ -1,8 +1,9 @@
 .post-navigation {
-  padding: $ic-300 0 0 0;
+  padding: $ic-300 0 $ic-300 0;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  border-top: 1px solid $gray;
 
   @include breakpoint(sm) {
     flex-direction: row;
@@ -48,9 +49,9 @@
   }
 
   svg {
-    height: $ic-100;
-    width: $ic-100;
-    fill: $primary-color;
+    height: $ic-200;
+    width: $ic-200;
+    stroke: $primary-color;
     transition: 0.3s ease;
     margin: 0 $ic-100;
   }
