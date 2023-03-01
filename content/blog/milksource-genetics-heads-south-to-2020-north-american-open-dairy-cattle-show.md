@@ -1,10 +1,15 @@
 ---
+layout: post
 title: "MilkSource Genetics Heads East to 2020 North American Open Dairy Cattle Show"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/snapple-grand-champion-and-1st-production-class.jpg
+  featured_image_alt: Snapple Grand Champion and 1st Production Class
 date: "2020-10-07"
 categories: 
   - "milksource-genetics"
   - "news"
-coverImage: "Snapple-Grand-Champion-and-1st-Production-Class.jpg"
 ---
 
 With the cancellation of both the World Dairy Expo and Royal Agricultural Winter Fair, MilkSource Genetics headed east to Circleville, OH, to compete in the North American Open Dairy Cattle Show.
@@ -13,7 +18,7 @@ They boasted a strong start with Miss Apple-Snapple-RED-ET winning Grand Champio
 
 Among our highlights:
 
-![](http://milk-source.local/wp-content/uploads/2020/10/tantrum-w-ribbons-300x200.jpg)
+![Tantrum with ribbons](/uploads/tantrum-w-ribbons.jpg)
 
 Miss Apple **Snapple**\-RED-ET is Grand Champion, Senior Champion and 1st Production Class.
 
@@ -29,9 +34,7 @@ Nehls-Valley **Radioactiv**\-Red is 2nd Place Jr. 2 Yr. Old. (Co-owned w/ Ransom
 
 To view a photo album, please **[click here](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2705642386350233)**.
 
- 
-
-![](http://milk-source.local/wp-content/uploads/2020/10/Anna-1-300x200.jpg)
+![Anna](/uploads/anna.jpg)
 
 **Jersey Show**
 
@@ -43,9 +46,7 @@ Milksource Highways **Honor** won Reserve Intermediate Champion of the Junior Sh
 
 To view a photo album, please **[click here](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2706424769605328)**.
 
- 
-
-![](http://milk-source.local/wp-content/uploads/2020/10/Milksource-Attica-RED-1st-Summer-Junior-2-300x200.jpg)
+![Milksource Attica Red 1st Summer Junior.jpg](/uploads/milksource-attica-red-1st-summer-junior.jpg)
 
 **Holstein Show**
 

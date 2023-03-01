@@ -1,10 +1,15 @@
 ---
+layout: post
 title: "MilkSource Genetics Makes Its Mark at '20 All American Jersey Show"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/goff-andreas-mae-et-cowsmo.jpg
+  featured_image_alt: 2020 All-American Cows Spotlight MilkSource 
 date: "2020-12-01"
 categories: 
   - "milksource-genetics"
   - "news"
-coverImage: "Goff-Andreas-Mae-ET-Cowsmo.jpg"
 ---
 
 MilkSource Genetics cows grabbed their share of the limelight at the 2020 All American Jersey Show in Louisville, KY.

@@ -1,10 +1,15 @@
 ---
+layout: post
 title: "MilkSource Genetics Highlights from 2020 State Show"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/krystal-grand-champion.jpg
+  featured_image_alt: Krystal Grand Champion
 date: "2020-08-27"
 categories: 
   - "milksource-genetics"
   - "news"
-coverImage: "Chrome-and-Great-Mandi.jpg"
 ---
 
 A pandemic wasn't going to keep the dedicated dairymen and women of Wisconsin from holding their beloved State Show.
@@ -27,13 +32,11 @@ TK-Plain-View **Ripley** is 1st Place Production Cow.
 
 Antia Absolute **Joline**\-RED is 1st Place 5 Yr. Old. (Co-owned with Laurie Fischer.)
 
- 
-
-![](http://milk-source.local/wp-content/uploads/2020/08/Krystal-GRAND-CHAMPION-300x200.jpg)
+<!-- ![Krystal Grand champion](/uploads/krystal-grand-champion.jpg) -->
+<!-- <img src="/uploads/krystal-grand-champion.jpg"> -->
+{{< responsive-image image_url="/uploads/krystal-grand-champion.jpg" image_alt="Krystal Grand Champion" >}}
 
 A complete photo album is available by **[clicking here](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2669845149929957)**.
-
- 
 
 **Red & White Show**
 
@@ -60,8 +63,6 @@ Nehls-Valley **Radioactiv**\-Red is 3rd Place Jr. 2 Yr. Old. (Co-owned w/ Ransom
 ![](http://milk-source.local/wp-content/uploads/2020/08/Joline-Senior-Champ-300x200.jpg)
 
 A complete photo album is available by [**clicking here**](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2672511772996628).
-
- 
 
 **Jersey Show** 
 

@@ -1,9 +1,14 @@
 ---
+layout: post
 title: "Harvest Season is Off & Running (Hard)"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/harvester.jpg
+  featured_image_alt: harvester
 date: "2020-09-20"
 categories: 
   - "news"
-coverImage: "IMG_4192-scaled.jpg"
 ---
 
 Corn silage season has begun for Milk Source farms.
