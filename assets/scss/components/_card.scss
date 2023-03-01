@@ -78,6 +78,10 @@
 .card--blog {
   padding: 0;
 
+  .card__meta {
+    margin-left: $ic-100 ;
+  }
+
   .card__body {
     padding: $ic-300;
   }
