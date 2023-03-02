@@ -18,7 +18,6 @@ They boasted a strong start with Miss Apple-Snapple-RED-ET winning Grand Champio
 
 Among our highlights:
 
-![Tantrum with ribbons](/uploads/tantrum-w-ribbons.jpg)
 {{< responsive-image image_url="/uploads/tantrum-w-ribbons.jpg" image_alt="Tantrum with ribbons" >}}
 
 Miss Apple **Snapple**\-RED-ET is Grand Champion, Senior Champion and 1st Production Class.
