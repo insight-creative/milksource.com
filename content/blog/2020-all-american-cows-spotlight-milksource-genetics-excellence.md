@@ -31,7 +31,6 @@ Co-Vale Dempsey **Dina** 4270: Lifetime Production (w/ Ransom Rail)
 
 ### **RED & WHITES** 
 
-<!-- <img src="/uploads/all-american-2020-tantrum.jpg" class="mb-3"> -->
 ![All American 2020 Tantrum](/uploads/all-american-2020-tantrum.jpg)
 
 Milksource **Tantrum**\-RED-ET: Unanimous

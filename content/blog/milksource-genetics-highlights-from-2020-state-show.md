@@ -32,8 +32,6 @@ TK-Plain-View **Ripley** is 1st Place Production Cow.
 
 Antia Absolute **Joline**\-RED is 1st Place 5 Yr. Old. (Co-owned with Laurie Fischer.)
 
-<!-- ![Krystal Grand champion](/uploads/krystal-grand-champion.jpg) -->
-<!-- <img src="/uploads/krystal-grand-champion.jpg"> -->
 {{< responsive-image image_url="/uploads/krystal-grand-champion.jpg" image_alt="Krystal Grand Champion" >}}
 
 A complete photo album is available by **[clicking here](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2669845149929957)**.

@@ -11,8 +11,12 @@ categories:
   - "news"
 ---
 
+{{< responsive-image image_url="/uploads/compost-day-2022-group-photo.jpg" image_alt="Compost Day 2022 group photo" >}}
+
 Despite poor weather this year, more than 700 vehicle loads of compost were distributed to neighbors of our farms at New Chester, Rosendale and Tidy View dairies.
 
 Hats off to the Operations Teams, the entire family of Chema & C.J. Ortiz, Boy Scout Troop 623 and the Adams-Friendship Powerlifting Club for teaming up to make the event a success.
 
 It was the event’s 11th year and it remains wildly popular in our home towns.
+
+{{< responsive-image image_url="/uploads/compost-day-2022.jpg" image_alt="Compost Day 2022" >}}
