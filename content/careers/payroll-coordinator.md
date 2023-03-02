@@ -8,8 +8,20 @@ seo:
 location:
   city: Kaukauna
   state: WI
-status: Full Time
+job_type: Full Time
 date: 2023-01-18
+cta_block:
+  enabled: true
+  heading: About Milk Source
+  body: Milk Source’s goal every day is to be an outstanding dairy producer through quality care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as an outstanding place to work.
+  button:
+    enabled: true
+    button_url: /about-us/
+    button_text: Learn More About Milk Source
+    open_in_new_tab: false
+  image:
+    image_url: /uploads/milksource-owners2.jpg
+    image_alt: Milk Source owners
 ---
 
 Do you want to be part of a hard-working team that learns something new every day? Join our fantastic Human Resources team that works together to build both individual success as well as drive organizational development. Come seize the endless opportunities that Milk Source has to offer!

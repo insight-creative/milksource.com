@@ -8,7 +8,7 @@ seo:
 location:
   city: Grand Marsh
   state: WI
-status: Full Time
+job_type: Full Time
 date: 2023-01-18
 cta_block:
   enabled: true
@@ -20,7 +20,7 @@ cta_block:
     button_text: Learn More About Milk Source
     open_in_new_tab: false
   image:
-    image_url: /uploads/milk-source-owners-with-cows.jpg
+    image_url: /uploads/milksource-owners2.jpg
     image_alt: Milk Source owners
 ---
 
