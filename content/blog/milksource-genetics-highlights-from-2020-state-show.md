@@ -4,8 +4,8 @@ title: "MilkSource Genetics Highlights from 2020 State Show"
 seo:
   page_title:
   meta_description:
-  featured_image: /uploads/krystal-grand-champion.jpg
-  featured_image_alt: Krystal Grand Champion
+  featured_image: /uploads/chrome-and-great-mandi.jpg
+  featured_image_alt: Chrome and Great Mandi
 date: "2020-08-27"
 categories: 
   - "milksource-genetics"
@@ -59,6 +59,7 @@ Milksource J **Treasure**\-Red is 3rd Place Summer Yearling.
 Nehls-Valley **Radioactiv**\-Red is 3rd Place Jr. 2 Yr. Old. (Co-owned w/ Ransom Rail & Grant Vosters).
 
 ![](http://milk-source.local/wp-content/uploads/2020/08/Joline-Senior-Champ-300x200.jpg)
+{{< responsive-image image_url="/uploads/joline-senior-champ.jpg" image_alt="Joline Senior Champ" >}}
 
 A complete photo album is available by [**clicking here**](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2672511772996628).
 
@@ -75,5 +76,6 @@ Milksource-FV Gentry **Marquee**\-ET is 1st Fall Calf.
 Milksource-FV Applejack **Maserati** is 4th Place Summer Yearling (Co-owned with Finca Valparaiso).
 
 ![](http://milk-source.local/wp-content/uploads/2020/08/Faithful-HM-Grand-Champion-300x200.jpg)
+{{< responsive-image image_url="/uploads/faithful-hm-grand-champion.jpg" image_alt="Faithful HM Grand Champion" >}}
 
 A complete photo album is available by [**clicking here**](https://www.facebook.com/media/set?vanity=MilkSourceGenetics&set=a.2672425416338597).
