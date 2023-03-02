@@ -1,7 +1,8 @@
-
 <article class="card card--blog shadow-xl fs-100 p-relative">
 	<a href="{{ .Permalink }}" class="flow no-decoration">
-		<img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}">
+		<div class="cover-image">
+			<img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}">
+		</div>
 	</a>
 		{{ if .Params.Categories }}
 		<div class="card__meta">
