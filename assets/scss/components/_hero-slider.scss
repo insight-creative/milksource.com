@@ -24,7 +24,6 @@
 }
 
 .hero-slider__button-wrapper{
-
   button {
     width: 200px;
   }
@@ -66,7 +65,6 @@
 }
 
 .active-button {
-
   &::after {
     transform: scaleX(1);
   }
