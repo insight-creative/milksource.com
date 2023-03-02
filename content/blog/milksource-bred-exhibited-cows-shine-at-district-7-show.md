@@ -1,10 +1,15 @@
 ---
+layout: post
 title: "MilkSource Bred & Exhibited Cows Shine at District 7 Show"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/attica-red-grand-champion.jpg
+  featured_image_alt: Attica Red Grand Champion
 date: "2020-06-30"
 categories: 
   - "milksource-genetics"
   - "news"
-coverImage: "Milksource-Attica-Red-Grand-Champ-1st-2-Yr-Old.jpg"
 ---
 
 Several of MilkSource Genetics-bred stars captured the spotlight at the Wisconsin District 7 Holstein Show:

@@ -11,8 +11,6 @@ categories:
   - "news"
 ---
 
-\[envira-gallery id="21746"\]
-
 Despite poor weather this year, more than 700 vehicle loads of compost were distributed to neighbors of our farms at New Chester, Rosendale and Tidy View dairies.
 
 Hats off to the Operations Teams, the entire family of Chema & C.J. Ortiz, Boy Scout Troop 623 and the Adams-Friendship Powerlifting Club for teaming up to make the event a success.

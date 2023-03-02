@@ -2,6 +2,12 @@
 <section aria-label="Single Post Content Body" class="block bg-gray">
     <div class="post-content wrapper">
         <div class="post-content__inner flow">
+            <h1>{{ .Title }}</h1>
+            <ul>
+                <li>{{ .Params.Status }}</li>
+                <li>{{ .Params.location.city }}</li>
+                <li>{{ .Params.date.Format "January 2, 2006" }}</li>
+            </ul>
             {{ .Content  }}
             <a href="/apply-now/" class="btn btn-primary">Apply for job</a>
         </div>
