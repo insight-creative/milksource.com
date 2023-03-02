@@ -32,9 +32,7 @@ Milksource **Thunder**\-Red-ET is 2nd Fall Yearling (Owned & exhibited by Maple-
 
 Nehls-Valley **Radioactiv**\-Red is 2nd Place Jr. 2 Yr. Old. (Co-owned w/ Ransom Rail & Grant Vosters).
 
-To view a photo album, please **[click here](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2705642386350233)**.
-
-![Anna](/uploads/anna.jpg)
+{{< responsive-image image_url="/uploads/anna.jpg" image_alt="Anna" >}}
 
 **Jersey Show**
 
@@ -44,9 +42,7 @@ Krohlow Comerica **Anna** (pictured) is 1st 5 Yr. Old.
 
 Milksource Highways **Honor** won Reserve Intermediate Champion of the Junior Show.
 
-To view a photo album, please **[click here](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2706424769605328)**.
-
-![Milksource Attica Red 1st Summer Junior.jpg](/uploads/milksource-attica-red-1st-summer-junior.jpg)
+{{< responsive-image image_url="/uploads/milksource-attica-red-1st-summer-junior.jpg" image_alt="Attica Red first summer Junior" >}}
 
 **Holstein Show**
 
@@ -59,5 +55,3 @@ Milksource Tstorm **Chrome**\-ET is 2nd Place Fall Calf.
 Antia Absolute **Joline**\-RED won 3rd Place 5 Yr. Old.
 
 Co-Vale Dempsey **Dina** 4270-ET is 3rd Place Lifetime Production Cow.
-
-To view a photo album, please **[click here.](https://www.facebook.com/media/set?vanity=MilkSourceGenetics&set=a.2707453589502446 "https://www.facebook.com/media/set?vanity=MilkSourceGenetics&set=a.2707453589502446")**

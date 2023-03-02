@@ -22,8 +22,6 @@ Oak-Ridge-K Chip **Turbo**: B&W Res. Grand Champion & Intermediate Champion
 
 Goff Andreas **Mae** \-ET : Jersey Reserve Int. Champion
 
- 
-
 We are honored to have exhibited seven homebred class winners and four Junior Champions.
 
 Junior Champion of the Jersey Open Show and 1ST Place Winter Yrlg: Milksource-FV Gentry **Merci**\-ET
@@ -33,8 +31,6 @@ Junior Champion of the Jersey Jr Show, Hon. Mention JC of the open show, and 1ST
 Junior Champion of the R&W Show and 1ST Place Summer Yrlg: Ms Milksource **Adelle**
 
 Junior Champion of the B&W Show and 1st Place Sr Yrlg: Milksource Tstorm **Chrome**\-ET
-
- 
 
 Homebred Highlights in milking form include:
 

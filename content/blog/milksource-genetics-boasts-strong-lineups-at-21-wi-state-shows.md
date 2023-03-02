@@ -18,7 +18,6 @@ Among our highlights in the Jersey show:
 
 {{< responsive-image image_url="/uploads/honor-faithful.jpg" image_alt="Homor Faithful" >}}
 
-
 **Milksource Highways Honor** wins Grand Champion, Intermediate Champion, Intermediate Champion of the Junior Show and 1st Jr. 3 Yr. Old.
 
 **Woodmohr Forever Faithful** is Res. Grand Champion, Senior Champion and 1st 5 Yr. Old.
@@ -31,7 +30,6 @@ Among our highlights in the Jersey show:
 
 **Goff Andreas Mae-ET** is 3rd Senior 3 Yr. Old.
 
- <img src="/uploads/joline-2.jpg" class="mb-3">
 {{< responsive-image image_url="/uploads/joline-2.jpg" image_alt="Joline" >}}
 
 Meanwhile, at the Red & White Show, Milksource Genetics continued the successful streak:

@@ -34,8 +34,6 @@ Antia Absolute **Joline**\-RED is 1st Place 5 Yr. Old. (Co-owned with Laurie Fis
 
 {{< responsive-image image_url="/uploads/krystal-grand-champion.jpg" image_alt="Krystal Grand Champion" >}}
 
-A complete photo album is available by **[clicking here](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2669845149929957)**.
-
 **Red & White Show**
 
 MilkSource Genetics named **Premier Breeder & Exhibitor**.
@@ -58,10 +56,7 @@ Milksource J **Treasure**\-Red is 3rd Place Summer Yearling.
 
 Nehls-Valley **Radioactiv**\-Red is 3rd Place Jr. 2 Yr. Old. (Co-owned w/ Ransom Rail & Grant Vosters).
 
-![](http://milk-source.local/wp-content/uploads/2020/08/Joline-Senior-Champ-300x200.jpg)
 {{< responsive-image image_url="/uploads/joline-senior-champ.jpg" image_alt="Joline Senior Champ" >}}
-
-A complete photo album is available by [**clicking here**](https://www.facebook.com/media/set/?vanity=MilkSourceGenetics&set=a.2672511772996628).
 
 **Jersey Show** 
 
@@ -75,7 +70,4 @@ Milksource-FV Gentry **Marquee**\-ET is 1st Fall Calf.
 
 Milksource-FV Applejack **Maserati** is 4th Place Summer Yearling (Co-owned with Finca Valparaiso).
 
-![](http://milk-source.local/wp-content/uploads/2020/08/Faithful-HM-Grand-Champion-300x200.jpg)
 {{< responsive-image image_url="/uploads/faithful-hm-grand-champion.jpg" image_alt="Faithful HM Grand Champion" >}}
-
-A complete photo album is available by [**clicking here**](https://www.facebook.com/media/set?vanity=MilkSourceGenetics&set=a.2672425416338597).
