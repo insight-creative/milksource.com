@@ -1,9 +1,14 @@
 ---
+layout: post
 title: "Even Mother Nature Can't Slow Down Compost Day 2022"
+seo:
+  page_title:
+  meta_description:
+  featured_image: /uploads/mother-nature-cant-slow-down-compost-day.jpg
+  featured_image_alt: Compost Day 2022
 date: "2022-05-09"
 categories: 
   - "news"
-coverImage: "IMG_1839-scaled.jpg"
 ---
 
 \[envira-gallery id="21746"\]
