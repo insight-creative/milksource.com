@@ -1,3 +1,13 @@
 {{ define "main" }}
 {{ partial "hero" . }}
+<section class="block">
+  <div class="wrapper-lg flow">
+    {{ .Content }}
+  </div>
+</section>
+{{ if .Params.cta_block.enabled }}
+{{ with .Params.cta_block }}
+{{ partial "cta" . }}
+{{ end }}
+{{ end }}
 {{ end }}
