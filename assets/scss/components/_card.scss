@@ -50,10 +50,13 @@
   }
 
   &__reading-time {
+    padding: 15px 25px;
+    color: $primary-color;
     svg {
       fill: $primary-color;
-      height: $ic--100;
-      width: $ic--100;
+      height: $ic-200;
+      width: $ic-200;
+      margin-right: 10px;
       transition: 0.3s ease-out;
     }
   }
