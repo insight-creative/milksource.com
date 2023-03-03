@@ -83,7 +83,7 @@ intro:
     open_in_new_tab: false
   image:
     enabled: true
-    image_url: /uploads/corn-harvester.jpg
+    image_url: /uploads/corn-harvester-2.jpg
     image_alt: Corn harvester
   image1:
     enabled: true
