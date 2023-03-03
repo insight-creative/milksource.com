@@ -10,6 +10,6 @@ hero:
   heading: Farm Tours
   body: See for yourself
   image:
-    image_url: /uploads/farm-tour-2.jpg
+    image_url: /uploads/farm-tour.jpg
     image_alt: Farm tour
 ---
