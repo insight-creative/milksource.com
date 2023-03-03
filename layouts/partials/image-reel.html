@@ -14,7 +14,6 @@
             {{ if ne .Title "What is Carbon Footprint" }}
             <div class="card__image-card p-relative">
                 <a href="{{ .Permalink }}">
-                    <!-- <img src="{{ .Params.hero.image.image_url }}" alt="" class="card__image p-relative"> -->
                     {{ with .Params.hero }}
                     {{ partial "responsive-image" . }}
                     {{ end }}
