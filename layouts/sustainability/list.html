@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "hero" . }}
 {{ partial "intro" . }}
-{{ partialCached "image-reel" . }}
+{{ partial "image-reel" . }}
 {{ if .Params.cta.enabled }}
     {{ with .Params.cta }}
         {{ partial "cta" . }}
