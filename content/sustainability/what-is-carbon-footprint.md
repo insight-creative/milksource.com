@@ -20,7 +20,7 @@ intro:
     button_text: Boarding Contract
     open_in_new_tab: true
     image:
-      image_url: /uploads/hoseline-spreading.jpg
+      image_url: /uploads/hoseline-spreading-2.jpg
       image_alt: Corn harvester
 cta_block:
   enabled: true

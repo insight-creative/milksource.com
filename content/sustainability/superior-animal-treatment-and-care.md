@@ -19,7 +19,7 @@ cta:
     button_url: 
     button_text: Carbon Footprint
   image:
-    image_url: /uploads/hoseline-spreading.jpg
+    image_url: /uploads/hoseline-spreading-2.jpg
     image_alt: Corn harvester
 ---
 ## Great herds nurtured by top-quality staff.
