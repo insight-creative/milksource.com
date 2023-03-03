@@ -13,7 +13,7 @@ hero:
   heading: Meet the owners
   body: Tracing our roots back to 1965
   image:
-    image_url: /uploads/milk-source-owners.jpg
+    image_url: /uploads/milk-source-owners-2.jpg
     image_alt: 
 cta_block:
   enabled: true
