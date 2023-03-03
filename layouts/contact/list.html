@@ -11,8 +11,8 @@
         <div>{{ .partners.job_title }}</div>
       </div>
       <div class="flow">
-        <div>Work Phone: {{ .partners.phone }}</div>
-        <div>Work email: {{ .partners.email }}</div>
+        <div>Work Phone: <a href="tel:{{ .partners.phone }}">{{ .partners.phone }}</a></div>
+        <div>Work email: <a href="mailto:{{ .partners.email }}">{{ .partners.email }}</a></div>
       </div>
     </div>
     {{ end }}
