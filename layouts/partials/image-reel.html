@@ -14,7 +14,10 @@
             {{ if ne .Title "What is Carbon Footprint" }}
             <div class="card__image-card p-relative">
                 <a href="{{ .Permalink }}">
-                    <img src="{{ .Params.hero.image.image_url }}" alt="" class="card__image p-relative">
+                    <!-- <img src="{{ .Params.hero.image.image_url }}" alt="" class="card__image p-relative"> -->
+                    {{ with .Params.hero }}
+                    {{ partial "responsive-image" . }}
+                    {{ end }}
                     <div class="card-gradient"></div>
                     <div class="card__image-text-wrapper p-absolute">
                         <h3 class="card__image-text text-white h4">{{ .Params.hero.heading }}</h3>
