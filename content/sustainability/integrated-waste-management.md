@@ -8,7 +8,7 @@ hero:
   heading: Integrated Waste Management
   body: The Original Recycler
   image:
-    image_url: /uploads/corn-harvester.jpg
+    image_url: /uploads/corn-harvester-2.jpg
     image_alt:
 cta_block:
   enabled: true

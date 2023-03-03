@@ -8,7 +8,7 @@ hero:
   heading: Ecosystem and Wildlife Protection
   body: Preservation and Protection
   image:
-    image_url: /uploads/corn-harvester.jpg
+    image_url: /uploads/corn-harvester-2.jpg
     image_alt: 
 cta_block:
   enabled: true

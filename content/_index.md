@@ -69,7 +69,7 @@ hero_slider:
         open_in_new_tab: false
       image:
         enabled: false
-        image_url: /uploads/leadership-class.jpg
+        image_url: /uploads/leadership-class-2.jpg
         image_alt: Horses and dogs together in pasture at Whistler's Run
 intro:
   enabled: true
@@ -125,6 +125,6 @@ cta:
     button_text: View open positions
     open_in_new_tab: false
   image:
-    image_url: /uploads/leadership-class.jpg
-    image_alt: Corn harvester
+    image_url: /uploads/leadership-class-2.jpg
+    image_alt: Leadership class
 ---
