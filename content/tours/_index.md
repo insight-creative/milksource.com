@@ -7,14 +7,14 @@ menu:
     weight: 8
 seo:
   page_title: Tours
-  meta_description: Matthews Tire has a full selection of wheels to fit any vehicle, from classic and vintage cars, to hybrid and luxury vehicles.
-  featured_image: /uploads/wheels-on-store-rack.jpg
-  featured_image_alt: Wheels on display on a large display rack
+  meta_description: 
+  featured_image: /uploads/
+  featured_image_alt: 
 hero:
   enabled: true
   heading:
-  image_url: /uploads/wheels-on-store-rack.jpg
-  image_alt:
+  image_url: /uploads/farm-tour.jpg
+  image_alt: Farm tour
 intro:
   enabled: true
   heading: Wheels for Every Vehicle
