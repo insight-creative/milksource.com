@@ -3,7 +3,19 @@
 {{ partial "contact/intro" . }}
 <div class="contact-content block bg-gray">
   <div class="wrapper">
-    {{ partialCached "forms/contact-form" . }}
+    <h2 class="mt-10">How to Reach Us</h2>
+    {{ range .Params.contact_list }}
+    <div class="contact columns-2 border">
+      <div class="flow">
+        <div>{{ .partners.name }}</div>
+        <div>{{ .partners.job_title }}</div>
+      </div>
+    <div class="flow">
+        <div>Work Phone: {{ .partners.phone }}</div>
+        <div>Work email: {{ .partners.email }}</div>
+      </div>
+    </div>
+    {{ end }}
   </div>
 </div>
 {{ end }}
