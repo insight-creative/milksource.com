@@ -35,4 +35,4 @@ Reports to: Chief Financial Officer
 
 Overall Responsibilities: Overall responsibilities include coordination and completion of monthly operational reporting, analysis, and presentations to management. Complete analytical business improvement projects and present to management. Provide input and suggestions on areas to analyze and focus to improve business results. Active role in monthly forecasting and annual planning process. Assist organization in accounting related projects as needed.
 
-To learn more or apply, please click here.                    
+To learn more or apply, please [click here](https://www.indeed.com/job/financial-development-accounting-analyst-919771974d7eaf29).
