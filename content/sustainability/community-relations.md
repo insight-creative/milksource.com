@@ -19,7 +19,7 @@ cta:
     button_url: /what-is-a-carbon-footprint/
     button_text: Carbon Footprint
   image:
-    image_url: /uploads/hoseline-spreading-3.jpg
+    image_url: /uploads/hoseline-spreading-4.jpg
     image_alt: Corn harvester
 ---
 
