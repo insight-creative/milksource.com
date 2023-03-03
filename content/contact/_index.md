@@ -14,7 +14,6 @@ hero:
   image:
     image_url: /uploads/
     image_alt: >-
-
 contact_list:
   - partners:
       name: Jim Ostrom
