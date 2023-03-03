@@ -8,6 +8,7 @@ seo:
 location:
   city: Grand Marsh
   state: WI
+googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
 date: 2023-01-18
 cta_block:

@@ -8,6 +8,7 @@ seo:
 location:
   city: Kaukauna
   state: WI
+googlemaps: https://goo.gl/maps/Js2xDAPxRvJtzjkU9
 job_type: Full Time
 date: 2023-01-18
 cta_block:
