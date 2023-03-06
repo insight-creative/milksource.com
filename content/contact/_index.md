@@ -16,7 +16,7 @@ hero:
     image_url: /uploads/
     image_alt:
 intro:
-  enable: true
+  enabled: true
   heading: Employment Opportunities
   body: >-
     Questions regarding career opportunities can be directed via email to rknorr@milksource.net or by phone at 920-759-4650. Milk Source is a growing multi-site farming enterprise that strives to provide a safe work environment for our employees. Visit our careers page for additional information.
