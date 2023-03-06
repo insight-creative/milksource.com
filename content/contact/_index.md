@@ -9,11 +9,29 @@ seo:
   page_title:
   meta_description:
 hero:
+  enabled: true
   heading: Contact Us
   body: Questions, comments and feedback, we look forward to hearing from you.
   image:
     image_url: /uploads/
     image_alt:
+intro:
+  enable: true
+  heading: Employment Opportunities
+  body: >-
+    Questions regarding career opportunities can be directed via email to rknorr@milksource.net or by phone at 920-759-4650. Milk Source is a growing multi-site farming enterprise that strives to provide a safe work environment for our employees. Visit our careers page for additional information.
+  image:
+    enabled: true
+    image_url: /uploads/heifer-source-pile-2.jpg
+    image_alt:
+  image1:
+    enabled: true
+    image_url: /uploads/heifer-source-2.jpg
+    image_alt:
+  button:
+    enabled: true
+    button_url: /careers/
+    button_text: View Careers
 contact_list:
     - name: Jim Ostrom
       job_title: Partner

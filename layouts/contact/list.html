@@ -1,8 +1,7 @@
 {{ define "main" }}
 {{ partial "hero" . }}
 {{ partial "intro" . }}
-
-<div class="contact-content block bg-gray">
+<div class="contact-content block">
   <div class="wrapper">
     <h2 class="mt-10">How to Reach Us</h2>
     <h3>Partners</h3>
@@ -13,8 +12,8 @@
         <div>{{ .name }}</div>
         <div>{{ .job_title }}</div>
       </div>
-      <div class="flow">
-        <div>Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
+      <div class="flow flex flex-column">
+        <div class="flex flex-justify-end">Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
         <div>Work email: <a href="mailto:{{ .email }}">{{ .email }}</a></div>
       </div>
     </div>
@@ -29,7 +28,7 @@
         <div>{{ .job_title }}</div>
       </div>
       <div class="flow">
-        <div>Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
+        <div class="flex flex-justify-end">Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
         <div>Work email: <a href="mailto:{{ .email }}">{{ .email }}</a></div>
       </div>
     </div>
@@ -37,5 +36,4 @@
     {{ end }}
   </div>
 </div>
-
 {{ end }}
