@@ -1,22 +1,41 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ partial "contact/intro" . }}
+{{ partial "intro" . }}
+
 <div class="contact-content block bg-gray">
-  <div class="wrapper mt-10">
-    <h2>Partners</h2>
+  <div class="wrapper">
+    <h2 class="mt-10">How to Reach Us</h2>
+    <h3>Partners</h3>
     {{ range .Params.contact_list }}
-    <div class="contact columns-2 border">
-      <div class="flow">
-        <div>{{ .partners.name }}</div>
-        <div>{{ .partners.job_title }}</div>
+    {{ if eq .is_partner true }}
+    <div class="contact columns-2 border flex flex-justify-between">
+      <div class="">
+        <div>{{ .name }}</div>
+        <div>{{ .job_title }}</div>
       </div>
       <div class="flow">
-        <div>Work Phone: <a href="tel:{{ .partners.phone }}">{{ .partners.phone }}</a></div>
-        <div>Work email: <a href="mailto:{{ .partners.email }}">{{ .partners.email }}</a></div>
+        <div>Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
+        <div>Work email: <a href="mailto:{{ .email }}">{{ .email }}</a></div>
       </div>
     </div>
     {{ end }}
-    <h2>Team MilkSource</h2>
+    {{ end }}
+    <h3 class="mt-4">Team Milksource</h3>
+    {{ range .Params.contact_list }}
+    {{ if eq .is_partner false }}
+    <div class="contact columns-2 border flex flex-justify-between">
+      <div class="flow">
+        <div>{{ .name }}</div>
+        <div>{{ .job_title }}</div>
+      </div>
+      <div class="flow">
+        <div>Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
+        <div>Work email: <a href="mailto:{{ .email }}">{{ .email }}</a></div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
   </div>
 </div>
+
 {{ end }}
