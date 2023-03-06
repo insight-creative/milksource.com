@@ -13,8 +13,8 @@ hero:
   heading: Contact Us
   body: Questions, comments and feedback, we look forward to hearing from you.
   image:
-    image_url: /uploads/
-    image_alt:
+    image_url: /uploads/farm-equipment.jpg
+    image_alt: Farm equipment
 intro:
   enabled: true
   heading: Employment Opportunities
