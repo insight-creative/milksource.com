@@ -1,6 +1,9 @@
 ---
 title: A Cow's Life
 layout: page-single
+menu:
+  main:
+    parent: "About Us"
 seo:
   page_title:
   meta_description:

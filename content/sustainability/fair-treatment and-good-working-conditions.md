@@ -1,6 +1,9 @@
 ---
 title: Fair Treatment and Good Working Conditions
 layout: page-single
+menu:
+  main:
+    parent: "Sustainability"
 seo:
   page_title:
   meta_description:

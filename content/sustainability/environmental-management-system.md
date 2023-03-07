@@ -1,6 +1,9 @@
 ---
 title: Environmental Management System
 layout: page-single
+menu:
+  main:
+    parent: "Sustainability"
 seo:
   page_title:
   meta_description:

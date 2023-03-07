@@ -1,6 +1,9 @@
 ---
 title: Occupational Health and Safety
 layout: page-single
+menu:
+  main:
+    parent: "Sustainability"
 seo:
   page_title:
   meta_description:

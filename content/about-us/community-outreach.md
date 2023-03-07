@@ -1,6 +1,9 @@
 ---
 title: Community Outreach
 layout: page-single
+menu:
+  main:
+    parent: "About Us"
 seo:
   page_title:
   meta_description:

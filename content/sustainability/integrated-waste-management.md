@@ -1,6 +1,9 @@
 ---
 title: Integrated Waste Management
 layout: page-single
+menu:
+  main:
+    parent: "Sustainability"
 seo:
   page_title:
   meta_description:
