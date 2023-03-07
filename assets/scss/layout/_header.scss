@@ -157,6 +157,17 @@
       display: inline-block;
     }
   }
+
+  .has-sub-menu {
+    &:hover,
+    &:focus {
+      .nav-list__sub-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+    }
+  }
 }
 
 .nav-list__link, .site-header__mobile-nav a:not(.btn), .footer-nav__link {

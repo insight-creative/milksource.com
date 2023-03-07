@@ -1,10 +1,5 @@
 ---
 title: Blog
-menu:
-  secondary:
-    weight: 1
-  quick_links:
-    weight: 6
 seo:
   page_title: Blog
   meta_description: Matthews Tire has a full selection of wheels to fit any vehicle, from classic and vintage cars, to hybrid and luxury vehicles.
