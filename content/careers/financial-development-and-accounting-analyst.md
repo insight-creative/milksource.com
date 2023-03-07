@@ -1,9 +1,9 @@
 ---
-title: Financial Development & Accounting Analyst
+title: Financial Analyst – Milk Source Office
 draft: false
 url: 
 seo:
-  page_title: Financial Development & Accounting Analyst
+  page_title: Financial Analyst – Milk Source Office
   meta_description: The Financial Analyst II is responsible for completing analytical business improvement projects and plays an active role in monthly forecasting and annual planning process. This role reports to the Milk Source Office and includes competitive compensation & full benefits!
   featured_image: 
   featured_image_alt:
