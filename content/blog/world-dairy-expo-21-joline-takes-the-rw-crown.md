@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "World Dairy Expo '21: Joline Takes the R&W Crown"
+draft: false
+url: 
 seo:
   page_title:
   meta_description:
@@ -8,9 +10,8 @@ seo:
   featured_image_alt: Joline Grand Champion
 date: "2021-10-04"
 categories: 
-  - "milksource-genetics"
-  - "news"
-coverImage: "Joline-Grand-Champion-NICE-PHOTO.jpg"
+  - MilkSource Genetics
+  - News
 ---
 
 MilkSource Genetic’s Antia Absolute **Joline**\-RED captured the Red & White Grand Champion title at the 2021 World Dairy Expo.

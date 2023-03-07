@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Compost Day 2021 Shatters Records"
+draft: false
+url: 
 seo:
   page_title:
   meta_description:

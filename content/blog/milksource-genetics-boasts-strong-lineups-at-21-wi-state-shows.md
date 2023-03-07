@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "MilkSource Genetics Boasts Strong Lineups at the '21 WI State Shows"
+draft: false
+url: 
 seo:
   page_title:
   meta_description:
@@ -8,8 +10,8 @@ seo:
   featured_image_alt: 
 date: "2021-08-30"
 categories: 
-  - "milksource-genetics"
-  - "news"
+  - MilkSource Genetics
+  - News
 ---
 
 MilkSource Genetics cows staked a strong claim during this year's Wisconsin State Shows.

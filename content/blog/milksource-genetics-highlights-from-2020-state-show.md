@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "MilkSource Genetics Highlights from 2020 State Show"
+draft: false
+url: 
 seo:
   page_title:
   meta_description:
@@ -8,8 +10,8 @@ seo:
   featured_image_alt: Chrome and Great Mandi
 date: "2020-08-27"
 categories: 
-  - "milksource-genetics"
-  - "news"
+  - MilkSource Genetics
+  - News
 ---
 
 A pandemic wasn't going to keep the dedicated dairymen and women of Wisconsin from holding their beloved State Show.

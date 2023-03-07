@@ -1,4 +1,4 @@
-<article class="card card--blog shadow-xl fs-100 p-relative">
+<article class="card card--blog shadow-xl p-relative">
 	<a href="{{ .Permalink }}" class="flow no-decoration">
 		<div class="cover-image">
 			<img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}">
@@ -13,7 +13,7 @@
 		{{ end }}
 		<div class="card__body flow">
 			<a href="{{ .Permalink }}">
-				<h3 class="h6">{{ .Title | markdownify }}</h3>
+				<h3 class="h5 fw-800">{{ .Title | markdownify }}</h3>
 			</a>
 			<p class="text-black">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</p>
 		</div>

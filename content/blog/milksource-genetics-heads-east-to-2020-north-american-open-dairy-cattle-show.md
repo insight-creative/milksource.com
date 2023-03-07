@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "MilkSource Genetics Heads East to 2020 North American Open Dairy Cattle Show"
+draft: false
+url: 
 seo:
   page_title:
   meta_description:
@@ -8,8 +10,8 @@ seo:
   featured_image_alt: Snapple Grand Champion and 1st Production Class
 date: "2020-10-07"
 categories: 
-  - "milksource-genetics"
-  - "news"
+  - MilkSource Genetics
+  - News
 ---
 
 With the cancellation of both the World Dairy Expo and Royal Agricultural Winter Fair, MilkSource Genetics headed east to Circleville, OH, to compete in the North American Open Dairy Cattle Show.

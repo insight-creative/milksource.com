@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "MilkSource Genetics Places Strong at Midwest National Spring Shows"
+draft: false
+url: 
 seo:
   page_title:
   meta_description:
@@ -8,8 +10,8 @@ seo:
   featured_image_alt: Beth top three
 date: "2022-05-06"
 categories: 
-  - "milksource-genetics"
-  - "news"
+  - MilkSource Genetics
+  - News
 ---
 
 MilkSource Genetics’ generally youthful team made an impressive showing at the Midwest National Spring Shows.

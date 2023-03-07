@@ -3,10 +3,10 @@
     <div class="post-content wrapper">
         <div class="post-content__inner flow">
             <h1>{{ .Title }}</h1>
-            <div>
-                <span class="mr-3">{{ partial "svg-icons/job-type-logo.svg" . }} {{ .Params.job_type }}</span>
-                {{ partial "svg-icons/location-logo.svg" . }}<a href="{{ .Params.googlemaps }}" class="no-decoration" target="_blank"><span class="mr-3">{{ .Params.location.city }}, {{ .Params.location.state }}</span></a>
-                <span>{{ partial "svg-icons/calendar-logo.svg" . }} Posted {{ .Params.date.Format "January 2, 2006" }}</span>
+            <div class="flex flex flex-center">
+                {{ partial "svg-icons/job-type-logo.svg" . }}<span class="mr-3"> {{ .Params.job_type }}</span>
+                {{ partial "svg-icons/location-logo.svg" . }}<span class="mr-3"><a href="{{ .Params.googlemaps }}" class="no-decoration" target="_blank">{{ .Params.location.city }}, {{ .Params.location.state }}</a></a></span>
+                {{ partial "svg-icons/calendar-logo.svg" . }}<span> Posted {{ .Params.date.Format "January 2, 2006" }}</span>
             </div>
             {{ .Content  }}
         </div>

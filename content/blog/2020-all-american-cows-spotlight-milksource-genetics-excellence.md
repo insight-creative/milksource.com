@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "2020 All-American Cows Spotlight MilkSource Genetics' Excellence"
 draft: false
 url: 
@@ -9,8 +10,8 @@ seo:
   featured_image_alt: 2020 All-American Cows Spotlight MilkSource Genetics' Excellence
 date: "2021-02-10"
 categories: 
-  - "MilkSource Genetics"
-  - "News"
+  - MilkSource Genetics
+  - News
 ---
 
 MilkSource Genetics shined brightly with a strong class of 2020 All-American cows, including:
