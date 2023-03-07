@@ -5,7 +5,7 @@
             <h1>{{ .Title }}</h1>
             <div>
                 <span class="mr-3">{{ partial "svg-icons/job-type-logo.svg" . }} {{ .Params.job_type }}</span>
-                <a href="{{ .Params.googlemaps }}" class="no-decoration" target="_blank"><span class="mr-3">{{ partial "svg-icons/location-logo.svg" . }}{{ .Params.location.city }}, {{ .Params.location.state }}</span></a>
+                {{ partial "svg-icons/location-logo.svg" . }}<a href="{{ .Params.googlemaps }}" class="no-decoration" target="_blank"><span class="mr-3">{{ .Params.location.city }}, {{ .Params.location.state }}</span></a>
                 <span>{{ partial "svg-icons/calendar-logo.svg" . }} Posted {{ .Params.date.Format "January 2, 2006" }}</span>
             </div>
             {{ .Content  }}
