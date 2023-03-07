@@ -14,7 +14,7 @@
       height: $ic-200;
       stroke: $primary-color;
       position: relative;
-      top: 1px;
+      top: 4px;
       transition: $transition;
     }
 
@@ -40,13 +40,6 @@
     margin-left: $ic-100;
   }
 
-  &__author-image {
-    img {
-      max-width: 75px;
-      height: auto;
-    }
-  }
-
   .reading-time {
     svg {
       height: $ic-100;
@@ -64,5 +57,11 @@
         height: 400px;
       }
     }
+  }
+}
+
+.post-content {
+  picture {
+    display: block;
   }
 }
