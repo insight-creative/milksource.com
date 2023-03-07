@@ -1,9 +1,8 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-<section id="intro" class="bg-gray">
-  <div class="block">
-      {{ partial "blog/category-filter" . }}
-      <div class="wrapper-lg mt-6">
+<div class="block">
+    {{ partial "blog/category-filter" . }}
+    <div class="wrapper-lg mt-6">
         {{ $pages := .Site.RegularPages }}
         <div class="grid-3">
             {{ $paginator := .Paginate ( where .Data.Pages "Type" "blog" ) }}
@@ -15,6 +14,5 @@
     <div class="wrapper-lg">
         {{ partial "blog/custom-pagination.html" . }}
     </div>
-  </div>
-</section>
+</div>
 {{ end }}

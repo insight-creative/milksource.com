@@ -9,8 +9,7 @@ const content = document.querySelector('.hero-slider__wrapper');
 const slides = document.querySelectorAll('.hero-slider__slide');
 const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
 const positionsContainer = document.querySelector('.positions-list');
-
-mobileMenu.style.height = 0
+const heroSlider = document.querySelector('.hero-slider');
 
 hamburger.addEventListener('click', toggleMobileMenu)
 
@@ -65,10 +64,7 @@ window.addEventListener("scroll", function() {
   scrollDetect(collapseNav, expandNav)
 })
 
-let heroSliderCheck = document.querySelector('section');
-let sliderIsTrue = heroSliderCheck.classList.contains('hero-slider');
-
-if (sliderIsTrue) {
+if (document.body.contains(heroSlider)) {
   const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
   const slideWidth = slides[0].getBoundingClientRect().width;
 
@@ -158,7 +154,7 @@ function getContentHeight (position) {
 }
 
 function filterPosts () {
-  const filterBtn = document.querySelector('.btn-filter');
+  const filterBtn = document.querySelector('.btn--filter');
   const categoryList = document.querySelector('.category-list');
 
   if (!document.body.contains(categoryList)) return

@@ -1,5 +1,6 @@
 ---
 title: Community Outreach
+layout: page-single
 seo:
   page_title:
   meta_description:

@@ -1,9 +1,13 @@
 ---
 title: Community Relations
+layout: page-single
 seo:
   page_title:
   meta_description:
   featured_image: /uploads/
+menu:
+  main:
+    parent: Sustainability
 hero:
   heading: Community Relations
   body: Working with (and for) our neighbors

@@ -1,5 +1,6 @@
 ---
 title: Integrated Waste Management
+layout: page-single
 seo:
   page_title:
   meta_description:

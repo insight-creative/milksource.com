@@ -21,7 +21,7 @@
                         <div class="position__content-inner flow">
                             <p class="fs-100 max-width-none">{{ .Params.SEO.meta_description }}</p>
                             <a href="{{ .Permalink }}" class="btn btn--primary card__link card__read-more flex flex-center">View Job Listing</a>
-                            <p class="max-width-none flex flex-justify-between">{{ upper .Params.location.city }}, {{ upper .Params.location.state }} | {{ upper .Params.job_type }}<span>POSTED ON: {{ .Params.date.Format "January 2, 2006" }}</span></p>
+                            <p class="max-width-none flex flex-justify-between shift-up">{{ .Params.location.city }}, {{ .Params.location.state }} | {{ upper .Params.job_type }}<span>POSTED ON: {{ .Params.date.Format "January 2, 2006" }}</span></p>
                         </div>
                     </div>
                 </li>

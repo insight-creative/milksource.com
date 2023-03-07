@@ -6,9 +6,9 @@
 	</a>
 		{{ if .Params.Categories }}
 		<div class="card__meta">
-			{{ range $index, $elements := .Params.Categories }}
-					<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="btn btn--primary btn--category">{{ if ne $index 0 }}{{ end }}{{ . | title }}</a>
-					{{ end }}
+				{{ range (.GetTerms "categories") }}
+					<a href="{{ .Permalink }}" class="btn btn--primary btn--category">{{ .LinkTitle }}</a>
+    		{{ end }}
 			</div>
 		{{ end }}
 		<div class="card__body flow">

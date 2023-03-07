@@ -1,5 +1,7 @@
 ---
 title: Driver/Milk Hauler
+draft: false
+url: 
 seo:
   page_title: Driver/Milk Hauler
   meta_description: Transports raw milk from dairy to processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company’s policies, goals, and objectives.

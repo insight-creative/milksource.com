@@ -1,5 +1,6 @@
 ---
 title: Sustainability
+layout: page-list
 menu:
   main:
     weight: 2

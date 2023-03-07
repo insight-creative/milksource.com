@@ -1,5 +1,6 @@
 ---
 title: Occupational Health and Safety
+layout: page-single
 seo:
   page_title:
   meta_description:
