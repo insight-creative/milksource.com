@@ -53,7 +53,7 @@ hero_slider:
         open_in_new_tab: false
       image:
         enabled: false
-        image_url: /uploads/breakfast-on-the-farm.jpg
+        image_url: /uploads/breakfast-on-the-farm-2.jpg
         image_alt:
     - heading: Now Hiring!
       body:
