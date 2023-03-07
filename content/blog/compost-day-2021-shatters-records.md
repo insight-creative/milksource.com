@@ -8,7 +8,7 @@ seo:
   featured_image_alt: Compost Day 2021
 date: "2021-05-03"
 categories: 
-  - "news"
+  - News
 ---
 
 An hour BEFORE Milk Source's annual Compost Day was officially supposed to start, 100 trailers had already been loaded with fertilizer at Tidy View Dairy.

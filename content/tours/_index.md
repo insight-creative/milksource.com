@@ -1,5 +1,6 @@
 ---
 title: Tours
+layout: page-single
 menu:
   secondary:
     weight: 2

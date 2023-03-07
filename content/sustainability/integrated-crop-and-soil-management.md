@@ -1,5 +1,6 @@
 ---
 title: Integrated Crop and Soil Management
+layout: page-single
 seo:
   page_title:
   meta_description:

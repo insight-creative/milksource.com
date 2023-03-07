@@ -1,5 +1,6 @@
 ---
 title: Ecosystem and Wildlife Protection
+layout: page-single
 seo:
   page_title:
   meta_description:

@@ -1,5 +1,6 @@
 ---
 title: Food Safety
+layout: page-single
 seo:
   page_title:
   meta_description:

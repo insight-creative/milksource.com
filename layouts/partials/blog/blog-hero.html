@@ -8,8 +8,9 @@
           <div class="flex flex-justify-between">
             <div class="categories-list">
               {{ if .Params.Categories }}
-              {{ range $index, $elements := .Params.Categories }}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="categories">{{ if ne $index 0 }}{{ end }}
-                  {{ . | title }}</a>{{ end}}
+                {{ range (.GetTerms "categories") }}
+                  <a href="{{ .Permalink }}" class="btn btn--primary btn--category">{{ .LinkTitle }}</a>
+                {{ end }}
               {{ end }}
             </div>
             <span class="reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>

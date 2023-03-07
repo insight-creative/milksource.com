@@ -1,5 +1,6 @@
 ---
 title: Superior Animal Treatment and Care
+layout: page-single
 seo:
   page_title:
   meta_description:

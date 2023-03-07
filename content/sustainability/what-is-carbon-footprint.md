@@ -1,5 +1,6 @@
 ---
 title: What is Carbon Footprint
+layout: page-single
 seo:
   page_title:
   meta_description:

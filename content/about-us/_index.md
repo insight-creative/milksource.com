@@ -1,5 +1,6 @@
 ---
 title: About Us
+layout: page-single
 menu:
   main:
     weight: 1

@@ -1,5 +1,7 @@
 ---
 title: Human Resources & Payroll Administrator
+draft: false
+url: 
 seo:
   page_title: Human Resources & Payroll Administrator
   meta_description: This position is a vital role on our team as they are responsible for bi-weekly payroll administration for 600+ employees as well as maintaining employee records and preparing various reports for our management team. This role is 100% in office in Kaukauna, WI and includes competitive compensation & full benefits!

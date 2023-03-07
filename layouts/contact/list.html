@@ -1,38 +1,25 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-{{ partial "intro" . }}
-<div class="contact-content block">
-  <div class="wrapper">
-    <h2>How to Reach Us</h2>
-    <h3>Partners</h3>
+{{ partial "contact/intro" . }}
+<div class="contact-content block bg-gray">
+  <div class="wrapper mt-10">
+    <h2>Partners</h2>
     {{ range .Params.contact_list }}
-    {{ if eq .is_partner true }}
-    <div class="contact columns-2 border flex flex-justify-between">
-      <div class="">
-        <div>{{ .name }}</div>
-        <div>{{ .job_title }}</div>
-      </div>
-      <div class="flow flex flex-column">
-        <div class="flex flex-justify-end">Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
-        <div>Work email: <a href="mailto:{{ .email }}">{{ .email }}</a></div>
-      </div>
-    </div>
+      {{ if eq .is_partner true }}
+        <h2>{{ .name }}</h2>
+        <p>{{ .job_title }}</p>
+        <p>{{ .email }}</p>
+        <p>{{ .phone }}</p>
+      {{ end }}
     {{ end }}
-    {{ end }}
-    <h3 class="mt-4">Team Milksource</h3>
+    <h2>Team Milk Source</h2>
     {{ range .Params.contact_list }}
-    {{ if eq .is_partner false }}
-    <div class="contact columns-2 border flex flex-justify-between">
-      <div class="flow">
-        <div>{{ .name }}</div>
-        <div>{{ .job_title }}</div>
-      </div>
-      <div class="flow">
-        <div class="flex flex-justify-end">Work Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></div>
-        <div>Work email: <a href="mailto:{{ .email }}">{{ .email }}</a></div>
-      </div>
-    </div>
-    {{ end }}
+      {{ if eq .is_partner false }}
+        <h2>{{ .name }}</h2>
+        <p>{{ .job_title }}</p>
+        <p>{{ .email }}</p>
+        <p>{{ .phone }}</p>
+      {{ end }}
     {{ end }}
   </div>
 </div>
