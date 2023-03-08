@@ -36,9 +36,9 @@ cta_block:
 * All tours depend on tour guide availability.
 
 #### Daily Tour Schedule
-* Rosendale Dairy: Thursday & Saturday Mornings. By appointment. Call (920)-759-4673
-* New Chester Dairy: Tuesday & Saturday Mornings. By appointment. Call (920)-759-4673
-* Tidy View Dairy: By appointment. Call (920)-759-4673
+* Rosendale Dairy: Thursday & Saturday Mornings. By appointment. Call <a href="tel:920-759-4673">(920)-759-4673</a>
+* New Chester Dairy: Tuesday & Saturday Mornings. By appointment. Call <a href="tel:920-759-4673">(920)-759-4673</a>
+* Tidy View Dairy: By appointment. Call <a href="tel:920-759-4673">(920)-759-4673</a>
 
 #### Tour Rules & Regulations
 * Tours are filled on a first-come, first-reserved basis
