@@ -12,7 +12,7 @@ hero:
   heading: What is Carbon Footprint
   body:
   image:
-    image_url: /uploads/breakfast-on-the-farm.jpg
+    image_url: /uploads/corn-on-stalk.jpg
     image_alt:
 intro:
   enabled: true
