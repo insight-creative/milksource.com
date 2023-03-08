@@ -11,14 +11,14 @@
     top: -3px;
   }
 
-  &__icon {
+  &__icon-inner {
     position: relative;
     margin: 0 5px;
 
     svg {
       width: $ic-300;
       height: $ic-300;
-      fill: $black;
+      fill: $white;
     }
 
     &:hover,

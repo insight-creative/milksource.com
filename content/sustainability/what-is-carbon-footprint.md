@@ -35,8 +35,8 @@ cta_block:
     Whistler&rsquo;s Run and see our gorgeous facility for yourself.</p>
   button:
     enabled: true
-    button_url: /schedule-a-tour/
-    button_text: Schedule your visit
+    button_url: /sustainability/what-is-a-carbon-footprint
+    button_text: What is a Carbon Footprint
     open_in_new_tab: false
 ---
 test
