@@ -27,7 +27,7 @@ hero_slider:
       body:
         button:
           enabled: true
-          button_url: /animal-care/
+          button_url: /sustainability/superior-animal-treatment-and-care/
           button_text: Animal Care
           open_in_new_tab: false
       button:
@@ -43,7 +43,7 @@ hero_slider:
       body:
         button:
           enabled: true
-          button_url: /community/
+          button_url: /sustainability/community-relations/
           button_text: Our Community
           open_in_new_tab: false
       button:
@@ -112,7 +112,7 @@ community:
       barn in DePere, WI
   button:
     enabled: true
-    button_url: /community/
+    button_url: /sustainability/community-relations/
     button_text: Our community efforts
     open_in_new_tab: false
 cta:

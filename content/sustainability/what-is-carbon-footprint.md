@@ -39,4 +39,3 @@ cta_block:
     button_text: What is a Carbon Footprint
     open_in_new_tab: false
 ---
-test

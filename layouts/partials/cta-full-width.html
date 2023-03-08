@@ -6,7 +6,7 @@
         <p class="text-white">{{ .body }}</p>
         {{ if .button.enabled }}
           {{ with .button }}
-            <a href="{{ .button_text }}" class="btn btn--white">{{ .button_text }}</a>
+            <a href="{{ .button_url }}" class="btn btn--white">{{ .button_text }}</a>
           {{ end }}
         {{ end }}
     </div>
