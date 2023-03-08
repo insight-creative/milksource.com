@@ -12,7 +12,7 @@ hero:
   heading:  Occupational Health and Safety
   body: No shortcuts, no excuses
   image:
-    image_url: /uploads/test.jpg
+    image_url: /uploads/occupational-safety.jpg
     image_alt:
 cta_block:
   enabled: true
