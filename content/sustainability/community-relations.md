@@ -15,7 +15,7 @@ hero:
   heading: Community Relations
   body: Working with (and for) our neighbors
   image:
-    image_url: /uploads/test-rattlers-2.jpg
+    image_url: /uploads/timber-rattlers-udder-tuggers-2.jpg
     image_alt:
 cta:
   enabled: true
