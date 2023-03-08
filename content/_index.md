@@ -125,6 +125,6 @@ cta:
     button_text: View open positions
     open_in_new_tab: false
   image:
-    image_url: /uploads/leadership-class-2.jpg
+    image_url: /uploads/test-leadership.jpg
     image_alt: Leadership class
 ---
