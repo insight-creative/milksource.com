@@ -16,7 +16,7 @@ hero:
   heading: Careers
   body: 
   image:
-    image_url: /uploads/leadership-class-2.jpg
+    image_url: /uploads/test-leadership.jpg
     image_alt: 
 intro:
   enabled: true
