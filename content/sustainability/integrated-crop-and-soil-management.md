@@ -14,18 +14,17 @@ hero:
   image:
     image_url: /uploads/clean-milk-tanker.jpg
     image_alt:
-cta_block:
+cta:
   enabled: true
-  heading: Visit Whistler’s Run
-  body: >-
-    <p>Calling all animal lovers! We offer private, educational tours for small
-    groups of all ages. Schedule your tour to meet the animals at
-    Whistler&rsquo;s Run and see our gorgeous facility for yourself.</p>
+  heading: What is a Carbon Footprint?
+  body: Learn how Milk Source is a leader in the global effort to reduce emissions.
   button:
     enabled: true
-    button_url: /schedule-a-tour/
-    button_text: Schedule your visit
-    open_in_new_tab: false
+    button_url: /sustainability/what-is-carbon-footprint/
+    button_text: Carbon Footprint
+  image:
+    image_url: /uploads/hoseline-spreading-5.jpg
+    image_alt: Corn harvester
 ---
 
 ## Preparing our fields for generations to come.

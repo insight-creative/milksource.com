@@ -13,15 +13,17 @@ hero:
   body: Sound science, superior performance
   image:
     image_url: /uploads/environmental-management-systems.jpg
-cta_block:
+cta:
   enabled: true
-  heading: 
-  body:
+  heading: What is a Carbon Footprint?
+  body: Learn how Milk Source is a leader in the global effort to reduce emissions.
   button:
     enabled: true
-    button_url: /schedule-a-tour/
-    button_text: Schedule your visit
-    open_in_new_tab: false
+    button_url: /sustainability/what-is-carbon-footprint/
+    button_text: Carbon Footprint
+  image:
+    image_url: /uploads/hoseline-spreading-5.jpg
+    image_alt: Corn harvester
 ---
 
 ## High-tech innovation enhances decades of experience.
