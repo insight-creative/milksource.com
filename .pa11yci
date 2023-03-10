@@ -1,0 +1,37 @@
+{
+    "defaults": {
+    "timeout": 100000,
+    "wait": 1000,
+    "standard": "WCAG2AA"
+      },
+      "urls": [
+      "http://localhost:1313/",
+      "http://localhost:1313/test/",
+      "http://localhost:1313/test/adult-neurodivergent-test/",
+      "http://localhost:1313/test/adult/online-adhd-test/",
+      "http://localhost:1313/test/adult/adult-autism-test/",
+      "http://localhost:1313/test/adult/comprehensive-adult-testing/",
+      "http://localhost:1313/test/adult/remote-specialty-testing-adults/",
+      "http://localhost:1313/test/adult/targeted-subject-testing/",
+      "http://localhost:1313/test/child-neurodivergent-test/",
+      "http://localhost:1313/test/child/child-adhd-test/",
+      "http://localhost:1313/test/child/child-autism-test/",
+      "http://localhost:1313/test/child/comprehensive-child-testing/",
+      "http://localhost:1313/test/child/remote-specialty-testing-children/",
+      "http://localhost:1313/test/child/targeted-subject-testing-children/",
+      "http://localhost:1313/treat/",
+      "http://localhost:1313/treat/interventions/",
+      "http://localhost:1313/treat/interventions/reading-intervention/",
+      "http://localhost:1313/treat/interventions/math-intervention/",
+      "http://localhost:1313/treat/interventions/executive-function-intervention/",
+      "http://localhost:1313/transform/",
+      "http://localhost:1313/our-team/",
+      "http://localhost:1313/our-team/heather-meggers-wright-phd/",
+      "http://localhost:1313/our-team/shannon-schaefer-phd/",
+      "http://localhost:1313/our-team/brian-weiland-psyd/",
+      "http://localhost:1313/resources/",
+      "http://localhost:1313/blog/",
+      "http://localhost:1313/resources/faqs/",
+      "http://localhost:1313/resources/payment-options/"
+      ]
+  }

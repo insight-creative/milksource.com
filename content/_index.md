@@ -37,7 +37,7 @@ hero_slider:
         open_in_new_tab: false
       image:
         enabled: false
-        image_url: /uploads/animal-care-cow.jpg
+        image_url: /uploads/animal-care-cow-2.jpg
         image_alt: Horses and dogs together in pasture at Whistler's Run
     - heading: Involved in our communities where we live and work
       body:
@@ -71,6 +71,13 @@ hero_slider:
         enabled: false
         image_url: /uploads/leadership-class-2.jpg
         image_alt: Horses and dogs together in pasture at Whistler's Run
+hero:
+  enabled: true
+  heading: MilkSource Genetics
+  body: 
+  image:
+    image_url: /uploads/milksource-logo-sign-2.jpg
+    image_alt: Milk Source sign
 intro:
   enabled: true
   heading: About Milk Source

@@ -3,13 +3,11 @@
 {{ partial "home/home-intro" . }}
 {{ partial "intro" . }}
 {{ partial "image-reel" . }}
-
 {{ if .Params.community.enabled}}
 {{ with .Params.community }}
 {{ partial "two-column" . }}
 {{ end }}
 {{ end }}
-
 {{ if .Params.cta.enabled }}
     {{ with .Params.cta }}
         {{ partial "cta-full-width" . }}
