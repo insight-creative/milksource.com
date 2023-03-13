@@ -7,7 +7,7 @@
     <h3>Partners</h3>
     {{ range .Params.contact_list }}
     {{ if eq .is_partner true }}
-    <div class="contact columns-2 border flex flex-justify-between">
+    <div class="contact columns-2 border flex flex-justify-between bg-gray">
       <div class="">
         <div>{{ .name }}</div>
         <div>{{ .job_title }}</div>
@@ -22,7 +22,7 @@
     <h3 class="mt-4">Team Milksource</h3>
     {{ range .Params.contact_list }}
     {{ if eq .is_partner false }}
-    <div class="contact columns-2 border flex flex-justify-between">
+    <div class="contact columns-2 border flex flex-justify-between bg-gray">
       <div class="flow">
         <div>{{ .name }}</div>
         <div>{{ .job_title }}</div>
