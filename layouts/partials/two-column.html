@@ -1,18 +1,14 @@
 <section class="two-column-section block">
-
-  <div class="wrapper-lg">
-      <div class="flex flex-column flex-row-m">
-          <div class="w-100 w-50-m m-auto flow">
-              <h2>{{ .heading }}</h2>
-              <p>{{ .body }}</p>
-              {{ if .button.enabled}}
-              <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
-              {{ end }}
-          </div>
-          <div class="w-100 w-50-m ml-9">
-              {{ partial "responsive-image" . }}
-          </div>
-      </div>
+  <div class="wrapper-lg split-column">
+    <div class="col flow">
+        <h2>{{ .heading }}</h2>
+        <p>{{ .body }}</p>
+        {{ if .button.enabled}}
+        <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
+        {{ end }}
+    </div>
+    <div class="w-100 w-50-m ml-9">
+        {{ partial "responsive-image" . }}
+    </div>
   </div>
-
 </section>
