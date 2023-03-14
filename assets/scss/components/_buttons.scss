@@ -138,6 +138,7 @@ button {
   align-items: center;
   padding: $ic-100 0;
   transition: 0.3s ease;
+  margin: 5rem 0 $ic--200 0;
 
   svg {
     fill: $primary-color;
@@ -151,6 +152,10 @@ button {
   &:hover,
   &:focus {
     color: $primary-color;
+  }
+
+  @include breakpoint(sm) {
+    margin: 0;
   }
 }
 

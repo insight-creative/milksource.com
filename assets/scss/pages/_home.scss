@@ -3,27 +3,3 @@
         padding: clamp(4.5rem, 10%, 7.5rem) 0;
     }
 }
-
-// .page-home {
-//     .images {
-//         right: 10px;
-
-//         @include breakpoint(sm) {
-//             right: 0;
-//         }
-//     }
-// }
-
-.page-home .intro {
-    .image-small {
-        position: absolute;
-        max-width: 250px;
-        bottom: -40px;
-        left: -75px;
-
-        @include breakpoint(sm) {
-            bottom: -70px;
-            left: -100px;
-        }
-    }    
-}
