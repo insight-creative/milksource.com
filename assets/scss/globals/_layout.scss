@@ -53,6 +53,13 @@
 .w-auto {
   width: auto;
 }
+.w-24ch {
+  max-width: 24ch;
+
+  @include breakpoint(sm) {
+    max-width: 85ch;
+  }
+}
 .w-26ch {
   width: 26ch;
 }

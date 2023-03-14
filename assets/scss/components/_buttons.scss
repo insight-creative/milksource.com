@@ -109,7 +109,7 @@
   padding: $ic--100;
   position: absolute;
   bottom: 0;
-  right: 30%;
+  right: 20%;
 
   svg {
     fill: $white;
@@ -120,6 +120,10 @@
   &:focus {
     color: $white;
     background-color: $btn-hover;
+  }
+
+  @include breakpoint(sm) {
+    right: 30%;
   }
 }
 

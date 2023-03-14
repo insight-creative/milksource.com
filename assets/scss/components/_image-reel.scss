@@ -9,7 +9,7 @@
   overflow-y: hidden;
   scrollbar-color: #1F2526 #EBF1F2;
   background-color: $primary-color;
-  margin-right: -180px;
+  margin-right: -25px;
 
   img {
     height: 100%;
@@ -22,6 +22,10 @@
     &:last-child {
       margin-right: 0;
     }
+  }
+
+  @include breakpoint(xl) {
+    margin-right: -180px;
   }
 }
 

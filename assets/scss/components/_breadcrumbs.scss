@@ -69,3 +69,11 @@
     }
   }
 }
+
+.hero .breadcrumbs {
+  display: none;
+
+  @include breakpoint(sm) {
+    display: block;
+  }
+}

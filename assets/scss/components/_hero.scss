@@ -29,17 +29,39 @@
       top: 0;
       left: 0;
       height: 100%;
-      width: 70%;
+      width: 80%;
       background-color: $primary-color;
       z-index: -1;
+    }
+
+    @include breakpoint(sm) {
+      &::after {
+        width: 70%;
+      }
     }
   }
 
   &__content-inner {
     padding: $ic-100;
 
+    h1 {
+      max-width: 12ch;
+
+      @include breakpoint(sm) {
+        max-width: 20ch;
+      }
+    }
+
+    p {
+      max-width: 24ch;
+
+      @include breakpoint(sm) {
+        max-width: 80ch;
+      }
+    }
+
     @include breakpoint(sm) {
       padding: $ic-200;
     }
-  } 
+  }
 }
