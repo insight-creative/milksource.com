@@ -11,6 +11,10 @@
 
     &__images{
         right: 10px;
+
+        @include breakpoint(sm) {
+            right: 0;
+        }
     }
 
     &__image-small {
@@ -18,5 +22,10 @@
         max-width: 250px;
         bottom: -40px;
         left: -75px;
+
+        @include breakpoint(sm) {
+            bottom: -70px;
+            left: -100px;
+        }
     }
 }
