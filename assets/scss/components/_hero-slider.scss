@@ -1,11 +1,11 @@
 .hero-slider {
   overflow: hidden;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 109px);
   position: relative;
 
-  @include breakpoint(md) {
-    height: calc(100vh - 108px);
-  }
+  // @include breakpoint(md) {
+  //   height: calc(100vh - 108px);
+  // }
 }
 
 .hero-slider__wrapper {
