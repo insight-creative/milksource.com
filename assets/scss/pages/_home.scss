@@ -3,7 +3,7 @@
         padding: clamp(4.5rem, 10%, 7.5rem) 0;
     }
 
-    &__images{
+    .images{
         right: 10px;
 
         @include breakpoint(sm) {
@@ -11,7 +11,7 @@
         }
     }
 
-    &__image-small {
+    .image-small {
         position: absolute;
         max-width: 250px;
         bottom: -40px;
