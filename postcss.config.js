@@ -13,8 +13,6 @@ module.exports = {
       safelist: [
         'is-active',
         'nav-open',
-        'swiper-pagination-bullet',
-        'swiper-pagination-bullet-active',
         'video-paused',
         'video-playing',
         'expand',
