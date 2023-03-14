@@ -2,30 +2,10 @@
     padding: clamp($ic-500, 55%, 250px) 0 clamp($ic-900, 10%, $ic-1000) 0;
     background-image: url("/uploads/background-texture-small.png");
 
-    // &__image-small {
-    //     position: absolute;
-    //     max-width: 250px;
-    //     bottom: -70px;
-    //     left: -100px;
-    // }
-
-    &__images{
-        right: 10px;
-
-        @include breakpoint(sm) {
-            right: 0;
-        }
-    }
-
     &__image-small {
         position: absolute;
         max-width: 250px;
-        bottom: -40px;
-        left: -75px;
-
-        @include breakpoint(sm) {
-            bottom: -70px;
-            left: -100px;
-        }
+        bottom: -70px;
+        left: -100px;
     }
 }
