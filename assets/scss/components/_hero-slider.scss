@@ -1,7 +1,11 @@
 .hero-slider {
   overflow: hidden;
-  height: calc(100vh - 108px);
+  height: calc(100vh - 60px);
   position: relative;
+
+  @include breakpoint(md) {
+    height: calc(100vh - 108px);
+  }
 }
 
 .hero-slider__wrapper {
@@ -28,8 +32,9 @@
     width: 200px;
   }
 
-  & .slider-button:first-child {
-    padding-left: 0;
+  @include breakpoint(sm) {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -101,4 +106,5 @@
   bottom: 0;
   z-index: 2;
   width: 100%;
+  text-align: center;
 }
