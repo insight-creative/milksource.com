@@ -12,8 +12,8 @@ hero:
   heading: Integrated Waste Management
   body: The Original Recycler
   image:
-    image_url: /uploads/corn-harvester-2.jpg
-    image_alt:
+    image_url: /uploads/waste-management.jpg
+    image_alt: Waste management
 cta:
   enabled: true
   heading: What is a Carbon Footprint?
