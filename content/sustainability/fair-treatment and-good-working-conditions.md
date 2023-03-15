@@ -12,8 +12,8 @@ hero:
   heading: Fair Treatment and Good Working Conditions
   body: An eye toward the future
   image:
-    image_url: /uploads/animal-care-cow.jpg
-    image_alt: Up close image of a cow
+    image_url: /uploads/milksource-university.jpg
+    image_alt: Milksource University
 cta:
   enabled: true
   heading: What is a Carbon Footprint?
