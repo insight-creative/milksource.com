@@ -22,7 +22,7 @@
   <meta property="twitter:site" content="@">
   <meta property="twitter:image" content="{{ if .Params.seo.featured_image }}{{ site.BaseURL }}{{ .Params.seo.featured_image }}{{ end }}">
 
-  <link rel="canonical" href="{{ site.BaseURL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
 
   {{ $scss := resources.Get "scss/main.scss" | toCSS }}
   {{ $postcss := $scss | resources.PostCSS | minify }}
