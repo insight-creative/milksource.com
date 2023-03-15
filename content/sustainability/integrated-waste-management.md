@@ -5,9 +5,9 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/
+  page_title: Integrated Waste Management
+  meta_description: The original recycler.  Finding value where others see waste.
+  featured_image:
 hero:
   heading: Integrated Waste Management
   body: The Original Recycler

@@ -5,15 +5,15 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
+  page_title: Integrated Crop and Soil Management
+  meta_description: Respecting the land. Preparing our fields for generations to come.
   featured_image: /uploads/
 hero:
   heading: Integrated Crop and Soil Management
   body: Respecting the land
   image:
-    image_url: /uploads/clean-milk-tanker.jpg
-    image_alt:
+    image_url: /uploads/environmental-management-systems.jpg
+    image_alt: Environmental management systems
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

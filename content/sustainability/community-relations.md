@@ -5,8 +5,8 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
+  page_title: Community Relations
+  meta_description: Working with (and for) our neighbors.  Join the 10,000 people a year who visit our farms.
   featured_image: /uploads/
 menu:
   main:
@@ -16,7 +16,7 @@ hero:
   body: Working with (and for) our neighbors
   image:
     image_url: /uploads/timber-rattlers-udder-tuggers-2.jpg
-    image_alt:
+    image_alt: Timber Rattlers Udder Tuggers
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

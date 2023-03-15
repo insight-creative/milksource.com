@@ -8,10 +8,9 @@ menu:
     weight: 4
 seo:
   page_title: MilkSource Genetics
-  meta_description: >-
-    
-  featured_image: /uploads/milksource-logo-sign-2.jpg
-  featured_image_alt: 
+  meta_description: Showcasing some of the world’s finest cows
+  featured_image:
+  featured_image_alt:
 hero:
   enabled: true
   heading: MilkSource Genetics

@@ -5,9 +5,9 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/
+  page_title: Superior Animal Treatment and Care
+  meta_description: It’s all about the cows.  Great herds nurtured by top-quality staff.
+  featured_image:
 hero:
   heading: Superior Animal Treatment and Care
   body: It’s all about the cows

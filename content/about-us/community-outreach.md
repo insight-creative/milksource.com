@@ -5,15 +5,15 @@ menu:
   main:
     parent: "About Us"
 seo:
-  page_title:
-  meta_description:
+  page_title: Community Outreach
+  meta_description: Involved in our communities where we live and work.
   featured_image:
 hero:
   heading: Community Outreach 
   body: Involved in our communities where we live and work
   image:
     image_url: /uploads/breakfast-on-the-farm-2.jpg
-    image_alt: 
+    image_alt: Breakfast on the farm
 intro:
   enabled: true
   heading:

@@ -8,14 +8,14 @@ menu:
     weight: 1
 seo:
   page_title: About Us
-  meta_description: 
+  meta_description: Tracing our roots back to 1965.  Leading the way in modern sustainable agriculture.  Milk Source was co-founded in 1994 by UW-Madison graduates Jim Ostrom, John Vosters and Todd Willer — each from multi-generational Wisconsin farm families — and traces its roots back to 1965 when a small 30-cow dairy farm was started in Freedom by John’s parents.
   featured_image:
 hero:
   heading: Meet the owners
   body: Tracing our roots back to 1965
   image:
     image_url: /uploads/milk-source-owners-2.jpg
-    image_alt: 
+    image_alt: MilkSource owners
 cta_block:
   enabled: true
   heading: Visit the barn

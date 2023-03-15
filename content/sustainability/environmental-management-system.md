@@ -5,14 +5,15 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/
+  page_title: Environmental Management System
+  meta_description: Sound science, superior performance.  High-tech innovation enhances decades of experience.
+  featured_image:
 hero:
   heading: Environmental Management System
   body: Sound science, superior performance
   image:
-    image_url: /uploads/environmental-management-systems.jpg
+    image_url: /uploads/new-chester-21.jpg
+    image_alt: Environmental management systems
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

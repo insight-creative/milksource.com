@@ -5,15 +5,15 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/
+  page_title: Ecosystem and Wildlife Protection
+  meta_description: Preservation and protection.  Conservation and farming go hand in hand.
+  featured_image:
 hero:
   heading: Ecosystem and Wildlife Protection
   body: Preservation and Protection
   image:
     image_url: /uploads/corn-harvester-2.jpg
-    image_alt: 
+    image_alt: Corn harvester
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

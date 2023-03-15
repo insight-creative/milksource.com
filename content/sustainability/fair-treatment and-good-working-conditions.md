@@ -5,15 +5,15 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/clean-milk-tanker.jpg
+  page_title: Fair Treatment and Good Working Conditions
+  meta_description: An eye toward the future. Helping the next generation of leaders take root.
+  featured_image:
 hero:
   heading: Fair Treatment and Good Working Conditions
   body: An eye toward the future
   image:
     image_url: /uploads/animal-care-cow.jpg
-    image_alt:
+    image_alt: Up close image of a cow
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

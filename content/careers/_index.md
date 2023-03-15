@@ -6,18 +6,16 @@ menu:
   footer:
     weight: 3
 seo:
-  page_title:
-  meta_description: >-
-    See what life at Whistler’s Run is all about! Here, you’ll find photos from
-    our staff and boarders.
-  featured_image: /uploads/
+  page_title: Careers
+  meta_description: Milk Source is a growing dairy enterprise with farms and affiliated operations in Wisconsin and the Midwest. We strive to provide a safe and respectful work environment for our team members. We believe that “sustainability” means taking good care of our people, our animals and our home communities.
+  featured_image:
 hero:
   enabled: true
   heading: Careers
   body: 
   image:
     image_url: /uploads/leadership-class-4.jpg
-    image_alt: 
+    image_alt: Leadership class
 intro:
   enabled: true
   heading: How hiring!
@@ -26,11 +24,11 @@ intro:
   image:
     enabled: true
     image_url: /uploads/heifer-source-pile-2.jpg
-    image_alt:
+    image_alt: Heifer source pile
   image1:
     enabled: true
     image_url: /uploads/heifer-source-2.jpg
-    image_alt:
+    image_alt: Heifer source
 cta_block:
   enabled: true
   heading: About Milk Source

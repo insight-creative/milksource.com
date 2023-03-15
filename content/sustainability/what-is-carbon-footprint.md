@@ -5,15 +5,15 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/
+  page_title: What is Carbon Footprint
+  meta_description: What carbon footprint means and its impact on the environment.  It is the amount of greenhouse gases – specifically carbon dioxide emitted by a person’s activities or a product’s manufacture and transport – during a given period.
+  featured_image:
 hero:
   heading: What is Carbon Footprint
   body: What Carbon Footprint means and Its Impact on the Environment
   image:
     image_url: /uploads/corn-on-stalk.jpg
-    image_alt:
+    image_alt: Close up image of corn on a stalk
 intro:
   enabled: true
   heading: What is a Carbon Footprint?

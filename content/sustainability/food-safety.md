@@ -5,15 +5,15 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/clean-milk-tanker.jpg
+  page_title: Food Safety
+  meta_description: No compromise on quality.  Producing the freshest and safest product.
+  featured_image:
 hero:
   heading: Food Safety
   body: No compromise on quality
   image:
     image_url: /uploads/clean-milk-tanker.jpg
-    image_alt: 
+    image_alt: Clean milk tanker
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

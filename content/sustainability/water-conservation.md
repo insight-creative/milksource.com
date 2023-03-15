@@ -5,9 +5,9 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/
+  page_title: Water Conservation
+  meta_description: Reclaim. Reuse. Recycle. A recognized leader in conserving a shared vital resource. 
+  featured_image:
 hero:
   heading: Water Conservation
   body: Reclaim. Reuse. Recycle.

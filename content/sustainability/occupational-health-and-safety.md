@@ -5,9 +5,9 @@ menu:
   main:
     parent: "Sustainability"
 seo:
-  page_title:
-  meta_description:
-  featured_image: /uploads/
+  page_title: Occupational Health and Safety
+  meta_description: No shortcuts, no excuses.  Uncompromising commitment to protecting our people.
+  featured_image:
 hero:
   heading:  Occupational Health and Safety
   body: No shortcuts, no excuses

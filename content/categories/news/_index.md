@@ -8,14 +8,14 @@ menu:
     weight: 6
 seo:
   page_title: News
-  meta_description: 
-  featured_image: /uploads/
+  meta_description: Spotlight on Milk Source
+  featured_image: 
   featured_image_alt: 
 hero:
   enabled: true
   heading: Milk Source News
   body: Stay up to date with what’s happening.
   image:
-    image_url: /uploads/milksource-logo-sign.jpg
+    image_url: /uploads/milksource-logo-sign-2.jpg
     image_alt: Milk Source sign
 ---
