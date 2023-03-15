@@ -13,7 +13,7 @@ hero:
   body: No shortcuts, no excuses
   image:
     image_url: /uploads/occupational-safety.jpg
-    image_alt:
+    image_alt: Occupational safety
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

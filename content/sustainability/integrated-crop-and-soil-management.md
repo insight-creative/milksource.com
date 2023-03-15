@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Integrated Crop and Soil Management
   meta_description: Respecting the land. Preparing our fields for generations to come.
-  featured_image: /uploads/
+  featured_image:
 hero:
   heading: Integrated Crop and Soil Management
   body: Respecting the land

@@ -13,7 +13,7 @@ hero:
   body: It’s all about the cows
   image:
     image_url: /uploads/animal-care-cow.jpg
-    image_alt:
+    image_alt: Superior animal treatment
 cta:
   enabled: true
   heading: What is a Carbon Footprint?
