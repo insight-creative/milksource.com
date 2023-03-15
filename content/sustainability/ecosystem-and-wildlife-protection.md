@@ -12,7 +12,7 @@ hero:
   heading: Ecosystem and Wildlife Protection
   body: Preservation and Protection
   image:
-    image_url: /uploads/ecosytem-wildlife-protection.jpg
+    image_url: /uploads/ecosystem-wildlife-protection.jpg
     image_alt: Ecosystem wildlife protection
 cta:
   enabled: true
