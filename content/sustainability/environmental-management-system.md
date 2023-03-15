@@ -12,7 +12,7 @@ hero:
   heading: Environmental Management System
   body: Sound science, superior performance
   image:
-    image_url: /uploads/new-chester-21.jpg
+    image_url: /uploads/new-chester-21-2.jpg
     image_alt: Environmental management systems
 cta:
   enabled: true

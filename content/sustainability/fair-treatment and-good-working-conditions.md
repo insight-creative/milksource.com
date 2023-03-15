@@ -12,7 +12,7 @@ hero:
   heading: Fair Treatment and Good Working Conditions
   body: An eye toward the future
   image:
-    image_url: /uploads/milksource-university.jpg
+    image_url: /uploads/milksource-university-2.jpg
     image_alt: Milksource University
 cta:
   enabled: true

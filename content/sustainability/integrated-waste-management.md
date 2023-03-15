@@ -12,7 +12,7 @@ hero:
   heading: Integrated Waste Management
   body: The Original Recycler
   image:
-    image_url: /uploads/waste-management.jpg
+    image_url: /uploads/waste-management-2.jpg
     image_alt: Waste management
 cta:
   enabled: true

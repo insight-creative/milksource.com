@@ -12,8 +12,8 @@ hero:
   heading: Water Conservation
   body: Reclaim. Reuse. Recycle.
   image:
-    image_url: /uploads/environmental-management-systems.jpg
-    image_alt:
+    image_url: /uploads/water-conservation.jpg
+    image_alt: Water conservation
 cta:
   enabled: true
   heading: What is a Carbon Footprint?
