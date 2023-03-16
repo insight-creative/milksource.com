@@ -7,6 +7,7 @@
       "urls": [
       "http://localhost:1313/",
       "http://localhost:1313/about-us/",
+      "http://localhost:1313/about-us/a-cows-life/",
       "http://localhost:1313/about-us/community-outreach/",
       "http://localhost:1313/sustainability/",
       "http://localhost:1313/sustainability/community-relations/",
@@ -21,9 +22,12 @@
       "http://localhost:1313/sustainability/water-conservation/",
       "http://localhost:1313/sustainability/what-is-carbon-footprint/",
       "http://localhost:1313/careers/",
+      "http://localhost:1313/careers/driver-milk-hauler/",
       "http://localhost:1313/milksource-genetics/",
+      "http://localhost:1313/blog/even-mother-nature-cant-slow-down-compost-day-2022/",
       "http://localhost:1313/contact/",
       "http://localhost:1313/news/",
+      "http://localhost:1313/privacy-policy/",
       "http://localhost:1313/tours/"
       ]
   }

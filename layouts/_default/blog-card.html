@@ -18,9 +18,7 @@
 			<p class="text-black">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</p>
 		</div>
 		<span class="card__reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>
-		<a href="{{ .Permalink }}">
-			<div class="card__arrow bg-primary">
-				{{ partialCached "svg-icons/double-chevron-right.svg" . }}
-			</div>
-		</a>
+		<div class="card__arrow bg-primary">
+			{{ partialCached "svg-icons/double-chevron-right.svg" . }}
+		</div>
 </article>
