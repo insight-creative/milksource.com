@@ -34,7 +34,7 @@ In addition to offering tours to schools, senior groups and the general public, 
 
 We are always interested in hearing from those in the community about special events and fundraisers coming up, or from large groups hoping to get an inside look at part of the Midwest’s incredible dairy industry.
 
-Please  share ideas on potential Milk Source partnerships by sending an e-mail to <a href="mailto:astern@milksource.net">astern@milksource.net</a> or by mail to:
+Please  share ideas on potential Milk Source partnerships by sending an e-mail to astern@milksource.net or by mail to:
 
 N3569 Vanden Bosch Road
 Kaukauana, WI 54130.
