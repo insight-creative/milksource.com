@@ -22,11 +22,11 @@ intro:
   image:
     enabled: true
     image_url: /uploads/heifer-source-pile-2.jpg
-    image_alt: 
+    image_alt: Heifer source pile
   image1:
     enabled: true
     image_url: /uploads/heifer-source-2.jpg
-    image_alt:
+    image_alt: Heifer source
   button:
     enabled: true
     button_url: /careers/

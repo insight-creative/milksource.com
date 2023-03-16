@@ -7,7 +7,7 @@ seo:
   page_title:
   meta_description:
   featured_image: /uploads/joline-1.jpg
-  featured_image_alt: 
+  featured_image_alt: Joline
 date: "2021-08-30"
 categories: 
   - MilkSource Genetics

@@ -31,16 +31,16 @@ cta_block:
     image_url: /uploads/milksource-owners2.jpg
     image_alt: Milk Source owners
 ---
-### See for youself
+## See for youself
 * All tours MUST be scheduled in advance.
 * All tours depend on tour guide availability.
 
-#### Daily Tour Schedule
+### Daily Tour Schedule
 * Rosendale Dairy: Thursday & Saturday Mornings. By appointment. Call <a href="tel:920-759-4673">(920)-759-4673</a>
 * New Chester Dairy: Tuesday & Saturday Mornings. By appointment. Call <a href="tel:920-759-4673">(920)-759-4673</a>
 * Tidy View Dairy: By appointment. Call <a href="tel:920-759-4673">(920)-759-4673</a>
 
-#### Tour Rules & Regulations
+### Tour Rules & Regulations
 * Tours are filled on a first-come, first-reserved basis
 * Tours providing their own bus may REQUEST a different time, with at least seven days notice and flexibility
 * Tourists will meet at the designated gathering spot
