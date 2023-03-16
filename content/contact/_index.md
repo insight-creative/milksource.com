@@ -13,7 +13,7 @@ hero:
   body: Questions, comments and feedback, we look forward to hearing from you.
   image:
     image_url: /uploads/farm-equipment.jpg
-    image_alt: >-
+    image_alt: MilkSource farm equipment
 intro:
   enabled: true
   heading: Employment Opportunities
@@ -22,7 +22,7 @@ intro:
   image:
     enabled: true
     image_url: /uploads/heifer-source-pile-2.jpg
-    image_alt:
+    image_alt: 
   image1:
     enabled: true
     image_url: /uploads/heifer-source-2.jpg
