@@ -5,5 +5,5 @@
 
     <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=325&height=250 400w, https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=600&height=450 600w, https://milksource.imgix.net{{ .image.image_url }}?fm=jpg&q=75&fit=crop&w=705&h=705 800w" type="image/jpg">
 
-    <img src="{{ .image.image_url }}" width="600" height="450" alt="{{ .image.image_alt }}">   
+    <img src="{{ .image.image_url }}" width="600" height="450" alt="{{ .image.image_alt }}" loading="lazy">   
 </picture>
