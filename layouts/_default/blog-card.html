@@ -13,7 +13,7 @@
 		{{ end }}
 		<div class="card__body flow">
 			<a href="{{ .Permalink }}">
-				<h3 class="h5 fw-800">{{ .Title | markdownify }}</h3>
+				<h2 class="h5 fw-800">{{ .Title | markdownify }}</h2>
 			</a>
 			<p class="text-black">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</p>
 		</div>
