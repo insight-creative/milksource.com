@@ -1,38 +1,14 @@
 console.log('%c Crafted by Insight Creative, Inc. Designed and Developed by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
 
-const mobileMenu = document.querySelector('.site-header__mobile-nav')
-const hamburger = document.querySelector('.hamburger')
-const siteHeader = document.querySelector('.site-header')
-const siteHeaderHeight = siteHeader.getBoundingClientRect().height
-const mobileMenuHeight = mobileMenu.getBoundingClientRect().height
+import { toggleMobileMenu, toggleMobileDropdowns, filterPosts } from "./partials";
+
+const siteHeader = document.querySelector(".site-header")
+const hasSubMenu = document.querySelectorAll(".has-sub-menu")
 const content = document.querySelector('.hero-slider__wrapper');
 const slides = document.querySelectorAll('.hero-slider__slide');
 const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
 const positionsContainer = document.querySelector('.positions-list');
 const heroSlider = document.querySelector('.hero-slider');
-
-hamburger.addEventListener('click', toggleMobileMenu)
-
-function toggleMobileMenu() {
-    const mobileMenuWrapper = document.querySelector('.site-header__mobile-nav-inner')
-    const mobileMenuWrapperHeight = mobileMenuWrapper.getBoundingClientRect().height
-
-    mobileMenu.style.height = 0
-
-    if(mobileMenu.classList.contains('nav-open')) {
-        this.setAttribute('aria-expanded', 'false')
-        this.setAttribute('aria-label', 'open mobile menu')
-        mobileMenu.classList.remove('nav-open')
-        mobileMenu.style.height = 0
-        hamburger.classList.remove('is-active')
-    } else {
-        mobileMenu.classList.add('nav-open')
-        mobileMenu.style.height = mobileMenuWrapperHeight + 'px'
-        hamburger.classList.add('is-active')
-        this.setAttribute('aria-expanded','true')
-        this.setAttribute('aria-label', 'close mobile menu')
-    }
-}
 
 let scrollState = 0
 
@@ -62,6 +38,21 @@ function expandNav() {
 
 window.addEventListener("scroll", function() {
   scrollDetect(collapseNav, expandNav)
+})
+
+hasSubMenu.forEach((link) => {
+  link.addEventListener("mouseover", () => {
+      link.classList.add("active")
+      const activeLink = document.querySelector(".active")
+      const activeSubMenu = activeLink.querySelector(".header__sub-menu")
+      const activeSubMenuContainer = activeSubMenu.querySelector(".header__sub-menu-inner").offsetHeight
+      activeSubMenu.style.height = activeSubMenuContainer + "px"
+  })
+  link.addEventListener("mouseout", () => {
+      link.classList.remove("active")
+      const subMenuToHide = link.querySelector(".header__sub-menu")
+      subMenuToHide.removeAttribute("style")
+  })
 })
 
 if (document.body.contains(heroSlider)) {
@@ -152,15 +143,3 @@ function getContentHeight (position) {
   if (position.classList.contains('position-open')) return 0;
   return positionInner.getBoundingClientRect().height;
 }
-
-function filterPosts () {
-  const filterBtn = document.querySelector('.btn--filter');
-  const categoryList = document.querySelector('.category-list');
-
-  if (!document.body.contains(categoryList)) return
-  filterBtn.addEventListener('click', event => {
-    categoryList.classList.toggle('list-open')
-  })
-}
-
-filterPosts();

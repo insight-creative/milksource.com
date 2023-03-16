@@ -39,3 +39,11 @@ a, .simple-link {
   text-decoration: none;
 }
 
+.transform-x-8 {
+  display: block; 
+  
+  &:hover,
+  &:focus {
+    transform: translateX(8px);
+  }
+}
