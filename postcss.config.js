@@ -11,8 +11,10 @@ module.exports = {
         './content/**/*.md',
       ],
       safelist: [
+        'mobile-dropdown-open',
         'is-active',
         'nav-open',
+        'has-dropdown-open',
         'video-paused',
         'video-playing',
         'expand',
@@ -54,7 +56,8 @@ module.exports = {
         'crt-image-c',
         'active-button',
         'position-open',
-        'list-open'
+        'list-open',
+        'toggle-mobile-dropdown',
       ],
     }),
   ],

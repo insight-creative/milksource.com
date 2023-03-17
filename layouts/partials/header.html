@@ -1,10 +1,10 @@
 {{ "<!-- Header -->" | safeHTML }}
 <a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
-<header class="site-header">
-  <div class="site-header__top bg-gray">
-    <div class="site-header__top-inner flex flex-justify-end w-100 wrapper-lg">
-      <ul class="site-header__secondary-menu flex flex-center">
+<header class="header">
+  <div class="header__top bg-gray">
+    <div class="header__top-inner flex flex-justify-end w-100 wrapper-lg">
+      <ul class="header__secondary-menu flex flex-center">
         {{ with .Site.Menus.secondary }}
         {{ range . }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -13,8 +13,9 @@
       </ul>
     </div>
   </div>
-  <div class="site-header__wrapper wrapper-lg">
-    <div class="site-header__logo">
+  <div class="header__wrapper wrapper-lg">
+    <div class="header__logo">
+      <span class="visually-hidden">Home</span>
       <a class="brand-logo" href="{{ site.BaseURL }}">
         {{ if .Site.Data.site_settings.logo }}
           <img src="/uploads/{{ .Site.Data.site_settings.logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
@@ -23,59 +24,73 @@
         {{ end }}
       </a>
     </div>
-    <div class="site-header__menus flex flex-justify-between flex-column">
-    <div class="site-header__middle">
-      <nav class="site-header__nav" aria-label="primary navigation">
-        <ul class="nav-list">
-          {{ $url := .RelPermalink }}
-          {{ range .Site.Menus.main }}
-          {{ $active := eq $url .URL }}
-          {{ $contact := eq "Contact" .Name }}
+    <nav class="header__nav flex flex-justify-end" aria-label="primary navigation">
+      <ul class="header__nav-list">
+        {{ $url := .RelPermalink }}
+        {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
-            <li class="nav-list__item has-sub-menu">
-              <a {{if $active }}class="current nav-list__link" {{end}} class="nav-list__link" href="{{ .URL }}" aria-label="{{ .Name }}">
-                {{ .Name }}
-                <span class="sub-menu-indicator"></span>
-              </a>
-              <div class="nav-list__sub-menu sub-menu">
-                <ul class="sub-menu__inner">
-                  {{ range sort .Children "value" "desc" }}
-                    <li class="sub-menu__item">
-                        <a class="sub-menu__link" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}{{ partialCached "svg-icons/chevron-right.svg" . }}</a>
-                    </li>
-                  {{ end }}
-                </ul>
-              </div>
-            </li>
+              <li class="header__nav-list-item has-sub-menu">
+                <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}">
+                  {{ .Name }}
+                  <span class="header__sub-menu-indicator"></span>
+                </a>
+                <div class="header__sub-menu">
+                  <div class="header__sub-menu-inner">
+                    <ul>
+                      {{ range sort .Children "value" "desc" }}
+                        <li class="header__sub-menu-item">
+                            <a class="header__sub-menu-link fs-100 no-decoration w-100 transform-x-8" href="{{ .URL }}" aria-label="{{ .Name }}">{{ .Name }}</a>
+                        </li>
+                      {{ end }}
+                    </ul>                            
+                  </div>
+                </div>
+              </li>
           {{ else }}
-            <li class="nav-list__item">
-              <a class="nav-list__link fw-500" href="{{ .URL }}" aria-label="{{ .Name }}">
-                {{ .Name }}
-              </a>
-              {{ end }}
-            </li>
-          {{ end }}
-        </ul>
-      </nav>
-    </div>
-  </div>
-    <div class="site-header__mobile-nav">
-      <div class="site-header__mobile-nav-inner">
-        <ul  class="site-header__mobile-nav-menu">
-          {{ range .Site.Menus.main }}
-          <li>
-            <a href="{{ .URL }}" aria-label="{{ .Name }}" class="nav-list__link shift-up fw-700">
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}">
                 {{ .Name }}
             </a>
-          </li>  
-          {{ end }}
-          <li>
-            <a class="btn btn--primary" href="/schedule-a-tour/">Schedule a Tour</a>
           </li>
+          {{ end }}    
+        {{ end }}
+      </ul>
+    </nav>
+    <div class="header__mobile-nav">
+      <div class="header__mobile-nav-inner">
+        <ul class="header__mobile-nav-menu">
+          {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+              <li class="header__mobile-nav-item nav-item-has-dropdown">
+                <a class="header__mobile-nav-link parent fw-500" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-expanded="false"
+                  title="{{ .Name }}">{{ .Name }}
+                </a>
+                <button class="toggle-mobile-dropdown" aria-label="open mobile dropdown menu"></button>
+                <ul class="header__mobile-dropdown">
+                  {{ range .Children }}
+                  <li class="header__mobile-nav-item">
+                    <a class="header__mobile-dropdown-link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </li>
+              {{ else }}
+            <li class="header__mobile-nav-item">
+              <a class="header__mobile-nav-link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          {{ end }}
+          {{ with .Site.Menus.secondary }}
+            {{ range . }}
+              <li class="header__mobile-nav-item">
+                <a class="header__mobile-nav-link" href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
         </ul>
       </div>
     </div>
-    <button class="hamburger hamburger--slider" type="button" aria-label="open mobile menu" aria-expanded="false">
+    <button class="header__hamburger hamburger hamburger--slider fw-700" type="button" aria-label="open mobile menu" aria-expanded="false">
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>
       </span>
