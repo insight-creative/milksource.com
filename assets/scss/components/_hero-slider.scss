@@ -24,11 +24,26 @@
 }
 
 .hero-slider__button-wrapper{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
+
   button {
-    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36vw;
+
+    @include breakpoint(md) {
+      width: 200px;
+      padding: $ic-100 $ic-400;
+    }
   }
 
-  @include breakpoint(sm) {
+  @include breakpoint(md) {
     display: flex;
     justify-content: space-between;
   }

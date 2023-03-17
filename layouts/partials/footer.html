@@ -16,7 +16,7 @@
             <h2 class="h5 text-white">Contact Us</h2>
             <p>{{ .Site.Data.site_settings.address.street }}</p>
             <p>{{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }} {{ .Site.Data.site_settings.address.zip }}</p>
-            <p class="mt-2">Office: <a href="tel:{{ .Site.Data.site_settings.phone }}">{{ .Site.Data.site_settings.phone }}</a></p>
+            <p class="mt-2">Office: <a href="tel:{{ .Site.Data.site_settings.phone }}" class="high-contrast">{{ .Site.Data.site_settings.phone }}</a></p>
             <p>Fax: {{ .Site.Data.site_settings.fax }}</p>
             {{ partialCached "social-media" . }}
           </div>

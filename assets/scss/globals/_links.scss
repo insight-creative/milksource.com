@@ -3,6 +3,10 @@ a, .simple-link {
   transition: 0.3s ease;
 }
 
+.high-contrast {
+  color: $high-contrast;
+}
+
 .site-main a:not(.btn, .breadcrumbs a, .social__icon, .crt-widget a, .category-list a, .card__categories, .pagination__numbers, .back, .categories, .post-navigation__link, .parent-page-careers .post-content__inner.flow a, .work-phone, .work-email) {
   color: $primary-color;
   text-decoration: none;
