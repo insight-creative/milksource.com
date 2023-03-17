@@ -31,9 +31,9 @@
 
 .card__image-card {
   display: flex;
-  flex: 0 0 500px;
-  width: 500px;
-  height: 500px;
+  flex: 0 0 275px;
+  width: 275px;
+  height: 275px;
   margin-bottom: 1rem;
 
   &:hover,
@@ -51,6 +51,12 @@
         transition: 0.3s ease-out;
       }
     }
+  }
+
+  @include breakpoint(sm) {
+    flex: 0 0 500px;
+    width: 500px;
+    height: 500px;
   }
 }
 
