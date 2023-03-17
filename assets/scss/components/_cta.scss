@@ -1,19 +1,29 @@
 .cta {
-    &__wrapper {
-        margin-right: clamp(-250px, 5vw, -500px);
-    }
+  &__wrapper {
+    margin-right: clamp(-250px, 5vw, -500px);
+  }
 
-    &__content {
-        bottom: 0;
-        z-index: 3;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
+  &__content {
+    bottom: 0;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-    &__content-inner {
-        padding-inline: $ic-900;
+  &__content-inner {
+    padding-inline: $ic-100;
+    max-width: 26ch;
+
+    @include breakpoint(sm) {
+      max-width: 45ch;
     }
+    
+    @include breakpoint(md) {
+      padding-inline: $ic-900;
+      max-width: 80ch;
+    }
+  }
 }
 
 .parent-page-sustainability,
