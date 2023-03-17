@@ -31,7 +31,7 @@ intro:
     open_in_new_tab: false
   image:
     enabled: true
-    image_url: /uploads/hoseline-spreading-5.jpg
+    image_url: /uploads/hoseline-spreading-6.jpg-5.jpg
     image_alt: Corn harvester
   image1:
     enabled: true
@@ -63,6 +63,6 @@ cta:
     button_url: /sustainability/what-is-carbon-footprint/
     button_text: Carbon Footprint
   image:
-    image_url: /uploads/hoseline-spreading-5.jpg
+    image_url: /uploads/hoseline-spreading-6.jpg-5.jpg
     image_alt: Corn harvester
 ---
