@@ -14,7 +14,7 @@ hero:
   heading: Careers
   body: 
   image:
-    image_url: /uploads/leadership-class-4.jpg
+    image_url: /uploads/leadership-class-5.jpg
     image_alt: Leadership class
 intro:
   enabled: true

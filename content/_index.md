@@ -69,7 +69,7 @@ hero_slider:
         open_in_new_tab: false
       image:
         enabled: false
-        image_url: /uploads/leadership-class-2.jpg
+        image_url: /uploads/leadership-class-5.jpg
         image_alt: Leadership class
 hero:
   enabled: true
@@ -130,6 +130,6 @@ cta:
     button_text: View open positions
     open_in_new_tab: false
   image:
-    image_url: /uploads/leadership-class-4.jpg
+    image_url: /uploads/leadership-class-5.jpg
     image_alt: Leadership class
 ---
