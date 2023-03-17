@@ -21,8 +21,6 @@
 
     &__indicator {
         background-color: $primary-color;
-        height: $ic-400;
-        width: $ic-400;
         border-radius: 50%;
         display: grid;
         place-items: center;
@@ -33,6 +31,11 @@
             height: $ic-200;
             transform: rotate(90deg);
             transition: .3s ease-out;
+        }
+
+        @include breakpoint(sm) {
+            height: $ic-400;
+            width: $ic-400;
         }
     }
 }
