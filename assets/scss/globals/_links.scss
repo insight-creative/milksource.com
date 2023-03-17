@@ -7,7 +7,7 @@ a, .simple-link {
   color: $high-contrast;
 }
 
-.site-main a:not(.btn, .breadcrumbs a, .social__icon, .crt-widget a, .category-list a, .card__categories, .pagination__numbers, .back, .categories, .post-navigation__link, .parent-page-careers .post-content__inner.flow a, .work-phone, .work-email) {
+.site-main a:not(.btn, .breadcrumbs a, .social__icon, .crt-widget a, .category-list a, .card__categories, .pagination__numbers, .back, .categories, .post-navigation__link, .parent-page-careers .post-content__inner.flow a, .work-phone, .work-email, .share-buttons__link) {
   color: $primary-color;
   text-decoration: none;
   background-image: linear-gradient($accent-color, $accent-color),linear-gradient(270deg,$primary-color 0%,$primary-color 100%);
