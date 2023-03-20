@@ -1,11 +1,9 @@
-site_cta:
-  heading: Visit Whistler’s Run
-  body: Calling all animal lovers! We offer private, educational tours for small groups of all ages. Schedule your tour to meet the animals at Whistler’s Run and see our gorgeous facility for yourself.
-  button:
-    enabled: true
-    button_url: /schedule-a-tour/
-    button_text: Schedule your visit
-    open_in_new_tab: false
+slider:
+  enabled: true
+  heading: Protecting and replenishing our planet
+  body: Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. Sustainability creates and maintains the conditions under which humans and nature can exist in productive harmony, that permit fulfilling the social, economic and other requirements of present and future generations.
+  heading_alt: Keys to Sustainability
+  body_alt: “Sustainability” is both a goal and a process. Here are the 10 critical ways to achieve the greenest-possible results.
 
 sustainability_cta:
   enabled: true

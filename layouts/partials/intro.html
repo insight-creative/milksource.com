@@ -4,7 +4,7 @@
     <div class="wrapper-lg split-column">
         <div class="intro__body col flow">
             <h2>{{ .heading }}</h2>
-            <div class="w-45ch flow">{{ .body | markdownify }}</div>
+            <div class="flow">{{ .body | markdownify }}</div>
             {{ if .button.enabled }}
             <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
             {{ end }}

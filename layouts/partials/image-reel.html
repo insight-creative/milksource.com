@@ -1,11 +1,16 @@
 {{ $pages := where .Site.RegularPages "Section" "sustainability" }}
 <section class="block bg-primary">
     <div class="wrapper-lg">
-        {{ if .Params.slider.enabled}}
-        <div class="mb-4 flow">
-            <h2 class="text-white">{{ .Params.slider.heading }}</h2>
-            <p class="text-white">{{ .Params.slider.body }}</p>
-        </div>
+        {{ if .Site.Data.global_partials.slider.enabled }}
+            <div class="mb-4 flow">
+                {{ if .IsHome }}
+                    <h2 class="text-white">{{ .Site.Data.global_partials.slider.heading }}</h2>
+                    <p class="text-white">{{ .Site.Data.global_partials.slider.body }}</p>
+                {{ else }}
+                    <h2 class="text-white">{{ .Site.Data.global_partials.slider.heading_alt }}</h2>
+                    <p class="text-white">{{ .Site.Data.global_partials.slider.body_alt }}</p>
+                {{ end }}
+            </div>
         {{ end }}
     </div>
     <div class="wrapper-lg">
