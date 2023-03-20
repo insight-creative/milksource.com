@@ -102,44 +102,17 @@ if (document.body.contains(heroSlider)) {
 }
 
 if (document.body.contains(positionsContainer)) {
-  positionsContainer.addEventListener('click', event => {
-    const positionHeader = event.target.closest('.position__header');
+    const positions = document.querySelectorAll('.position')
 
-    if (!positionHeader) return;
+    positions.forEach(position => {
+      const positionHeading = position.querySelector('.position__heading')
 
-    const position = positionHeader.parentElement;
-    const height = getContentHeight(position);
-
-    updateOpenPositions(position, height);
-  })
-}
-
-function updateOpenPositions (position, height) {
-  const positionContent = position.querySelector('.position__content');
-
-  position.classList.toggle('position-open');
-  positionContent.style.height = height + 'px';
-}
-
-function openFirstPosition() {
-  const openPosition = document.querySelector('.position');
-  
-  if (!openPosition) return;
-
-  const positionContent = openPosition.querySelector('.position__content');
-  const positionInner = openPosition.querySelector('.position__content-inner');
-  const height = positionInner.getBoundingClientRect().height;
-
-  openPosition.classList.add('position-open');
-
-  positionContent.style.height = height + 'px';
-}
-
-openFirstPosition();
-
-function getContentHeight (position) {
-  const positionInner = position.querySelector('.position__content-inner');
-
-  if (position.classList.contains('position-open')) return 0;
-  return positionInner.getBoundingClientRect().height;
+      position.addEventListener('click', function() {
+        if(positionHeading.getAttribute("aria-expanded") === "true") {
+          positionHeading.setAttribute('aria-expanded', 'false')
+        } else {
+          positionHeading.setAttribute('aria-expanded', 'true')
+        }
+      })
+    })
 }

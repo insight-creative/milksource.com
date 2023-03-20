@@ -5,27 +5,24 @@
   <div class="block bg-gray">
     <div class="wrapper flow">
         <h2 class="text-center">Open Positions</h2>
-        <ul class="positions-list no-padding max-width-none">
-            {{ range .Pages }}
-                <li class="position card list-style-none max-width-none flow">
-                    <div class="position__header">
-                        <h3>
-                            <button class="w-100 max-width-none no-padding flex flex-center flex-justify-between">
-                                <span class="h4 fw-800 font-primary">{{ .Title }}</span>
-                                <span class="position__indicator">{{ partialCached "svg-icons/chevron-right.svg" . }}</span>
-                            </button>
-                        </h3>
-                    </div>
-                    <div class="position__content">
-                        <div class="position__content-inner flow">
-                            <p class="max-width-none">{{ .Params.SEO.meta_description }}</p>
-                            <a href="{{ .Permalink }}" class="btn btn--primary card__link card__read-more flex flex-center">View Job Listing</a>
-                            <p class="max-width-none flex flex-justify-between shift-up">{{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}<span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span></p>
-                        </div>
-                    </div>
-                </li>
+        <div class="positions-list no-padding max-width-none">
+            {{ range first 1 .Pages }}
+                <details class="position card list-style-none max-width-none flow" open>
+                    <summary class="position__heading h4" aria-expanded="true">{{ .Title }}</summary>
+                    <p>{{ .Params.SEO.meta_description }}</p>
+                    <a href="{{ .Permalink }}" class="btn btn--primary">View Job Listing</a>
+                    <p class="flex flex-justify-between shift-up">{{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}<span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span></p>
+                </details>
             {{ end }}
-        </ul>
+            {{ range after 1 .Pages }}
+                <details class="position card list-style-none max-width-none flow">
+                    <summary class="position__heading h4" aria-expanded="false">{{ .Title }}</summary>
+                    <p>{{ .Params.SEO.meta_description }}</p>
+                    <a href="{{ .Permalink }}" class="btn btn--primary">View Job Listing</a>
+                    <p class="flex flex-justify-between shift-up">{{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}<span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span></p>
+                </details>
+            {{ end }}
+        </div>
     </div>
   </div>
 </section>

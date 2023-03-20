@@ -1,6 +1,6 @@
 {{ $pages := where .Site.RegularPages "Section" "sustainability" }}
 <section class="block bg-primary">
-    <div class="reel wrapper-lg">
+    <div class="wrapper-lg">
         {{ if .Params.slider.enabled}}
         <div class="mb-4 flow">
             <h2 class="text-white">{{ .Params.slider.heading }}</h2>
@@ -9,18 +9,16 @@
         {{ end }}
     </div>
     <div class="wrapper-lg">
-        <div class="card__wrapper p-relative">
+        <div class="reel p-relative">
             {{ range $pages }}
             {{ if ne .Title "What is Carbon Footprint" }}
-            <div class="card__image-card p-relative">
+            <div class="reel__image p-relative">
                 <a href="{{ .Permalink }}">
                     {{ with .Params.hero }}
                     {{ partial "responsive-image" . }}
                     {{ end }}
-                    <div class="card-gradient"></div>
-                    <div class="card__image-text-wrapper p-absolute">
-                        <h3 class="card__image-text text-white h4">{{ .Params.hero.heading }}</h3>
-                    </div>
+                    <div class="reel__gradient"></div>
+                    <h3 class="reel__heading p-absolute text-white h4">{{ .Params.hero.heading }}</h3>
                 </a>
             </div>
             {{ end }}
