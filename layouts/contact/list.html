@@ -5,8 +5,8 @@
   <div class="wrapper">
     <h2>How to Reach Us</h2>
     <h3>Partners</h3>
-    {{ range .Params.contact_list }}
-    {{ if eq .is_partner true }}
+    {{ $partners := where .Params.contact_list "is_partner" true }}
+    {{ range $partners }}
     <div class="contact columns-2 border flex flex-justify-between bg-gray">
       <div>
         <div class="b">{{ .name }}</div>
@@ -24,10 +24,9 @@
       </div>
     </div>
     {{ end }}
-    {{ end }}
     <h3 class="mt-4">Team Milksource</h3>
-    {{ range .Params.contact_list }}
-    {{ if eq .is_partner false }}
+    {{ $team := where .Params.contact_list "is_partner" false }}
+    {{ range $team }}
     <div class="contact columns-2 border flex flex-justify-between bg-gray">
       <div class="flow">
         <div class="b">{{ .name }}</div>
@@ -44,7 +43,6 @@
         </div>
       </div>
     </div>
-    {{ end }}
     {{ end }}
   </div>
 </div>

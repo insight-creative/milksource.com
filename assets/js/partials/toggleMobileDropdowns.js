@@ -1,40 +1,30 @@
-const mobileMenu = document.querySelector('.header__mobile-nav')
+const mobileMenu = document.querySelector('.header__mobile-nav');
 
 function toggleMobileDropdowns() {
-    mobileMenu.addEventListener('click', event => {
-        const mobileNav = document.querySelector('.header__mobile-nav')
-        const dropdownToggle = event.target.closest('.toggle-mobile-dropdown')
-    
-        if (dropdownToggle) {
-            const dropdown = dropdownToggle.parentElement
+  mobileMenu.addEventListener('click', (event) => {
+    const dropdownToggle = event.target.closest('.toggle-mobile-dropdown');
 
-            if(dropdown.classList.contains('mobile-dropdown-open')) {
-                dropdown.setAttribute('aria-expanded', 'false')
-                dropdown.setAttribute('aria-label', 'open mobile dropdown menu')
-                mobileNav.classList.remove('has-dropdown-open')
-                dropdown.classList.remove('mobile-dropdown-open')
-            } else {
-                mobileNav.classList.add('has-dropdown-open')
-                dropdown.classList.add('mobile-dropdown-open')
-                dropdown.setAttribute('aria-expanded','true')
-                dropdown.setAttribute('aria-label','close mobile dropdown menu')
-            }
-    
-            function updateMobileMenuHeight() {
-                const mobileMenu = document.querySelector('.header__mobile-nav')
-                const mobileMenuWrapper = document.querySelector('.header__mobile-nav-inner')
-                const mobileMenuWrapperHeight = mobileMenuWrapper.offsetHeight
-                
-                mobileMenu.style.height = mobileMenuWrapperHeight + 'px'
-            }
-            
-            updateMobileMenuHeight()
-        } else {
-            // Not a dropdown toggle, do nothing please!!!
-        }
-    })
+    // If the clicked element is not a dropdown toggle, exit early
+    if (!dropdownToggle) {
+      return;
+    }
+
+    const dropdown = dropdownToggle.parentElement;
+
+    if (dropdown.classList.contains('mobile-dropdown-open')) {
+      dropdown.setAttribute('aria-expanded', 'false');
+      dropdown.setAttribute('aria-label', 'open mobile dropdown menu');
+      mobileMenu.classList.remove('has-dropdown-open');
+      dropdown.classList.remove('mobile-dropdown-open');
+    } else {
+      mobileMenu.classList.add('has-dropdown-open');
+      dropdown.classList.add('mobile-dropdown-open');
+      dropdown.setAttribute('aria-expanded', 'true');
+      dropdown.setAttribute('aria-label', 'close mobile dropdown menu');
+    }
+  });
 }
 
-toggleMobileDropdowns()
+toggleMobileDropdowns();
 
 export default toggleMobileDropdowns

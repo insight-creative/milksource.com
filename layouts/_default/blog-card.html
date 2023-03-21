@@ -4,21 +4,21 @@
 			<img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}">
 		</div>
 	</a>
-		{{ if .Params.Categories }}
-		<div class="card__meta">
-				{{ range (.GetTerms "categories") }}
-					<a href="{{ .Permalink }}" class="btn btn--primary btn--category">{{ .LinkTitle }}</a>
-    		{{ end }}
-			</div>
+	{{ if .Params.Categories }}
+	<div class="card__meta">
+		{{ range (.GetTerms "categories") }}
+			<a href="{{ .Permalink }}" class="btn btn--primary btn--category">{{ .LinkTitle }}</a>
 		{{ end }}
-		<div class="card__body flow">
-			<a href="{{ .Permalink }}">
-				<h2 class="h5 fw-800">{{ .Title | markdownify }}</h2>
-			</a>
-			<p class="text-black">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</p>
-		</div>
-		<span class="card__reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>
-		<div class="card__arrow bg-primary">
-			{{ partialCached "svg-icons/double-chevron-right.svg" . }}
-		</div>
+	</div>
+	{{ end }}
+	<div class="card__body flow">
+		<a href="{{ .Permalink }}">
+			<h2 class="h5 fw-800">{{ .Title | markdownify }}</h2>
+		</a>
+		<p class="text-black">{{ if .Params.seo.meta_description }}{{ .Params.seo.meta_description | safeHTML | truncate 125 }}{{ else }}{{ .Summary  | safeHTML | truncate 125 }}{{ end }}</p>
+	</div>
+	<span class="card__reading-time flex flex-center fs-100">{{ partialCached "svg-icons/clock.svg" . }} {{ .ReadingTime }} min read</span>
+	<div class="card__arrow bg-primary">
+		{{ partialCached "svg-icons/double-chevron-right.svg" . }}
+	</div>
 </article>

@@ -42,18 +42,6 @@ intro:
     button_url: /uploads/whistlers-run-boarding-agreement.pdf
     button_text: Boarding Contract
     open_in_new_tab: true
-slider:
-  enabled: true
-  heading: Keys to Sustainability
-  body: “Sustainability” is both a goal and a process. Here are the 10 critical ways to achieve the greenest-possible results.
-  images:
-    - image_url: /uploads/
-      image_alt:
-      image_text:
-    - image_url: /uploads/
-      image_alt:
-    - image_url: /uploads/
-      image_alt: 
 cta:
   enabled: true
   heading: What is a Carbon Footprint?

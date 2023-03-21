@@ -5,8 +5,12 @@
 
     &__image-small {
         position: absolute;
-        max-width: 250px;
+        max-width: clamp(150px, 15vw, 250px);
         bottom: -70px;
         left: -100px;
+    }
+
+    &__image-large {
+        max-width: 700px;
     }
 }

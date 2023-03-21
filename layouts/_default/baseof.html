@@ -3,7 +3,7 @@
 {{ block "head" . }}{{ partial "head" . }}{{ end }}
 {{ $namespace := lower .Page.Title }}
 {{ $mainClass := lower .Page.Title }}
-{{ $pageParent := lower .CurrentSection.Title }}
+{{ $pageParent := .Section }}
 
 <body class="page-{{ anchorize $mainClass }}{{ if .Params.page_class }} {{ .Params.page_class }}{{ end }}{{ if $pageParent }} parent-page-{{ $pageParent | urlize }}{{ end }}" data-instant-intensity="viewport">
   <div class="site-wrap">

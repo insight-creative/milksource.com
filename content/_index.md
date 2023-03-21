@@ -96,18 +96,6 @@ intro:
     enabled: true
     image_url: /uploads/portrait-of-a-cow.jpg
     image_alt: Portrait of a cow
-slider:
-  enabled: true
-  heading: Protecting and replenishing our planet
-  body: Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment. Sustainability creates and maintains the conditions under which humans and nature can exist in productive harmony, that permit fulfilling the social, economic and other requirements of present and future generations.
-  images:
-    - image_url: /uploads/
-      image_alt:
-      image_text:
-    - image_url: /uploads/
-      image_alt:
-    - image_url: /uploads/
-      image_alt: 
 community:
   enabled: true
   heading: Involved in our communities where we live and work
