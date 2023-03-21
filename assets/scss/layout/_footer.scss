@@ -15,11 +15,11 @@
   .footer__logo {
     img {
       max-width: 250px;
+      transition: 0.3s ease-out;
 
       &:hover,
       &:focus {
         opacity: 0.7;
-        transition: 0.3s ease-out;
       }
     }
   }
@@ -37,6 +37,14 @@
       a {
         color: $white;
         font-weight: 400;
+      }
+    }
+
+    &__link {
+      padding: 0;
+
+      &::after {
+        background: $white;
       }
     }
   }
