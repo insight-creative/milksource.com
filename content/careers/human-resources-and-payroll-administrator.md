@@ -1,6 +1,6 @@
 ---
 title: Payroll Coordinator
-draft: false
+draft: true
 url: 
 seo:
   page_title: Payroll Coordinator
@@ -15,6 +15,11 @@ location:
 googlemaps: https://goo.gl/maps/Js2xDAPxRvJtzjkU9
 job_type: Full Time
 date: 2023-01-18
+button:
+  enabled: true
+  button_url: https://www.indeed.com/job/human-resourcespayroll-administrator-87b5f01a54fbfd5d
+  button_text: Apply Now
+  open_in_new_tab: true
 cta_block:
   enabled: true
   heading: About Milk Source
@@ -38,5 +43,3 @@ This role is 100% in office in Kaukauna, WI and includes competitive compensatio
 Reports to: Human Resources Supervisor
 
 **Overall Responsibilities:** Works collaboratively with the HR team and will provide support in multiple functional areas of HR including, but not limited to: Lead bi-weekly Payroll Administration of more than 600+ employees; Process employee paperwork and changes while maintaining accurate employee records; Assist with Benefits Administration and open enrollment process; and prepare detailed payroll, benefits, and ad hoc reports.
-
-To learn more or apply, please [click here](https://www.indeed.com/job/human-resourcespayroll-administrator-87b5f01a54fbfd5d).

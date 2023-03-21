@@ -14,16 +14,16 @@ location:
   zip:
 googlemaps: https://goo.gl/maps/Js2xDAPxRvJtzjkU9
 job_type: Full Time
-date: 2023-01-18
+date: 2023-02-01
+button:
+  enabled: true
+  button_url: https://www.indeed.com/job/financial-development-accounting-analyst-919771974d7eaf29
+  button_text: Apply Now
+  open_in_new_tab: true
 cta_block:
   enabled: true
   heading: About Milk Source
   body: Milk Source’s goal every day is to be an outstanding dairy producer through quality care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as an outstanding place to work.
-  button:
-    enabled: true
-    button_url: /about-us/
-    button_text: Learn More About Milk Source
-    open_in_new_tab: false
   image:
     image_url: /uploads/milksource-owners2.jpg
     image_alt: Milk Source owners
@@ -38,5 +38,3 @@ This role is 100% in office in Kaukauna, WI and includes competitive compensatio
 Reports to: Chief Financial Officer
 
 Overall Responsibilities: Overall responsibilities include coordination and completion of monthly operational reporting, analysis, and presentations to management. Complete analytical business improvement projects and present to management. Provide input and suggestions on areas to analyze and focus to improve business results. Active role in monthly forecasting and annual planning process. Assist organization in accounting related projects as needed.
-
-To learn more or apply, please [click here](https://www.indeed.com/job/financial-development-accounting-analyst-919771974d7eaf29).

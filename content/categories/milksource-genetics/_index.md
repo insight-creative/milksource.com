@@ -16,6 +16,6 @@ hero:
   heading: MilkSource Genetics
   body: Stay up to date with what’s happening.
   image:
-    image_url: /uploads/milksource-logo-sign-2.jpg
+    image_url: /uploads/goff-andreas-mae-et-cowsmo-2.jpg
     image_alt: Milk Source sign
 ---

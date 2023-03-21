@@ -130,6 +130,10 @@
   margin-bottom: $ic-1000;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .ml-0 {
   margin-left: 0;
 }
@@ -172,6 +176,10 @@
 
 .ml-10 {
   margin-left: $ic-1000;
+}
+
+.mr-3 {
+  margin-right: $ic-300;
 }
 
 @include breakpoint(md) {

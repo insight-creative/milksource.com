@@ -14,7 +14,12 @@ location:
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
-date: 2023-01-18
+date: 2022-10-01
+button:
+  enabled: true
+  button_url: mailto:mshr@milksource.net
+  button_text: Apply Now
+  open_in_new_tab: true
 cta_block:
   enabled: true
   heading: About Milk Source
@@ -73,5 +78,3 @@ cta_block:
 * The employee is occasionally (up to 33% of the time) required to walk and stand.
 * The employee must occasionally (up to 33% of the time) lift and/or move up to 50 pounds.
 * Specific vision abilities required by this job include close vision and the ability to adjust focus.
-
-To apply for this job email your details to mshr@milksource.net

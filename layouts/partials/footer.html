@@ -14,8 +14,10 @@
         <div class="footer__col flex flex-justify-center fade-staggered">
           <div>
             <h2 class="h5 text-white">Contact Us</h2>
-            <p>{{ .Site.Data.site_settings.address.street }}</p>
-            <p>{{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }} {{ .Site.Data.site_settings.address.zip }}</p>
+            <address>
+              <p>{{ .Site.Data.site_settings.address.street }}</p>
+              <p>{{ .Site.Data.site_settings.address.city }}, {{ .Site.Data.site_settings.address.state }} {{ .Site.Data.site_settings.address.zip }}</p>
+            </address>
             <p class="mt-2">Office: <a href="tel:{{ .Site.Data.site_settings.phone }}" class="text-white">{{ .Site.Data.site_settings.phone }}</a></p>
             <p>Fax: {{ .Site.Data.site_settings.fax }}</p>
             {{ partialCached "social-media" . }}
@@ -29,7 +31,7 @@
           </div>
         </div>
         <div class="footer__col flex flex-justify-center fade-staggered">
-          <div>
+          <nav aria-label="Quick Links">
             <h2 class="h5 text-white">Quick Links</h2>
             <ul class="footer-nav">
               {{ range .Site.Menus.main }}
@@ -47,7 +49,7 @@
                 </li>
               {{ end }}
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
     </div>

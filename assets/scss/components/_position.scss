@@ -8,6 +8,9 @@
     font-weight: 800;
 }
 
+.position__metadata {
+    font-size: $ic-100;
+}
 
 details[open] {
     summary::after {
