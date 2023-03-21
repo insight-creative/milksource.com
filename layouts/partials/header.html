@@ -1,14 +1,14 @@
 {{ "<!-- Header -->" | safeHTML }}
-<a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
-<a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
+<a class="screen-reader-skip-to-content" href="#main-content" tabindex="0" aria-label="Skip to main content">Skip to main content</a>
+<a class="screen-reader-skip-to-content" href="#footer" tabindex="0" aria-label="Skip to footer content">Skip to footer content</a>
 <header class="header">
   <div class="header__top bg-gray">
     <div class="header__top-inner flex flex-justify-end w-100 wrapper-lg">
       <ul class="header__secondary-menu flex flex-center">
         {{ with .Site.Menus.secondary }}
-        {{ range . }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
+          {{ range . }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
         {{ end }}
       </ul>
     </div>
@@ -30,11 +30,11 @@
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
               <li class="header__nav-list-item has-sub-menu">
-                <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}">
+                <a class="header__nav-list-link" id="submenu-{{ .Name | lower }}" href="{{ .URL }}" aria-label="{{ .Name }}">
                   {{ .Name }}
                   <span class="header__sub-menu-indicator"></span>
                 </a>
-                <div class="header__sub-menu">
+                <div class="header__sub-menu" role="navigation" aria-labelledby="submenu-{{ .Name | lower }}">
                   <div class="header__sub-menu-inner">
                     <ul>
                       {{ range sort .Children "value" "desc" }}
@@ -56,7 +56,7 @@
         {{ end }}
       </ul>
     </nav>
-    <div class="header__mobile-nav">
+    <div id="header__mobile-nav" class="header__mobile-nav">
       <div class="header__mobile-nav-inner">
         <ul class="header__mobile-nav-menu">
           {{ range .Site.Menus.main }}
@@ -68,9 +68,9 @@
                 <button class="toggle-mobile-dropdown" aria-label="open mobile dropdown menu"></button>
                 <ul class="header__mobile-dropdown">
                   {{ range .Children }}
-                  <li class="header__mobile-nav-item">
-                    <a class="header__mobile-dropdown-link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
-                  </li>
+                    <li class="header__mobile-nav-item">
+                      <a class="header__mobile-dropdown-link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+                    </li>
                   {{ end }}
                 </ul>
               </li>
@@ -90,7 +90,7 @@
         </ul>
       </div>
     </div>
-    <button class="header__hamburger hamburger hamburger--slider fw-700" type="button" aria-label="open mobile menu" aria-expanded="false">
+    <button class="header__hamburger hamburger hamburger--slider fw-700" type="button" aria-controls="header__mobile-nav" aria-label="open mobile menu" aria-expanded="false">
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>
       </span>

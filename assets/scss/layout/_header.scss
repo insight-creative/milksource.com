@@ -19,13 +19,19 @@
   width: 100%;
   overflow: hidden;
   transition: $transition;
-  height: 0;
   background-color: $white;
   border-bottom: 2px solid $primary-color;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .5s ease-in-out;
 
   @include breakpoint(md) {
     display: none;
   }
+}
+
+.header__mobile-nav.nav-open {
+  max-height: 1000px;
 }
 
 .header__mobile-nav-item {
@@ -350,7 +356,7 @@
   }
 }
 
-.active .toggle-mobile-dropdown {
+.mobile-dropdown-open .toggle-mobile-dropdown {
   &::before {
     transform: translate(-30%, -30%) rotate(0deg);
   }

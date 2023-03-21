@@ -7,19 +7,25 @@
         <h2 class="text-center">Open Positions</h2>
         <div class="positions-list no-padding max-width-none">
             {{ range first 1 .Pages }}
-                <details class="position card list-style-none max-width-none flow" open>
-                    <summary class="position__heading h4" aria-expanded="true">{{ .Title }}</summary>
+                <details class="position card list-style-none max-width-none flow" open role="group">
+                    <summary class="position__heading h4" tabindex="0">{{ .Title }}</summary>
                     <p>{{ .Params.SEO.meta_description }}</p>
                     <a href="{{ .Permalink }}" class="btn btn--primary">View Job Listing</a>
-                    <p class="flex flex-justify-between shift-up">{{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}<span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span></p>
+                    <div class="flex flex-justify-between shift-up">
+                      {{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}
+                      <span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span>
+                    </div>
                 </details>
             {{ end }}
             {{ range after 1 .Pages }}
-                <details class="position card list-style-none max-width-none flow">
-                    <summary class="position__heading h4" aria-expanded="false">{{ .Title }}</summary>
+                <details class="position card list-style-none max-width-none flow" role="group">
+                    <summary class="position__heading h4" tabindex="0">{{ .Title }}</summary>
                     <p>{{ .Params.SEO.meta_description }}</p>
                     <a href="{{ .Permalink }}" class="btn btn--primary">View Job Listing</a>
-                    <p class="flex flex-justify-between shift-up">{{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}<span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span></p>
+                    <div class="flex flex-justify-between shift-up">
+                      {{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}
+                      <span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span>
+                    </div>
                 </details>
             {{ end }}
         </div>
