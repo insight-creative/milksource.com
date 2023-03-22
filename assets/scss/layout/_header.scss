@@ -236,6 +236,12 @@
   padding-right: 0;
 }
 
+.header__nav-list-item.has-sub-menu-open {
+  .header__sub-menu {
+    max-height: 100vh;
+  }
+}
+
 .header__nav-list-link {
 
   @include breakpoint(md) {
@@ -285,8 +291,9 @@
   pointer-events: auto;
   transition:  $transition;
   transition-delay: 0.1s;
-  height: 0;
   overflow: hidden;
+  max-height: 0;
+  transition: max-height .5s ease-in-out;
   left: 0px;
   position: absolute;
   top: 100%;

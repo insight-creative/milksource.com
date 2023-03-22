@@ -46,21 +46,36 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
 hasSubMenu.forEach((link) => {
-  link.addEventListener("mouseover", () => {
-      link.classList.add("active")
-      const activeLink = document.querySelector(".active")
-      const activeSubMenu = activeLink.querySelector(".header__sub-menu")
-      const activeSubMenuContainer = activeSubMenu.querySelector(".header__sub-menu-inner").offsetHeight
-      activeSubMenu.style.height = activeSubMenuContainer + "px"
-  })
-  link.addEventListener("mouseout", () => {
-      link.classList.remove("active")
-      const subMenuToHide = link.querySelector(".header__sub-menu")
-      subMenuToHide.removeAttribute("style")
-  })
-})
+  // Helper function to set ARIA-expanded attribute
+  function setAriaExpandedAttribute(element, value) {
+    element.setAttribute("aria-expanded", value);
+  };
+
+  const subMenuToggle = document.querySelector(".sub-menu-toggle");
+  const subMenuLinks = link.querySelectorAll(".header__sub-menu-link");
+
+  function openSubMenu() {
+    link.classList.add("has-sub-menu-open");
+    subMenuToggle.classList.add("sub-menu-is-toggled");
+    setAriaExpandedAttribute(subMenuToggle, "true");
+  };
+
+  function closeSubMenu() {
+    link.classList.remove("has-sub-menu-open");
+    subMenuToggle.classList.remove("sub-menu-is-toggled");
+    setAriaExpandedAttribute(subMenuToggle, "false");
+  };
+
+  link.addEventListener("mouseover", openSubMenu);
+  link.addEventListener("mouseout", closeSubMenu);
+
+  // ensure that we open our sub menu when sub menu links are tabbed and focused rather than these remaining visually hidden
+  subMenuLinks.forEach((subMenuLink) => {
+    subMenuLink.addEventListener("focus", openSubMenu);
+    subMenuLink.addEventListener("blur", closeSubMenu);
+  });
+});
 
 if (document.body.contains(heroSlider)) {
   const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
