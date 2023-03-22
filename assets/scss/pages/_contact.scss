@@ -9,12 +9,9 @@
     border: 1px solid $light-gray;
     margin: $ic--200;
     border-radius: 5px;
-}
+    font-size: 14px;
 
-.work-phone {
-    text-decoration: none;
-}
-
-.work-email {
-    text-decoration: none;
+    @include breakpoint(sm) {
+        font-size: $ic-100;
+    }
 }

@@ -17,5 +17,5 @@ hero:
   body: Stay up to date with what’s happening.
   image:
     image_url: /uploads/goff-andreas-mae-et-cowsmo-2.jpg
-    image_alt: Milk Source sign
+    image_alt: Goff Andreas Mae ET Cowsmo
 ---

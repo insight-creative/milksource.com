@@ -3,3 +3,9 @@
         padding: clamp(4.5rem, 10%, 7.5rem) 0;
     }
 }
+
+.hero-slider .hero-slider__heading {
+    h2 {
+        max-width: 22ch;
+    }
+}

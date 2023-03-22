@@ -12,7 +12,7 @@
         <div class="b">{{ .name }}</div>
         <div>{{ .job_title }}</div>
       </div>
-      <div class="flow word-break-all">
+      <div>
         <div class="flex flex-column">
           <span class="ml-auto b">Phone:</span>
           <a href="tel:{{ .phone }}" class="ml-auto">{{ .phone }}</a>
@@ -28,11 +28,11 @@
     {{ $team := where .Params.contact_list "is_partner" false }}
     {{ range $team }}
     <div class="contact columns-2 border flex flex-justify-between bg-gray">
-      <div class="flow">
+      <div>
         <div class="b">{{ .name }}</div>
         <div>{{ .job_title }}</div>
       </div>
-      <div class="flow word-break-all">
+      <div>
         <div class="flex flex-column">
           <span class="ml-auto b">Phone:</span>
           <a href="tel:{{ .phone }}" class="ml-auto">{{ .phone }}</a>

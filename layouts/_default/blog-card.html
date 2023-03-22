@@ -7,7 +7,7 @@
 	{{ if .Params.Categories }}
 	<div class="card__meta">
 		{{ range (.GetTerms "categories") }}
-			<a href="{{ .Permalink }}" class="btn btn--primary btn--category">{{ .LinkTitle }}</a>
+			<a href="{{ .Permalink }}" class="btn btn--primary btn--category" aria-label="View all {{ .LinkTitle }} posts">{{ .LinkTitle }}</a>
 		{{ end }}
 	</div>
 	{{ end }}
