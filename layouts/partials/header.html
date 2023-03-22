@@ -30,8 +30,8 @@
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
               <li class="header__nav-list-item has-sub-menu">
-                <a class="header__nav-list-link sub-menu-toggle" id="submenu-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="header__sub-menu-indicator"></span></a>
-                <div class="header__sub-menu" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="submenu-{{ .Name | lower | urlize }}">
+                <a class="header__nav-list-link sub-menu-toggle" id="menu-item-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="header__sub-menu-indicator"></span></a>
+                <div class="header__sub-menu" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
                   <div class="header__sub-menu-inner">
                     <ul>
                       {{ range sort .Children "value" "desc" }}
