@@ -1,16 +1,29 @@
 {{ define "main" }}
 <div class="sitemap-content block">
-    <div class="wrapper">
-        <h2>Pages</h2>
-        <ul class="sitemap-nav-list no-padding">
-            {{ $pages := where .Site.Pages "Type" "not in" (slice "resources" "tags" "categories" "thank-you" "Thank You" "sitemap") }}
-            {{ range $pages }}
-                <li class="sitemap-nav-list-item">
-                    <a class="sitemap-nav-item" class="sitemap-nav-item" href="{{ .RelPermalink }}"
-                        title="{{ .Name }}">{{ .Name | markdownify }}</a>
-                </li>
-            {{ end }}
-        </ul>
+    <div class="wrapper-md">
+        <div class="flex flex-column flex-row-m">
+            <div class="w-100 w-40-m">
+                <h2>Pages</h2>
+                <ul class="sitemap-nav-list">
+                    {{ $pages := where .Site.Pages "Type" "not in" (slice "resources" "tags" "categories" "thank-you" "Thank You" "sitemap" "blog") }}
+                    {{ range $pages }}
+                        <li class="sitemap-nav-list-item">
+                            <a class="sitemap-nav-item" class="sitemap-nav-item" href="{{ .RelPermalink }}" title="{{ .Name }}">{{ .Name | markdownify }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="w-100 w-60-m mt-3 mt-0-m ml-3-m">
+                <h2>Resources</h2>
+                <ul class="sitemap-nav-list">
+                    {{ $pages := .Site.RegularPages }}
+                    {{ $blog := where $pages "Type" "blog" }}
+                    {{ range $blog }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 {{ end }}
