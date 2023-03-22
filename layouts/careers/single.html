@@ -11,7 +11,7 @@
             {{ .Content  }}
             {{ if .Params.button.enabled }}
             {{ with .Params.button }}
-            <a href="{{ .button_url }}" class="btn btn--primary" target="_blank">{{ .button_text}}</a>
+            <a href="{{ .button_url }}" class="btn btn--primary" target="_blank" rel="noopener nofollow noreferrer">{{ .button_text}}</a>
             {{ end }}
             {{ end }}
         </div>

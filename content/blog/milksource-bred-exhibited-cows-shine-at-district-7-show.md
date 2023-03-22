@@ -22,4 +22,4 @@ Several of MilkSource Genetics-bred stars captured the spotlight at the Wisconsi
 
 Next up: The Wisconsin Summer Championship Show from Aug. 23-27 in West Bend.
 
-For complete, District 7 show results, please click here: [District 7 Show Results](https://www.cowsmo.com/events/wisconsin-district-7-show-2020/?fbclid=IwAR3NQbipWc8OYzGQn8VQcQ8lpSAplIl8p9Y2eZ1FGx6NerWGrXLdk09vINE "https://www.cowsmo.com/events/wisconsin-district-7-show-2020/?fbclid=IwAR3NQbipWc8OYzGQn8VQcQ8lpSAplIl8p9Y2eZ1FGx6NerWGrXLdk09vINE") ​​​​​​​.
+For complete, District 7 show results, please click here: [District 7 Show Results](https://www.cowsmo.com/events/wisconsin-district-7-show-2020/?fbclid=IwAR3NQbipWc8OYzGQn8VQcQ8lpSAplIl8p9Y2eZ1FGx6NerWGrXLdk09vINE).
