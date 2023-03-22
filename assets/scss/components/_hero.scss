@@ -54,9 +54,14 @@
 
     p {
       max-width: 24ch;
+      padding-bottom: $ic-200;
 
       @include breakpoint(sm) {
         max-width: 80ch;
+      }
+
+      @include breakpoint(md) {
+        padding-bottom: 0;
       }
     }
 
