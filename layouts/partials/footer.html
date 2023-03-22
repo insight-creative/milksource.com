@@ -1,8 +1,8 @@
 <footer id="footer" class="footer bg-white">
   <div class="footer__top block-sm">
     <div class="wrapper-lg">
-      <div class="flex flex-column flex-row-m fade-staggered">
-        <div class="footer__contact footer__col flex flex-justify-center">
+      <div class="flex flex-column flex-row-m">
+        <div class="footer__contact footer__col">
           <a class="footer__logo" href="{{ site.BaseURL }}">
             {{ if .Site.Data.site_settings.logo }}
               <img src="/uploads/{{ .Site.Data.site_settings.footer_logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
@@ -11,7 +11,7 @@
             {{ end }}
           </a>
         </div>
-        <div class="footer__col flex flex-justify-center fade-staggered">
+        <div class="footer__col">
           <div>
             <h2 class="h5 text-white">Contact Us</h2>
             <address>
@@ -23,14 +23,14 @@
             {{ partialCached "social-media" . }}
           </div>
         </div>
-        <div class="footer__col flex flex-justify-center fade-staggered">
+        <div class="footer__col">
           <div>
             <h2 class="h5 text-white">National Dairy FARM Program</h2>
             <p class="w-26ch">This farm participates in the National Dairy FARM Program and is committed to providing the highest level of animal care and quality assurance.</p>
             <img src="/uploads/farm-logo-4.png" alt="FARM logo" class="footer-farm-logo">
           </div>
         </div>
-        <div class="footer__col flex flex-justify-center fade-staggered">
+        <div class="footer__col">
           <nav aria-label="Quick Links">
             <h2 class="h5 text-white">Quick Links</h2>
             <ul class="footer-nav">
