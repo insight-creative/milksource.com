@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Superior Animal Treatment and Care
   meta_description: It’s all about the cows.  Great herds nurtured by top-quality staff.
-  featured_image:
+  featured_image: /uploads/animal-care-cow.jpg
 hero:
   heading: Superior Animal Treatment and Care
   body: It’s all about the cows

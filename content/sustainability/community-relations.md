@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Community Relations
   meta_description: Working with (and for) our neighbors.  Join the 10,000 people a year who visit our farms.
-  featured_image: /uploads/
+  featured_image: /uploads/timber-rattlers-udder-tuggers-5.jpg
 menu:
   main:
     parent: Sustainability

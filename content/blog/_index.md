@@ -2,8 +2,8 @@
 title: Blog
 seo:
   page_title: Blog
-  meta_description: Matthews Tire has a full selection of wheels to fit any vehicle, from classic and vintage cars, to hybrid and luxury vehicles.
-  featured_image: /uploads/
+  meta_description: Blog section for MilkSource
+  featured_image: /uploads/milksource-logo-sign-2.jpg
   featured_image_alt: 
 hero:
   enabled: true

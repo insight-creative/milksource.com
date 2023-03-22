@@ -6,8 +6,9 @@ menu:
   footer:
     weight: 5
 seo:
-  page_title:
-  meta_description: >-
+  page_title: Contact
+  meta_description: Questions, comments and feedback, we look forward to hearing from you.
+  featured_image: /uploads/farm-equipment.jpg
 hero:
   heading: Contact Us
   body: Questions, comments and feedback, we look forward to hearing from you.

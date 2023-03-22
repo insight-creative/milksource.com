@@ -9,7 +9,7 @@ menu:
 seo:
   page_title: Sustainability
   meta_description: Protecting and replenishing our planet. Sustainability is based on a simple principle.  Everything that we need for our survival and well-being depends, either directly or indirectly, on our natural environment.
-  featured_image: /uploads/
+  featured_image: /uploads/new-chester-diary-digesters.jpg
 hero:
   heading: Sustainability
   body: Protecting and replenishing our planet

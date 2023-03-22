@@ -9,8 +9,8 @@ menu:
 seo:
   page_title: News
   meta_description: Spotlight on Milk Source
-  featured_image: 
-  featured_image_alt: 
+  featured_image: /uploads/milksource-logo-sign-2.jpg
+  featured_image_alt: Milk Source sign
 hero:
   enabled: true
   heading: Milk Source News

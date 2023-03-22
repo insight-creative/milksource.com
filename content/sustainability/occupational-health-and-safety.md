@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Occupational Health and Safety
   meta_description: No shortcuts, no excuses.  Uncompromising commitment to protecting our people.
-  featured_image:
+  featured_image: /uploads/occupational-safety.jpg
 hero:
   heading:  Occupational Health and Safety
   body: No shortcuts, no excuses

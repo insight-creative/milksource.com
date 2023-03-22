@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Ecosystem and Wildlife Protection
   meta_description: Preservation and protection.  Conservation and farming go hand in hand.
-  featured_image:
+  featured_image: /uploads/ecosystem-wildlife-protection-2.jpg
 hero:
   heading: Ecosystem and Wildlife Protection
   body: Preservation and Protection

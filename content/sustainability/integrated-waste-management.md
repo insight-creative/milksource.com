@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Integrated Waste Management
   meta_description: The original recycler.  Finding value where others see waste.
-  featured_image:
+  featured_image: /uploads/waste-management-2.jpg
 hero:
   heading: Integrated Waste Management
   body: The Original Recycler

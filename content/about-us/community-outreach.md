@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Community Outreach
   meta_description: Involved in our communities where we live and work.
-  featured_image:
+  featured_image: /uploads/breakfast-on-the-farm-2.jpg
 hero:
   heading: Community Outreach 
   body: Involved in our communities where we live and work

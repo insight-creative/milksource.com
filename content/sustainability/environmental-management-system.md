@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Environmental Management System
   meta_description: Sound science, superior performance.  High-tech innovation enhances decades of experience.
-  featured_image:
+  featured_image: /uploads/new-chester-21-2.jpg
 hero:
   heading: Environmental Management System
   body: Sound science, superior performance

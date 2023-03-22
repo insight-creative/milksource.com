@@ -9,8 +9,8 @@ menu:
 seo:
   page_title: Tours
   meta_description: See for yourself.  All tours must be scheduled in advance.  All tours depend on tour guide availability.
-  featured_image:
-  featured_image_alt: 
+  featured_image: /uploads/farm-tour.jpg
+  featured_image_alt: Farm tour
 hero:
   enabled: true
   heading: Farm Tours

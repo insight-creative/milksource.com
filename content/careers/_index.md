@@ -8,7 +8,7 @@ menu:
 seo:
   page_title: Careers
   meta_description: Milk Source is a growing dairy enterprise with farms and affiliated operations in Wisconsin and the Midwest. We strive to provide a safe and respectful work environment for our team members. We believe that “sustainability” means taking good care of our people, our animals and our home communities.
-  featured_image:
+  featured_image: /uploads/leadership-class-5.jpg
 hero:
   enabled: true
   heading: Careers

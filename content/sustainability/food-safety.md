@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Food Safety
   meta_description: No compromise on quality.  Producing the freshest and safest product.
-  featured_image:
+  featured_image: /uploads/clean-milk-tanker.jpg
 hero:
   heading: Food Safety
   body: No compromise on quality

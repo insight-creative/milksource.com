@@ -7,7 +7,7 @@ menu:
 seo:
   page_title: Fair Treatment and Good Working Conditions
   meta_description: An eye toward the future. Helping the next generation of leaders take root.
-  featured_image:
+  featured_image: /uploads/milksource-university-2.jpg
 hero:
   heading: Fair Treatment and Good Working Conditions
   body: An eye toward the future

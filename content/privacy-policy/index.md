@@ -4,7 +4,7 @@ title: Privacy Policy
 page_class: privacy
 seo:
   page_title: Privacy Policy
-  meta_description:
+  meta_description: Privacy Policy
   featured_image:
 hero:
   heading: Privacy Policy

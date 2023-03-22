@@ -9,8 +9,8 @@ menu:
 seo:
   page_title: MilkSource Genetics
   meta_description: Showcasing some of the world’s finest cows
-  featured_image:
-  featured_image_alt:
+  featured_image: /uploads/goff-andreas-mae-et-cowsmo-2.jpg
+  featured_image_alt: Goff Andreas Mae ET Cowsmo
 hero:
   enabled: true
   heading: MilkSource Genetics
