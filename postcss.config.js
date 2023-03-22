@@ -15,6 +15,7 @@ module.exports = {
         'is-active',
         'nav-open',
         'has-dropdown-open',
+        'has-sub-menu-open',
         'video-paused',
         'video-playing',
         'expand',
