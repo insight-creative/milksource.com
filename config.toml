@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://milksource.netlify.app/"
 languageCode = "en-us"
 title = "Milk Source"
 enableRobotsTXT = true
