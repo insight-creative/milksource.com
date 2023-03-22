@@ -5,13 +5,14 @@
 }
 
 .contact {
-    padding: $ic-100;
+    padding: 5px;
     border: 1px solid $light-gray;
     margin: $ic--200;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 11px;
 
     @include breakpoint(sm) {
         font-size: $ic-100;
+        padding: $ic--200;
     }
 }
