@@ -33,6 +33,12 @@
       background-color: $primary-color;
       z-index: -1;
     }
+
+    @include breakpoint(md) {
+      &::after {
+        width: 70%;
+      }
+    }
   }
 
   &__content-inner {
@@ -51,11 +57,15 @@
       padding-bottom: $ic-200;
 
       @include breakpoint(sm) {
-        max-width: 40ch;
+        max-width: 30ch;
       }
 
       @include breakpoint(md) {
         padding-bottom: 0;
+        max-width: 50ch;
+      }
+
+      @include breakpoint(lg) {
         max-width: 80ch;
       }
     }

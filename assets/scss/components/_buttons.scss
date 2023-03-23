@@ -121,6 +121,14 @@
     color: $white;
     background-color: $btn-hover;
   }
+
+  @include breakpoint(sm) {
+    right: 10%;
+  }
+
+  @include breakpoint(md) {
+    right: 30%;
+  }
 }
 
 button {
