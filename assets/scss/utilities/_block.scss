@@ -3,3 +3,11 @@
   padding: 5% 0;
   padding: clamp($ic-500, 10%, $ic-1000) 0;
 }
+
+.page-news,
+.page-milksource-genetics {
+  .block {
+    padding: 5% 0;
+    padding: clamp($ic-500, 15%, $ic-1000) 0;
+  }
+}
