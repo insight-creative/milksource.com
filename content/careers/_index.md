@@ -18,7 +18,7 @@ hero:
     image_alt: Leadership class
 intro:
   enabled: true
-  heading: How hiring!
+  heading: Now hiring!
   body: >-
     Milk Source is a growing multi-site farming enterprise with seven dairy farms, a calf farm, a heifer-raising facility and 22,000 acres. We strive to provide a safe work environment for our employees and optimal stewardship to the land.
   image:
