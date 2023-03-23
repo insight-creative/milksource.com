@@ -20,18 +20,6 @@ button:
   button_url: mailto:mshr@milksource.net
   button_text: Apply Now
   open_in_new_tab: true
-cta_block:
-  enabled: true
-  heading: About Milk Source
-  body: Milk Source’s goal every day is to be an outstanding dairy producer through quality care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as an outstanding place to work.
-  button:
-    enabled: true
-    button_url: /about-us/
-    button_text: Learn More About Milk Source
-    open_in_new_tab: false
-  image:
-    image_url: /uploads/milksource-owners2.jpg
-    image_alt: Milk Source owners
 ---
 
 **Position Title:** Driver/Milk Hauler

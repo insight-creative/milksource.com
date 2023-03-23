@@ -20,13 +20,6 @@ button:
   button_url: https://www.indeed.com/job/financial-development-accounting-analyst-919771974d7eaf29
   button_text: Apply Now
   open_in_new_tab: true
-cta_block:
-  enabled: true
-  heading: About Milk Source
-  body: Milk Source’s goal every day is to be an outstanding dairy producer through quality care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as an outstanding place to work.
-  image:
-    image_url: /uploads/milksource-owners2.jpg
-    image_alt: Milk Source owners
 ---
 
 Do you want to be part of a hard-working team that learns something new every day? Come seize the endless opportunities that Milk Source has to offer as you utilize your accounting background and analysis skills to collaborate with company leaders and drive business development and organizational success.

@@ -32,8 +32,8 @@
     </div>
   </div>
 </section>
-  {{ if .Params.cta_block.enabled }}
-  {{ with .Params.cta_block }}
+  {{ if .Site.Data.global_partials.cta_block.enabled }}
+  {{ with .Site.Data.global_partials.cta_block }}
   {{ partial "cta" . }}
   {{ end }}
   {{ end }}
