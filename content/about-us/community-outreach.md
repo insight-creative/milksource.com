@@ -18,15 +18,6 @@ intro:
   enabled: true
   heading:
   body:
-cta_block:
-  enabled: true
-  heading: Want to join the family?
-  body: Visit our boarding page to learn more!
-  button:
-    enabled: true
-    button_url: /boarding/
-    button_text: Our boarding services
-    open_in_new_tab: false
 ---
 ## Some of the ways we stay involved …
 

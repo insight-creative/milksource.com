@@ -32,9 +32,9 @@
     </div>
   </div>
 </section>
-  {{ if .Site.Data.global_partials.cta_block.enabled }}
-  {{ with .Site.Data.global_partials.cta_block }}
-  {{ partial "cta" . }}
-  {{ end }}
+  {{ if .Site.Data.global_partials.career_block.enabled }}
+    {{ with .Site.Data.global_partials.career_block }}
+    {{ partial "cta" . }}
+    {{ end }}
   {{ end }}
 {{ end }}

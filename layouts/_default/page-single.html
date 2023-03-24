@@ -6,9 +6,12 @@
   </div>
 </div>
 {{ partial "image-reel" . }}
-{{ if .Params.cta.enabled }}
-  {{ with .Params.cta }}
-    {{ partial "cta" . }}
+{{ if eq .Section "sustainability" }}
+  {{ if .Site.Data.global_partials.sustainability_cta.enabled }}
+    {{ with .Site.Data.global_partials.sustainability_cta }}
+      {{ partial "cta" . }}
+    {{ end }}
   {{ end }}
 {{ end }}
+
 {{ end }}

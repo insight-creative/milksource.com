@@ -26,18 +26,6 @@ intro:
     image:
       image_url: /uploads/hoseline-spreading-6.jpg
       image_alt: Corn harvester
-cta_block:
-  enabled: true
-  heading: Visit Whistler’s Run
-  body: >-
-    <p>Calling all animal lovers! We offer private, educational tours for small
-    groups of all ages. Schedule your tour to meet the animals at
-    Whistler&rsquo;s Run and see our gorgeous facility for yourself.</p>
-  button:
-    enabled: true
-    button_url: /sustainability/what-is-a-carbon-footprint
-    button_text: What is a Carbon Footprint
-    open_in_new_tab: false
 ---
 
 ## Going Greener

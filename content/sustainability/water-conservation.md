@@ -14,17 +14,6 @@ hero:
   image:
     image_url: /uploads/water-conservation.jpg
     image_alt: Water conservation
-cta:
-  enabled: true
-  heading: What is a Carbon Footprint?
-  body: Learn how Milk Source is a leader in the global effort to reduce emissions.
-  button:
-    enabled: true
-    button_url: /sustainability/what-is-carbon-footprint/
-    button_text: Carbon Footprint
-  image:
-    image_url: /uploads/hoseline-spreading-6.jpg
-    image_alt: Corn harvester
 ---
 
 ## A recognized leader in conserving a shared vital resource.

@@ -16,18 +16,6 @@ hero:
   image:
     image_url: /uploads/milk-source-owners-2.jpg
     image_alt: MilkSource owners
-cta_block:
-  enabled: true
-  heading: Visit the barn
-  body: >-
-    See the beauty of Whistler’s Run and meet the animals who call our barn
-    home! We offer educational small-group tours perfect for 4H groups, Scouts
-    and more.
-  button:
-    enabled: true
-    button_url: /schedule-a-tour/
-    button_text: Schedule a Tour
-    open_in_new_tab: false
 ---
 
 ## Leading the way in modern sustainable agriculture

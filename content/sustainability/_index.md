@@ -37,20 +37,4 @@ intro:
     enabled: true
     image_url: /uploads/overflow-pond.jpg
     image_alt: Portrait of a cow
-  button:
-    enabled: false
-    button_url: /uploads/whistlers-run-boarding-agreement.pdf
-    button_text: Boarding Contract
-    open_in_new_tab: true
-cta:
-  enabled: true
-  heading: What is a Carbon Footprint?
-  body: Learn how Milk Source is a leader in the global effort to reduce emissions.
-  button:
-    enabled: true
-    button_url: /sustainability/what-is-carbon-footprint/
-    button_text: Carbon Footprint
-  image:
-    image_url: /uploads/hoseline-spreading-6.jpg
-    image_alt: Corn harvester
 ---
