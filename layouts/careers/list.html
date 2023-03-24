@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "hero" . }}
 {{ partial "intro" . }}
-<section>
+<section aria-labelledby="{{ .Params.heading | plainify | urlize }}">
   <div class="block bg-gray">
     <div class="wrapper flow">
         <h2 class="text-center">Open Positions</h2>
