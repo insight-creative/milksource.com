@@ -1,5 +1,5 @@
 {{ $heroClass := lower .Page.Title }}
-<div class="hero hero--{{ anchorize $heroClass }}">
+<section class="hero hero--{{ anchorize $heroClass }}" aria-labelledby="{{ .Params.hero.heading | plainify | urlize }}">
   {{ if .Params.hero.image.image_url }}
   {{ partial "hero-image" . }}
   {{ end }}
@@ -7,10 +7,10 @@
     <div class="hero__content-inner wrapper-lg flow">
       <div>
         {{ partial "breadcrumbs" . }}
-        <h1 class="text-white">{{ .Params.hero.heading }}</h1>
+        {{ partial "hero-heading-white" . }}
       </div>
       <p class="text-white">{{ .Params.hero.body }}</p>
     </div>
     <a href="#intro" class="btn btn--learn-more">Learn More{{ partialCached "svg-icons/double-chevron-down.svg" . }}</a>
   </div>
-</div>
+</section>
