@@ -5,8 +5,8 @@
     {{ .Content }}
   </div>
 </div>
-{{ partial "image-reel" . }}
 {{ if eq .Section "sustainability" }}
+  {{ partial "image-reel" . }}
   {{ if .Site.Data.global_partials.sustainability_cta.enabled }}
     {{ with .Site.Data.global_partials.sustainability_cta }}
       {{ partial "cta" . }}
