@@ -1,10 +1,12 @@
 {{ define "main" }}
 {{ partial "hero" . }}
-<div id="intro" class="intro">
-  <div class="wrapper flow">
-    {{ .Content }}
+<section aria-labelledby="{{ .Params.hero.heading | plainify | urlize }}">
+  <div id="intro" class="intro">
+    <div class="wrapper flow">
+      {{ .Content }}
+    </div>
   </div>
-</div>
+</section>
 {{ if eq .Section "sustainability" }}
   {{ partial "image-reel" . }}
   {{ if .Site.Data.global_partials.sustainability_cta.enabled }}
