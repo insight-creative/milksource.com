@@ -1,13 +1,13 @@
 {{ $pages := where .Site.RegularPages "Section" "sustainability" }}
-<section class="block bg-primary">
+<section class="block bg-primary" aria-labelledby="{{ .Site.Data.global_partials.slider.heading | urlize }}">
     <div class="wrapper-lg">
         {{ if .Site.Data.global_partials.slider.enabled }}
             <div class="mb-4 flow">
                 {{ if .IsHome }}
-                    <h2 class="text-white">{{ .Site.Data.global_partials.slider.heading }}</h2>
+                <h2 class="text-white" id="{{ .Site.Data.global_partials.slider.heading | urlize }}">{{ .Site.Data.global_partials.slider.heading }}</h2>
                     <p class="text-white">{{ .Site.Data.global_partials.slider.body }}</p>
                 {{ else }}
-                    <h2 class="text-white">{{ .Site.Data.global_partials.slider.heading_alt }}</h2>
+                <h2 class="text-white" id="{{ .Site.Data.global_partials.slider.heading | urlize }}">{{ .Site.Data.global_partials.slider.heading }}</h2>
                     <p class="text-white">{{ .Site.Data.global_partials.slider.body_alt }}</p>
                 {{ end }}
             </div>

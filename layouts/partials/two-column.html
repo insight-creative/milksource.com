@@ -1,7 +1,7 @@
 <section class="two-column-section block" aria-labelledby="{{ .heading | plainify | urlize }}">
   <div class="wrapper-lg split-column">
     <div class="col flow">
-        <h2>{{ .heading }}</h2>
+        {{ partial "heading" . }}
         <p>{{ .body }}</p>
         {{ if .button.enabled}}
         <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>

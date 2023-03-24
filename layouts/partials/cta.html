@@ -4,7 +4,7 @@
       {{ partial "cta-image" . }}
       <div class="cta__content p-relative block">
           <div class="cta__content-inner flow">
-            <h2 class="text-white">{{ .heading }}</h2>
+            {{ partial "heading-text-white" . }}
             <p class="text-white">{{ .body }}</p>
             {{ if .button.enabled }}
               {{ with .button }}

@@ -3,7 +3,7 @@
 <section id="intro" class="intro" aria-labelledby="{{ .heading | plainify | urlize }}">
     <div class="wrapper-lg split-column">
         <div class="intro__body col flow">
-            <h2>{{ .heading }}</h2>
+            {{ partial "heading" . }}
             <div class="flow">{{ .body | markdownify }}</div>
             {{ if .button.enabled }}
             <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
