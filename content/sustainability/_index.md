@@ -36,5 +36,5 @@ intro:
   image1:
     enabled: true
     image_url: /uploads/overflow-pond.jpg
-    image_alt: Portrait of a cow
+    image_alt: Overlfow pond
 ---
