@@ -31,5 +31,3 @@ Milk Source operates quality dairies in Wisconsin and the Midwest, producing mil
 As a result of commitments like these, Milk Source earned World Dairy Expo’s 2020 “Dairymen of the Year” recognition for its efforts to expand sustainability throughout the industry. Milk Source also was named Dairy Today’s Innovative Dairy Farmer of the Year for 2014, Wisconsin Manufacturers & Commerce’s 2014 Business Friend of the Environment, Wisconsin Family Business Council’s 2015 “Innovation & Sustainability” Award winner, the 2015 Zoetis Diversity and Inclusion Award winner, a 2016 Wisconsin Top Rural Development Initiative Award winner and one of three finalists for the 2014 and 2015 Wisconsin Leopold Conservation Awards.
 
 Our offices are located at N3569 Vanden Bosch Road, Kaukauna.
-
-test
