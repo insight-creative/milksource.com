@@ -14,10 +14,6 @@ hero:
   image:
     image_url: /uploads/animal-care-cow-2.jpg
     image_alt: Up close image of a cow
-intro:
-  enabled: true
-  heading:
-  body:
 ---
 
 ## Our dedicated farm families take cow care to a higher level

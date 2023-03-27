@@ -14,10 +14,6 @@ hero:
   image:
     image_url: /uploads/breakfast-on-the-farm-2.jpg
     image_alt: Breakfast on the farm
-intro:
-  enabled: true
-  heading:
-  body:
 ---
 ## Some of the ways we stay involved …
 

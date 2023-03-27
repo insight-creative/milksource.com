@@ -32,8 +32,8 @@
     </div>
   </div>
 </section>
-  {{ if .Site.Data.global_partials.career_block.enabled }}
-    {{ with .Site.Data.global_partials.career_block }}
+  {{ if .Site.Data.global_partials.career_cta.enabled }}
+    {{ with .Site.Data.global_partials.career_cta }}
     {{ partial "cta" . }}
     {{ end }}
   {{ end }}
