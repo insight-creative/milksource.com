@@ -3,6 +3,12 @@ _inputs:
     hidden: true
   layout:
     hidden: true
+  logo:
+    type: image
+    comment: Set your brand logo.
+  footer_logo:
+    type: image
+    comment: Set your brand logo in the footer.
   featured_image:
     type: image
     comment: Set your featured image. Featured images are used as your SEO preview image when shared on social media or when your page is found in organic search results.
