@@ -6,67 +6,47 @@ seo:
   featured_image: /uploads/milksource-preview.jpg
 hero_slider:
   enabled: true
-  slides: 
+  slides:
     - heading: Leading the way in modern sustainable agriculture
-      body:
-        button:
-          enabled: true
-          button_url: /sustainability/
-          button_text: Our sustainability
-          open_in_new_tab: false
       button:
         enabled: true
-        button_url: 
-        button_text: Sustainability
+        button_url: /sustainability/
+        button_text: Our sustainability
         open_in_new_tab: false
+      label: Sustainability
       image:
         enabled: false
         image_url: /uploads/new-chester-diary-digesters.jpg
         image_alt: New Chester diary digesters
     - heading: Exceptional care means happier cows
-      body:
-        button:
-          enabled: true
-          button_url: /sustainability/superior-animal-treatment-and-care/
-          button_text: Animal Care
-          open_in_new_tab: false
       button:
         enabled: true
-        button_url:
+        button_url: /sustainability/superior-animal-treatment-and-care/
         button_text: Animal Care
         open_in_new_tab: false
+      label: Animal Care
       image:
         enabled: false
         image_url: /uploads/animal-care-cow-2.jpg
         image_alt: Upclose image of a cow
     - heading: Involved in our communities where we live and work
-      body:
-        button:
-          enabled: true
-          button_url: /sustainability/community-relations/
-          button_text: Our Community
-          open_in_new_tab: false
       button:
         enabled: true
-        button_url: /community/
-        button_text: Community
+        button_url: /sustainability/community-relations/
+        button_text: Our Community
         open_in_new_tab: false
+      label: Community
       image:
         enabled: false
         image_url: /uploads/breakfast-on-the-farm-2.jpg
         image_alt: Breakfast on the farm
     - heading: Now Hiring!
-      body:
-        button:
-          enabled: true
-          button_url: /careers/
-          button_text: Careers
-          open_in_new_tab: false
       button:
         enabled: true
-        button_url: 
+        button_url: /careers/
         button_text: Careers
         open_in_new_tab: false
+      label: Careers
       image:
         enabled: false
         image_url: /uploads/leadership-class-5.jpg
