@@ -71,13 +71,6 @@ hero_slider:
         enabled: false
         image_url: /uploads/leadership-class-5.jpg
         image_alt: Leadership class
-hero:
-  enabled: true
-  heading: MilkSource Genetics
-  body: 
-  image:
-    image_url: /uploads/milksource-logo-sign-2.jpg
-    image_alt: Milk Source sign
 intro:
   enabled: true
   heading: About Milk Source
