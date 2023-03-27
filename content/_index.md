@@ -2,8 +2,11 @@
 title: Home
 seo:
   page_title: MilkSource
-  meta_description: Milk Source’s goal every day is to be an outstanding dairy producer through quality care of animals, sustainable practices, environmental accountability and constant attention to detail.
-  featured_image: /uploads/milksource-preview.jpg
+  meta_description: >-
+    Milk Source’s goal every day is to be an outstanding dairy producer through
+    quality care of animals, sustainable practices, environmental accountability
+    and constant attention to detail.
+  featured_image: /uploads/milk-source-preview.jpg
 hero_slider:
   enabled: true
   slides:
@@ -55,7 +58,11 @@ intro:
   enabled: true
   heading: About Milk Source
   body: >-
-    Milk Source’s goal every day is to be an outstanding dairy producer through exceptional care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as a rewarding place to work.
+    <p>Milk Source’s goal every day is to be an outstanding dairy producer
+    through exceptional care of animals, sustainable practices, environmental
+    accountability and constant attention to detail. We are proud of our honest
+    and considerate work force, and have earned a reputation as a rewarding
+    place to work.</p>
   button:
     enabled: true
     button_url: /about-us/
@@ -72,9 +79,16 @@ intro:
 community:
   enabled: true
   heading: Involved in our communities where we live and work
-  body: Milk Source farms strive to be good neighbors in our hometowns. We work alongside local food pantries, service groups, emergency service providers and other organizations to ensure the continued vitality of our communities. We foster agricultural transparency by offering free tours to our neighbors, local residents and their guests as well as sponsoring larger-scale public events, such as our annual “Salute to Cows Nights” with Minor League Baseball’s Wisconsin Timber Rattlers.
+  body: >-
+    <p>Milk Source farms strive to be good neighbors in our hometowns. We work
+    alongside local food pantries, service groups, emergency service providers
+    and other organizations to ensure the continued vitality of our communities.
+    We foster agricultural transparency by offering free tours to our neighbors,
+    local residents and their guests as well as sponsoring larger-scale public
+    events, such as our annual “Salute to Cows Nights” with Minor League
+    Baseball’s Wisconsin Timber Rattlers.</p>
   image:
-    image_url: /uploads/compost-day.jpg
+    image_url: /uploads/compost-day-2.jpg
     image_alt: Compost day
   button:
     enabled: true
@@ -84,7 +98,12 @@ community:
 cta:
   enabled: true
   heading: Now Hiring!
-  body: Milk Source is a growing dairy enterprise with farms and affiliated operations in Wisconsin and the Midwest. We strive to provide a safe and respectful work environment for our team members. We believe that “sustainability” means taking good care of our people, our animals and our home communities.
+  body: >-
+    Milk Source is a growing dairy enterprise with farms and affiliated
+    operations in Wisconsin and the Midwest. We strive to provide a safe and
+    respectful work environment for our team members. We believe that
+    “sustainability” means taking good care of our people, our animals and our
+    home communities.
   button:
     enabled: true
     button_url: /careers/
