@@ -5,7 +5,7 @@
         <div class="footer__contact footer__col">
           <a class="footer__logo" href="{{ site.BaseURL }}">
             {{ if .Site.Data.site_settings.logo }}
-              <img src="/uploads/{{ .Site.Data.site_settings.footer_logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
+              <img src="{{ .Site.Data.site_settings.footer_logo }}?auto=format&width=164&height=141" width="164" height="141" alt="{{ .Site.Data.site_settings.business_name }} logo">
             {{ else }}
               <h2 class="text-white">{{ site.Title }}</h2>
             {{ end }}
