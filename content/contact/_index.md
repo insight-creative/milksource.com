@@ -120,9 +120,4 @@ contact_list:
     is_partner: false
     phone: 920-759-4647
     email: sbabcock@milksource.net
-  - name: test
-    job_title: tester
-    is_partner: true
-    phone: ddfdfdfdfdfdf
-    email: '343434343434'
 ---
