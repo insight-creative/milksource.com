@@ -18,18 +18,17 @@ hero:
   image:
     image_url: /uploads/farm-tour.jpg
     image_alt: Farm tour
-cta_block:
+tour_cta:
   enabled: true
-  heading: About Milk Source
-  body: Milk Source’s goal every day is to be an outstanding dairy producer through quality care of animals, sustainable practices, environmental accountability and constant attention to detail. We are proud of our honest and considerate work force, and have earned a reputation as an outstanding place to work.
+  heading: Reserve your tour spot today!
+  body: To reserve a spot for a tour (remember to specify which farm you want to visit), call <a href="tel:920-759-4673">(920) 759-4673</a> or send an e-mail to <a href="mailto:tours@milksource.net">Milk Source Public Affairs Team</a>
   button:
     enabled: true
-    button_url: /about-us/
-    button_text: Learn More About Milk Source
-    open_in_new_tab: false
+    button_url: mailto:tours@milksource.net
+    button_text: Contact Us Today!
   image:
-    image_url: /uploads/milksource-owners2.jpg
-    image_alt: Milk Source owners
+    image_url: /uploads/farm-group-tour.jpg
+    image_alt: Farm group tour
 ---
 ## See for youself
 * All tours MUST be scheduled in advance.

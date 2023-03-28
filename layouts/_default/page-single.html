@@ -14,5 +14,11 @@
       {{ partial "cta" . }}
     {{ end }}
   {{ end }}
+{{ else if eq .Section "tours" }}
+  {{ if .Params.tour_cta.enabled }}
+    {{ with .Params.tour_cta }}
+      {{ partial "cta" . }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 {{ end }}

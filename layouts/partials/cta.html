@@ -5,7 +5,7 @@
       <div class="cta__content p-relative block">
           <div class="cta__content-inner flow">
             {{ partial "heading-text-white" . }}
-            <p class="text-white">{{ .body }}</p>
+            <p class="text-white">{{ .body | markdownify }}</p>
             {{ if .button.enabled }}
               {{ with .button }}
                 <a href="{{ .button_url }}" class="btn btn--white">{{ .button_text }}</a>
