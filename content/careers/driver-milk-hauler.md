@@ -1,6 +1,7 @@
 ---
 title: Driver/Milk Hauler
 draft: false
+layout: careers-single
 seo:
   page_title: Driver/Milk Hauler
   meta_description: Transports raw milk from dairy to processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company’s policies, goals, and objectives.
@@ -21,7 +22,7 @@ button:
   open_in_new_tab: true
 ---
 
-## **Position Title:** Driver/Milk Hauler
+**Position Title:** Driver/Milk Hauler
 
 **Overall Responsibilities:** Transports raw milk from dairy to processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company’s policies, goals, and objectives. CDL with Endorsement: N-Tank Vehicles required.
 
