@@ -1,5 +1,6 @@
 ---
 title: Financial Analyst – Milk Source Office
+layout: careers-single
 draft: false
 url: 
 seo:
