@@ -35,5 +35,3 @@ This role is 100% in office in Kaukauna, WI and includes competitive compensatio
 Reports to: Chief Financial Officer
 
 Overall Responsibilities: Overall responsibilities include coordination and completion of monthly operational reporting, analysis, and presentations to management. Complete analytical business improvement projects and present to management. Provide input and suggestions on areas to analyze and focus to improve business results. Active role in monthly forecasting and annual planning process. Assist organization in accounting related projects as needed.
-
-test
