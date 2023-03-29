@@ -1,7 +1,7 @@
 ---
 title: A Cow's Life
 draft: false
-url: 
+url: /test/
 layout: page-single
 seo:
   page_title: A Cow's Life
