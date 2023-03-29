@@ -1,7 +1,6 @@
 ---
 title: Payroll Coordinator
 draft: true
-url: 
 layout: careers-single
 seo:
   page_title: Payroll Coordinator
