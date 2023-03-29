@@ -54,61 +54,6 @@ hero_slider:
         enabled: false
         image_url: /uploads/leadership-class-5.jpg
         image_alt: Leadership class
-    - heading: test
-      button:
-        enabled: true
-        button_url: test
-        button_text: test 2
-        open_in_new_tab: false
-      label: testing
-      image:
-        enabled: true
-        image_url: /uploads/2020-all-american-cows-spotlight.jpg
-        image_alt: ''
-    - heading: test 2
-      button:
-        enabled: true
-        button_url: test2
-        button_text: test 2
-        open_in_new_tab: false
-      label: testing 2
-      image:
-        enabled: true
-        image_url: /uploads/all-american-2020-tantrum.jpg
-        image_alt: ''
-    - heading: test 3
-      button:
-        enabled: true
-        button_url: test3
-        button_text: test3
-        open_in_new_tab: false
-      label: testing 3
-      image:
-        enabled: true
-        image_url: /uploads/anna.jpg
-        image_alt: ''
-    - heading: test 4
-      button:
-        enabled: true
-        button_url: test4
-        button_text: test 4
-        open_in_new_tab: false
-      label: test 4
-      image:
-        enabled: true
-        image_url: /uploads/beth-top-three.jpg
-        image_alt: ''
-    - heading: test 5
-      button:
-        enabled: true
-        button_url: test5
-        button_text: test 5
-        open_in_new_tab: false
-      label: test 5
-      image:
-        enabled: true
-        image_url: /uploads/chrome-and-great-mandi.jpg
-        image_alt: ''
 intro:
   enabled: true
   heading: About Milk Source
