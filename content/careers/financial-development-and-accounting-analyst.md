@@ -12,20 +12,6 @@ seo:
     includes competitive compensation & full benefits!
   featured_image:
   featured_image_alt:
-location:
-  street:
-  city: Kaukauna
-  state: WI
-  zip:
-googlemaps: https://goo.gl/maps/Js2xDAPxRvJtzjkU9
-job_type: Full Time
-date: 2023-02-01T00:00:00Z
-button:
-  enabled: true
-  button_url: >-
-    https://www.indeed.com/job/financial-development-accounting-analyst-919771974d7eaf29
-  button_text: Apply Now
-  open_in_new_tab: true
 ---
 Do you want to be part of a hard-working team that learns something new every day? Come seize the endless opportunities that Milk Source has to offer as you utilize your accounting background and analysis skills to collaborate with company leaders and drive business development and organizational success.
 
