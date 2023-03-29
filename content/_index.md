@@ -54,6 +54,39 @@ hero_slider:
         enabled: false
         image_url: /uploads/leadership-class-5.jpg
         image_alt: Leadership class
+    - heading: test
+      button:
+        enabled: true
+        button_url: ''
+        button_text: ''
+        open_in_new_tab: false
+      label: testing
+      image:
+        enabled: false
+        image_url: ''
+        image_alt: ''
+    - heading: test 2
+      button:
+        enabled: true
+        button_url: ''
+        button_text: ''
+        open_in_new_tab: false
+      label: testing 2
+      image:
+        enabled: false
+        image_url: ''
+        image_alt: ''
+    - heading: test 3
+      button:
+        enabled: true
+        button_url: ''
+        button_text: ''
+        open_in_new_tab: false
+      label: testing 3
+      image:
+        enabled: false
+        image_url: ''
+        image_alt: ''
 intro:
   enabled: true
   heading: About Milk Source
