@@ -1,9 +1,6 @@
 ---
 title: A Cow's Life
 layout: page-single
-menu:
-  main:
-    parent: "About Us"
 seo:
   page_title: A Cow's Life
   meta_description: Exceptional care means happier cows.  Our dedicated farm families take cow care to a higher level.
