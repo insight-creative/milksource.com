@@ -2,7 +2,7 @@
   <div class="wrapper-lg split-column">
     <div class="col flow">
         {{ partial "heading" . }}
-        <p>{{ .body }}</p>
+        <p>{{ .body | markdownify }}</p>
         {{ if .button.enabled}}
         <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
         {{ end }}
