@@ -1,10 +1,10 @@
 {{ define "main" }}
-<section aria-labelledby="careers-heading" class="block bg-gray">
+<section aria-labelledby="careers-heading" class="block bg-gray flow">
     <div class="wrapper flow">
         <h1 id="careers-heading">{{ .Title }}</h1>
         <div class="post-content__icons flex flex flex-center">
             {{ partial "svg-icons/job-type-logo.svg" . }}<span> {{ .Params.job_type }}</span>
-            {{ partial "svg-icons/location-logo.svg" . }}<span><a href="{{ .Params.googlemaps }}" class="no-decoration" target="_blank">{{ .Params.location.city }}, {{ .Params.location.state }}</a></a></span>
+            {{ partial "svg-icons/location-logo.svg" . }}<span>{{ if .Params.googlemaps }}<a href="{{ .Params.googlemaps }}" class="no-decoration" target="_blank">{{ .Params.location.city }}, {{ .Params.location.state }}</a>{{ else }}{{ .Params.location.city }}, {{ .Params.location.state }}{{ end }}</span>
             {{ partial "svg-icons/calendar-logo.svg" . }}<span> Posted {{ .Params.date.Format "January 2, 2006" }}</span>
         </div>
     </div>
@@ -14,14 +14,14 @@
     <div class="wrapper">
         {{ if .Params.button.enabled }}
             {{ with .Params.button }}
-                <a href="{{ .button_url }}" class="btn btn--primary" target="_blank" rel="noopener nofollow noreferrer">{{ .button_text}}</a>
+                <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank" rel="noopener nofollow noreferrer"{{ end }}>{{ .button_text}}</a>
             {{ end }}
         {{ end }}
     </div>
 </section>
 {{ if .Site.Data.global_partials.career_block.enabled }}
     {{ with .Site.Data.global_partials.career_cta}}
-    {{ partial "cta" . }}
+        {{ partial "cta" . }}
     {{ end }}
 {{ end }}
 {{ end }}
