@@ -57,35 +57,35 @@ hero_slider:
     - heading: test
       button:
         enabled: true
-        button_url: ''
-        button_text: ''
+        button_url: test
+        button_text: test 2
         open_in_new_tab: false
       label: testing
       image:
-        enabled: false
-        image_url: ''
+        enabled: true
+        image_url: /uploads/2020-all-american-cows-spotlight.jpg
         image_alt: ''
     - heading: test 2
       button:
         enabled: true
-        button_url: ''
-        button_text: ''
+        button_url: test2
+        button_text: test 2
         open_in_new_tab: false
       label: testing 2
       image:
-        enabled: false
-        image_url: ''
+        enabled: true
+        image_url: /uploads/all-american-2020-tantrum.jpg
         image_alt: ''
     - heading: test 3
       button:
         enabled: true
-        button_url: ''
-        button_text: ''
+        button_url: test3
+        button_text: test3
         open_in_new_tab: false
       label: testing 3
       image:
-        enabled: false
-        image_url: ''
+        enabled: true
+        image_url: /uploads/anna.jpg
         image_alt: ''
 intro:
   enabled: true
