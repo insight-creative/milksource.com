@@ -1,5 +1,6 @@
 ---
 title: Driver/Milk Hauler
+layout: careers-single
 draft: false
 url: 
 seo:
