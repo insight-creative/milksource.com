@@ -46,7 +46,7 @@ _inputs:
         - white
         - gray
   body:
-    type: html
+    type: markdown
   button.button_url:
     type: url
   hero.button_url:
