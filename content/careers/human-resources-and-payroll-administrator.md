@@ -1,6 +1,5 @@
 ---
 title: Payroll Coordinator
-layout: careers-single
 draft: true
 url: 
 seo:
