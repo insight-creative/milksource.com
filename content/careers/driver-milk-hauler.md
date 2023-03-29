@@ -1,13 +1,19 @@
 ---
-title: Driver/Milk Hauler
-draft: false
-url: 
-layout: careers-single
+title: A Cow's Life
+layout: page-single
+menu:
+  main:
+    parent: "About Us"
 seo:
-  page_title: Driver/Milk Hauler
-  meta_description: Transports raw milk from dairy to processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company’s policies, goals, and objectives.
-  featured_image: 
-  featured_image_alt:
+  page_title: A Cow's Life
+  meta_description: Exceptional care means happier cows.  Our dedicated farm families take cow care to a higher level.
+  featured_image: /uploads/animal-care-cow-2.jpg
+hero:
+  heading: A Cow's Life
+  body: Exceptional care means happier cows
+  image:
+    image_url: /uploads/animal-care-cow-2.jpg
+    image_alt: Up close image of a cow
 ---
 
 **Position Title:** Driver/Milk Hauler

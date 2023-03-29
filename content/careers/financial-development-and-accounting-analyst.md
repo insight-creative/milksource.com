@@ -1,17 +1,19 @@
 ---
-title: Financial Analyst – Milk Source Office
-draft: false
-url:
-layout: careers-single
+title: A Cow's Life
+layout: page-single
+menu:
+  main:
+    parent: "About Us"
 seo:
-  page_title: Financial Analyst – Milk Source Office
-  meta_description: >-
-    The Financial Analyst II is responsible for completing analytical business
-    improvement projects and plays an active role in monthly forecasting and
-    annual planning process. This role reports to the Milk Source Office and
-    includes competitive compensation & full benefits!
-  featured_image:
-  featured_image_alt:
+  page_title: A Cow's Life
+  meta_description: Exceptional care means happier cows.  Our dedicated farm families take cow care to a higher level.
+  featured_image: /uploads/animal-care-cow-2.jpg
+hero:
+  heading: A Cow's Life
+  body: Exceptional care means happier cows
+  image:
+    image_url: /uploads/animal-care-cow-2.jpg
+    image_alt: Up close image of a cow
 ---
 Do you want to be part of a hard-working team that learns something new every day? Come seize the endless opportunities that Milk Source has to offer as you utilize your accounting background and analysis skills to collaborate with company leaders and drive business development and organizational success.
 

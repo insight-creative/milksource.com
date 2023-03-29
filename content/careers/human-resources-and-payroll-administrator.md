@@ -1,13 +1,19 @@
 ---
-title: Payroll Coordinator
-draft: true
-url: 
-layout: careers-single
+title: A Cow's Life
+layout: page-single
+menu:
+  main:
+    parent: "About Us"
 seo:
-  page_title: Payroll Coordinator
-  meta_description: This position is a vital role on our team as they are responsible for bi-weekly payroll administration for 600+ employees as well as maintaining employee records and preparing various reports for our management team. This role is 100% in office in Kaukauna, WI and includes competitive compensation & full benefits!
-  featured_image: 
-  featured_image_alt:
+  page_title: A Cow's Life
+  meta_description: Exceptional care means happier cows.  Our dedicated farm families take cow care to a higher level.
+  featured_image: /uploads/animal-care-cow-2.jpg
+hero:
+  heading: A Cow's Life
+  body: Exceptional care means happier cows
+  image:
+    image_url: /uploads/animal-care-cow-2.jpg
+    image_alt: Up close image of a cow
 ---
 
 Do you want to be part of a hard-working team that learns something new every day? Join our top-notch Human Resources team that supports each other and works together to build both individual success as well as drive organizational development. Come seize the endless opportunities that Milk Source has to offer!
