@@ -8,14 +8,18 @@
             {{ if .button.enabled }}
             <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
             {{ end }}
-        </div> 
+        </div>
         <div class="intro__images col p-relative ml-9">
+            {{ if .image.enabled}}
             <div class="intro__image-large">
                 {{ partial "responsive-image" . }}
             </div>
+            {{ end }}
+            {{ if .image1.enabled }}
             <div class="intro__image-small p-absolute">
                 {{ partial "responsive-image-small" . }}
             </div>
+            {{ end }}
         </div>
     </div>
 </section>
