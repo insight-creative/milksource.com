@@ -53,11 +53,11 @@ intro:
   enabled: true
   heading: About Milk Source
   body: >-
-    <p>Milk Source’s goal every day is to be an outstanding dairy producer
-    through exceptional care of animals, sustainable practices, environmental
+    Milk Source’s goal every day is to be an outstanding dairy producer through
+    exceptional care of animals, sustainable practices, environmental
     accountability and constant attention to detail. We are proud of our honest
     and considerate work force, and have earned a reputation as a rewarding
-    place to work.</p>
+    place to work.
   button:
     enabled: true
     button_url: /about-us/
