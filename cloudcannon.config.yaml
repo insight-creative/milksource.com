@@ -102,9 +102,7 @@ _editables:
     underline: true
     link: true
     bulletedlist: true
-    indent: true
     numberedlist: true
-    outdent: true
     embed: true
     horizontalrule: true
     image: false
