@@ -2,6 +2,12 @@ collections_config:
   pages:
     _enabled_editors:
       - visual
+  careers:
+    add_options:
+      - name: Add New Job Post
+    schemas:
+      default:
+        path: schemas/careers.md
 
 _inputs:
   menu:
