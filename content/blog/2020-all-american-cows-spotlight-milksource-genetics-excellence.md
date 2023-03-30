@@ -6,7 +6,7 @@ seo:
   page_title:
   meta_description:
   featured_image: /uploads/2020-all-american-cows-spotlight.jpg
-  featured_image_alt: 2020 All-American Cows Spotlight MilkSource Genetics' Excellence
+  featured_image_alt: 2020 All-American Cows Spotlight Milk Source Genetics' Excellence
 date: "2021-02-10"
 categories: 
   - MilkSource Genetics

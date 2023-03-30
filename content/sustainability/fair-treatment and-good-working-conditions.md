@@ -13,7 +13,7 @@ hero:
   body: An eye toward the future
   image:
     image_url: /uploads/milksource-university-2.jpg
-    image_alt: Milksource University
+    image_alt: Milk Source University
 ---
 
 ## Helping the next generation of leaders take root.
