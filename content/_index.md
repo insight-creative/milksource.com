@@ -8,7 +8,6 @@ seo:
     and constant attention to detail.
   featured_image: /uploads/milk-source-preview.jpg
 hero_slider:
-  enabled: true
   slides:
     - heading: Leading the way in modern sustainable agriculture
       button:
