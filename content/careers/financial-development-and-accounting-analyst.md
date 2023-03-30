@@ -1,7 +1,7 @@
 ---
 title: Financial Analyst – Milk Source Office
 draft: false
-url:
+layout: careers-single
 seo:
   page_title: Financial Analyst – Milk Source Office
   meta_description: >-

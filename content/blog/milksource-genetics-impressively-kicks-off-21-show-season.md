@@ -2,7 +2,6 @@
 layout: post
 title: "MilkSource Genetics Impressively Kicks Off '21 Show Season"
 draft: false
-url: 
 seo:
   page_title:
   meta_description:

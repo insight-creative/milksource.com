@@ -1,3 +1,20 @@
+collections_config:
+  pages:
+    _enabled_editors:
+      - visual
+  careers:
+    add_options:
+      - name: Add New Job Post
+    schemas:
+      default:
+        path: schemas/careers.md
+  blog:
+    add_options:
+      - name: Add A New Blog Post
+    schemas:
+      default:
+        path: schemas/blog.md
+
 _inputs:
   menu:
     hidden: true
@@ -53,3 +70,54 @@ _inputs:
     type: url
   cta.body:
     type: markdown
+
+_snippets:
+  responsive_image:
+    template: hugo_shortcode_named_args
+    inline: false
+    preview:
+      view: gallery
+      text: Responsive Image
+      subtext: Full-width image with optimized srcset
+      gallery:
+        image:
+          - key: image_url
+        fit: cover
+    definitions:
+      shortcode_name: responsive-image
+      named_args:
+        - editor_key: image_url
+          type: string
+        - editor_key: image_alt
+          type: string
+    _inputs:
+      image_url:
+        type: image
+      image_alt:
+        type: text
+
+_editables:
+  text:
+    italic: true
+  block:
+    format: p h3
+    undo: true
+    redo: true
+  content:
+    blockquote: true
+    bold: true
+    format: p h2 h3 h4 h5 h6 pre address div
+    italic: true
+    strike: true
+    subscript: true
+    superscript: true
+    underline: true
+    link: true
+    bulletedlist: true
+    numberedlist: true
+    embed: true
+    horizontalrule: true
+    table: true
+    undo: true
+    redo: true
+    snippet: true

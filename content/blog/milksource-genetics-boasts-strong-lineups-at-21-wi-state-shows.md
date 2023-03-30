@@ -2,7 +2,6 @@
 layout: post
 title: "MilkSource Genetics Boasts Strong Lineups at the '21 WI State Shows"
 draft: false
-url: 
 seo:
   page_title:
   meta_description:
