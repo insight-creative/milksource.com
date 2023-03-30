@@ -109,6 +109,7 @@ _editables:
     format: p h1 h2 h3 h4 h5 h6 pre address div
     italic: true
     strike: true
+    image: true
     subscript: true
     superscript: true
     underline: true
