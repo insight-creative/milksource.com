@@ -125,3 +125,5 @@ _editables:
     indent: true
     outdent: true
     code: true
+    removeformat: true
+    copyformatting: true
