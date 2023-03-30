@@ -3,15 +3,15 @@
     <div class="cta__wrapper p-relative">
       {{ partial "cta-image" . }}
       <div class="cta__content p-relative block">
-          <div class="cta__content-inner flow">
-            {{ partial "heading-text-white" . }}
-            <p class="text-white">{{ .body | markdownify }}</p>
-            {{ if .button.enabled }}
-              {{ with .button }}
-                <a href="{{ .button_url }}" class="btn btn--white">{{ .button_text }}</a>
-              {{ end }}
+        <div class="cta__content-inner flow">
+          {{ partial "heading-text-white" . }}
+          <p class="text-white">{{ .body | markdownify }}</p>
+          {{ if .button.enabled }}
+            {{ with .button }}
+              <a href="{{ .button_url }}" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower" {{ end }} class="btn btn--white">{{ .button_text }}</a>
             {{ end }}
-          </div>
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>

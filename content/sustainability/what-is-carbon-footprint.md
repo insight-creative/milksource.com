@@ -14,18 +14,6 @@ hero:
   image:
     image_url: /uploads/corn-on-stalk.jpg
     image_alt: Close up image of corn on a stalk
-intro:
-  enabled: true
-  heading: What is a Carbon Footprint?
-  body: Learn how Milk Source is a leader in the global effort to reduce emissions.
-  button:
-    enabled: true
-    button_url: /uploads/whistlers-run-boarding-agreement.pdf
-    button_text: Boarding Contract
-    open_in_new_tab: true
-    image:
-      image_url: /uploads/hoseline-spreading-6.jpg
-      image_alt: Corn harvester
 ---
 
 ## Going Greener
