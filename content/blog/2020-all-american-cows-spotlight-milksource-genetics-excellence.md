@@ -2,7 +2,6 @@
 layout: post
 title: "2020 All-American Cows Spotlight MilkSource Genetics' Excellence"
 draft: false
-url: 
 seo:
   page_title:
   meta_description:
