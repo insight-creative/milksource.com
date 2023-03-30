@@ -31,7 +31,7 @@
   <div class="hero-slider__outer-div">
     <div class="hero-slider__button-wrapper wrapper-md">
       {{ range .Params.hero_slider.slides }}
-      <button class="slider-button btn" role="button" aria-label="Go to slide: {{ .button.button_text }}">{{ .button.button_text }}</button>
+      <button class="slider-button btn" role="button" aria-label="Go to slide: {{ .label }}">{{ .label }}</button>
       {{ end }}
     </div>
   </div>
