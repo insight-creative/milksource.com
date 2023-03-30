@@ -2,7 +2,6 @@
 layout: post
 title: "MilkSource Genetics Places Strong at Midwest National Spring Shows"
 draft: false
-url: 
 seo:
   page_title:
   meta_description:

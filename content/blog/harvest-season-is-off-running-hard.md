@@ -2,7 +2,6 @@
 layout: post
 title: "Harvest Season is Off & Running (Hard)"
 draft: false
-url: 
 seo:
   page_title:
   meta_description:
