@@ -5,11 +5,10 @@
         <div class="w-100 w-20-m">
             {{ partial "blog/share-buttons" . }}
         </div>
-        <div class="w-100 w-80-m">
-            <div class="post-content__inner flow">
-                {{ .Content  }}
-            </div>
-        </div>
+
+    </div>
+    <div class="wrapper">
+        {{ .Content  }}
     </div>
 </section>
 {{ partial "blog/post-navigation" . }}
