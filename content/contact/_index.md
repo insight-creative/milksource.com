@@ -12,8 +12,8 @@ seo:
 hero:
   heading: Contact Us
   body: >-
-    <p>Questions, comments and feedback, we look forward to hearing from
-    you.</p>
+    Questions, comments and feedback, we look forward to hearing from
+    you.
   image:
     image_url: /uploads/farm-equipment.jpg
     image_alt: MilkSource farm equipment
@@ -21,12 +21,12 @@ intro:
   enabled: true
   heading: Employment Opportunities
   body: >-
-    <p>Questions regarding career opportunities can be directed via email to
+    Questions regarding career opportunities can be directed via email to
     rknorr@milksource.net or by phone at <a
     href="tel:920-759-4650">920-759-4650</a>. Milk Source is a growing
     multi-site farming enterprise that strives to provide a safe work
     environment for our employees. Visit our careers page for additional
-    information.</p>
+    information.
   image:
     enabled: true
     image_url: /uploads/heifer-source-pile-2.jpg

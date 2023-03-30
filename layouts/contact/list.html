@@ -7,42 +7,12 @@
     <h3>Partners</h3>
     {{ $partners := where .Params.contact_list "is_partner" true }}
     {{ range $partners }}
-    <div class="contact columns-2 border flex flex-justify-between bg-gray">
-      <div>
-        <div class="b">{{ .name }}</div>
-        <div>{{ .job_title }}</div>
-      </div>
-      <div>
-        <div class="flex flex-column">
-          <span class="ml-auto b">Phone:</span>
-          <a href="tel:{{ .phone }}" class="ml-auto mb-1">{{ .phone }}</a>
-        </div>
-        <div class="flex flex-column">
-          <span class="ml-auto b">Work email:</span>
-          <a href="mailto:{{ .email }}" class="ml-auto">{{ .email }}</a>
-        </div>
-      </div>
-    </div>
+      {{ partial "contact-range" . }}
     {{ end }}
     <h3 class="mt-4">Team Milksource</h3>
     {{ $team := where .Params.contact_list "is_partner" false }}
     {{ range $team }}
-    <div class="contact columns-2 border flex flex-justify-between bg-gray">
-      <div>
-        <div class="b">{{ .name }}</div>
-        <div>{{ .job_title }}</div>
-      </div>
-      <div>
-        <div class="flex flex-column">
-          <span class="ml-auto b">Phone:</span>
-          <a href="tel:{{ .phone }}" class="ml-auto mb-1">{{ .phone }}</a>
-        </div>
-        <div class="flex flex-column">
-          <span class="ml-auto b">Work email:</span>
-          <a href="mailto:{{ .email }}" class="ml-auto">{{ .email }}</a>
-        </div>
-      </div>
-    </div>
+      {{ partial "contact-range" . }}
     {{ end }}
   </div>
 </div>
