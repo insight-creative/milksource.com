@@ -21,7 +21,7 @@
               <h2 class="h1 text-white">{{ .heading }}</h2>
             </div>  
             <div>
-              <a href="{{ .button.button_url }}" class="btn btn--white">{{ .button.button_text }}</a>
+              <a href="{{ .button.button_url }}" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower" {{ end }} class="btn btn--white">{{ .button.button_text }}</a>
             </div>
           </div>
         </div>
@@ -30,10 +30,9 @@
   </div>
   <div class="hero-slider__outer-div">
     <div class="hero-slider__button-wrapper wrapper-md">
-        {{ range .Params.hero_slider.slides }}
+      {{ range .Params.hero_slider.slides }}
         <button class="slider-button btn" role="button" aria-label="Go to slide: {{ .label }}">{{ .label }}</button>
-        {{ end }}
-
+      {{ end }}
     </div>
   </div>
 </section>
