@@ -1,7 +1,7 @@
 ---
 title: Home
 seo:
-  page_title: MilkSource
+  page_title: Milk Source
   meta_description: >-
     Milk Source’s goal every day is to be an outstanding dairy producer through
     quality care of animals, sustainable practices, environmental accountability
