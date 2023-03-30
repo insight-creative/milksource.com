@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Even Mother Nature Can't Slow Down Compost Day 2022"
 draft: false
 seo:

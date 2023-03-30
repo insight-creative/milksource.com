@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "MilkSource Bred & Exhibited Cows Shine at District 7 Show"
 draft: false
 seo:

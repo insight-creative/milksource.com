@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "MilkSource Genetics Heads East to 2020 North American Open Dairy Cattle Show"
 draft: false
 seo:

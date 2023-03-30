@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Harvest Season is Off & Running (Hard)"
 draft: false
 seo:

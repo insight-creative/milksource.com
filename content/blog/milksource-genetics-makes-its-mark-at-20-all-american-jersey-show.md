@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "MilkSource Genetics Makes Its Mark at '20 All American Jersey Show"
 draft: false
 seo:

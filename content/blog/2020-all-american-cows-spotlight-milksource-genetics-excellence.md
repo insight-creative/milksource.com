@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "2020 All-American Cows Spotlight MilkSource Genetics' Excellence"
 url: all-american-cows-spotlight
 draft: false

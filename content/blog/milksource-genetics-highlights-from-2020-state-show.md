@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "MilkSource Genetics Highlights from 2020 State Show"
 draft: false
 seo:

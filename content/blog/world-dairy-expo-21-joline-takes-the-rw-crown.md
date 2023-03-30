@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "World Dairy Expo '21: Joline Takes the R&W Crown"
 draft: false
 seo:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "MilkSource Genetics Places Strong at Midwest National Spring Shows"
 draft: false
 seo:

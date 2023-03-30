@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Compost Day 2021 Shatters Records"
 draft: false
 seo:
