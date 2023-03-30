@@ -105,13 +105,10 @@ _editables:
     indent: true
     numberedlist: true
     outdent: true
-    code: true
     embed: true
     horizontalrule: true
     image: false
     table: true
     undo: true
     redo: true
-    removeformat: true
-    copyformatting: true
     snippet: true
