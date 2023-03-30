@@ -68,11 +68,11 @@ intro:
     button_text: Learn More About Milk Source
     open_in_new_tab: false
   image:
-    enabled: false
+    enabled: true
     image_url: /uploads/corn-harvester-2.jpg
     image_alt: Corn harvester
   image1:
-    enabled: true
+    enabled: false
     image_url: /uploads/portrait-of-a-cow.jpg
     image_alt: Portrait of a cow
 community:
