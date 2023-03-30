@@ -106,7 +106,7 @@ _editables:
   content:
     blockquote: true
     bold: true
-    format: p h1 h2 h3 h4 h5 h6 pre address div
+    format: p h2 h3 h4 h5 h6 pre address div
     italic: true
     strike: true
     subscript: true
@@ -122,8 +122,3 @@ _editables:
     undo: true
     redo: true
     snippet: true
-    indent: true
-    outdent: true
-    code: true
-    removeformat: true
-    copyformatting: true
