@@ -30,7 +30,7 @@
   </div>
   <div class="hero-slider__outer-div">
     <div class="hero-slider__button-wrapper wrapper-md">
-      {{ if .Params.hero-slider.slides.button.enabled}}
+      {{ if .Params.hero_slider.slides.button.enabled}}
         {{ range .Params.hero_slider.slides }}
         <button class="slider-button btn" role="button" aria-label="Go to slide: {{ .label }}">{{ .label }}</button>
         {{ end }}
