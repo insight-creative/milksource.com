@@ -122,3 +122,6 @@ _editables:
     undo: true
     redo: true
     snippet: true
+    indent: true
+    outdent: true
+    code: true
