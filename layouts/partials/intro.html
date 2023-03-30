@@ -6,7 +6,7 @@
             {{ partial "heading" . }}
             <div class="flow">{{ .body | markdownify }}</div>
             {{ if .button.enabled }}
-            <a href="{{ .button.button_url }}" class="btn btn--primary">{{ .button.button_text }}</a>
+            <a href="{{ .button.button_url }}" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower" {{ end }} class="btn btn--primary">{{ .button.button_text }}</a>
             {{ end }}
         </div>
         <div class="intro__images col p-relative ml-9">

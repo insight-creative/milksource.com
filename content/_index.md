@@ -17,7 +17,6 @@ hero_slider:
         open_in_new_tab: false
       label: Sustainability
       image:
-        enabled: false
         image_url: /uploads/new-chester-diary-digesters.jpg
         image_alt: New Chester diary digesters
     - heading: Exceptional care means happier cows
@@ -28,7 +27,6 @@ hero_slider:
         open_in_new_tab: false
       label: Animal Care
       image:
-        enabled: false
         image_url: /uploads/animal-care-cow-2.jpg
         image_alt: Upclose image of a cow
     - heading: Involved in our communities where we live and work
@@ -39,7 +37,6 @@ hero_slider:
         open_in_new_tab: false
       label: Community
       image:
-        enabled: false
         image_url: /uploads/breakfast-on-the-farm-2.jpg
         image_alt: Breakfast on the farm
     - heading: Now Hiring!
@@ -50,7 +47,6 @@ hero_slider:
         open_in_new_tab: false
       label: Careers
       image:
-        enabled: false
         image_url: /uploads/leadership-class-5.jpg
         image_alt: Leadership class
 intro:
