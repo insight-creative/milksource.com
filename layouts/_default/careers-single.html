@@ -6,10 +6,8 @@
             {{ partial "svg-icons/job-type-logo.svg" . }}<span> {{ .Params.job_type }}</span>
             {{ partial "svg-icons/location-logo.svg" . }}<span>{{ if .Params.googlemaps }}<a href="{{ .Params.googlemaps }}" class="no-decoration" target="_blank">{{ .Params.location.city }}, {{ .Params.location.state }}</a>{{ else }}{{ .Params.location.city }}, {{ .Params.location.state }}{{ end }}</span>
             {{ partial "svg-icons/calendar-logo.svg" . }}<span> Posted {{ .Params.date.Format "January 2, 2006" }}</span>
+            {{ .Content  }}
         </div>
-    </div>
-    <div class="wrapper flow">
-        {{ .Content  }}
     </div>
     <div class="wrapper">
         {{ if .Params.button.enabled }}
