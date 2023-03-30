@@ -72,7 +72,7 @@ intro:
     image_url: /uploads/corn-harvester-2.jpg
     image_alt: Corn harvester
   image1:
-    enabled: false
+    enabled: true
     image_url: /uploads/portrait-of-a-cow.jpg
     image_alt: Portrait of a cow
 community:
