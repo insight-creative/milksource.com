@@ -117,7 +117,6 @@ _editables:
     numberedlist: true
     embed: true
     horizontalrule: true
-    image: true
     table: true
     undo: true
     redo: true
