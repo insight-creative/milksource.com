@@ -62,7 +62,7 @@ intro:
     enabled: true
     button_url: /about-us/
     button_text: Learn More About Milk Source
-    open_in_new_tab: false
+    open_in_new_tab: true
   image:
     enabled: true
     image_url: /uploads/corn-harvester-2.jpg
