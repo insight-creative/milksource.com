@@ -16,7 +16,7 @@ seo:
 hero:
   enabled: true
   heading: Farm Tours
-  body:  Visit. Experience. Learn.
+  body: Visit. Experience. Learn.
   image:
     image_url: /uploads/farm-tour.jpg
     image_alt: Farm tour
@@ -35,7 +35,7 @@ tour_cta:
     image_url: /uploads/group-farm-tour.jpg
     image_alt: Farm group tour
 ---
-## See for yourself
+## See for youself
 
 * All tours MUST be scheduled in advance.
 * All tours depend on tour guide availability.
@@ -43,11 +43,12 @@ tour_cta:
 ### Daily Tour Schedule
 
 * Rosendale Dairy: Thursday & Saturday Mornings. By appointment. Call [(920)-759-4673](tel:920-759-4673)
-* Tidy View or New Chester dairies: By appointment. Call [(920)-759-4673](tel:920-759-4673)
+* New Chester Dairy: Tuesday & Saturday Mornings. By appointment. Call [(920)-759-4673](tel:920-759-4673)
+* Tidy View Dairy: By appointment. Call [(920)-759-4673](tel:920-759-4673)
 
 ### Tour Rules & Regulations
 
-* Tours are filled on a first-come, first-reserved basis
+* Tours are filled on a first-come, first-reserved basis (920)
 * Tours providing their own bus may REQUEST a different time, with at least seven days notice and flexibility
 * Tourists will meet at the designated gathering spot
 * No cameras or recording devices of any kind are permitted on tours
