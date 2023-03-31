@@ -75,13 +75,13 @@ community:
   enabled: true
   heading: Involved in our communities where we live and work
   body: >-
-    <p>Milk Source farms strive to be good neighbors in our hometowns. We work
+    Milk Source farms strive to be good neighbors in our hometowns. We work
     alongside local food pantries, service groups, emergency service providers
     and other organizations to ensure the continued vitality of our communities.
     We foster agricultural transparency by offering free tours to our neighbors,
     local residents and their guests as well as sponsoring larger-scale public
-    events, such as our annual “Salute to Cows Nights” with Minor League
-    Baseball’s Wisconsin Timber Rattlers.</p>
+    events, such as our annual “Salute to Dairy Nights” with Minor League
+    Baseball’s Wisconsin Timber Rattlers.
   image:
     image_url: /uploads/compost-day-2.jpg
     image_alt: Compost day
