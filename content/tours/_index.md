@@ -47,7 +47,7 @@ tour_cta:
 
 ### Tour Rules & Regulations
 
-* Tours are filled on a first-come, first-reserved basis (920)
+* Tours are filled on a first-come, first-reserved basis
 * Tours providing their own bus may REQUEST a different time, with at least seven days notice and flexibility
 * Tourists will meet at the designated gathering spot
 * No cameras or recording devices of any kind are permitted on tours
