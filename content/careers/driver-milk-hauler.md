@@ -23,7 +23,7 @@ button:
   enabled: true
   button_url: mailto:mshr@milksource.net
   button_text: Apply Now
-  open_in_new_tab: false
+  open_in_new_tab: true
 ---
 **Position Title:** Driver/Milk Hauler
 
