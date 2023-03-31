@@ -4,7 +4,9 @@
         {{ partial "heading" . }}
         <p>{{ .body | markdownify }}</p>
         {{ if .button.enabled}}
-          <a href="{{ .button.button_url }}" {{ if .button.open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower" {{ end }} class="btn btn--primary">{{ .button.button_text }}</a>
+          {{ with .button }}
+            <a href="{{ .button_url }}" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower" {{ end }} class="btn btn--primary">{{ .button_text }}</a>
+          {{ end }}
         {{ end }}
     </div>
     <div class="w-100 w-50-m">
