@@ -19,17 +19,17 @@ hero:
     image_alt: Timber Rattlers Udder Tuggers
 ---
 
-## Join the 10,000 people a year who visit our farms
+## Join the thousands of people a year who visit our farms
 
 **Keys to Community Relations**
 
-* Tours available to our neighbors
-* National television exposure  
-* 10,000-plus visitors per year
-* Strong internship program
-* Provide educational field trips
-* 4H, FFA visits and meetings encouraged
+* [Tours available to our neighbors](/tours/)
+* Encourage 4H, FFA programs
 * Support local fire, police organizations
-* Holiday gifts delivered to neighbors
-* Offer ESL classes for employees
+* Work alongside hometown food pantries
+* Host & support county Breakfasts on the Farm programs
+* Collaborate with more than 20 universities & local school districts
+* Major supporter of Dairy Cares of Wisconsin/Children’s Wisconsin (link to that web site?)
 * Staff speakers present globally
+* Host annual Community Compost Day
+* Assist the Fox-Wolf Wastershed Alliance

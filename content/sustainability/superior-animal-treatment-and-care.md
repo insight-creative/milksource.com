@@ -19,9 +19,9 @@ hero:
 
 **Keys to Superior Animal Treatment & Care**
 
-* Our cows are bedded with sand for cleanliness and comfort
+* Our cows’ bedding provides optimal cleanliness and comfort
 * Automated water troughs are available to cows at all times throughout each free stall
-* Our cows are milked three times each day for comfort and health
+* Cows milked multiple times daily for health and comfort
 * Free stall alleys on our dairies are cleaned three times each day for cow health and safety
 * Our cows have access to fresh feed 24 hours a day developed with  a herd nutritionist
 * The feed is pushed up and replenished several times throughout the day
