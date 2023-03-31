@@ -23,7 +23,7 @@ hero:
 
 **Keys to Community Relations**
 
-* [Tours available to our neighbors](/tours/)
+* [Tours available to our neighbors](/tours/) and community residents
 * Encourage 4H, FFA programs
 * Support local fire, police organizations
 * Work alongside hometown food pantries
