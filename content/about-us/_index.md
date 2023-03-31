@@ -15,7 +15,7 @@ hero:
   heading: Meet the owners
   body: A winning collaboration since 1994
   image:
-    image_url: /uploads/owners2.jpg
+    image_url: /uploads/owner-flipped.jpg
     image_alt: MilkSource owners
 ---
 ## Leading the way in modern sustainable agriculture
