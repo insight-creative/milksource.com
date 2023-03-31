@@ -9,7 +9,7 @@
     {{ range $partners }}
       {{ partial "contact-range" . }}
     {{ end }}
-    <h3 class="mt-4">Team Milksource</h3>
+    <h3 class="mt-4">Team Milk Source</h3>
     {{ $team := where .Params.contact_list "is_partner" false }}
     {{ range $team }}
       {{ partial "contact-range" . }}

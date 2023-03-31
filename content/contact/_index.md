@@ -20,13 +20,7 @@ hero:
 intro:
   enabled: true
   heading: Employment Opportunities
-  body: >-
-    Questions regarding career opportunities can be directed via email to
-    rknorr@milksource.net or by phone at <a
-    href="tel:920-759-4650">920-759-4650</a>. Milk Source is a growing
-    multi-site farming enterprise that strives to provide a safe work
-    environment for our employees. Visit our careers page for additional
-    information.
+  body: Questions regarding career opportunities can be directed via email to mshr@milksource.net. Milk Source is a growing multi-site farming enterprise that strives to provide a safe work environment for our employees. Visit our careers page for additional information.
   image:
     enabled: true
     image_url: /uploads/heifer-source-pile-2.jpg
@@ -61,7 +55,7 @@ contact_list:
     email: timolson@milksource.net
     is_partner: false
   - name: Tim Olson
-    job_title: Director of Training & Development
+    job_title: Chief Financial Officer
     phone: 920-759-4645
     email: jquezada@milksource.net
     is_partner: false
