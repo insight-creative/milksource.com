@@ -89,7 +89,7 @@ community:
     enabled: true
     button_url: /sustainability/community-relations/
     button_text: Our community efforts
-    open_in_new_tab: false
+    open_in_new_tab: true
 cta:
   enabled: true
   heading: Now Hiring!
