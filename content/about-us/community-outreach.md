@@ -23,5 +23,5 @@ We are always interested in hearing from those in the community about special ev
 
 Please share ideas on potential Milk Source partnerships by sending an e-mail to [astern@milksource.net](mailto:astern@milksource.net) or by mail to:
 
-N3569 Vanden Bosch Road<br>
+N3569 Vanden Bosch Road  
 Kaukauana, WI 54130
