@@ -1,27 +1,30 @@
 ---
+_schema: default
 title: Driver/Milk Hauler
 draft: false
 layout: careers-single
 seo:
   page_title: Driver/Milk Hauler
-  meta_description: Transports raw milk from dairy to processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company’s policies, goals, and objectives.
-  featured_image: 
+  meta_description: >-
+    Transports raw milk from dairy to processing plant in a safe manner while
+    ensuring proper techniques, principals, and procedures are followed which
+    support the company’s policies, goals, and objectives.
+  featured_image:
   featured_image_alt:
 location:
-  street: 
+  street:
   city: Grand Marsh
   state: WI
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
-date: 2022-10-01
+date: 2022-10-01T00:00:00Z
 button:
   enabled: true
   button_url: mailto:mshr@milksource.net
   button_text: Apply Now
-  open_in_new_tab: true
+  open_in_new_tab: false
 ---
-
 **Position Title:** Driver/Milk Hauler
 
 **Overall Responsibilities:** Transports raw milk from dairy to processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company’s policies, goals, and objectives. CDL with Endorsement: N-Tank Vehicles required.
