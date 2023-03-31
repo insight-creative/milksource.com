@@ -31,6 +31,7 @@ tour_cta:
     enabled: true
     button_url: mailto:tours@milksource.net
     button_text: Contact Us Today!
+    open_in_new_tab: false
   image:
     image_url: /uploads/group-farm-tour.jpg
     image_alt: Farm group tour
