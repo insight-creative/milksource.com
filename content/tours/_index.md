@@ -35,7 +35,7 @@ tour_cta:
     image_url: /uploads/group-farm-tour.jpg
     image_alt: Farm group tour
 ---
-## See for youself
+## See for yourself
 
 * All tours MUST be scheduled in advance.
 * All tours depend on tour guide availability.
