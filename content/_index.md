@@ -9,16 +9,6 @@ seo:
   featured_image: /uploads/milk-source-preview.jpg
 hero_slider:
   slides:
-    - heading: Leading the way in modern sustainable agriculture
-      button:
-        enabled: true
-        button_url: /sustainability/
-        button_text: Our sustainability
-        open_in_new_tab: false
-      label: Sustainability
-      image:
-        image_url: /uploads/new-chester-diary-digesters.jpg
-        image_alt: New Chester diary digesters
     - heading: Exceptional care means happier cows
       button:
         enabled: true
@@ -29,6 +19,16 @@ hero_slider:
       image:
         image_url: /uploads/animal-care-cow-2.jpg
         image_alt: Upclose image of a cow
+    - heading: Leading the way in modern sustainable agriculture
+      button:
+        enabled: true
+        button_url: /sustainability/
+        button_text: Our sustainability
+        open_in_new_tab: false
+      label: Sustainability
+      image:
+        image_url: /uploads/new-chester-diary-digesters.jpg
+        image_alt: New Chester diary digesters
     - heading: Involved in our communities where we live and work
       button:
         enabled: true
