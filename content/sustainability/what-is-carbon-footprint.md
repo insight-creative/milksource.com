@@ -16,7 +16,12 @@ hero:
     image_alt: Close up image of corn on a stalk
 ---
 
-{{< responsive-image image_url="/uploads/figure-4-dairy-productivity.jpg" image_alt="Diary Productivity" >}}
+## Made (Sustainably) in America: U.S. Dairy Productivity Far Outstrips Global Competition
+
+<figure>
+{{<responsive-image image_url="/uploads/figure-4-dairy-productivity.jpg" image_alt="Diary Productivity" >}}
+<figcaption>UC-Davis</figcaption>
+</figure>
 
 ## Going Greener
  

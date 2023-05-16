@@ -29,7 +29,7 @@ hero:
 * Work alongside hometown food pantries
 * Host & support county Breakfasts on the Farm programs
 * Collaborate with more than 20 universities & local school districts
-* Major supporter of Dairy Cares of Wisconsin/Children’s Wisconsin (link to that web site?)
+* Major supporter of [Dairy Cares of Wisconsin/Children’s Wisconsin](https://dairycaresofwisconsin.org/)
 * Staff speakers present globally
 * Host annual Community Compost Day
 * Assist the Fox-Wolf Wastershed Alliance

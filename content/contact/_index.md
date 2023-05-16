@@ -50,7 +50,7 @@ contact_list:
     email: twiller@milksource.net
     is_partner: true
   - name: Deric DuQuaine
-    job_title: Chief Financial Officer
+    job_title: General Counsel
     phone: 920-759-4653
     email: timolson@milksource.net
     is_partner: false
