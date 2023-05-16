@@ -12,7 +12,7 @@ hero:
   heading: Ecosystem and Wildlife Protection
   body: Preservation and Protection
   image:
-    image_url: /uploads/ecosystem-wildlife-protection-2.jpg
+    image_url: /uploads/freshwater-3.jpg
     image_alt: Ecosystem wildlife protection
 ---
 
