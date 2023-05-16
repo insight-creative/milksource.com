@@ -20,8 +20,8 @@ hero:
 
 **Keys to Ecosystem and Wildlife Protection**
 
-* Preserve 150 acres of wild life habitat
-* Installing grass strips by waterway
+* Preserve **thousands** of acres of wildlife habitat
+* Installing grass strips by waterways
 * Thousands of acres of alfalfa feed deer in winter
 * Harvest grass annually for hay
 * 50 acres under FSA and NRCS reserve program standards

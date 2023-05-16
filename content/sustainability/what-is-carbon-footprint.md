@@ -16,6 +16,8 @@ hero:
     image_alt: Close up image of corn on a stalk
 ---
 
+{{< responsive-image image_url="/uploads/dairy-productivity" image_alt="Diary Productivity" >}}
+
 ## Going Greener
  
 “Carbon Footprint” is the amount of greenhouse gases — specifically carbon dioxide emitted by a person’s activities or a product’s manufacture and transport – during a given period.
