@@ -16,7 +16,7 @@ hero:
     image_alt: Close up image of corn on a stalk
 ---
 
-{{< responsive-image image_url="/uploads/dairy-productivity" image_alt="Diary Productivity" >}}
+{{< responsive-image image_url="/uploads/figure-4-dairy-productivity.jpg" image_alt="Diary Productivity" >}}
 
 ## Going Greener
  
