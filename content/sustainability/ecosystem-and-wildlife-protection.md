@@ -20,7 +20,7 @@ hero:
 
 **Keys to Ecosystem and Wildlife Protection**
 
-* Preserve **thousands** of acres of wildlife habitat
+* Preserve **thousands of** acres of wildlife habitat
 * Installing grass strips by waterways
 * Thousands of acres of alfalfa feed deer in winter
 * Harvest grass annually for hay
