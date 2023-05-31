@@ -10,7 +10,7 @@ seo:
 date: 2023-04-29T00:00:00Z
 categories:
   - News
-  - ''
+  - MS Genetics
 ---
 MilkSource Genetics' Highview Balin&nbsp;**Journey&nbsp;**and MS Ransom-Rail&nbsp;**Beth&nbsp;**captured Grand Champion honors in the Jersey and Red & White contests, respectively, at the&nbsp;**Midwest National Spring Show**.
 
