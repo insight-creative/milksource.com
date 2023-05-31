@@ -26,7 +26,7 @@ These wins mark a strong start to MSG's show season, with a show roster that ble
 
 Among the show highlights:
 
-{{< responsive-image image_url="/uploads/adorable-jr-champ-moment-of-victory-nice-2.jpg" image_alt="Adorable Named Jr. Champ" >}}
+{{< responsive-image image_url="/uploads/spots-pride-play-it-again-2nd-jr-2-yo-1st-jr-bu.jpg" image_alt="Adorable Named Jr. Champ" >}}
 
 <u>BROWN SWISS</u>\:
 
