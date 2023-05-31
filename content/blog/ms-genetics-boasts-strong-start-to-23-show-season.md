@@ -34,7 +34,7 @@ Among the show highlights:
 
 \-- Brown Heaven Carter&nbsp;**Falby**\-ET is 1st 4 Yr. Old. Co-owned w/ Brown Heaven.
 
-
+{{< responsive-image image_url="/uploads/joline-ribbons-up-close.jpg" image_alt="" >}}
 
 <u>HOLSTEINS</u>\:
 
