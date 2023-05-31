@@ -17,7 +17,7 @@ hero:
 ---
 ## Some of the ways we stay involved …
 
-In addition to offering tours to schools, senior groups and the general public, Milk Source is also interested in various partnerships within the local community whether it be through food pantries, service groups, or organizations such as the Rural Health Initiative or great dairy promotions such as the yearly Salute to the Dairy night held at Time Warner Cable Field at Fox Cities Stadium by the Wisconsin TimberRattlers.
+In addition to offering tours to schools, senior groups and the general public, Milk Source is also interested in various partnerships within the local community whether it be through food pantries, service groups, or organizations such as the Rural Health Initiative or great dairy promotions such as the yearly <a target="_blank" rel="noopener noreferrer nofollow" href="https://hoards.com/article-30550-an-udderly-exciting-weekend.html">Salute to the Dairy Weekend</a> held at Time Warner Cable Field at Fox Cities Stadium by the Wisconsin Timber Rattlers.
 
 We are always interested in hearing from those in the community about special events and fundraisers coming up, or from local groups hoping to get an inside look at part of the Midwest’s incredible dairy industry.
 
