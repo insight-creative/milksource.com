@@ -60,7 +60,7 @@ Among the show highlights:
 
 \-- Milksource&nbsp;**Kiwi**\-RED-ET is 4th Fall Calf.
 
-
+{{< responsive-image image_url="/uploads/adorable-jr-champ-moment-of-victory-nice-1.jpg" image_alt="" >}}
 
 <u>JERSEYS</u>\:
 
