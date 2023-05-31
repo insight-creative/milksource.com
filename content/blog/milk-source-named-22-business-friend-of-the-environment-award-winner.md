@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Milk Source Named '22 Business Friend of the Environment Award Winner
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
@@ -17,4 +17,4 @@ Milk Source previously won the award in 2014 in the “Sustainability”&nbsp;<b
 
 Among the initiatives that impressed the judges were the conversion<br>of all farms to energy-efficient LED lighting; installing energy-saving&nbsp;<br>electric-drive fan motors; intensifying our LEAN management program as well as<br>implementing other agricultural “best practices” that support &nbsp;soil and water<br>health for current and future generations.
 
-“Wisconsin’s economy depends on&nbsp;<br>industry leaders who go above and beyond to use sustainable and environmentally friendly business practices,” said WMC Director of Environmental & Energy Policy Craig Summerfield (pictured alongside Milk Source’s Jim Ostrom).&nbsp;<br>
+“Wisconsin’s economy depends on industry leaders who go above and beyond to use sustainable and environmentally friendly business practices,” said WMC Director of Environmental & Energy Policy Craig Summerfield (pictured alongside Milk Source’s Jim Ostrom).&nbsp;<br>
