@@ -11,10 +11,12 @@ date: 2022-06-04T00:00:00Z
 categories:
   - News
 ---
+{{< responsive-image image_url="/uploads/img-3031.JPG" image_alt="" >}}
+
 Milk Source kicked off June Dairy Month in style by teaming up Milwaukee&nbsp;<br>Brewers' Minor League affiliate, the Wisconsin Timber Rattlers, for a series of<br>games that celebrated the state's $46 billion dairy industry.
 
 <br>The baseball team changed its name to the Wisconsin Udder Tuggers and&nbsp;<br>celebrated all things bovine.&nbsp;
 
-<br>Public Affairs teamed up with Rosendale Dairy (which brought out a number&nbsp; of calves) and Tidy View Dairy (which sponsored a cow-plushie giveaway) to make<br>the event a success.&nbsp;
+<br>Public Affairs teamed up with Rosendale Dairy (which brought out a number&nbsp; of calves) and Tidy View Dairy (which sponsored a cow-plushie giveaway) to make the event a success.&nbsp;
 
 <br>"A lot of city dwellers can't come down to our farms, which is the best way to learn; so, we'll bring the farms to them," said Avi Stern, director of public affairs. "A lot of the folks who&nbsp; stopped by our tent have never seen a cow in their entire lives.”<br>
