@@ -3,14 +3,13 @@ title: Community Relations
 layout: page-single
 menu:
   main:
-    parent: "Sustainability"
+    parent: Sustainability
 seo:
   page_title: Community Relations
-  meta_description: Working with (and for) our neighbors.  Join the 10,000 people a year who visit our farms.
+  meta_description: >-
+    Working with (and for) our neighbors.  Join the 10,000 people a year who
+    visit our farms.
   featured_image: /uploads/timber-rattlers-udder-tuggers-5.jpg
-menu:
-  main:
-    parent: Sustainability
 hero:
   heading: Community Relations
   body: Working with (and for) our neighbors
@@ -18,7 +17,6 @@ hero:
     image_url: /uploads/timber-rattlers-udder-tuggers-5.jpg
     image_alt: Timber Rattlers Udder Tuggers
 ---
-
 ## Join the thousands of people a year who visit our farms
 
 **Keys to Community Relations**
@@ -31,5 +29,5 @@ hero:
 * Collaborate with more than 20 universities & local school districts
 * Major supporter of [Dairy Cares of Wisconsin/Children’s Wisconsin](https://dairycaresofwisconsin.org/)
 * Staff speakers present globally
-* Host annual Community Compost Day
+* Host annual <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.milksource.com/blog/community-compost-day-23-big-crowds-despite-rain/">Community Compost Day</a>
 * Assist the Fox-Wolf Wastershed Alliance
