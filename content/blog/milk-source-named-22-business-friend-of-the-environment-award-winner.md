@@ -11,10 +11,10 @@ date: 2022-10-31T00:00:00Z
 categories:
   - News
 ---
-Wisconsin Manufacturing & Commerce has awarded Milk Source with the 2022&nbsp;<br>Business Friend of the Environment Award for its efforts in fostering<br>environmental stewardship (WMC is the leading business advocacy organization<br>in the state).
+Wisconsin Manufacturing & Commerce has awarded Milk Source with the 2022&nbsp;<br>Business Friend of the Environment Award for its efforts in fostering environmental stewardship (WMC is the leading business advocacy organization in the state).
 
-Milk Source previously won the award in 2014 in the “Sustainability”&nbsp;<br>category.
+Milk Source previously won the award in 2014 in the “Sustainability”&nbsp; category.
 
-Among the initiatives that impressed the judges were the conversion<br>of all farms to energy-efficient LED lighting; installing energy-saving&nbsp;<br>electric-drive fan motors; intensifying our LEAN management program as well as<br>implementing other agricultural “best practices” that support &nbsp;soil and water<br>health for current and future generations.
+Among the initiatives that impressed the judges were the conversion of all farms to energy-efficient LED lighting; installing energy-saving electric-drive fan motors; intensifying our LEAN management program as well as implementing other agricultural “best practices” that support &nbsp;soil and water health for current and future generations.
 
 “Wisconsin’s economy depends on industry leaders who go above and beyond to use sustainable and environmentally friendly business practices,” said WMC Director of Environmental & Energy Policy Craig Summerfield (pictured alongside Milk Source’s Jim Ostrom).&nbsp;<br>
