@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Shop Mechanic, Equipment Operator & Irrigation Technician
-draft: true
+draft: false
 layout: careers-single
 seo:
   page_title:
