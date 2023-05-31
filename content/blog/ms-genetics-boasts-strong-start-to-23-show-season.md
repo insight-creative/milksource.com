@@ -12,7 +12,7 @@ categories:
   - News
   - MilkSource Genetics
 ---
-MilkSource Genetics' Highview Balin&nbsp;**Journey&nbsp;**and MS Ransom-Rail&nbsp;**Beth&nbsp;**captured Grand Champion honors in the Jersey and Red & White contests, respectively, at the&nbsp;**Midwest National Spring Show**.
+MilkSource Genetics' Highview Balin Journey and MS Ransom-Rail Beth captured Grand Champion honors in the Jersey and Red & White contests, respectively, at the Midwest National Spring Show.
 
 
 
