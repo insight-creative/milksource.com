@@ -78,6 +78,9 @@ Need more information about Hugo? Visit the [Hugo docs](https://gohugo.io/docume
 ## Images
 Images can be found in static/uploads and will be optimized and transformed by imgix.com for usage in your layouts and content.
 
+## Email Signature
+Images used in email signatures are hosted along with the website and can be found in static/uploads/email-signature.
+
 ## Accessibility Tests
 We do our best to follow the WCAG2AA standard, and one of the ways we check that we're following the right rules is through automated tools, like [pa11y](https://github.com/pa11y/pa11y/). For more info on the rules being tested checkout the [pa11y wiki](https://github.com/pa11y/pa11y/wiki/HTML-CodeSniffer-Rules).
 
@@ -94,4 +97,4 @@ You can deploy directly to Netlify using this button:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/insight-creative/Quintessence)
 
-[Additional CMS documentation](https://client-training.insightcreative.info/stadium-bike/)
+[Additional CMS documentation](https://client-training.insightcreative.info/milksource/)
