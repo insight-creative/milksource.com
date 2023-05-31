@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Teaming Up with the Wisconsin Udder Tuggers to Launch June Dairy Month '22
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
