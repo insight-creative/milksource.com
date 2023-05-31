@@ -26,7 +26,7 @@ button:
 
 **Salary:** $18 - $23 hour
 
-**Overall Responsibilities:** Tillage and planting with a modern fleet of equipment; well and pivot repair, along with various other tasks depending on the season. Normal hours are Monday to Friday 7am-4:30pm.
+**Overall Responsibilities:** Tillage and planting with a modern fleet of equipment; well and pivot repair, along with various other tasks depending on the season. Normal hours are Monday to Friday 7 am - 4:30 pm.
 
 **Key Tasks & Responsibilities:**
 
