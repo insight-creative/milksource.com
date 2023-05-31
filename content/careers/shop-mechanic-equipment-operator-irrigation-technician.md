@@ -47,4 +47,4 @@ button:
 * Acute attention to detail
 * Contributes to team effort by accomplishing related results
 
-To learn more, please <a target="_blank" rel="noopener nofollow noreferrer" href="https://www.indeed.com/job/shop-mechanic-equipment-operator-irrigation-technician-fff8a456b69fb3b5">click here</a>.
+To learn more, please <a target="_blank" href="https://www.indeed.com/job/shop-mechanic-equipment-operator-irrigation-technician-fff8a456b69fb3b5">click here</a>.
