@@ -48,7 +48,7 @@ Among the show highlights:
 
 \-- Milksource&nbsp;**Ziggy**\-TW is 3rd Summer Yearling.
 
-
+{{< responsive-image image_url="/uploads/milksource-adios-red-et-1st-summer-yrlng-1st-jr-bo.jpg" image_alt="" >}}
 
 <u>RED &amp; WHITES</u>\:
 
