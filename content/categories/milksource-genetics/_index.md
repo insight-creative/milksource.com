@@ -12,7 +12,7 @@ seo:
   featured_image: /uploads/goff-andreas-mae-et-cowsmo-2.jpg
   featured_image_alt: Goff Andreas Mae ET Cowsmo
 hero:
-  enabled: true
+  enabled: false
   heading: MilkSource Genetics
   body: Home to some of the world's best cows.
   image:
