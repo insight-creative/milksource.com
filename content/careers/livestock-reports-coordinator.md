@@ -15,7 +15,7 @@ location:
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
-date:
+date: 2023-06-02T00:00:00Z
 button:
   enabled: true
   button_url: mailto:mshr@milksource.net
@@ -30,4 +30,4 @@ This role is 100% in office in Kaukauna, WI and includes competitive compensatio
 
 **Reports to:**&nbsp;VP of Milk Source
 
-To learn more, please **<a target="_blank" rel="noopener noreferrer nofollow" href="https://www.indeed.com/job/livestock-reports-coordinator-6769a209757055e1?_gl=1*nv7y6a*_gcl_au*MTY4MzMwMDc1My4xNjc4Mjk4MDQy">click here</a>**.
+To learn more, please **<a target="_blank" href="https://www.indeed.com/job/livestock-reports-coordinator-6769a209757055e1?_gl=1*nv7y6a*_gcl_au*MTY4MzMwMDc1My4xNjc4Mjk4MDQy">click here</a>**.
