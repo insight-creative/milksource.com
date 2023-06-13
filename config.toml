@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.milksource.com"
 languageCode = "en-us"
 title = "Milk Source"
 enableRobotsTXT = true
