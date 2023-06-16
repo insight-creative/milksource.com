@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: A Solid Showing at '23 Wisconsin Holstein District 7
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
