@@ -10,6 +10,7 @@ seo:
 date: 2023-06-16T00:00:00Z
 categories:
   - MilkSource Genetics
+  - News
 ---
 Milk Source Genetics enjoyed a strong showing at the recent 2023 Wisconsin Holstein District 7 Holstein Show.
 
