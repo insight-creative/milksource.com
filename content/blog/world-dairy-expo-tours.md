@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: World Dairy Expo Tours
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
