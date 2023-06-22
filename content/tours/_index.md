@@ -11,6 +11,9 @@ seo:
   meta_description: >-
     See for yourself.  All tours must be scheduled in advance.  All tours depend
     on tour guide availability.
+
+
+    xxxxx
   featured_image: /uploads/farm-tour.jpg
   featured_image_alt: Farm tour
 hero:
