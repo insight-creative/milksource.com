@@ -11,7 +11,7 @@ date: 2023-06-22T08:00:00Z
 categories:
   - News
 ---
-Milk Source continued its longstanding support of the Fox-Wolf Watershed Alliance**&nbsp;**with the recent donation of 20 55-gallon barrels for the collection of residential rain water.&nbsp;
+Milk Source continued its longstanding support of the Fox-Wolf Watershed Alliance ** ** with the recent donation of 20 55-gallon barrels for the collection of residential rain water.&nbsp;
 
 They were donated by Tidy View Dairy and delivered thanks to the efforts of driver Juan Castro.
 
