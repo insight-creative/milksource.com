@@ -25,8 +25,8 @@ tour_cta:
   heading: Reserve your tour spot today!
   body: >-
     To reserve a spot for a tour (remember to specify which farm you want to
-    visit), call <a href="tel:920-759-4673">(920) 759-4673</a> or send an e-mail
-    to <a href="mailto:tours@milksource.net">Milk Source Public Affairs Team</a>
+    visit), call [(920) 759-4673](tel:920-759-4673) or send an e-mail to [Milk
+    Source Public Affairs Team](mailto:tours@milksource.net)
   button:
     enabled: true
     button_url: mailto:tours@milksource.net
