@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Teaming Up with N.E. Wis. Watershed Alliance for Water Sustainability
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
@@ -19,4 +19,4 @@ They were donated by Tidy View Dairy and delivered thanks to the efforts of driv
 
 Milk Source Partner Todd Willer has served on the Alliance board of directors for more than a decade.&nbsp;
 
-To learn more about the project and the partnership, please&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://fwwa.org/2023/05/23/build-your-own-rain-barrel-workshop-june-17th-2023/"><strong>click here</strong></a>.&nbsp;
+To learn more about the project and the partnership, please&nbsp;<a target="_blank" href="https://fwwa.org/2023/05/23/build-your-own-rain-barrel-workshop-june-17th-2023/"><strong>click here</strong></a>.&nbsp;
