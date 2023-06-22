@@ -8,12 +8,9 @@ menu:
     weight: 8
 seo:
   page_title: Tours
-  meta_description: >-
+  meta_description: >
     See for yourself.  All tours must be scheduled in advance.  All tours depend
     on tour guide availability.
-
-
-    ccccc
   featured_image: /uploads/farm-tour.jpg
   featured_image_alt: Farm tour
 hero:
