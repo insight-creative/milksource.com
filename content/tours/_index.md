@@ -58,8 +58,8 @@ tour_cta:
 
 ### World Dairy Expo 2023 Tour Scheduling
 
-* Tours are filled on a first-come, first-reserved basis
-* Rosendale Dairy will be the site of ALL Milk Source tours during WDE Week
+* Tours are filled on a first-come, first-reserved basis. Call [(920)-759-4673](tel:920-759-4673)
+* **Rosendale Dairy** will be the site of ALL Milk Source tours during WDE Week
 * There will be two tour times daily: 10 a.m. and 2 p.m. (check availability below)
 * ALL Tour Rules & Regulations (see above) will apply.
 
