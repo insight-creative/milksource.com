@@ -7,7 +7,7 @@ seo:
   meta_description:
   featured_image:
   featured_image_alt:
-date:
+date: 2023-06-22T09:00:00Z
 categories:
   - Tours
   - News

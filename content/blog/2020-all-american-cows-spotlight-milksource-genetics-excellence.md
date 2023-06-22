@@ -1,35 +1,34 @@
 ---
-title: "2020 All-American Cows Spotlight MilkSource Genetics' Excellence"
-url: all-american-cows-spotlight
+_schema: default
+title: 2020 All-American Cows Spotlight MilkSource Genetics' Excellence
 draft: false
 seo:
   page_title:
   meta_description:
   featured_image: /uploads/2020-all-american-cows-spotlight.jpg
   featured_image_alt: 2020 All-American Cows Spotlight Milk Source Genetics' Excellence
-date: "2021-02-10"
-categories: 
+date: 2021-02-10T00:00:00Z
+categories:
   - MilkSource Genetics
   - News
 ---
-
 MilkSource Genetics shined brightly with a strong class of 2020 All-American cows, including:
 
 **HOLSTEINS**
 
-Windy Knollview **Pennies**:  Winter heifer Calf
+Windy Knollview **Pennies**\:&nbsp; Winter heifer Calf
 
 Milksource Tstorm **Chrome**\-ET: Fall Heifer Calf
 
-Petitclec Emilio **Adene**: Milking Yearling
+Petitclec Emilio **Adene**\: Milking Yearling
 
 Milksource **Attica**\-RED: Summer Jr. 2 yr. Old
 
-Jacob Control **Brisk**: Jr. 3 Yr. Old (co-owned w/ Ransom Rail & Laurie Fischer)
+Jacob Control **Brisk**\: Jr. 3 Yr. Old (co-owned w/ Ransom Rail & Laurie Fischer)
 
 Co-Vale Dempsey **Dina** 4270: Lifetime Production (w/ Ransom Rail)
 
-### **RED & WHITES** 
+### **RED & WHITES**
 
 {{< responsive-image image_url="/uploads/all-american-2020-tantrum.jpg" image_alt="All American 2020 tantrum" >}}
 
