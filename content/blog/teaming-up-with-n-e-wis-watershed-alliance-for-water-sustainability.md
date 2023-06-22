@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Teaming Up with N.E. Wis. Watershed Alliance for Water Sustainability
+title: Partnering with N.E. Wis. Watershed Alliance for Water Sustainability
 draft: false
 seo:
   page_title:
