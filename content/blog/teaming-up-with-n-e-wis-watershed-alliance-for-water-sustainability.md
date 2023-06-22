@@ -7,7 +7,7 @@ seo:
   meta_description:
   featured_image: /uploads/rain-barrel-project.JPG
   featured_image_alt:
-date:
+date: 2023-06-22T08:00:00Z
 categories:
   - News
 ---
