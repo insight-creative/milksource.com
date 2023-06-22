@@ -13,7 +13,7 @@ seo:
     on tour guide availability.
 
 
-    xxxxx
+    ccccc
   featured_image: /uploads/farm-tour.jpg
   featured_image_alt: Farm tour
 hero:
