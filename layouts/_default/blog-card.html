@@ -1,7 +1,16 @@
 <article class="card card--blog shadow-xl p-relative">
 	<a href="{{ .Permalink }}" class="flow no-decoration">
 		<div class="cover-image">
-			<img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}">
+			<!-- <img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}"> -->
+						<picture>
+				<source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://milksource-2023.imgix.net{{ .Params.seo.featured_image }}?fm=avif&q=75&width=600&height=450 600w" type="image/avif">
+		
+				<source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://milksource-2023.imgix.net{{ .Params.seo.featured_image }}?fm=webp&q=75&width=600&height=450 600w" type="image/webp">
+		
+				<source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://milksource-2023.imgix.net{{ .Params.seo.featured_image }}?fm=jpg&q=75&width=600&height=450 600w" type="image/jpg">
+		
+				<img src="{{ .Params.seo.featured_image }}" width="600" height="450" alt="{{ .Params.seo.featured_image_alt }}">   
+		</picture>
 		</div>
 	</a>
 	{{ if .Params.Categories }}

@@ -5,7 +5,7 @@ draft: false
 seo:
   page_title:
   meta_description:
-  featured_image: /uploads/cropped-for-newsletter.PNG
+  featured_image: /uploads/cropped-for-newsletter.jpg
   featured_image_alt:
 date: 2022-10-31T00:00:00Z
 categories:
