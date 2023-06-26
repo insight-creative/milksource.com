@@ -1,16 +1,16 @@
 ---
-title: "Harvest Season is Off & Running (Hard)"
+_schema: default
+title: Harvest Season is Off & Running (Hard)
 draft: false
 seo:
   page_title:
   meta_description:
   featured_image: /uploads/harvester.jpg
   featured_image_alt: harvester
-date: "2020-09-20"
-categories: 
+date: 2020-09-20T00:00:00Z
+categories:
   - News
 ---
-
 Corn silage season has begun for Milk Source farms.
 
 As a total organization, our 2020 goal is to harvest more than 560,000 tons of silage (or, put another way, about 1.1 billion -- with a B -- pounds.)
