@@ -13,7 +13,7 @@ categories:
 ---
 For nearly 15 years, Milk Source has partnered with the Wisconsin Timber Rattlers to celebrate June Dairy Month.
 
-The Class-A affiliate of the Milwaukee Brewers (temporarily) transforms into the “Wisconsin Udder Tuggers,” complete with cow-and-farmer-themed jerseys, logos and promotions. It's among the&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://hoards.com/article-30550-an-udderly-exciting-weekend.html"><strong>most-popular home-game stretches</strong></a>&nbsp;of the year within the entire Minor League Baseball system.
+The Class-A affiliate of the Milwaukee Brewers (temporarily) transforms into the “Wisconsin Udder Tuggers,” complete with cow-and-farmer-themed jerseys, logos and promotions. It's among the&nbsp;<a target="_blank" href="https://hoards.com/article-30550-an-udderly-exciting-weekend.html"><strong>most-popular home-game stretches</strong></a>&nbsp;of the year within the entire Minor League Baseball system.
 
 Milk Source not only sponsors an annual giveaway but has become a fan favorite by bringing a show cow and calves to mingle with the crowd. For many attendees, it's the first time they've seen a bovine in their lives.&nbsp;
 
