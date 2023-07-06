@@ -5,7 +5,10 @@ draft: false
 layout: careers-single
 seo:
   page_title:
-  meta_description:
+  meta_description: >-
+    Transports raw milk from dairy to processing plant in a safe manner while
+    ensuring proper techniques, principals, and procedures are followed which
+    support the company’s policies, goals, and objectives.
   featured_image:
   featured_image_alt:
 location:
