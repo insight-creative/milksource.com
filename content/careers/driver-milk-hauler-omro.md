@@ -18,7 +18,7 @@ location:
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
-date:
+date: 2023-07-06T00:00:00Z
 button:
   enabled: true
   button_url: mailto:mshr@milksource.net
