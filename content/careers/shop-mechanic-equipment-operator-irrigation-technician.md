@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Shop Mechanic, Equipment Operator & Irrigation Technician
+title: Shop Mechanic, Equipment Operator & Irrigation Technician (Grand Marsh)
 draft: false
 layout: careers-single
 seo:
@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 location:
   street:
-  city:
+  city: Grand Marsh
   state: WI
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
