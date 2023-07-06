@@ -5,7 +5,9 @@ draft: false
 layout: careers-single
 seo:
   page_title:
-  meta_description:
+  meta_description: >-
+    Tillage and planting with a modern fleet of equipment; well and pivot
+    repair, along with various other tasks depending on the season.
   featured_image:
   featured_image_alt:
 location:
