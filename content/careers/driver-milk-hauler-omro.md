@@ -16,7 +16,7 @@ location:
   city: Omro
   state: WI
   zip:
-googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
+googlemaps: https://goo.gl/maps/ve57Lbd1dk9Qs3aN9
 job_type: Full Time
 date: 2023-07-06T09:00:00Z
 button:
