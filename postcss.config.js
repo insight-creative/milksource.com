@@ -43,6 +43,7 @@ module.exports = {
         'parent-page-media',
         'page-tours',
         'parent-page-tours',
+        'parent-page-blog',
         'grid-1',
         'grid-2',
         'grid-3',

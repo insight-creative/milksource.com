@@ -10,7 +10,7 @@
                 <details class="position card list-style-none max-width-none flow" open role="group">
                     <summary class="position__heading h4" tabindex="0">{{ .Title }}</summary>
                     <p>{{ .Params.SEO.meta_description }}</p>
-                    <a href="{{ .Permalink }}" class="btn btn--primary">View Job Listing</a>
+                    <a href="{{ .RelPermalink }}" class="btn btn--primary">View Job Listing</a>
                     <div class="position__metadata flex flex-justify-between shift-up">
                       {{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}
                       <span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span>
@@ -21,7 +21,7 @@
                 <details class="position card list-style-none max-width-none flow" role="group">
                     <summary class="position__heading h4" tabindex="0">{{ .Title }}</summary>
                     <p>{{ .Params.SEO.meta_description }}</p>
-                    <a href="{{ .Permalink }}" class="btn btn--primary">View Job Listing</a>
+                    <a href="{{ .RelPermalink }}" class="btn btn--primary">View Job Listing</a>
                     <div class="position__metadata flex flex-justify-between shift-up">
                       {{ .Params.location.city }}, {{ .Params.location.state }} | {{ .Params.job_type }}
                       <span>Post On: {{ .Params.date.Format "January 2, 2006" }}</span>

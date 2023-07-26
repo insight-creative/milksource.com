@@ -2,6 +2,8 @@
   width: 100%;
   position: fixed;
   z-index: 9;
+  top: 0;
+  right: 0;
   transition: .3s ease-out;
   background-color: $white;
   box-shadow: 0 4px 6px -6px;
@@ -326,6 +328,11 @@
   display: block;
   color: $black;
   font-family: $secondary-font;
+
+  &:hover,
+  &:focus {
+    color: $primary-color;
+  }
 }
 
 .nav-open {
