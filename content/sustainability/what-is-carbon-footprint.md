@@ -33,7 +33,9 @@ Between 2007 and 2017, every gallon of milk produced required 17% less feed, 21%
 
 Milk Source farms have invested in miles of nutrient pipelines that have reduced annual truck rolls by the tens of thousands; invested in green lighting and more energy-efficient fan systems; worked with biodigesters that create Renewable Natural Gas (RNG) from cow manure; and much, much more. Our efforts have been recognized by both the environmental and business communities for prioritizing stewardship of land, air and water, including: the International Innovative Dairy Farm of the Year (2014); two-time Wisconsin Leopold Conservation Award Finalist (2014 & 2015); WMC Business Friend of the Environment two-time award winner (2014 & 2022); Wisconsin Family Business of the Year Innovation & Sustainability Award (2015); Wis. Rural Development Award (2016); and World Dairy Expo Dairy Producers of the Year (2020), etc.
 
-The U.S. dairy industry has committed to the ambitious goal of greenhouse gas neutrality by 2050. Shrinking dairy industry’s carbon footprint is a big goal – and Milk Source farms will continue to lead the way.​​​​​​
+The U.S. dairy industry has committed to the ambitious goal of greenhouse gas neutrality by 2050. Shrinking dairy industry’s carbon footprint is a big goal – and Milk Source farms will continue to lead the way.
+
+​​​​​​
 
 ### Made (Sustainably) in America: U.S. Dairy Productivity Far Outstrips Global Competition
 
