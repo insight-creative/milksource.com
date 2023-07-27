@@ -37,4 +37,4 @@ The U.S. dairy industry has committed to the ambitious goal of greenhouse gas ne
 
 ### Made (Sustainably) in America: U.S. Dairy Productivity Far Outstrips Global Competition
 
-<figure>{{< responsive-image image_url="/uploads/figure-4-dairy-productivity.jpg" image_alt="Diary Productivity" >}}<figcaption>{{< responsive-image image_url="/uploads/excellent-graphic-on-greenhouse-gases.jpg" image_alt="" >}}UC-Davis</figcaption></figure>
+<figure>{{< responsive-image image_url="/uploads/figure-4-dairy-productivity.jpg" image_alt="Diary Productivity" >}}<figcaption>UC-Davis</figcaption></figure>
