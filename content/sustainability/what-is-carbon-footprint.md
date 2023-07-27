@@ -35,6 +35,8 @@ Milk Source farms have invested in miles of nutrient pipelines that have reduced
 
 The U.S. dairy industry has committed to the ambitious goal of greenhouse gas neutrality by 2050. Shrinking dairy industry’s carbon footprint is a big goal – and Milk Source farms will continue to lead the way.
 
+{{< responsive-image image_url="/uploads/second-excellent-graphic-on-emissions.jpg" image_alt="" >}}
+
 ### Made (Sustainably) in America: U.S. Dairy Productivity Far Outstrips Global Competition
 
 <figure>{{< responsive-image image_url="/uploads/figure-4-dairy-productivity.jpg" image_alt="Diary Productivity" >}}<figcaption>UC-Davis</figcaption></figure>
