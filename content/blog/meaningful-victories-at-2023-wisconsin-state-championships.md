@@ -27,11 +27,11 @@ MS Turbo **Tuesday**\-ET was 3rd Fall Calf (Co-owned w/&nbsp;[Ransom-Rail Farm](
 
 ##### <u><strong>Jersey Show</strong></u>
 
+Highview Balin **Journey** was Res. Grand Champion, Senior Champion and 1st 5 Yr. Old.
+
 Milksource Victorious **Fireball** was HM Junior Champion, 2nd Summer Yearling, 1st Junior and B&O.
 
 Milksource-FV **Rev MeUP** was 2nd Spring Yearling.
-
-Highview Balin **Journey** was Res. Grand Champion, Senior Champion and 1st 5 Yr. Old.
 
 ##### <u>Red &amp; White Show</u>
 
