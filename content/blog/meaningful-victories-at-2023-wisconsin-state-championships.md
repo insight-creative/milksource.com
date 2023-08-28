@@ -7,9 +7,9 @@ seo:
   meta_description:
   featured_image: /uploads/sally-ella-tristen-jim-nice-dat.jpg
   featured_image_alt:
-date:
+date: 2023-08-28T08:00:00Z
 categories:
-  - News
+  - MilkSource Genetics
 ---
 Celebrating a meaningful moment, the father-and-son pair of Jim and Tristen Ostrom shared the spotlight in having their respective cows, Sally and Ella, named the Grand Champions of the 2023 Wisconsin State Holstein Show and Holstein Junior Show.
 
