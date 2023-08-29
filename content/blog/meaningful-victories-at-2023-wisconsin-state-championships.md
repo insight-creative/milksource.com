@@ -5,7 +5,7 @@ draft: false
 seo:
   page_title: A Milestone Moment for Father & Son at 2023 Wisconsin State Championships
   meta_description:
-  featured_image: /uploads/sally-ella-tristen-jim-nice-dat.jpg
+  featured_image: /uploads/compressed-for-website.jpg
   featured_image_alt:
 date: 2023-08-28T08:00:00Z
 categories:
@@ -23,7 +23,7 @@ Dappleview Tatoo **Ella** (owned by Tristen Ostrom) was Res. Int. Champion, 1st 
 
 Milksource **Audi** was 1st Jr. 2 Yr Old, BU and B&O.
 
-MS Turbo **Tuesday**\-ET was 3rd Fall Calf (Co-owned w/&nbsp;[Ransom-Rail Farm](https://www.facebook.com/ransomrailfarm?__tn__=-]K*F))
+MS Turbo **Tuesday**\-ET was 3rd Fall Calf (Co-owned w/&nbsp;[Ransom-Rail Farm](https://www.facebook.com/ransomrailfarm?__tn__=-%5DK*F))
 
 ##### <u><strong>Jersey Show</strong></u>
 
@@ -35,7 +35,7 @@ Milksource-FV **Rev MeUP** was 2nd Spring Yearling.
 
 ##### <u>Red &amp; White Show</u>
 
-Golden-Oaks **Temptres**\-RED-ET was Grand Champion, BU, Intermediate Champion & 1st Sr. 3 Yr. Old at the 2023 Wisconsin Championship Red & White Show. (Co-owned w/&nbsp;[Crescentmead](https://www.facebook.com/profile.php?id=100054507667515&amp;__tn__=-]K*F), Laurie Fischer & Andy Steinhagen.
+Golden-Oaks **Temptres**\-RED-ET was Grand Champion, BU, Intermediate Champion & 1st Sr. 3 Yr. Old at the 2023 Wisconsin Championship Red & White Show. (Co-owned w/&nbsp;[Crescentmead](https://www.facebook.com/profile.php?id=100054507667515&amp;__tn__=-%5DK*F), Laurie Fischer & Andy Steinhagen.
 
 Milksource **Kiwi**\-Red-ET was 3rd Fall Calf.
 
