@@ -17,7 +17,7 @@ location:
   state: WI
   zip:
 googlemaps: https://goo.gl/maps/ve57Lbd1dk9Qs3aN9
-job_type: Full Time
+job_type: Part Time
 date: 2023-07-06T09:00:00Z
 button:
   enabled: true
@@ -25,7 +25,7 @@ button:
   button_text: Apply Now
   open_in_new_tab: true
 ---
-**We are seeking experienced, safety-oriented Driver/Milk Haulers to join our top-notch team at Omro Dairy!&nbsp;**
+**We are seeking experienced, safety-oriented Driver/Milk Haulers to join our top-notch team at Omro Dairy!**&nbsp;
 
 Our Driver/Milk Hauler role transports raw milk from the dairy to the processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company's polices, goals, and objectives.&nbsp;**CDL with Endorsement N-Tank Vehicles required. Home every night with competitive wages and full benefits! Full time & part time opportunities available!**
 
@@ -70,4 +70,4 @@ Our Driver/Milk Hauler role transports raw milk from the dairy to the processing
 * The employee must occasionally (up to 33% of the time) lift and/or move up to 50 pounds
 * Specific vision abilities required by this job include close vision and the ability to adjust focus
 
-To learn more or apply, please **<a target="_blank" rel="noopener" href="https://www.indeed.com/job/driver-milk-hauler-35b1d0d7e4a0561e?_gl=1*1nmhat2*_gcl_au*MTUyNzI2OTg5NC4xNjg2MDgxMTc5">click here</a>.&nbsp;**
+To learn more or apply, please **<a target="_blank" rel="noopener" href="https://www.indeed.com/job/driver-milk-hauler-part-time-35b1d0d7e4a0561e">click here</a>.**&nbsp;
