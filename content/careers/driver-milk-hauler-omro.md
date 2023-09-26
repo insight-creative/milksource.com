@@ -70,4 +70,6 @@ Our Driver/Milk Hauler role transports raw milk from the dairy to the processing
 * The employee must occasionally (up to 33% of the time) lift and/or move up to 50 pounds
 * Specific vision abilities required by this job include close vision and the ability to adjust focus
 
+This position will be 12-hour days every other weekend and two days a week. Day shift or night shift available. $30,000 - $37,000/year.
+
 To learn more or apply, please **<a target="_blank" rel="noopener" href="https://www.indeed.com/job/driver-milk-hauler-part-time-35b1d0d7e4a0561e">click here</a>.**&nbsp;
