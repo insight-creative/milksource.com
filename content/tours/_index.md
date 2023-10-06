@@ -56,17 +56,4 @@ tour_cta:
 * Tours will start promptly at the designated start time
 * Reservations are limited to 25 people per tour
 
-### World Dairy Expo 2023 Tour Scheduling
-
-* Tours are filled on a first-come, first-reserved basis. Call [(920)-759-4673](tel:920-759-4673)
-* **Rosendale Dairy** will be the site of ALL Milk Source tours during WDE Week
-* There will be two tour times daily: 10 a.m. and 2 p.m. (check availability below)
-* ALL Tour Rules & Regulations (see above) will apply.
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **10 a.m.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2 p.m.**
-
-**Thurs., Oct. 5**&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NO SPOTS AVAILABLE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NO SPOTS AVAILABLE
-
-**Fri., Oct. 6**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;16 spots available&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 25 spots available
-
-**Sat., Oct. 7**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NO SPOTS AVAILABLE&nbsp; &nbsp; &nbsp; &nbsp;NO SPOTS AVAILABLE
+###
