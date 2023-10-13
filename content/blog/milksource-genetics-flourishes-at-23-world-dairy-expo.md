@@ -5,7 +5,7 @@ draft: true
 seo:
   page_title:
   meta_description:
-  featured_image: /uploads/web-site-image.jpg
+  featured_image: /uploads/capture-2.jpg
   featured_image_alt:
 date: 2023-10-13T09:00:00Z
 categories:
