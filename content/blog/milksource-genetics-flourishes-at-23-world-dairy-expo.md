@@ -19,7 +19,7 @@ Among the highlights:&nbsp;
 
 Milksource&nbsp;**Audi**&nbsp;is 2nd Jr. 2 Yr. Old and Best Bred & Owned.
 
-**<u>Red &amp; White Cow Show:</u>**&nbsp;Ransom-Rail&nbsp;**Beth**\-RED is Res. Grand Champion, Res. Sr. Champion, 1st 5 Yr. Old, BU & BBO. (Co-owned with Ransom-Rail Farm & Laurie Fischer).&nbsp;
+**<u>Red &amp; White Cow Show:</u>**&nbsp;Ransom-Rail&nbsp;**Beth**\-RED (*pictured*) is Res. Grand Champion, Res. Sr. Champion, 1st 5 Yr. Old, BU & BBO. (Co-owned with Ransom-Rail Farm & Laurie Fischer).&nbsp;
 
 Golden-Oaks&nbsp;**Temptres**\-RED-ET wins HM Grand Champion, Intermediate Champion, 1st Sr. 3 Yr. Old & BU ((Co-owned w/ Fischer, Steincrest & Crescentmead).
 
