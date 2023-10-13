@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'MilkSource Genetics Flourishes at ''23 World Dairy Expo '
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
