@@ -9,10 +9,10 @@ seo:
   featured_image:
   featured_image_alt:
 location:
-  street:
-  city:
+  street: N3569 Vanden Bosch Rd
+  city: Freedom
   state: WI
-  zip:
+  zip: '54130'
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
 date: 2023-10-13T11:00:00Z
