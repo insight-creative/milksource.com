@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Driver/Milk Hauler (Grand Marsh)
-draft: false
+draft: true
 layout: careers-single
 seo:
   page_title: Driver/Milk Hauler
@@ -25,7 +25,7 @@ button:
   button_text: Apply Now
   open_in_new_tab: true
 ---
-**We are seeking experienced, safety-oriented Driver/Milk Haulers to join our top-notch team at New Chester Dairy!&nbsp;**
+**We are seeking experienced, safety-oriented Driver/Milk Haulers to join our top-notch team at New Chester Dairy!**&nbsp;
 
 Our Driver/Milk Hauler role transports raw milk from the dairy to the processing plant in a safe manner while ensuring proper techniques, principals, and procedures are followed which support the company's polices, goals, and objectives.&nbsp;**CDL with Endorsement N-Tank Vehicles required. Home every night with competitive wages and full benefits! Full time & part time opportunities available!**
 
