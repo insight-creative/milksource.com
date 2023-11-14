@@ -5,7 +5,7 @@ draft: false
 seo:
   page_title:
   meta_description:
-  featured_image:
+  featured_image: /uploads/adios-bullvine-front-of-line-sharp.jpg
   featured_image_alt:
 date: 2023-11-14T09:00:00Z
 categories:
