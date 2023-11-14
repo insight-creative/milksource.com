@@ -11,7 +11,7 @@ date: 2023-11-14T09:00:00Z
 categories:
   - MilkSource Genetics
 ---
-The Royal Agricultural Winter Fair is Canada's premier national dairy show, perhaps second only to World Dairy Expo in North American prestige.
+The Royal Agricultural Winter Fair is Canada's premier national dairy show, a crown jewel event for our neighbors to the north.
 
 Once again, Milk Source Genetics was on the scene, competing in a number of different show breeds. Among the highlights …
 
