@@ -5,7 +5,10 @@ draft: false
 layout: careers-single
 seo:
   page_title: Careers
-  meta_description:
+  meta_description: >-
+    This position is responsible for providing first level IT support,
+    performing a variety of maintenance, software installation, and end-user
+    support. 
   featured_image:
   featured_image_alt:
 location:
