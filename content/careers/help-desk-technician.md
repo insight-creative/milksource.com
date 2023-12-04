@@ -12,7 +12,7 @@ seo:
   featured_image:
   featured_image_alt:
 location:
-  street:
+  street: Kaukauna, WI
   city:
   state: WI
   zip:
