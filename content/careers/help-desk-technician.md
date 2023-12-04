@@ -12,8 +12,8 @@ seo:
   featured_image:
   featured_image_alt:
 location:
-  street: Kaukauna
-  city:
+  street:
+  city: Kaukauna
   state: WI
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
