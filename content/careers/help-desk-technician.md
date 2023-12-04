@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'Help Desk Technician '
-draft: true
+draft: false
 layout: careers-single
 seo:
   page_title: Careers
