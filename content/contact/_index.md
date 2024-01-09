@@ -52,12 +52,12 @@ contact_list:
   - name: Deric DuQuaine
     job_title: General Counsel
     phone: 920-759-4653
-    email: timolson@milksource.net
+    email: dduquaine@milksource.net
     is_partner: false
   - name: Tim Olson
     job_title: Chief Financial Officer
     phone: 920-759-4645
-    email: jquezada@milksource.net
+    email: timolson@milksource.net
     is_partner: false
   - name: Juan Quezada
     job_title: Director of Training & Development
@@ -103,7 +103,7 @@ contact_list:
     job_title: Director of Feed Procurement
     is_partner: false
     phone: 920-372-7042
-    email: EricOnan@milksource.net
+    email: ericonan@milksource.net
   - name: Cheri Ellenbecker
     job_title: Executive Assistant
     is_partner: false
