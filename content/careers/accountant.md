@@ -22,10 +22,12 @@ button:
   button_text: Apply Now
   open_in_new_tab: true
 ---
-**Milk Source is looking for an Accountant to join our team! Our Accountant will assist in the general accounting operations within the Finance and Accounting department. This position includes competitive compensation & full benefits.**
+**Do you want to be part of a hard-working team that learns something new every day? Join our top-notch Accounting & Finance team that supports each other and works together to build both individual success as well as drive organizational development. Come seize the endless opportunities that Milk Source has to offer!**
 
-Hours: Monday-Friday 8am-5pm
+Milk Source is looking for a detail oriented and self-motivated Accountant to join our team! Our Accountant will assist in the general accounting operations within the Finance and Accounting department. This position includes competitive compensation & full benefits.
 
-**Overall Responsibilities:**&nbsp;Overall responsibilities include maintaining general accounting controls and processes in compliance with GAAP, active role in the monthly and annual financial reporting processes as well as the monthly and annual closing processes, preparation of journal entries to record activity, annual audit tax return work, and maintaining account reconciliations.
+**This full-time, salaried role is 100% in office in Kaukauna, WI and includes competitive compensation & full benefits!**
+
+**Overall Responsibilities:** Maintaining general accounting controls and processes in compliance with GAAP, active role in the monthly and annual financial reporting processes as well as the monthly and annual closing processes, preparation of journal entries to record activity, annual audit tax return work, and maintaining account reconciliations.
 
 To learn more or apply, please <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.indeed.com/job/accountant-f5dfc2d22e809c7e">click here</a>.&nbsp;
