@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Accountant
-draft: false
+draft: true
 layout: careers-single
 seo:
   page_title:
@@ -30,4 +30,4 @@ Milk Source is looking for a detail oriented and self-motivated Accountant to jo
 
 **Overall Responsibilities:** Maintaining general accounting controls and processes in compliance with GAAP, active role in the monthly and annual financial reporting processes as well as the monthly and annual closing processes, preparation of journal entries to record activity, annual audit tax return work, and maintaining account reconciliations.
 
-To learn more or apply, please <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.indeed.com/job/accountant-f5dfc2d22e809c7e">click here</a>.&nbsp;
+To learn more or apply, please <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.indeed.com/job/accountant-f5dfc2d22e809c7e">click here</a>.
