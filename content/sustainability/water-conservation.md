@@ -3,10 +3,12 @@ title: Water Conservation
 layout: page-single
 menu:
   main:
-    parent: "Sustainability"
+    parent: Sustainability
 seo:
   page_title: Water Conservation
-  meta_description: Reclaim. Reuse. Recycle. A recognized leader in conserving a shared vital resource. 
+  meta_description: >-
+    Reclaim. Reuse. Recycle. A recognized leader in conserving a shared vital
+    resource.
   featured_image: /uploads/water-conservation.jpg
 hero:
   heading: Water Conservation
@@ -15,7 +17,6 @@ hero:
     image_url: /uploads/water-conservation.jpg
     image_alt: Water conservation
 ---
-
 ## A recognized leader in conserving a shared vital resource.
 
 **Keys to Water Conservation**
@@ -25,5 +26,4 @@ hero:
 * Parlor water reused to recycle sand
 * Organic fertilizer contains water for fields
 * Water captured by lagoons used in irrigation
-* Zero discharge farms
 * Retention ponds collect water
