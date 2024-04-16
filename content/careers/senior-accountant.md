@@ -10,9 +10,9 @@ seo:
   featured_image_alt:
 location:
   street:
-  city:
+  city: Kaukauna
   state: WI
-  zip:
+  zip: '54130'
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
 date: 2024-04-16T10:00:00Z
