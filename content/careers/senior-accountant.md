@@ -22,8 +22,8 @@ button:
   button_text: Apply Now
   open_in_new_tab: true
 ---
-**Do you want to be part of a hard-working team that learns something new every day? Join our top-notch Accounting & Finance team that supports each other and works together to build both individual success as well as drive organizational development. Come seize the endless opportunities that Milk Source has to offer!**
+**Do you want to be part of a hard-working team that learns something new every day? Join our top-notch Accounting & Finance team that supports each other and works together to build both individual success as well as drive organizational development. Come seize the endless opportunities that Milk Source has to offer.**
 
-Milk Source is looking for an action and detail oriented Senior Accountant to join our team at the Milk Source Office! Our Senior Accountant will assist in the general accounting operations within the Finance and Accounting department.
+Milk Source is looking for an action and detail oriented Senior Accountant to join our team at the Milk Source Office. Our Senior Accountant will assist in the general accounting operations within the Finance and Accounting department.
 
 To learn more or apply, please <a href="https://www.indeed.com/job/senior-accountant-8dc5344f64b981a4" title="Senior Accountant Milk Source" target="_blank" rel="noreferrer nofollow noopener">click here</a>.
