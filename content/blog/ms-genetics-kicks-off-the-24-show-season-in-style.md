@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: MS Genetics Kicks Off the '24 Show Season in Style
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
