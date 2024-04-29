@@ -38,7 +38,7 @@ Woodmohr Forever **Faithful** was1st Lifetime Production Cow (BU)
 
 **<u>Brown Swiss</u>**
 
-Jenlar Diego **Wedding**\-ETV and Milksource **Donkey Rampage** were named the Junior Champion and Reserve Junior Champion of the Junior Show, respectively.
+Jenlar Diego **Wedding**\-ETV and Milksource **Donkey Rampage** were named the Junior Champion and Reserve Junior Champion of the Junior Show, respectively. (*Pictured above*)
 
 **Diego** also was Junior Champion of the Open Show and 1st Fall Calf.
 
