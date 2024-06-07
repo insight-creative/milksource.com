@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Shop Mechanic, Equipment Operator & Irrigation Technician (Grand Marsh)
-draft: false
+draft: true
 layout: careers-single
 seo:
   page_title:
