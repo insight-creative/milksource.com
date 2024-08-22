@@ -9,7 +9,7 @@ seo:
   featured_image_alt:
 date: 2024-08-22T09:00:00Z
 categories:
-  - News
+  -
   - MilkSource Genetics
 ---
 MilkSource Genetics boasted the top cows in two different breeds during the Wisconsin Summer Championship Show: Ms Ransom-Rail **Beth**\-Red was Grand Champion in the Red & White competition, while GMBV Joel **Dixie**\-ET captured the premier title of the Jersey contest.
