@@ -6,7 +6,7 @@ seo:
     Milk Source’s goal every day is to be an outstanding dairy producer through
     quality care of animals, sustainable practices, environmental accountability
     and constant attention to detail. Test edit
-  featured_image: /uploads/cows-in-field.jpg
+  featured_image: /uploads/milk-source-preview.jpg
 hero_slider:
   slides:
     - heading: Exceptional care means happier cows
@@ -47,7 +47,7 @@ hero_slider:
         open_in_new_tab: false
       label: Careers
       image:
-        image_url: /uploads/cows-in-field.jpg
+        image_url: /uploads/leadership-class-5.jpg
         image_alt: Leadership class
 intro:
   enabled: true
