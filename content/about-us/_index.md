@@ -17,7 +17,7 @@ hero:
   heading: Meet the owners
   body: A winning collaboration since 1994
   image:
-    image_url: /uploads/jjt-together-2024-8750-retouch.jpg
+    image_url: /uploads/capture-1.jpg
     image_alt: MilkSource owners
 ---
 ## Leading the way in modern sustainable agriculture
