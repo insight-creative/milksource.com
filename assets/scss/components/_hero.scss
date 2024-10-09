@@ -3,7 +3,7 @@
   height: 300px;
 
   @include breakpoint(md) {
-    height: 400px; 
+    height: 500px; 
   }
 
   &__image {
