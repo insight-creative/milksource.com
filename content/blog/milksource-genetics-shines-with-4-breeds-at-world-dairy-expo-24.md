@@ -51,5 +51,3 @@ Yellowstone **Tamara**\-ET won 2nd Fall Calf. Co-owned with our friends at Femme
 And congratulations to MSG's **Mandi Bue**, who had the honor of judging the International Junior Holstein Show.
 
 &nbsp;
-
-Kudos to the entire MilkSource Genetics crew on another impressive year!
