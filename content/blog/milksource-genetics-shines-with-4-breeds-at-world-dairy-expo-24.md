@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: MilkSource Genetics Shines with 4 Breeds at World Dairy Expo '24
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
