@@ -12,7 +12,7 @@ seo:
     Milk Source was co-founded in 1994 by Jim Ostrom, John Vosters and Todd
     Willer and traces its roots back to 1965 when a small 30-cow dairy farm was
     started in Freedom.  A winning collaboration since 1994.
-  featured_image: /uploads/owners2.jpg
+  featured_image: /uploads/jjt-together-2024-8812-retouch.jpg
 hero:
   heading: Meet the owners
   body: A winning collaboration since 1994
