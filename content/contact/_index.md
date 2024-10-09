@@ -86,6 +86,11 @@ contact_list:
     is_partner: false
     phone: 920-759-4652
     email: alexcoenen@milksource.net
+  - name: Dawson Nickels
+    job_title: Business Development Manager
+    is_partner: false
+    phone: 920-759-4659
+    email: DawsonNickels@milksource.net
   - name: Avi Stern
     job_title: Director of Public Affairs
     is_partner: false
@@ -116,9 +121,4 @@ contact_list:
     is_partner: false
     phone: 920-759-4647
     email: sbabcock@milksource.net
-  - name: Dawson Nickels
-    job_title: Business Development Manager
-    is_partner: false
-    phone: 920-759-4659
-    email: DawsonNickels@milksource.net
 ---
