@@ -30,11 +30,11 @@ Liberty Gen Victorious **Venus** captured 2nd Milking Yearling.
 
 Milksouce Awesome **Time**\-Red won Res. Sr. Champion and B&O of the Junior Show.
 
-Durkacres Apple **Tonic**\-Red is 2nd Sr. 2 Yr. Old.
-
 Milksource **Torrent**\-Red-ET captured 2nd 4 Yr. Old and B&O.
 
 Milksource **Tantrum**\-Red-ET won 3rd 5 Yr. Old and B&O.
+
+Durkacres Apple **Tonic**\-Red is 5th Sr. 2 Yr. Old.
 
 First Produce of Dam
 
