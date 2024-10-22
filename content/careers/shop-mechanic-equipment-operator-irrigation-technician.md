@@ -49,4 +49,4 @@ button:
 * Acute attention to detail
 * Contributes to team effort by accomplishing related results
 
-To learn more, please <a href="mshr@milksource.net" target="_blank" rel="noopener">click here</a>.
+&nbsp;
