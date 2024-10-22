@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Shop Mechanic, Equipment Operator & Irrigation Technician (Grand Marsh)
-draft: true
+draft: false
 layout: careers-single
 seo:
   page_title:
@@ -17,7 +17,7 @@ location:
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
-date: 2023-07-06T08:00:00Z
+date: 2024-10-22T08:00:00Z
 button:
   enabled: true
   button_url: mailto:mwichman@milksource.net
