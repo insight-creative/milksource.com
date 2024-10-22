@@ -49,4 +49,4 @@ button:
 * Acute attention to detail
 * Contributes to team effort by accomplishing related results
 
-To learn more, please <a target="_blank" rel="noreferrer nofollow" href="https://www.indeed.com/job/shop-mechanic-equipment-operator-irrigation-technician-e26972c92d995c4f">click here</a>.
+To learn more, please <a href="mshr@milksource.net" target="_blank" rel="noopener">click here</a>.
