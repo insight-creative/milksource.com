@@ -60,7 +60,7 @@ tour_cta:
 
 ### 2025 World Dairy Expo Tours
 
-Once again, Rosendale Dairy will host ALL milk Source tours during WDE. Two time slots will be offered daily (morning & afternoon). Groups MUST reserve their spots in advance by calling (920)- 759-4673. Reservations will be limited to 25 people per tour on a first-requested/first-reserved basis. Tour groups are expected to show up promptly (Arrivals that show up 15 late for their designed time will be considered "cancelled.")&nbsp; Available tour times are listed below.
+Once again, Rosendale Dairy will host ALL milk Source tours during WDE. Two time slots will be offered daily (morning & afternoon). Groups MUST reserve their spots in advance by calling (920)- 759-4673. Reservations will be limited to 25 people per tour on a first-requested/first-reserved basis. Tour groups are expected to show up promptly (Arrivals that show up 15 minutes late for their designated time will be considered "cancelled.")&nbsp; Available tour times are listed below.
 
 &nbsp;
 
