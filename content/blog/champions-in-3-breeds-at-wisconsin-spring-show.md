@@ -41,15 +41,23 @@ Tonic also was&nbsp;1st place Senior 3 year old & Intermediate Champion.
 
 **Jerseys:**
 
-<u>Journey</u> grabbed Grand Champion, and <u>Fireball</u> was HM Grand Champion.
+<u>Highview Balin Journey</u> grabbed Grand Champion, and <u>MilkSource Victorious Fireball</u> was HM Grand Champion.
 
-&nbsp;
+Journey placed 1st in the Production Cow Class and Senior Champion.
+
+Fireball took first junior, second open in the Junior Three Year Old Class. She was also tapped Reserve Intermediate Champion, and Honorable Grand Champion of the Junior Midwest Spring National Jersey Show.
 
 **Holsteins:**
 
 <u>Temtpres</u> (competing in two breeds) earned Reserve Grand Champion, and <u>Salisbury</u> was HM Grand Champ.
 
-&nbsp;
+<u>Milksource Champagne-ET</u> was 3rd Open & 1st Junior in the Junior Three Year Old Class. She was then tapped Reserve Intermediate Champion of the Junior Midwest National Holstein Show.
+
+In the Junior 3 Year Old Class, <u>Milksource Amazin Legend-ET</u> placed 1st and was awarded Best Udder and Bred & Owned. She was then tapped as Intermediate Honorable Mention.
+
+<u>Milksource Petra</u> placed 3rd in the Winter Senior Two Year Old Class.
+
+<u>Ms FemFatal Escort-ET</u> (Owned by our friends at La Femme Fatale) placed second and was 1st Bred & Owned in her Summer Yearling Class
 
 MS Genetics was also named Premier Breeder & Exhibitor of the Holstein Show.
 
