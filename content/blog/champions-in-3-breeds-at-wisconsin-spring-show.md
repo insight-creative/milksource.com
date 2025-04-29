@@ -13,7 +13,7 @@ categories:
 ---
 &nbsp;
 
-Milksource B Tito-RED-ETMilkSource Genetics captured the top prize in three of the four breeds it exhibited at the Midwest Spring National Show.
+MilkSource Genetics captured the top prize in three of the four breeds it exhibited at the Midwest Spring National Show.
 
 Among the highlights:
 
