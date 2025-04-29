@@ -11,8 +11,6 @@ date: 2025-04-29T10:00:00Z
 categories:
   - MilkSource Genetics
 ---
-&nbsp;
-
 MilkSource Genetics captured the top prize in three of the four breeds it exhibited at the Midwest Spring National Show.
 
 Among the highlights:
