@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Champions in 3 Breeds at Wisconsin Spring Show
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
