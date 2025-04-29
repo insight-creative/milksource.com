@@ -49,18 +49,26 @@ Fireball took first junior, second open in the Junior Three Year Old Class. She 
 
 **Holsteins:**
 
-<u>Temtpres</u> (competing in two breeds) earned Reserve Grand Champion, and <u>Salisbury</u> was HM Grand Champ.
+<u>Temtpres</u> (competing in two breeds) earned Reserve Grand Champion, and <u>Corlane Unix Salisbury</u> placedwas HM Grand Champ.
+
+Temptres also was awarded 1st Place in the 5 year old as well as Reserve Senior&nbsp; Champion.
+
+Salisbury&nbsp;also took 1st Aged Cow and Best Udder. She was then tapped HM Senior Champion.
 
 <u>Milksource Champagne-ET</u> was 3rd Open & 1st Junior in the Junior Three Year Old Class. She was then tapped Reserve Intermediate Champion of the Junior Midwest National Holstein Show.
 
 In the Junior 3 Year Old Class, <u>Milksource Amazin Legend-ET</u> placed 1st and was awarded Best Udder and Bred & Owned. She was then tapped as Intermediate Honorable Mention.
 
+<u>Jacobs Chief Dina</u> placed 2nd Senior Five Year Old.
+
 <u>Milksource Petra</u> placed 3rd in the Winter Senior Two Year Old Class.
 
+<u>Budjon-Vail EyeC Chalack-ET</u> was awarded 1st Place Winter Junior Two Year Old and Best Udder. She was then tapped the Intermediate Champion
+
 <u>Ms FemFatal Escort-ET</u> (Owned by our friends at La Femme Fatale) placed second and was 1st Bred & Owned in her Summer Yearling Class
+
+Senior Best Three
 
 MS Genetics was also named Premier Breeder & Exhibitor of the Holstein Show.
 
 &nbsp;
-
-Congratulations to the entire for an amazing kickoff to the '25 cow show season.
