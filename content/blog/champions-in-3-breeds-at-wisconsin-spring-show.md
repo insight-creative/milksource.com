@@ -19,9 +19,11 @@ Among the highlights:
 
 **Red & Whites:**
 
-<u>Temptres </u>won Grand Champion, while <u>Tonic</u> garnered Honorable Mention Grand Champ.
+<u>Golden-Oaks Temptres-RED-ET</u>&nbsp;(Co-owned w/ Fischer, Steinhagen & Crescentmead) won Grand Champion, while <u>Durkacres Apple Tonic-RED</u> garnered Honorable Mention Grand Champ.
 
-&nbsp;
+Temptres also was&nbsp;1st Place 5 year old and Senior Champion.
+
+Tonic also was&nbsp;1st place Senior 3 year old & Intermediate Champion.
 
 **Brown Swiss:**
 
