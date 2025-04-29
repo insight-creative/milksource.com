@@ -45,6 +45,8 @@ Journey placed 1st in the Production Cow Class and Senior Champion.
 
 Fireball took first junior, second open in the Junior Three Year Old Class. She was also tapped Reserve Intermediate Champion, and Honorable Grand Champion of the Junior Midwest Spring National Jersey Show.
 
+&nbsp;
+
 **Holsteins:**
 
 <u>Temtpres</u> (competing in two breeds) earned Reserve Grand Champion, and <u>Corlane Unix Salisbury</u> placedwas HM Grand Champ.
