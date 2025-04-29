@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Champions in 3 Breeds at Wisconsin Spring Show
+title: Champions in 3 Breeds at 2025 Wisconsin Spring Show
 draft: false
 seo:
   page_title:
