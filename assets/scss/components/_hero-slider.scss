@@ -1,15 +1,19 @@
 .hero-slider {
   overflow: hidden;
-  height: calc(100vh - 109px);
+  height: calc(70vh - 96px);
   position: relative;
+
+  @include breakpoint(md) {
+    height: calc(100vh - 109px);
+  }
 }
 
 .hero-slider__wrapper {
   position: relative;
   width: 100%;
   height: 100%;
-  transform: translateX(0);
-  transition: transform 0.3s ease-out;
+  // transform: translateX(0);
+  // transition: transform 0.3s ease-out;
 }
 
 .hero-slider__slide {
@@ -23,67 +27,16 @@
   }
 }
 
-.hero-slider__button-wrapper{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-row: auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-
-
-  button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36vw;
-
-    @include breakpoint(md) {
-      width: 200px;
-      padding: $ic-100 $ic-400;
-    }
-  }
-
-  @include breakpoint(md) {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-.slider-button {
-  background-color: transparent;
-  color: white;
-  border: none;
-  position: relative;
-
-  &::after {
-    background: $white;
-    height: 3px;
-    width: 100%;
-    transform: scaleX(0);
-    transform-origin: top right;
-    position: absolute;
-    top: 3px;
-    left: 0;
-    content: "";
-    transition: transform 0.4s ease-out;
-  }
-
-  &:hover,
-  &:focus {
-    color: $white;
-
-    &::after {
-      transform: scaleX(1);
-      transform-origin: top left;
-      border: $accent-color;
-    }
-  }
-}
-
-.active-button {
-  &::after {
-    transform: scaleX(1);
-  }
+.hero-slider iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  block-size: 150%;
+  inline-size: 150%;
+  max-inline-size: 150%;
+  pointer-events: none;
 }
 
 .__content {
@@ -91,6 +44,10 @@
   flex-direction: column;
   height: 100%;
   justify-content: center;
+}
+
+.hero-slider__header p {
+  max-width: 600px;
 }
 
 .hero-slider__outter-content-wrapper {

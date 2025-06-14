@@ -77,48 +77,57 @@ hasSubMenu.forEach((link) => {
   });
 });
 
-if (document.body.contains(heroSlider)) {
-  const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
-  const slideWidth = slides[0].getBoundingClientRect().width;
+// Load the YouTube IFrame Player API
+var tag = document.createElement('script');
+tag.src = 'https://www.youtube.com/iframe_api';
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-  sliderButton[0].classList.add('active-button');
+function createPlayer(video, index) {
+  var videoURL = new URL(video.src);
+  // Extracts video ID from the URL path
+  var videoId = videoURL.pathname.split('/').pop(); 
   
-  sliderButton.forEach(button => {
-    button.addEventListener('click', e => {
-      let clickedButtonIndex;
+  // Append parameters for YouTube player
+  videoURL.searchParams.set('enablejsapi', '1');
+  videoURL.searchParams.set('autoplay', '1');
+  videoURL.searchParams.set('mute', '1');
+  videoURL.searchParams.set('rel', '0');
+  videoURL.searchParams.set('loop', '1');
+  videoURL.searchParams.set('origin', window.location.origin);
+  videoURL.searchParams.set('playlist', videoId);
   
-        for (let i = 0; i  < sliderButton.length; i++) {
-          if (sliderButton[i] === button) {
-            clickedButtonIndex = i;
-          }
-        }
-  
-      removeIsSelectedClass();
-      removeActiveButtonClass();
-  
-      button.classList.add('active-button');
-  
-      const slideToShow = slides[clickedButtonIndex];
-      const destination = getComputedStyle(slideToShow).left;
-  
-      slideToShow.classList.add('is-selected');
-      content.style.transform = `translateX(-${destination})`;
-    })
-  })
-  
-  slides.forEach((slide, index) => {
-    slide.style.left = slideWidth * index + 'px';
-  })
+  // Set the modified source URL back to the iframe
+  video.src = videoURL.href;
 
-  function removeIsSelectedClass() {
-    slides.forEach(slide => {
-      slide.classList.remove(['is-selected']);
-    })
-  }
+  return new YT.Player(video, {
+    events: {
+      'onReady': function(event) {
+        bindControlButton(event.target, index);
+      }
+    }
+  });
+}
 
-  function removeActiveButtonClass() {
-    sliderButton.forEach(button => {
-      button.classList.remove(['active-button']);
-    })
+function removeIframes() {
+  var iframes = document.querySelectorAll('.hero-slider__slide iframe');
+  iframes.forEach(function(iframe) {
+    iframe.parentNode.removeChild(iframe);
+  });
+}
+
+function initializeVideos() {
+  var videos = document.querySelectorAll('.hero-slider__slide iframe');
+  videos.forEach(createPlayer);
+}
+
+function checkScreenSize() {
+  if (window.matchMedia('(min-width: 62em)').matches) {
+    initializeVideos();
+  } else {
+    removeIframes();
   }
 }
+
+window.onYouTubeIframeAPIReady = checkScreenSize;
+window.addEventListener('resize', checkScreenSize);

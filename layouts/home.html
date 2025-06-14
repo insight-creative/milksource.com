@@ -1,7 +1,44 @@
 {{ define "main" }} 
 {{ partialCached "home/home-hero" . }}
+{{ if .Params.brand_values }}
+    {{ with .Params.brand_values }}
+        <section class="bg-primary block blue-curves">
+            <img class="blue-curves__top" src="/uploads/blue-curve-top.svg" alt="">
+            <img class="blue-curves__bottom" src="/uploads/blue-curve-bottom.svg" alt="">
+            <div class="wrapper-lg">
+                <h2 class="text-white text-center mb-6">{{ .heading }}</h2>
+                <div class="flex-grid text-white">
+                    {{ range .columns }}
+                        <div class="icon-card col flow">
+                            <img class="icon-card__icon" src="{{ .icon }}" alt="">
+                            <h3 class="text-white">{{ .heading }}</h3>
+                            <p class="fs--100">{{ .body | markdownify }}</p>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
 {{ partial "intro" . }}
-{{ partial "image-reel" . }}
+{{ if .Params.media_text_blocks }}
+    <section class="bg-primary block blue-curves">
+        <img class="blue-curves__top" src="/uploads/blue-curve-top.svg" alt="">
+        <img class="blue-curves__bottom" src="/uploads/blue-curve-bottom.svg" alt="">
+        {{ range .Params.media_text_blocks }}
+            <div class="wrapper-lg grid gap-lg">
+                <div class="content">
+                    <h2>{{ .heading }}</h2>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum malesuada curae cubilia quisque rutrum, commodo eros quisque. Duis aptent nascetur fusce; nascetur arcu felis orci magnis. Feugiat facilisi nullam turpis non neque pulvinar convallis. Porta lorem montes senectus facilisi semper ac sapien torquent dapibus.</p>
+                    <a href="{{ .button.button_url }}" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower"{{ end }} class="btn btn--white">{{ .button.button_text }}</a>
+                </div>
+                <div class="image">
+
+                </div>
+            </div>
+        {{ end }}
+    </section>
+{{ end }}
 {{ if .Params.community.enabled}}
 {{ with .Params.community }}
 {{ partial "two-column" . }}
