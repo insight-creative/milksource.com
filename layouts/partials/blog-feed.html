@@ -1,0 +1,20 @@
+<section aria-labelledby="home-blog-feed" class="home-blog-feed block bg-gray">
+    <div class="wrapper text-center">
+        <h2 id="home-blog-feed">The Latest at Milk Source</h2>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Montes netus eros; venenatis interdum fringilla natoque. In ligula urna in adipiscing potenti orci.</p>
+    </div>
+    <div class="wrapper-lg">
+        <div class="block-sm">
+            <div class="grid-3">
+                {{ $pages := .Site.RegularPages }}
+                {{ $recentPosts := where $pages "Type" "blog" }}
+                {{ range first 3 $recentPosts }}
+                {{ .Render "blog-card" }}
+                {{ end }}
+            </div>
+            <div class="text-center mt-6">
+                <a href="/news/" class="btn btn--primary">View All Our News</a>
+            </div>
+        </div>
+    </div>
+</section>

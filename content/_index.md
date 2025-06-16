@@ -67,36 +67,46 @@ columns:
     icon: /uploads/family-white.svg
     body: "Milk Source was founded in 1994 by Jim Ostrom, John Vosters and Todd Willer, each from multi-generational Wisconsin farm families. A small 30-cow dairy started in 1965 by John’s parents in Freedom has evolved into a family of farms across Wisconsin and the Midwest."
 media_text_blocks:
-  - heading: Exceptional care means happier cows
+  - heading: Exceptional Care Means Happier Cows
     body: >-
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum malesuada curae cubilia quisque rutrum, commodo eros quisque. Duis aptent nascetur fusce; nascetur arcu felis orci magnis. Feugiat facilisi nullam turpis non neque pulvinar convallis. Porta lorem montes senectus facilisi semper ac sapien torquent dapibus."
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum malesuada curae cubilia quisque rutrum, commodo eros quisque. Duis aptent nascetur fusce; nascetur arcu felis orci magnis. Feugiat facilisi nullam turpis non neque pulvinar convallis. Porta lorem montes senectus facilisi semper ac sapien torquent dapibus.
     image:
-      image_url: /uploads/corn-harvester-2.jpg
-      image_alt: Corn harvester
+      image_url: /uploads/animal-care-cow-2.jpg
+      image_alt: Close up of a cow at Tidy View Dairy
     button:
       enabled: true
       button_url: /about-us/
       button_text: Learn More About Our Practices
       open_in_new_tab: false
-community:
-  enabled: true
-  heading: Involved in our communities where we live and work
-  body: >-
-    Milk Source farms strive to be good neighbors in our hometowns. We work
-    alongside local food pantries, service groups, emergency service providers
-    and other organizations to ensure the continued vitality of our communities.
-    We foster agricultural transparency by offering free tours to our neighbors,
-    local residents and their guests as well as sponsoring larger-scale public
-    events, such as our annual “Salute to Dairy Nights” with Minor League
-    Baseball’s Wisconsin Timber Rattlers.
+    text_column_position: left
+  - heading: Leading the Way in Modern Sustainable Agriculture
+    body: >-
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum malesuada curae cubilia quisque rutrum, commodo eros quisque. Duis aptent nascetur fusce; nascetur arcu felis orci magnis. Feugiat facilisi nullam turpis non neque pulvinar convallis. Porta lorem montes senectus facilisi semper ac sapien torquent dapibus.
+    image:
+      image_url: /uploads/new-chester-diary-digesters.jpg
+      image_alt: Corn harvester
+    button:
+      enabled: true
+      button_url: /about-us/
+      button_text: Learn More About Our Sustainability
+      open_in_new_tab: false
+    text_column_position: right
+  - heading: Involved in Our Communities Where We Live and Work
+    body: >-
+      Milk Source farms strive to be good neighbors in our hometowns. We work alongside local food pantries, service groups, emergency service providers and other organizations to ensure the continued vitality of our communities. We foster agricultural transparency by offering free tours to our neighbors, local residents and their guests as well as sponsoring larger-scale public events, such as our annual “Salute to Dairy Nights” with Minor League Baseball’s Wisconsin Timber Rattlers.
+    image:
+      image_url: /uploads/compost-day-2.jpg
+      image_alt: Compost day
+    button:
+      enabled: true
+      button_url: /sustainability/community-relations/
+      button_text: Learn More About Our Involvement
+      open_in_new_tab: false
+    text_column_position: left
+full_width_image:
   image:
-    image_url: /uploads/compost-day-2.jpg
-    image_alt: Compost day
-  button:
-    enabled: true
-    button_url: /sustainability/community-relations/
-    button_text: Our community efforts
-    open_in_new_tab: false
+    image_url: /uploads/animal-care-cow-2.jpg
+    image_alt: Close up of a cow at Tidy View Dairy
 cta:
   enabled: true
   heading: Now Hiring!
