@@ -28,7 +28,7 @@
         {{ range .Params.media_text_blocks }}
             <div class="media-text-block wrapper-lg grid gap-sm{{ if eq .text_column_position "left" }} media-text-block--text-left{{ else }} media-text-block--text-right{{ end }}">
                 <div class="media-text-block__content block text-white flow grid-12 grid-4-md">
-                    <h2 class="text-white">{{ .heading }}</h2>
+                    <h2 class="h3 text-white">{{ .heading }}</h2>
                     <div class="fs-100">
                         {{ if .body }}
                             {{ if in .body "\n" }}
