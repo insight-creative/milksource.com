@@ -9,6 +9,8 @@ const slides = document.querySelectorAll('.hero-slider__slide');
 const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
 const heroSlider = document.querySelector('.hero-slider');
 
+const heroVideo = document.querySelector('.hero__video')
+
 let scrollState = 0;
 
 const scrollTop = () => window.scrollY;
@@ -77,57 +79,22 @@ hasSubMenu.forEach((link) => {
   });
 });
 
-// Load the YouTube IFrame Player API
-var tag = document.createElement('script');
-tag.src = 'https://www.youtube.com/iframe_api';
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+if(document.body.contains(heroVideo)) {
+  const videoControls = document.querySelector('.hero__controls')
 
-function createPlayer(video, index) {
-  var videoURL = new URL(video.src);
-  // Extracts video ID from the URL path
-  var videoId = videoURL.pathname.split('/').pop(); 
-  
-  // Append parameters for YouTube player
-  videoURL.searchParams.set('enablejsapi', '1');
-  videoURL.searchParams.set('autoplay', '1');
-  videoURL.searchParams.set('mute', '1');
-  videoURL.searchParams.set('rel', '0');
-  videoURL.searchParams.set('loop', '1');
-  videoURL.searchParams.set('origin', window.location.origin);
-  videoURL.searchParams.set('playlist', videoId);
-  
-  // Set the modified source URL back to the iframe
-  video.src = videoURL.href;
-
-  return new YT.Player(video, {
-    events: {
-      'onReady': function(event) {
-        bindControlButton(event.target, index);
-      }
+  videoControls.addEventListener('click', () => {
+    if(videoControls.classList.contains('video-playing')) {
+      videoControls.classList.remove('video-playing')
+      videoControls.classList.add('video-paused')
+      videoControls.setAttribute('aria-label', 'play the video')
+      videoControls.setAttribute('title', 'play the video')
+      heroVideo.pause()
+    } else {
+      videoControls.classList.remove('video-paused')
+      videoControls.classList.add('video-playing')
+      videoControls.setAttribute('aria-label', 'pause the video')
+      videoControls.setAttribute('title', 'pause the video')
+      heroVideo.play()
     }
-  });
+  })
 }
-
-function removeIframes() {
-  var iframes = document.querySelectorAll('.hero-slider__slide iframe');
-  iframes.forEach(function(iframe) {
-    iframe.parentNode.removeChild(iframe);
-  });
-}
-
-function initializeVideos() {
-  var videos = document.querySelectorAll('.hero-slider__slide iframe');
-  videos.forEach(createPlayer);
-}
-
-function checkScreenSize() {
-  if (window.matchMedia('(min-width: 62em)').matches) {
-    initializeVideos();
-  } else {
-    removeIframes();
-  }
-}
-
-window.onYouTubeIframeAPIReady = checkScreenSize;
-window.addEventListener('resize', checkScreenSize);

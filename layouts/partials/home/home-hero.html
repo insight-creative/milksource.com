@@ -5,7 +5,9 @@
       <div class="hero-slider__wrapper">
         <div class="hero-slider__slide">
           {{ if .video.enabled }}
-            <iframe title="" width="640" height="360" src="https://www.youtube.com/embed/{{ .video.youtube_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" id="widget2"></iframe>
+            <video height="1080" width="1920" loop="loop" muted="" playsinline="" style="opacity: 1;" autoplay="" poster="" class="hero__video aspect-video">
+              <source src="/uploads/milksource-web-video.mp4" type="video/mp4">
+            </video>
             <div class="hero__image">
               <picture>
                 <source sizes="100vw" srcset="https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=70&height=600&width=360 600w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=70&height=400&width=800 800w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=70&height=500&width=1000&fit=crop 1000w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=70&height=600&width=1200&fit=crop 1200w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=70&height=700&width=1400&fit=crop 1400w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=70&height=900&width=1800&fit=crop 1800w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=70&height=1000&width=2000&fit=crop 2000w" type="image/avif">
@@ -45,6 +47,12 @@
               </header>
             </div>
           </div>
+          <a href="javascript:void(0);" class="hero__controls video-playing" aria-label="play the video" title="play the video">
+            <div class="hero__controls-inner bg-primary icon-sm fill-white">
+              {{ partialCached "svg-icons/play.svg" . }}
+              {{ partialCached "svg-icons/pause.svg" . }}
+            </div>
+          </a>
         </div>
       </div>
     </section>

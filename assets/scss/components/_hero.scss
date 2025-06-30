@@ -10,6 +10,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
+    z-index: -2;
 
     img {
       height: 100%;
@@ -73,5 +74,65 @@
     @include breakpoint(sm) {
       padding: $ic-200;
     }
+  }
+}
+
+.hero__video {
+  height: 100%;
+  width: 100%;
+  max-width: none;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero__controls,
+.hero__controls-inner {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__controls {
+  position: absolute;
+  z-index: 8;
+  top: $ic-200;
+  right: $ic-200;
+  height: $ic-600;
+  width: $ic-600;
+  border: none;
+  background-color: rgba($primary-color, .5);
+
+  @include breakpoint(md) {
+    top: unset;
+    bottom: $ic-400;
+  }
+}
+
+.hero__controls-inner {
+  height: $ic-500;
+  width: $ic-500;
+}
+
+.video-playing {
+  .play-icon {
+    display: none;
+  }
+
+  .pause-icon {
+    display: block;
+  }
+}
+
+.video-paused {
+  .play-icon {
+    display: block;
+  }
+
+  .pause-icon {
+    display: none;
   }
 }

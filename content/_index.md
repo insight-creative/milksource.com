@@ -69,7 +69,7 @@ columns:
 media_text_blocks:
   - heading: Exceptional Care Means Happier Cows
     body: >-
-      Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum malesuada curae cubilia quisque rutrum, commodo eros quisque. Duis aptent nascetur fusce; nascetur arcu felis orci magnis. Feugiat facilisi nullam turpis non neque pulvinar convallis. Porta lorem montes senectus facilisi semper ac sapien torquent dapibus.
+      Providing the best possible care and fostering a healthy environment for every single animal is at the heart of what we do 365 days a year. We accomplish this by seeking out professional and conscientious team members, developing their skills, leveraging world-class technology and adhering to top-tier standards of cow wellness and comfort. Our herd deserves nothing less.
     image:
       image_url: /uploads/animal-care-cow-2.jpg
       image_alt: Close up of a cow at Tidy View Dairy
@@ -81,13 +81,13 @@ media_text_blocks:
     text_column_position: left
   - heading: Leading the Way in Modern Sustainable Agriculture
     body: >-
-      Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum malesuada curae cubilia quisque rutrum, commodo eros quisque. Duis aptent nascetur fusce; nascetur arcu felis orci magnis. Feugiat facilisi nullam turpis non neque pulvinar convallis. Porta lorem montes senectus facilisi semper ac sapien torquent dapibus.
+      We embrace an expansive definition of “Sustainability.” It’s both a goal and a process. It’s embodied in how we treat the environment in which we live, the animals in our care, the team members we employ and the communities we call home. We are continuously investing in new processes, partnerships and improvements that will foster a vibrant quality of life today and tomorrow.
     image:
       image_url: /uploads/new-chester-diary-digesters.jpg
       image_alt: Corn harvester
     button:
       enabled: true
-      button_url: /about-us/
+      button_url: /sustainability/
       button_text: Learn More About Our Sustainability
       open_in_new_tab: false
     text_column_position: right

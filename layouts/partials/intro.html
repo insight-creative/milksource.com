@@ -1,6 +1,6 @@
 {{ if .Params.intro.enabled }}
 {{ with .Params.intro }}
-<section class="intro" aria-labelledby="{{ .heading | plainify | urlize }}">
+<section class="intro bg-white" aria-labelledby="{{ .heading | plainify | urlize }}">
     <div id="intro" class="wrapper-lg split-column">
         <div class="intro__body col flow">
             {{ partial "heading" . }}

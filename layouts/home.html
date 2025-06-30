@@ -7,11 +7,11 @@
             <img class="blue-curves__bottom" src="/uploads/blue-curve-bottom.svg" alt="">
             <div class="wrapper-lg">
                 <h2 class="text-white text-center mb-6">{{ .heading }}</h2>
-                <div class="flex-grid text-white">
+                <div class="flex-grid flex-justify-center text-white">
                     {{ range .columns }}
                         <div class="icon-card col flow">
                             <img class="icon-card__icon" src="{{ .icon }}" alt="">
-                            <h3 class="text-white">{{ .heading }}</h3>
+                            <h3 class="h4 text-white">{{ .heading }}</h3>
                             <p class="fs--100">{{ .body | markdownify }}</p>
                         </div>
                     {{ end }}
@@ -28,7 +28,7 @@
         {{ range .Params.media_text_blocks }}
             <div class="media-text-block wrapper-lg grid gap-sm{{ if eq .text_column_position "left" }} media-text-block--text-left{{ else }} media-text-block--text-right{{ end }}">
                 <div class="media-text-block__content block text-white flow grid-12 grid-4-md">
-                    <h2 class="text-white">{{ .heading }}</h2>
+                    <h2 class="h3 text-white">{{ .heading }}</h2>
                     <div class="fs-100">
                         {{ if .body }}
                             {{ if in .body "\n" }}
