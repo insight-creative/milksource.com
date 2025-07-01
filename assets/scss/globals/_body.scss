@@ -28,11 +28,11 @@ main:focus {
 
 .site-main {
   position: relative;
-  margin-top: $mobile-header;
+  // margin-top: $mobile-header;
 
-  @include breakpoint(md) {
-    margin-top: $desktop-header;
-  }
+  // @include breakpoint(md) {
+  //   margin-top: $desktop-header;
+  // }
 }
 
 // Style highlight to match our themes colors
