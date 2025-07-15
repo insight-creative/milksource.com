@@ -17,7 +17,7 @@ googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
 date: 2025-07-15T14:30:00Z
 button:
-  enabled: true
+  enabled: false
   button_url: mailto:mshr@milksource.net
   button_text: Apply Now
   open_in_new_tab: true
