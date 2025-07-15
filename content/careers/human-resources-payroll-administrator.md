@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Human Resources & Payroll Administrator
-draft: true
+draft: false
 layout: careers-single
 seo:
   page_title:
