@@ -150,7 +150,7 @@
 }
 
 .header__logo {
-  max-width: clamp(150px, 20vw, 200px);
+  width: clamp(150px, 20vw, 250px);
 }
 
 .header__nav {
@@ -250,7 +250,7 @@
     text-decoration: none;
     color: $black;
     font-family: $secondary-font;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
     transition: $transition;
     
     &:hover,
@@ -302,6 +302,7 @@
   width: 100%;
   background-color: $white;
   box-shadow: 0px 20px 30px rgba($black, 0.15);
+  z-index: 1;
 }
 
 .header__sub-menu-inner {
@@ -374,6 +375,14 @@
   &::before {
     transform: translate(-30%, -30%) rotate(0deg);
   }
+}
+
+.header__bottom-curve {
+  position: absolute;
+  top: 98%;
+  left: -20px;
+  width: 110%;
+  max-width: 125%;
 }
 
 .collapse {

@@ -9,6 +9,8 @@ const slides = document.querySelectorAll('.hero-slider__slide');
 const sliderButtons = document.querySelector('.hero-slider__button-wrapper');
 const heroSlider = document.querySelector('.hero-slider');
 
+const heroVideo = document.querySelector('.hero__video')
+
 let scrollState = 0;
 
 const scrollTop = () => window.scrollY;
@@ -77,48 +79,22 @@ hasSubMenu.forEach((link) => {
   });
 });
 
-if (document.body.contains(heroSlider)) {
-  const sliderButton = Array.from(sliderButtons.querySelectorAll('.slider-button'));
-  const slideWidth = slides[0].getBoundingClientRect().width;
+if(document.body.contains(heroVideo)) {
+  const videoControls = document.querySelector('.hero__controls')
 
-  sliderButton[0].classList.add('active-button');
-  
-  sliderButton.forEach(button => {
-    button.addEventListener('click', e => {
-      let clickedButtonIndex;
-  
-        for (let i = 0; i  < sliderButton.length; i++) {
-          if (sliderButton[i] === button) {
-            clickedButtonIndex = i;
-          }
-        }
-  
-      removeIsSelectedClass();
-      removeActiveButtonClass();
-  
-      button.classList.add('active-button');
-  
-      const slideToShow = slides[clickedButtonIndex];
-      const destination = getComputedStyle(slideToShow).left;
-  
-      slideToShow.classList.add('is-selected');
-      content.style.transform = `translateX(-${destination})`;
-    })
+  videoControls.addEventListener('click', () => {
+    if(videoControls.classList.contains('video-playing')) {
+      videoControls.classList.remove('video-playing')
+      videoControls.classList.add('video-paused')
+      videoControls.setAttribute('aria-label', 'play the video')
+      videoControls.setAttribute('title', 'play the video')
+      heroVideo.pause()
+    } else {
+      videoControls.classList.remove('video-paused')
+      videoControls.classList.add('video-playing')
+      videoControls.setAttribute('aria-label', 'pause the video')
+      videoControls.setAttribute('title', 'pause the video')
+      heroVideo.play()
+    }
   })
-  
-  slides.forEach((slide, index) => {
-    slide.style.left = slideWidth * index + 'px';
-  })
-
-  function removeIsSelectedClass() {
-    slides.forEach(slide => {
-      slide.classList.remove(['is-selected']);
-    })
-  }
-
-  function removeActiveButtonClass() {
-    sliderButton.forEach(button => {
-      button.classList.remove(['active-button']);
-    })
-  }
 }

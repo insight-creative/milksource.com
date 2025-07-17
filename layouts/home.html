@@ -1,12 +1,70 @@
 {{ define "main" }} 
 {{ partialCached "home/home-hero" . }}
+{{ if .Params.brand_values }}
+    {{ with .Params.brand_values }}
+        <section class="bg-primary block blue-curves">
+            <img class="blue-curves__top" src="/uploads/blue-curve-top.svg" alt="">
+            <img class="blue-curves__bottom" src="/uploads/blue-curve-bottom.svg" alt="">
+            <div class="wrapper-lg">
+                <h2 class="text-white text-center mb-6">{{ .heading }}</h2>
+                <div class="flex-grid flex-justify-center text-white">
+                    {{ range .columns }}
+                        <div class="icon-card col flow">
+                            <img class="icon-card__icon" src="{{ .icon }}" alt="">
+                            <h3 class="h4 text-white">{{ .heading }}</h3>
+                            <p class="fs--100">{{ .body | markdownify }}</p>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
 {{ partial "intro" . }}
-{{ partial "image-reel" . }}
-{{ if .Params.community.enabled}}
-{{ with .Params.community }}
-{{ partial "two-column" . }}
+{{ if .Params.media_text_blocks }}
+    <section class="bg-primary block blue-curves">
+        <img class="blue-curves__top" src="/uploads/blue-curve-top.svg" alt="">
+        <img class="blue-curves__bottom" src="/uploads/blue-curve-bottom.svg" alt="">
+        {{ range .Params.media_text_blocks }}
+            <div class="media-text-block wrapper-lg grid gap-sm{{ if eq .text_column_position "left" }} media-text-block--text-left{{ else }} media-text-block--text-right{{ end }}">
+                <div class="media-text-block__content block text-white flow grid-12 grid-4-md">
+                    <h2 class="h3 text-white">{{ .heading }}</h2>
+                    <div class="fs-100">
+                        {{ if .body }}
+                            {{ if in .body "\n" }}
+                                {{ .body | markdownify }}
+                            {{ else }}
+                                <p>{{ .body | markdownify }}</p>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                    <a href="{{ .button.button_url }}" {{ if .open_in_new_tab }} target="_blank" rel="noopener noreferrer nofollower"{{ end }} class="btn btn--white">{{ .button.button_text }}</a>
+                </div>
+                <div class="media-text-block__image grid-12 grid-8-md p-relative">
+                    <picture class="p-absolute cover-image">
+                        <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=75,width=325&height=250 400w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=600&height=450 600w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=800&height=525 800w" type="image/avif">
+
+                        <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://milksource-2023.imgix.net{{ .image.image_url }}?fm=webp&q=75,width=325&height=250 400w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=600&height=450 600w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=800&height=525 800w" type="image/webp">
+
+                        <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://milksource-2023.imgix.net{{ .image.image_url }}?fm=jpg&q=75,width=325&height=250 400w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=600&height=450 600w, https://milksource-2023.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=800&height=525 800w" type="image/jpeg">
+
+                        <img class="p-absolute" src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="600" height="450">   
+                    </picture>
+                </div>
+            </div>
+        {{ end }}
+        {{ if .Params.full_width_image }}
+            {{ with .Params.full_width_image }}
+                <div class="full-width-image-w-curves">
+                    <img class="" src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="600" height="450">   
+                    <img class="blue-curves__top" src="/uploads/blue-curve-top.svg" alt="">
+                    <img class="blue-curves__bottom" src="/uploads/blue-curve-bottom.svg" alt="">
+                </div>
+            {{ end }}
+        {{ end }}
+    </section>
 {{ end }}
-{{ end }}
+{{ partial "blog-feed" . }}
 {{ if .Params.cta.enabled }}
     {{ with .Params.cta }}
         {{ partial "cta-full-width" . }}

@@ -9,3 +9,21 @@
         max-width: 22ch;
     }
 }
+
+.full-width-image-w-curves {
+    position: relative;
+}
+
+.full-width-image-w-curves img:not(.blue-curves__top, .blue-curves__bottom) {
+    max-height: 700px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.full-width-image-w-curves .blue-curves__top {
+    bottom: calc(0px - 1px);
+}
+
+.full-width-image-w-curves .blue-curves__bottom {
+    top: calc(0px - 1px);
+}

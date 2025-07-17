@@ -1,0 +1,22 @@
+.media-text-block + .media-text-block {
+    padding-block-start: clamp($ic-400, 10%, $ic-900);
+}
+
+.media-text-block + .full-width-image-w-curves {
+    margin-block-start: clamp($ic-400, 10%, $ic-900);
+}
+
+@include breakpoint(md) {
+    .media-text-block--text-right .media-text-block__content {
+        order: 2;
+    }
+    
+    .media-text-block--text-right .media-text-block__image {
+        order: 1;
+    }
+}
+
+
+.media-text-block__image {
+    min-height: 300px;
+}
