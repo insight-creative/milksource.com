@@ -3,7 +3,7 @@
   height: 300px;
 
   @include breakpoint(md) {
-    height: 500px; 
+    height: 550px; 
   }
 
   &__image {
@@ -99,7 +99,7 @@
 .hero__controls {
   position: absolute;
   z-index: 8;
-  top: $ic-200;
+  top: $ic-400;
   right: $ic-200;
   height: $ic-600;
   width: $ic-600;

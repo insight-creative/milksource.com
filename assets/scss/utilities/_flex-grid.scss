@@ -5,6 +5,10 @@
   margin-top: $ic-300;
 
   .col {
-    flex: 1 1 400px;
+    flex: 1 1 325px;
+
+    @include breakpoint(lg) {
+      flex: 1 1 400px;
+    }
   }
 }
