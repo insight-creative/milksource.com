@@ -20,7 +20,7 @@ Among the highlights:
 
 **RED & WHITES**
 
-Golden-Oaks **Temptres**\-Red-ET captured Grand Champion, Best Udder (BU) & 1st 5 Yr. Old (Co-owned with Fischer, Steinhagen & Crescentmead).
+Golden-Oaks **Temptres**\-Red-ET (*pictured*) captured Grand Champion, Best Udder (BU) & 1st 5 Yr. Old (Co-owned with Fischer, Steinhagen & Crescentmead).
 
 Durkacres Apple **Tonic**\-Red won Reserve Grand Champ and 1st Sr. 3 Yr. Old.
 
