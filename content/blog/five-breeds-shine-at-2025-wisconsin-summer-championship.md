@@ -7,7 +7,7 @@ seo:
   meta_description:
   featured_image: /uploads/golden-oaks-temptres-red-et-grand-champ-bu-1st-yr-old.jpg
   featured_image_alt:
-date: 2025-08-22T00:00:00Z
+date: 2025-08-22T09:00:00Z
 categories:
   - MilkSource Genetics
   - News
