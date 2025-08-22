@@ -1,11 +1,11 @@
 ---
 _schema: default
 title: Five Breeds Shine at 2025 Wisconsin Summer Championship
-draft: true
+draft: false
 seo:
   page_title:
   meta_description:
-  featured_image: /uploads/temptress-handshake.jpg
+  featured_image: /uploads/golden-oaks-temptres-red-et-grand-champ-bu-1st-yr-old.jpg
   featured_image_alt:
 date: 2025-08-22T00:00:00Z
 categories:
