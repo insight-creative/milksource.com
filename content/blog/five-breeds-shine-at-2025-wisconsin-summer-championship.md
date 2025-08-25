@@ -62,7 +62,7 @@ In the Jr. 2 Yr. Old class, Milksource **Harmony** was the 1st Place Junior and 
 
 Eixdale **Pwrup** Alongside won Grand Champion, Senior Champ and 1st 4 Yr. Old.
 
-Comballes Unix **Twynkie** was Senior and Grand Champion of the Junior Show.
+Comballes Unix **Twynkie** was was 1st place aged cow and HM Senior Champ of the Open Show and Senior and Grand Champ of the Junior Show.
 
 Budjon-Vail EyeC **Chalack**\-ET captured 1st Junior 2 Yr. Old.
 
