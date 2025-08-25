@@ -24,7 +24,7 @@ Golden-Oaks **Temptres**\-Red-ET (*pictured*) captured Grand Champion, Best Udde
 
 Durkacres Apple **Tonic**\-Red won Reserve Grand Champ and 1st Sr. 3 Yr. Old.
 
-Milksource **Shay**\-Red-ET was Junior Champion of the Open and Jr. Shows as well as 1st Spring Yearling.
+Milksource **Shay**\-Red-ET was was Junior Champion of the Open as well as 1st Spring Yearling
 
 Milksource B **Tito**\-Red-ET took Honorable Mention Junior Champion and 2nd Fall Calf.
 
@@ -62,7 +62,7 @@ In the Jr. 2 Yr. Old class, Milksource **Harmony** was the 1st Place Junior and 
 
 Eixdale **Pwrup** Alongside won Grand Champion, Senior Champ and 1st 4 Yr. Old.
 
-Comballes Unix **Twynkie** was HM Senior Champ and 1st Aged Cow.
+Comballes Unix **Twynkie** was Senior and Grand Champion of the Junior Show.
 
 Budjon-Vail EyeC **Chalack**\-ET captured 1st Junior 2 Yr. Old.
 
