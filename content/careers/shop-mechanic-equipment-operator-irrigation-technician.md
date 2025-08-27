@@ -17,7 +17,7 @@ location:
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
-date: 2024-10-22T08:00:00Z
+date: 2025-08-26T08:00:00Z
 button:
   enabled: true
   button_url: mailto:mwichman@milksource.net
