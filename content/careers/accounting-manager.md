@@ -45,4 +45,4 @@ At Milk Source, our Accounting Manager will be responsible for overseeing the ge
 * Assume a key role in the annual audit by preparing schedules/information requested by the auditors; and actively engage with the external auditors as needed.
 * Other duties as assigned.
 
-Learn more or apply by <a href="www.indeed.com/job/accounting-manager-724ef008acb41bb8" title="Apply Now" target="_blank" rel="noreferrer nofollow noopener"><strong>clicking here</strong></a>**.**
+Learn more or apply by <a href="https://www.indeed.com/job/accounting-manager-724ef008acb41bb8" title="Apply Now" target="_blank" rel="noreferrer nofollow noopener"><strong>clicking here</strong></a>**.**
