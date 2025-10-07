@@ -5,7 +5,7 @@ draft: false
 seo:
   page_title:
   meta_description:
-  featured_image: /uploads/temptres-blanket-good-udder.png
+  featured_image: /uploads/temptres-blanket-smiling-jim.jpg
   featured_image_alt:
 date: 2025-10-04T00:00:00Z
 categories:
