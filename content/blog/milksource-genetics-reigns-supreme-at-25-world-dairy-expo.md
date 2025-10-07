@@ -5,7 +5,7 @@ draft: true
 seo:
   page_title:
   meta_description:
-  featured_image: /uploads/temptres-blanket-jim-1.jpg
+  featured_image: /uploads/temptres-blanket-smiling-jim.jpg
   featured_image_alt:
 date: 2025-10-04T00:00:00Z
 categories:
