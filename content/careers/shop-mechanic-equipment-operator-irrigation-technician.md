@@ -20,7 +20,8 @@ job_type: Full Time
 date: 2025-10-03T08:00:00Z
 button:
   enabled: true
-  button_url: mailto:mwichman@milksource.net
+  button_url: >-
+    https://www.indeed.com/job/shop-mechanic-equipment-operator-irrigation-technician-50d814b2d9d57fa6
   button_text: Apply Now
   open_in_new_tab: true
 ---
