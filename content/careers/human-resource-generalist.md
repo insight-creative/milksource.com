@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Human Resource Generalist
-draft: true
+draft: false
 layout: careers-single
 seo:
  page_title:
