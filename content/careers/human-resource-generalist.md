@@ -20,7 +20,7 @@ button:
  enabled: true
  button_url: mailto:mshr@milksource.net
  button_text: Apply Now
- open_in_new_tab: true
+ open_in_new_tab: false
 ---
 **Do you thrive in a fast-paced, accuracy-driven work environment where each day brings new opportunities to learn and grow? At Milk Source, our top-notch Human Resources team is dedicated to supporting one another and working collaboratively to achieve both individual success and organizational growth. We believe in fostering a positive and forward-thinking environment where continuous learning, shared goals, and mutual respect drive everything we do.**
 
