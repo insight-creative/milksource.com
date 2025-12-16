@@ -48,4 +48,4 @@ This role is perfect for a highly motivated, organized professional with a passi
 
 This role is 100% in office in Kaukauna, WI and includes competitive compensation & full benefits!
 
-Apply on Indeed by **clicking here**.
+Apply on Indeed by<a href="https://www.indeed.com/job/human-resources-generalist-e73271d1076c9b03" target="_blank" rel="noopener"> <strong>clicking here</strong></a>.
