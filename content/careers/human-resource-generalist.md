@@ -11,7 +11,7 @@ seo:
 location:
  street: N3569 Vanden Bosch Road
  city: Kaukauna
- state: WI
+ state: Wisconsin
  zip: '54130'
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
