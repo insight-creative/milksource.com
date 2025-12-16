@@ -17,10 +17,10 @@ googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
 date: 2025-12-16T00:00:00Z
 button:
- enabled: false
+ enabled: true
  button_url: https://www.indeed.com/job/human-resources-generalist-e73271d1076c9b03
- button_text:
- open_in_new_tab: false
+ button_text: Apply Now
+ open_in_new_tab: true
 ---
 **Do you thrive in a fast-paced, accuracy-driven work environment where each day brings new opportunities to learn and grow? At Milk Source, our top-notch Human Resources team is dedicated to supporting one another and working collaboratively to achieve both individual success and organizational growth. We believe in fostering a positive and forward-thinking environment where continuous learning, shared goals, and mutual respect drive everything we do.**
 
