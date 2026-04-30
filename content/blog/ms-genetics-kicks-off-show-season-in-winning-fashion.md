@@ -10,6 +10,7 @@ seo:
 date: 2026-04-30T09:00:00Z
 categories:
   - MilkSource Genetics
+  - ''
 ---
 MilkSource Genetics kicked of the 2026 show season with an impressive performance at the Midwest National Spring Show in Madison.
 
