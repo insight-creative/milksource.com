@@ -7,9 +7,9 @@ seo:
   meta_description:
   featured_image: /uploads/beth-profile-grand-champ.jpg
   featured_image_alt:
-date:
+date: 2026-04-30T09:00:00Z
 categories:
-  - News
+  - MilkSource Genetics
 ---
 MilkSource Genetics kicked of the 2026 show season with an impressive performance at the Midwest National Spring Show in Madison.
 
