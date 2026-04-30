@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: MS Genetics Kicks Off Show Season in Winning Fashion
+title: MS Genetics Kicks Off 2026 Show Season in Winning Fashion
 draft: false
 seo:
   page_title:
