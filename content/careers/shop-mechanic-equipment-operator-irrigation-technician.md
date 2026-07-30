@@ -21,7 +21,7 @@ date: 2026-07-29T08:00:00Z
 button:
   enabled: true
   button_url: >-
-    https://www.indeed.com/job/shop-mechanic-equipment-operator-irrigation-technician-50d814b2d9d57fa6
+    https://www.indeed.com/job/shop-mechanic-equipment-operator-irrigation-technician-b86fe558991c92e0
   button_text: Apply Now
   open_in_new_tab: true
 ---
