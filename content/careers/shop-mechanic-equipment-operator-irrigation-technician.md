@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Shop Mechanic, Equipment Operator & Irrigation Technician (Grand Marsh)
-draft: true
+draft: false
 layout: careers-single
 seo:
   page_title:
@@ -17,7 +17,7 @@ location:
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
 job_type: Full Time
-date: 2025-10-03T08:00:00Z
+date: 2026-07-29T08:00:00Z
 button:
   enabled: true
   button_url: >-
