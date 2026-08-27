@@ -5,7 +5,7 @@ draft: false
 seo:
   page_title:
   meta_description:
-  featured_image: /uploads/bricker-farms-king-cinderella-grand-champion-lineup-rear.jpg
+  featured_image: /uploads/cinderella-side-rearish-profile.jpg
   featured_image_alt:
 date: 2026-08-27T09:00:00Z
 categories:
