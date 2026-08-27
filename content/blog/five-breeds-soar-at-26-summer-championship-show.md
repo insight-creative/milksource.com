@@ -15,7 +15,7 @@ Milk Source Genetics continued its impressive show streak at the Wisconsin Summe
 
 **Ayrshires**
 
-Bricker-Farms King **Cinderella** *(pictured)* ** ** won Grand Champion and 1st 4 Yr. Old (Co-owned w/ K & M Wolf and J & S Fairbanks)
+Bricker-Farms King **Cinderella** *(pictured)* \*\* \*\* won Grand Champion and 1st 4 Yr. Old (Co-owned w/ K & M Wolf and J & S Fairbanks)
 
 &nbsp;
 
