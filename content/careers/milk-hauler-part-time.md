@@ -22,3 +22,20 @@ button:
   button_text: Apply Now
   open_in_new_tab: true
 ---
+**Join Our Team at Milk Source!**
+
+Milk Source is seeking a dependable and safety‑focused Milk Hauler to join our hauling team. This position is direct-ship from one farm to one intake and offers dedicated bay operations, ensuring a predictable schedule, minimum waiting, and steady, year-round work. This role is responsible for safely transporting raw milk from our dairy farms to processing facilities while maintaining the highest standards of food safety, product quality, and professionalism.
+
+**Location: Grand Marsh, WI**
+
+**Reports To: Fleet Operations Manager**
+
+**Estimated Pay: $35,100 annually (Piecework rate at $150 per load)**
+
+**Work Schedule:** Work Schedule: 10 days on, 4 days off rotating schedule (working every other weekend). Commitment to this specific schedule is required.
+
+**Why You'll Love This Role**
+
+Our Milk Haulers play a critical role in the dairy supply chain by ensuring milk is transported safely, efficiently, and in compliance with company and regulatory standards. **CDL with Endorsement N-Tank Vehicles required. Work Schedule: 10 days on, 4 days off rotating schedule (working every other weekend). Commitment to this specific schedule is required!**
+
+Click on the link to learn more.
