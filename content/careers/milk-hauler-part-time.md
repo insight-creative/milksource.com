@@ -14,7 +14,7 @@ location:
   state: WI
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
-job_type: PartTime
+job_type: Part Time
 date: 2026-09-21T13:00:00Z
 button:
   enabled: true
