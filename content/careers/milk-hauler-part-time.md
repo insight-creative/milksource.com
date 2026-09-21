@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 location:
   street:
-  city:
+  city: Grand Marsh
   state: WI
   zip:
 googlemaps: https://goo.gl/maps/8hEsLRE36GEMXNsS8
