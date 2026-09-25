@@ -63,7 +63,7 @@ Once again, Rosendale Dairy will host ALL milk Source tours during WDE. Two time
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**10 a.m.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2 p.m.**
 
-Sat., Sept. 26&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;25 spots available&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ALL SPOTS FILLED
+Sat., Sept. 26&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;23 spots available&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ALL SPOTS FILLED
 
 Sun., Sept. 27&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3 spots available&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 25 spots available
 
