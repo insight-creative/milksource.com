@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: "World Dairy Expo '26: A Reserve Grand Champ and More Highlights"
+title: "World Dairy Expo '26: A Reserve Supreme Champ and More Highlights"
 draft: false
 seo:
   page_title:
